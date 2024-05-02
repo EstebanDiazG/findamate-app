@@ -1,0 +1,20 @@
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.dbPort = exports.dbName = exports.dbPassword = exports.dbUser = exports.dbHost = exports.apiPort = void 0;
+const dotenv_1 = __importDefault(require("dotenv"));
+dotenv_1.default.config();
+const apiPort = parseInt(process.env.API_PORT || '3000');
+exports.apiPort = apiPort;
+const dbHost = process.env.DB_HOST || 'localhost';
+exports.dbHost = dbHost;
+const dbUser = process.env.DB_USER || 'postgres';
+exports.dbUser = dbUser;
+const dbPassword = process.env.DB_PASSWORD || 'postgres';
+exports.dbPassword = dbPassword;
+const dbName = process.env.DB_NAME || 'postgres';
+exports.dbName = dbName;
+const dbPort = parseInt(process.env.DB_PORT || '5432');
+exports.dbPort = dbPort;
