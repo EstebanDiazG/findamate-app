@@ -7,6 +7,7 @@ class Person {
   paternalLastName: string;
   maternalLastName: string;
   sede_id: string;
+  email: string;
 
   constructor(
     id: string,
@@ -14,7 +15,8 @@ class Person {
     name: string,
     paternalLastName: string,
     maternalLastName: string,
-    sede_id: string
+    sede_id: string,
+    email: string
   ) {
     this.id = id;
     this.rut = rut;
@@ -22,6 +24,7 @@ class Person {
     this.paternalLastName = paternalLastName;
     this.maternalLastName = maternalLastName;
     this.sede_id = sede_id;
+    this.email = email;
   }
 
   static getAll = async (): Promise<Array<Person>> => {
@@ -83,31 +86,31 @@ class Person {
     name: string,
     paternalLastName: string,
     maternalLastName: string,
-    sede_id: string
+    sede_id: string,
+    email: string
   ) => {
     const response = await connection.query(
       `
         WITH person_data AS (
-          INSERT INTO app.person (rut, name, paternal_lastname, maternal_lastname, sede_id) 
-            VALUES ($1, $2, $3, $4, $5) 
-            ON CONFLICT (rut)
-            DO UPDATE SET name = $2, paternal_lastname = $3, maternal_lastname = $4, sede_id = $5, updated_at = now()
+          INSERT INTO app.person (rut, name, paternal_lastname, maternal_lastname, sede_id, email) 
+            VALUES ($1, $2, $3, $4, $5, $6) 
+            ON CONFLICT (email)
+            DO UPDATE SET rut = $1, name = $2, paternal_lastname = $3, maternal_lastname = $4, sede_id = $5, updated_at = now()
             RETURNING *
         )
           SELECT 
           per.id, 
           per.rut, 
-          per.name, 
-          per.paternal_lastname AS "paternalLastName", 
-          per.maternal_lastname AS "maternalLastName",
-          sed.name AS "Comuna",
+          per.name ||' '|| per.paternal_lastname ||' '|| per.maternal_lastname AS "Nombre completo",
+          per.email,
+          sed.name AS "Sede",
           per.created_at AS "createdAt",
           per.updated_at AS "updatedAt"        
         FROM 
         person_data per
         LEFT JOIN 
         app.sede sed ON per.sede_id = sed.id`,
-      [rut, name, paternalLastName, maternalLastName, sede_id]
+      [rut, name, paternalLastName, maternalLastName, sede_id, email]
     );
     return response.rowCount ? response.rows[0] : null;
   };

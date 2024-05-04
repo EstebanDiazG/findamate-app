@@ -1,23 +1,17 @@
 import joi from 'joi';
 
 const upsertUserSchema = joi.object({
+  hash: joi.string().required(),
   email: joi.string().required(),
-  password: joi
-    .string()
-    .regex(/^(?=.*[!@#$%^&*()-+=])(?=.*[0-9]).{8}$/)
-    .required(),
-  personId: joi.required(),
+  name: joi.string().required(),
 });
 
 const idUserSchema = joi.object({
   id: joi.string().uuid().required(),
 });
 
-const rutUserSchema = joi.object({
-  rut: joi
-    .string()
-    .pattern(/^\d{7,8}-[\dk]$/)
-    .required(),
+const emailUserSchema = joi.object({
+  email: joi.string().required(),
 });
 
-export { upsertUserSchema, idUserSchema, rutUserSchema };
+export { upsertUserSchema, idUserSchema, emailUserSchema };
