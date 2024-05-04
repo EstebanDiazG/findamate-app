@@ -62,6 +62,34 @@ const getByRut = async (
   }
 };
 
+const upsert = async (
+  req: Request,
+  res: Response,
+  next: NextFunction
+): Promise<void> => {
+  try {
+    const { body } = req;
+    const schemaValidate = upsertPersonSchema.validate(body);
+    if (schemaValidate.error) {
+      return next(boom.badRequest(schemaValidate.error));
+    }
+
+    const { rut, name, paternalLastName, maternalLastName, sede_id } =
+      schemaValidate.value;
+
+    const response = await Person.upsert(
+      rut,
+      name,
+      paternalLastName,
+      maternalLastName,
+      sede_id
+    );
+    return sendResponse(req, res, response);
+  } catch (err: any) {
+    return next(boom.badImplementation(err));
+  }
+};
+
 const deleteById = async (req: Request, res: Response, next: NextFunction) => {
   try {
     const { params } = req;
@@ -77,4 +105,4 @@ const deleteById = async (req: Request, res: Response, next: NextFunction) => {
   }
 };
 
-export { getAll, getById, getByRut, deleteById};
+export { getAll, getById, getByRut, upsert, deleteById };

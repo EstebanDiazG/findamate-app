@@ -8,7 +8,7 @@ const upsertPersonSchema = joi.object({
   name: joi.string().required(),
   paternalLastName: joi.string().required(),
   maternalLastName: joi.string().required(),
-  sede_name: joi.string().required(),
+  sede_id: joi.string().uuid().required(),
 });
 
 const idPersonSchema = joi.object({
