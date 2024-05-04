@@ -18,9 +18,31 @@ class Person {
 _a = Person;
 Person.getAll = async () => {
     const query = await pg_1.default.query(`   
-    SELECT id, rut, name, paternal_lastname, maternal_lastname, sede_id
-    FROM app.person 
-     `);
+    SELECT
+        per.id,
+        per.rut, 
+        per.name, 
+        per.paternal_lastname, 
+        per.maternal_lastname, 
+        sed.name AS "comuna"
+    FROM app.person per
+    LEFT JOIN 
+        app.sede sed ON per.sede_id = sed.id
+    WHERE per.deleted_at IS NULL`);
     return query.rows || [];
+};
+Person.getById = async (id) => {
+    const query = await pg_1.default.query(`SELECT
+            per.id,
+            per.rut, 
+            per.name, 
+            per.paternal_lastname, 
+            per.maternal_lastname, 
+            sed.name AS "comuna"
+        FROM app.person per
+        LEFT JOIN 
+            app.sede sed ON per.sede_id = sed.id
+        WHERE per.id = $1 AND per.deleted_at IS NULL`, [id]);
+    return query.rowCount ? query.rows[0] : null;
 };
 exports.default = Person;

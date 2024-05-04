@@ -27,4 +27,5 @@ const express_1 = require("express");
 const Person = __importStar(require("../controllers/person"));
 const personRoutes = (0, express_1.Router)();
 personRoutes.get('/', Person.getAll);
+personRoutes.get('/id/:id', Person.getById);
 exports.default = personRoutes;

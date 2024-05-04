@@ -4,5 +4,7 @@ import * as Person from '../controllers/person';
 const personRoutes = Router();
 personRoutes.get('/', Person.getAll);
 personRoutes.get('/id/:id', Person.getById);
+personRoutes.get('/rut/:rut', Person.getByRut);
+personRoutes.delete("/id/:id", Person.deleteById);
 
 export default personRoutes;
