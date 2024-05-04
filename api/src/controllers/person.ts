@@ -43,4 +43,38 @@ const getById = async (
   }
 };
 
-export { getAll, getById };
+const getByRut = async (
+  req: Request,
+  res: Response,
+  next: NextFunction
+): Promise<void> => {
+  try {
+    const { params } = req;
+    const schemaValidate = rutPersonSchema.validate(params);
+    if (schemaValidate.error) {
+      return next(boom.badRequest(schemaValidate.error));
+    }
+    const { rut } = schemaValidate.value;
+    const response = await Person.getByRut(rut);
+    sendResponse(req, res, response);
+  } catch (err: any) {
+    return next(boom.badImplementation(err));
+  }
+};
+
+const deleteById = async (req: Request, res: Response, next: NextFunction) => {
+  try {
+    const { params } = req;
+    const schemaValidate = idPersonSchema.validate(params);
+    if (schemaValidate.error) {
+      return next(boom.badRequest(schemaValidate.error));
+    }
+    const { id } = schemaValidate.value;
+    const response = await Person.deleteById(id);
+    sendResponse(req, res, response);
+  } catch (err: any) {
+    return next(boom.badImplementation(err));
+  }
+};
+
+export { getAll, getById, getByRut, deleteById};
