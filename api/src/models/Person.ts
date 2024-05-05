@@ -6,7 +6,6 @@ class Person {
   name: string;
   paternalLastName: string;
   maternalLastName: string;
-  sede_id: string;
   email: string;
 
   constructor(
@@ -15,7 +14,6 @@ class Person {
     name: string,
     paternalLastName: string,
     maternalLastName: string,
-    sede_id: string,
     email: string
   ) {
     this.id = id;
@@ -23,7 +21,6 @@ class Person {
     this.name = name;
     this.paternalLastName = paternalLastName;
     this.maternalLastName = maternalLastName;
-    this.sede_id = sede_id;
     this.email = email;
   }
 
@@ -31,16 +28,13 @@ class Person {
     const query = await connection.query(
       `   
     SELECT
-        per.id,
-        per.rut, 
-        per.name, 
-        per.paternal_lastname, 
-        per.maternal_lastname, 
-        sed.name AS "comuna"
-    FROM app.person per
-    LEFT JOIN 
-        app.sede sed ON per.sede_id = sed.id
-    WHERE per.deleted_at IS NULL`
+        id,
+        rut, 
+        name, 
+        paternal_lastname, 
+        maternal_lastname
+    FROM app.person
+    WHERE deleted_at IS NULL`
     );
     return query.rows || [];
   };
@@ -48,16 +42,13 @@ class Person {
   static getById = async (id: string): Promise<Array<Person>> => {
     const query = await connection.query(
       `SELECT
-            per.id,
-            per.rut, 
-            per.name, 
-            per.paternal_lastname, 
-            per.maternal_lastname, 
-            sed.name AS "comuna"
-        FROM app.person per
-        LEFT JOIN 
-            app.sede sed ON per.sede_id = sed.id
-        WHERE per.id = $1 AND per.deleted_at IS NULL`,
+            id,
+            rut, 
+            name, 
+            paternal_lastname, 
+            maternal_lastname
+        FROM app.person
+        WHERE id = $1 AND deleted_at IS NULL`,
       [id]
     );
     return query.rowCount ? query.rows[0] : null;
@@ -66,16 +57,13 @@ class Person {
   static getByRut = async (rut: string): Promise<Array<Person>> => {
     const query = await connection.query(
       `SELECT
-            per.id,
-            per.rut, 
-            per.name, 
-            per.paternal_lastname, 
-            per.maternal_lastname, 
-            sed.name AS "comuna"
-        FROM app.person per
-        LEFT JOIN 
-            app.sede sed ON per.sede_id = sed.id
-        WHERE per.rut = $1 AND per.deleted_at IS NULL`,
+            id,
+            rut, 
+            name, 
+            paternal_lastname, 
+            maternal_lastname
+        FROM app.person
+        WHERE rut = $1 AND deleted_at IS NULL`,
       [rut]
     );
     return query.rowCount ? query.rows[0] : null;
@@ -86,31 +74,27 @@ class Person {
     name: string,
     paternalLastName: string,
     maternalLastName: string,
-    sede_id: string,
     email: string
   ) => {
     const response = await connection.query(
       `
         WITH person_data AS (
-          INSERT INTO app.person (rut, name, paternal_lastname, maternal_lastname, sede_id, email) 
-            VALUES ($1, $2, $3, $4, $5, $6) 
+          INSERT INTO app.person (rut, name, paternal_lastname, maternal_lastname, email) 
+            VALUES ($1, $2, $3, $4, $5) 
             ON CONFLICT (email)
-            DO UPDATE SET rut = $1, name = $2, paternal_lastname = $3, maternal_lastname = $4, sede_id = $5, updated_at = now()
+            DO UPDATE SET rut = $1, name = $2, paternal_lastname = $3, maternal_lastname = $4, email = $5, updated_at = now()
             RETURNING *
         )
           SELECT 
-          per.id, 
-          per.rut, 
-          per.name ||' '|| per.paternal_lastname ||' '|| per.maternal_lastname AS "Nombre completo",
-          per.email,
-          sed.name AS "Sede",
-          per.created_at AS "createdAt",
-          per.updated_at AS "updatedAt"        
+          id, 
+          rut, 
+          name ||' '|| paternal_lastname ||' '|| maternal_lastname AS "Nombre completo",
+          email,
+          created_at AS "createdAt",
+          updated_at AS "updatedAt"        
         FROM 
-        person_data per
-        LEFT JOIN 
-        app.sede sed ON per.sede_id = sed.id`,
-      [rut, name, paternalLastName, maternalLastName, sede_id, email]
+        person_data`,
+      [rut, name, paternalLastName, maternalLastName, email]
     );
     return response.rowCount ? response.rows[0] : null;
   };

@@ -74,7 +74,7 @@ const upsert = async (
       return next(boom.badRequest(schemaValidate.error));
     }
 
-    const { rut, name, paternalLastName, maternalLastName, sede_id, email } =
+    const { rut, name, paternalLastName, maternalLastName, email } =
       schemaValidate.value;
 
     const response = await Person.upsert(
@@ -82,7 +82,6 @@ const upsert = async (
       name,
       paternalLastName,
       maternalLastName,
-      sede_id,
       email
     );
     return sendResponse(req, res, response);
