@@ -1,6 +1,5 @@
 import { Router } from 'express';
 import * as User from '../controllers/user';
-import { upsert } from '../controllers/person';
 
 const userRoutes = Router();
 userRoutes.get('/', User.getAll);
