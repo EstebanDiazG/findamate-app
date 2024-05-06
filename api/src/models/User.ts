@@ -43,34 +43,37 @@ class User {
     return query.rowCount ? query.rows[0] : null;
   };
 
-  static upsert = async (hash: string, email: string, name: string) => {
+  static upsert = async (name: string, email: string, hash: string) => {
+    console.log('Valor de hash en upsert:', hash);
+    console.log('Valor de name en upsert:', name);
+    console.log('Valor de email en upsert:', email);
     const response = await connection.query(
       `
-        WITH user_data AS (
-          INSERT INTO app.user (hash, email) 
-            VALUES (crypt($1, gen_salt('bf')), $2 ) 
-            ON CONFLICT (email)
-            DO UPDATE SET hash = crypt($1, gen_salt('bf')) , updated_at = now()
-          
-        ), person_data AS (
-          INSERT INTO app.person (name, email) 
-            SELECT $3, $4   FROM user_data us
-            ON CONFLICT (email)
-            DO UPDATE SET name = $3, updated_at = now()
-            
-        ) SELECT 
-            us.id,
-            per.name, 
-            per.email, 
-            us.email,
-            us.created_at AS "createdAt",
-            us.updated_at AS "updatedAt"   
-          FROM 
-              app.user us
-          LEFT JOIN 
-              app.person per ON us.email = per.email
+      WITH person_data AS (
+        INSERT INTO app.person (name, email) 
+        VALUES ($1, $2)
+        ON CONFLICT (email)
+        DO UPDATE SET name = $1, updated_at = now()
+        RETURNING *
+    ), user_data AS (
+        INSERT INTO app.user (hash, email) 
+        SELECT crypt($3,gen_salt('bf')), per.email FROM person_data per 
+        ON CONFLICT (email)
+        DO UPDATE SET hash = crypt($3,gen_salt('bf')), updated_at = now()
+        RETURNING *
+    )
+    SELECT 
+        us.id,
+        per.name,
+        us.email,
+        us.created_at AS "createdAt",
+        us.updated_at AS "updatedAt"   
+    FROM 
+        user_data us
+    LEFT JOIN 
+        person_data per ON us.email = per.email;
         `,
-      [hash, email, name]
+      [name, email, hash]
     );
     return response.rowCount ? response.rows[0] : null;
   };

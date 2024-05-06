@@ -55,9 +55,9 @@ const upsert = async (
       return next(boom.badRequest(schemaValidate.error));
     }
 
-    const { hash, email, name } = schemaValidate.value;
+    const { name, email, hash } = schemaValidate.value;
 
-    const response = await User.upsert(hash, email, name);
+    const response = await User.upsert(name, email, hash);
     return sendResponse(req, res, response);
   } catch (err: any) {
     return next(boom.badImplementation(err));
