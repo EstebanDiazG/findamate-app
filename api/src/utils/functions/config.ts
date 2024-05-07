@@ -9,5 +9,6 @@ const dbUser = process.env.DB_USER || 'postgres';
 const dbPassword = process.env.DB_PASSWORD || 'postgres';
 const dbName = process.env.DB_NAME || 'postgres';
 const dbPort = parseInt(process.env.DB_PORT || '5432');
+export const secretToken = process.env.SECRET_TOKEN;
 
 export { apiPort, dbHost, dbUser, dbPassword, dbName, dbPort };

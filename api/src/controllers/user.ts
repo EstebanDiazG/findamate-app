@@ -1,5 +1,7 @@
 import { Request, Response, NextFunction } from 'express';
 import boom from '@hapi/boom';
+import jwt, { Secret } from 'jsonwebtoken';
+import { secretToken } from '../utils/functions/config';
 
 import sendResponse from '../utils/functions/sendResponse';
 
@@ -79,5 +81,24 @@ const deleteById = async (req: Request, res: Response, next: NextFunction) => {
   }
 };
 
-export { getAll, getByEmail, upsert, deleteById };
+const login = async (req: Request, res: Response, next: NextFunction) => {
+  const { email, password } = req.body;
+  User.login({
+    email,
+    hash: password,
+  })
+    .then((response) => {
+      if (!response) {
+        return next(boom.unauthorized('email or password wrong!'));
+      }
+
+      sendResponse(req, res, {
+        user: response,
+        token: jwt.sign(response, secretToken as Secret, { expiresIn: '2h' }),
+      });
+    })
+    .catch((err) => next(boom.badImplementation(err)));
+};
+
+export { getAll, getByEmail, upsert, deleteById, login };
 

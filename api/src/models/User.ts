@@ -1,4 +1,6 @@
+import { hash } from 'crypto';
 import connection from '../utils/lib/pg';
+import bcrypt from 'bcrypt';
 
 class User {
   id: string;
@@ -43,10 +45,10 @@ class User {
     return query.rowCount ? query.rows[0] : null;
   };
 
-  static upsert = async (name: string, email: string, hash: string) => {
-    console.log('Valor de hash en upsert:', hash);
-    console.log('Valor de name en upsert:', name);
-    console.log('Valor de email en upsert:', email);
+  static upsert = async (name: string, email: string, password: string) => {
+    // Cifra la contraseña utilizando bcrypt
+    const hash = await bcrypt.hash(password, 10);
+
     const response = await connection.query(
       `
       WITH person_data AS (
@@ -57,9 +59,9 @@ class User {
         RETURNING *
     ), user_data AS (
         INSERT INTO app.user (hash, email) 
-        SELECT crypt($3,gen_salt('bf')), per.email FROM person_data per 
+        VALUES ($3, $2)
         ON CONFLICT (email)
-        DO UPDATE SET hash = crypt($3,gen_salt('bf')), updated_at = now()
+        DO UPDATE SET hash = $3, updated_at = now()
         RETURNING *
     )
     SELECT 
@@ -88,5 +90,34 @@ class User {
     );
     return response.rows[0] || null;
   };
+
+  static async login(auth: { email: string; hash: string }) {
+    const result = await connection.query(
+      `SELECT id, hash 
+        FROM app.user
+        WHERE email = $1`,
+      [auth.email]
+    );
+
+    if (result.rows.length === 0) {
+      return null;
+    }
+
+    const claveAlmacenada = result.rows[0].hash;
+
+    console.log('Stored Hash:', claveAlmacenada);
+    console.log('Received Hash:', auth.hash);
+
+    const claveEncriptada = await bcrypt.compare(auth.hash, claveAlmacenada);
+
+    if (claveEncriptada) {
+      return {
+        id: result.rows[0].id,
+        email: auth.email,
+      };
+    } else {
+      return null;
+    }
+  }
 }
 export default User;
