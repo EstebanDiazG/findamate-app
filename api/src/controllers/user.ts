@@ -1,17 +1,21 @@
 import { Request, Response, NextFunction } from 'express';
-import boom from '@hapi/boom';
-import jwt, { Secret } from 'jsonwebtoken';
-import { secretToken } from '../utils/functions/config';
+import boom from "@hapi/boom";
+import bcrypt from "bcrypt";
 
-import sendResponse from '../utils/functions/sendResponse';
+import sendResponse from "../utils/functions/sendResponse";
 
 import {
   upsertUserSchema,
   idUserSchema,
-  emailUserSchema,
-} from '../schemas/userSchema';
+  rutPersonSchema,
+  updatePassword,
+  validateUserSchema,
+  idRolSchema,
+  userIdSchema,
+} from "../schemas/userSchema";
 
-import User from '../models/User';
+import User from "../models/User";
+import UserRol from "../models/UserRol";
 
 const getAll = async (
   req: Request,
@@ -26,19 +30,38 @@ const getAll = async (
   }
 };
 
-const getByEmail = async (
+const getById = async (
   req: Request,
   res: Response,
   next: NextFunction
 ): Promise<void> => {
   try {
     const { params } = req;
-    const schemaValidate = emailUserSchema.validate(params);
+    const schemaValidate = idUserSchema.validate(params);
     if (schemaValidate.error) {
       return next(boom.badRequest(schemaValidate.error));
     }
-    const { email } = schemaValidate.value;
-    const response = await User.getByEmail(email);
+    const { id } = schemaValidate.value;
+    const response = await User.getById(id);
+    sendResponse(req, res, response);
+  } catch (err: any) {
+    return next(boom.badImplementation(err));
+  }
+};
+
+const getByRut = async (
+  req: Request,
+  res: Response,
+  next: NextFunction
+): Promise<void> => {
+  try {
+    const { params } = req;
+    const schemaValidate = rutPersonSchema.validate(params);
+    if (schemaValidate.error) {
+      return next(boom.badRequest(schemaValidate.error));
+    }
+    const { rut } = schemaValidate.value;
+    const response = await User.getByRut(rut);
     sendResponse(req, res, response);
   } catch (err: any) {
     return next(boom.badImplementation(err));
@@ -57,9 +80,17 @@ const upsert = async (
       return next(boom.badRequest(schemaValidate.error));
     }
 
-    const { name, email, hash } = schemaValidate.value;
+    const { rut, name, paternalLastName, maternalLastName, email, password } =
+      schemaValidate.value;
 
-    const response = await User.upsert(name, email, hash);
+    const response = await User.upsert(
+      rut,
+      name,
+      paternalLastName,
+      maternalLastName,
+      email,
+      password
+    );
     return sendResponse(req, res, response);
   } catch (err: any) {
     return next(boom.badImplementation(err));
@@ -81,24 +112,103 @@ const deleteById = async (req: Request, res: Response, next: NextFunction) => {
   }
 };
 
-const login = async (req: Request, res: Response, next: NextFunction) => {
-  const { email, password } = req.body;
-  User.login({
-    email,
-    hash: password,
-  })
-    .then((response) => {
-      if (!response) {
-        return next(boom.unauthorized('email or password wrong!'));
-      }
+const updatePass = async (
+  req: Request,
+  res: Response,
+  next: NextFunction
+): Promise<void> => {
+  try {
+    const { body } = req;
+    const schemaValidate = updatePassword.validate(body);
+    if (schemaValidate.error) {
+      return next(boom.badRequest(schemaValidate.error));
+    }
 
-      sendResponse(req, res, {
-        user: response,
-        token: jwt.sign(response, secretToken as Secret, { expiresIn: '2h' }),
-      });
-    })
-    .catch((err) => next(boom.badImplementation(err)));
+    const { personId, password } = schemaValidate.value;
+
+    const response = await User.updatePassword(personId, password);
+    return sendResponse(req, res, response);
+  } catch (err: any) {
+    return next(boom.badImplementation(err));
+  }
 };
 
-export { getAll, getByEmail, upsert, deleteById, login };
+const validate = async (
+  req: Request,
+  res: Response,
+  next: NextFunction
+): Promise<void> => {
+  try {
+    const { body } = req;
+    const schemaValidate = validateUserSchema.validate(body);
+    if (schemaValidate.error) {
+      return next(boom.badRequest(schemaValidate.error));
+    }
+    const { email, password } = schemaValidate.value;
+    const resultUser = await User.validate(email);
+    if (!resultUser) {
+      return next(boom.badImplementation("Usuario no encontrado"));
+    }
+    const hashPassword = resultUser.hash;
+    const isValid = await bcrypt.compare(password, hashPassword);
+
+    const response = isValid
+      ? { ...resultUser, password: undefined }
+      : { error: "Usuario no valido" };
+
+    return sendResponse(req, res, response);
+  } catch (err: any) {
+    next(boom.badImplementation(err));
+  }
+};
+
+const assignRol = async (req: Request, res: Response, next: NextFunction) => {
+  try {
+    const { userId } = req.params;
+    const { rolId } = req.body;
+    const schemaValidate = userIdSchema.validate({ userId });
+    if (schemaValidate.error) {
+      return next(boom.badRequest(schemaValidate.error));
+    }
+    const schemaValidateRol = idRolSchema.validate({ rolId });
+    if (schemaValidateRol.error) {
+      return next(boom.badRequest(schemaValidateRol.error));
+    }
+    const response = await UserRol.assignRol(userId, rolId);
+    return sendResponse(req, res, response);
+  } catch (err: any) {
+    return next(boom.badImplementation(err));
+  }
+};
+
+const removeRol = async (req: Request, res: Response, next: NextFunction) => {
+  try {
+    const { userId } = req.params;
+    const { rolId } = req.body;
+    const schemaValidate = userIdSchema.validate({ userId });
+    if (schemaValidate.error) {
+      return next(boom.badRequest(schemaValidate.error));
+    }
+    const schemaValidateRol = idRolSchema.validate({ rolId });
+    if (schemaValidateRol.error) {
+      return next(boom.badRequest(schemaValidateRol.error));
+    }
+    const response = await UserRol.removeRol(userId, rolId);
+    return sendResponse(req, res, response);
+  } catch (err: any) {
+    return next(boom.badImplementation(err));
+  }
+};
+
+export {
+  getAll,
+  getById,
+  getByRut,
+  upsert,
+  updatePass,
+  deleteById,
+  validate,
+  assignRol,
+  removeRol,
+};
 

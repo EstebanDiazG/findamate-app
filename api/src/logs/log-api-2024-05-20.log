@@ -1,0 +1,10 @@
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/person"},"timestamp":"2024-05-19 21:24:38"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/person"},"timestamp":"2024-05-19 21:24:39"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/person"},"timestamp":"2024-05-19 21:24:39"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/person"},"timestamp":"2024-05-19 21:24:39"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/person"},"timestamp":"2024-05-19 21:24:39"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/person"},"timestamp":"2024-05-19 21:24:39"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/person"},"timestamp":"2024-05-19 21:24:39"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/person"},"timestamp":"2024-05-19 21:24:39"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/person/rut/"},"timestamp":"2024-05-19 21:31:02"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/person/rut/"},"timestamp":"2024-05-19 21:31:02"}

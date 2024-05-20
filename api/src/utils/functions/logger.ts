@@ -8,14 +8,14 @@ const dateToString = () => {
 
 export default createLogger({
   format: format.combine(
-    format.timestamp({ format: 'YYYY-MM-DD HH:mm:ss' }),
+    format.timestamp({ format: "YYYY-MM-DD HH:mm:ss" }),
     format.json()
   ),
   transports: [
     new transports.File({
       maxsize: 5120000,
-      filename: `${__dirname}/../..../logs/log-api-${dateToString()}.log`,
+      filename: `${__dirname}/../../logs/log-api-${dateToString()}.log`,
     }),
-    new transports.Console({ level: 'debug' }),
+    new transports.Console({ level: "debug" }),
   ],
 });
