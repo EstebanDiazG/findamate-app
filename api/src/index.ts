@@ -9,6 +9,7 @@ import handlerError from './middlewares/handlerError';
 
 import personRoutes from './routes/person';
 import userRoutes from './routes/user';
+import profileRoutes from './routes/profile';
 
 //database
 pool.connect((err) => {
@@ -28,6 +29,7 @@ app.use(handlerRequest);
 //enrutamiento
 app.use('/person', personRoutes);
 app.use('/user', userRoutes);
+app.use('/profile', profileRoutes);
 
 app.use(handlerError);
 app.use(handlerResponse);
