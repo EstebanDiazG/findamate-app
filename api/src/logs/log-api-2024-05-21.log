@@ -1,0 +1,58 @@
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-20 22:23:40"}
+{"level":"error","message":{"body":{},"error":"relation \"images\" does not exist","method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-20 22:23:41"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-20 22:27:00"}
+{"level":"error","message":{"body":{},"error":"relation \"image\" does not exist","method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-20 22:27:01"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-20 22:28:43"}
+{"level":"error","message":{"body":{},"error":"relation \"image\" does not exist","method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-20 22:28:44"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-20 22:29:31"}
+{"level":"error","message":{"body":{},"error":"insert or update on table \"image\" violates foreign key constraint \"image_image_status_fk\"","method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-20 22:29:32"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-20 22:37:19"}
+{"level":"error","message":{"body":{},"error":"insert or update on table \"image\" violates foreign key constraint \"image_image_status_fk\"","method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-20 22:37:20"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-20 22:45:55"}
+{"level":"error","message":{"body":{},"error":"public/uploads/9fa35599-a58e-4aa9-bb48-2e3d70f4c0b3.jpg: unable to open for write\nwindows error: El sistema no puede encontrar el archivo especificado.","method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-20 22:45:56"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-20 22:59:29"}
+{"level":"error","message":{"body":{},"error":"public/uploads/a2ec624c-7875-4fa3-b1fa-2b2e417db3bc.jpg: unable to open for write\nwindows error: El sistema no puede encontrar el archivo especificado.","method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-20 22:59:30"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-20 23:04:10"}
+{"level":"error","message":{"body":{},"error":"public/uploads/c882693d-fbc2-4808-acd5-3287d32cc87e.jpg: unable to open for write\nwindows error: El sistema no puede encontrar el archivo especificado.","method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-20 23:04:11"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-20 23:06:27"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-20 23:06:28"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-20 23:09:17"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-20 23:09:19"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-20 23:21:01"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-20 23:21:02"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-20 23:24:24"}
+{"level":"error","message":{"body":{},"error":"Invalid file format","method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-20 23:24:25"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-20 23:24:42"}
+{"level":"error","message":{"body":{},"error":"Invalid file format","method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-20 23:24:43"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-20 23:25:20"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-20 23:25:21"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-20 23:32:11"}
+{"level":"error","message":{"body":{},"error":"C:\\Users\\esteb\\OneDrive\\Documentos\\Workspace\\findamate-app\\api\\public\\uploads/61fbbd5c-0936-4c90-921c-0262645585d0.jpg: unable to open for write\nwindows error: El sistema no puede encontrar el archivo especificado.","method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-20 23:32:12"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-20 23:41:11"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-20 23:41:12"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-20 23:43:01"}
+{"level":"error","message":{"body":{},"error":"relation \"image\" does not exist","method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-20 23:43:02"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-20 23:44:20"}
+{"level":"error","message":{"body":{},"error":"relation \"image\" does not exist","method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-20 23:44:22"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-20 23:44:44"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-20 23:44:46"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-20 23:47:03"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-20 23:47:04"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-20 23:48:58"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-20 23:48:59"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-20 23:53:35"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-20 23:53:37"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-20 23:55:37"}
+{"level":"error","message":{"body":{},"error":"relation \"image\" does not exist","method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-20 23:55:39"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-20 23:57:23"}
+{"level":"error","message":{"body":{},"error":"relation \"image\" does not exist","method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-20 23:57:25"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-20 23:58:19"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-20 23:58:21"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-21 00:01:08"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-21 00:01:10"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-21 00:04:33"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-21 00:04:35"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-21 00:06:10"}
+{"level":"error","message":{"body":{},"error":"relation \"image\" does not exist","method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-21 00:06:11"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-21 00:09:08"}
+{"level":"error","message":{"body":{},"error":"relation \"image\" does not exist","method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-21 00:09:10"}
