@@ -26,13 +26,13 @@ class Person {
 
   static getAll = async (): Promise<Array<Person>> => {
     const query = await connection.query(
-      `   
-    SELECT
+      ` SELECT
         id,
         rut, 
         name, 
-        paternal_lastname, 
-        maternal_lastname
+        paternal_lastname AS "paternalLastName", 
+        maternal_lastname AS "maternalLastName",
+        email
     FROM app.person
     WHERE deleted_at IS NULL`
     );
@@ -45,8 +45,12 @@ class Person {
             id,
             rut, 
             name, 
-            paternal_lastname, 
-            maternal_lastname
+            paternal_lastname AS "paternalLastName", 
+            maternal_lastname AS "maternalLastName",
+            email,
+            created_at AS "createdAt",
+            updated_at AS "updatedAt",            
+            deleted_at AS "deletedAt"           
         FROM app.person
         WHERE id = $1 AND deleted_at IS NULL`,
       [id]
@@ -57,11 +61,15 @@ class Person {
   static getByRut = async (rut: string): Promise<Array<Person>> => {
     const query = await connection.query(
       `SELECT
-            id,
-            rut, 
-            name, 
-            paternal_lastname, 
-            maternal_lastname
+          id,
+          rut, 
+          name, 
+          paternal_lastname AS "paternalLastName", 
+          maternal_lastname AS "maternalLastName",
+          email,
+          created_at AS "createdAt",
+          updated_at AS "updatedAt",            
+          deleted_at AS "deletedAt"  
         FROM app.person
         WHERE rut = $1 AND deleted_at IS NULL`,
       [rut]
@@ -81,14 +89,16 @@ class Person {
         WITH person_data AS (
           INSERT INTO app.person (rut, name, paternal_lastname, maternal_lastname, email) 
             VALUES ($1, $2, $3, $4, $5) 
-            ON CONFLICT (email)
-            DO UPDATE SET rut = $1, name = $2, paternal_lastname = $3, maternal_lastname = $4, email = $5, updated_at = now()
+            ON CONFLICT (rut)
+            DO UPDATE SET name = $2, paternal_lastname = $3, maternal_lastname = $4, email = $5, updated_at = now()
             RETURNING *
         )
           SELECT 
           id, 
           rut, 
-          name ||' '|| paternal_lastname ||' '|| maternal_lastname AS "Nombre completo",
+          name,
+          paternal_lastname AS "paternalLastName",
+          maternal_lastname AS "maternalLastName", 
           email,
           created_at AS "createdAt",
           updated_at AS "updatedAt"        
