@@ -1,4 +1,4 @@
-import joi from 'joi';
+import joi from "joi";
 
 const upsertPersonSchema = joi.object({
   rut: joi
@@ -22,4 +22,18 @@ const rutPersonSchema = joi.object({
     .required(),
 });
 
-export { upsertPersonSchema, idPersonSchema, rutPersonSchema };
+const idStudyGroupSchema = joi.object({
+  groupId: joi.string().uuid().required(),
+});
+
+const idPersonGroupSchema = joi.object({
+  personId: joi.string().uuid().required(),
+});
+
+export {
+  upsertPersonSchema,
+  idPersonSchema,
+  rutPersonSchema,
+  idStudyGroupSchema,
+  idPersonGroupSchema,
+};
