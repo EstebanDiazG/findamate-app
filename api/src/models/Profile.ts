@@ -98,83 +98,17 @@ class Profile{
         return response.rows[0] || null;
       };
 
-    static update = async (
-        name: string,
-        paternalLastName: string,
-        maternalLastName: string,
-        password: string,
-        id_image: string,
-        description: string,
-        idPerson: string
-      ) => {    
-        const hash = await bcrypt.hash(password, 10);
-        await connection.query('BEGIN');
-        try {
-          const profileResponse = await connection.query(
-            `
-            UPDATE app.profile
-            SET description = $6, id_imagen = $5, updated_at = now()
-            WHERE id_person = $7 
-            RETURNING description, id_imagen, updated_at
-            `,
-            [description, id_image, idPerson]
-          );
-      
-          const personResponse = await connection.query(
-            `
-            UPDATE app.person
-            SET name = $1, paternal_lastname = $2, maternal_lastname = $3, updated_at = now()
-            WHERE id = $7 
-            RETURNING name, paternal_lastname, maternal_lastname, updated_at
-            `,
-            [name, paternalLastName, maternalLastName, idPerson]
-          );
-      
-          const userResponse = await connection.query(
-            `
-            UPDATE app.user
-            SET hash = $4, updated_at = now()
-            WHERE person_id = $7
-            RETURNING hash, updated_at
-            `,
-            [hash, idPerson]
-          );
-          await connection.query('COMMIT');
-      
-          return {
-            profile: profileResponse.rows[0],
-            person: personResponse.rows[0],
-            user: userResponse.rows[0]
-          };
-        } catch (error) {
-          await connection.query('ROLLBACK');
-          throw error;
-        }
-    };
-
-
-    static updatePersonProfile = async (name: string, paternalLastName: string, maternalLastName: string, idPerson: string) => { 
+      static update = async (id: string, description: string): Promise<Profile | null> => {
         const response = await connection.query(
-        `
-        UPDATE app.person
-        SET name = $1, paternal_lastname = $2, maternal_lastname = $3, updated_at = now()
-        WHERE id = $4
-        RETURNING name, paternal_lastname, maternal_lastname, updated_at
-        `
-          ,
-          [name, paternalLastName, maternalLastName, idPerson]
+           `UPDATE app.profile 
+            SET description = $2
+            WHERE id = $1
+            RETURNING description AS "descripcion"`,
+            [id, description]
         );
-        return response.rowCount ? response.rows[0] : null;
-    };
     
-
-
-
-
-
-
-    
-      
+        return response.rows[0] || null;
+    };    
 }
 
 export default Profile;
