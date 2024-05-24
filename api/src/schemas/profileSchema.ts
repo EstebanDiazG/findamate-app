@@ -10,13 +10,7 @@ const id_personProfileSchema = joi.object({
 
 const updateProfileSchema = joi.object({
 
-  Name: joi.string().optional(),
-  paternalLastName: joi.string().optional(),
-  maternalLastName: joi.string().optional(),
-  password: joi.string().optional(),
-  description: joi.string().optional(),
-  id_imagen: joi.string().uuid().optional(),
-  id_person: joi.string().uuid().required(),
+  description: joi.string().optional()
 });
 
 export { idProfileSchema, id_personProfileSchema, updateProfileSchema };

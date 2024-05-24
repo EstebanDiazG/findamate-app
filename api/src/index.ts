@@ -10,6 +10,8 @@ import handlerError from './middlewares/handlerError';
 import personRoutes from './routes/person';
 import userRoutes from './routes/user';
 import profileRoutes from './routes/profile';
+import interestRoutes from './routes/interest';
+import categoryInterestRoutes from './routes/categoryInterest';
 
 //database
 pool.connect((err) => {
@@ -30,6 +32,8 @@ app.use(handlerRequest);
 app.use('/person', personRoutes);
 app.use('/user', userRoutes);
 app.use('/profile', profileRoutes);
+app.use('/interest', interestRoutes);
+app.use('/categoryInterest', categoryInterestRoutes);
 
 app.use(handlerError);
 app.use(handlerResponse);
