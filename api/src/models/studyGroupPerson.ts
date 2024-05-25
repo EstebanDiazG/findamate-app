@@ -74,9 +74,9 @@ class StudyGroupPerson {
     id_group: string
   ): Promise<StudyGroupPerson | null> => {
     const response = await connection.query(
-      `WITH updated_study_group_person AS (
+        `WITH updated_study_group_person AS (
             UPDATE app.study_group_person
-            SET deleted_at = NOW() , updated_at = NOW()
+            SET deleted_at = NOW(), updated_at = NOW()
             WHERE id_person = $1 AND id_group = $2
             RETURNING *
         ),
@@ -116,10 +116,12 @@ class StudyGroupPerson {
             sgp.updated_at,
             sgp.deleted_at;
         `,
-      [id_person, id_group]
+        [id_person, id_group]
     );
     return response.rowCount ? response.rows[0] : null;
   };
+
+
 }
 
 export default StudyGroupPerson;
