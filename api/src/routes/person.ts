@@ -9,5 +9,10 @@ personRoutes.post("/", Person.upsert);
 personRoutes.delete("/id/:id", Person.deleteById);
 personRoutes.put("/personId/:personId", Person.assignPerson);
 personRoutes.delete("/personId/:personId", Person.removePerson);
+personRoutes.put("/personId/interest/:id_person", Person.assignInterest);
+personRoutes.delete("/personId/removeInterest/:id_person", Person.removeInterest);
+personRoutes.get("/personId/getPerson/:id_person", Person.getInterestsByPersonId);
+
+
 
 export default personRoutes;

@@ -30,10 +30,20 @@ const idPersonGroupSchema = joi.object({
   personId: joi.string().uuid().required(),
 });
 
+const idInterestGroupSchema = joi.object({
+  id_interest: joi.string().uuid().required(),
+});
+
+const idPersonInterestGroupSchema = joi.object({
+  id_person: joi.string().uuid().required(),
+});
+
 export {
   upsertPersonSchema,
   idPersonSchema,
   rutPersonSchema,
   idStudyGroupSchema,
   idPersonGroupSchema,
+  idInterestGroupSchema,
+  idPersonInterestGroupSchema,
 };
