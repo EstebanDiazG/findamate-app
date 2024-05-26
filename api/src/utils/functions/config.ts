@@ -14,8 +14,11 @@ const dbUser = process.env.DB_USER || "postgres";
 const dbPassword = process.env.DB_PASSWORD || "postgres";
 const dbName = process.env.DB_NAME || "postgres";
 const dbPort = parseInt(process.env.DB_PORT || "5432");
-const imagesUploadDir = process.env.IMAGES_UPLOADS_DIR || "public/uploads";
-const imagesUploadUrl = process.env.IMAGES_UPLOADS_URL || "uploads";
+const imagesUploadDir =
+  process.env.IMAGES_UPLOADS_DIR || "public/uploads/images";
+const imagesUploadUrl = process.env.IMAGES_UPLOADS_URL || "uploads/images";
+const filesUploadDir = process.env.FILES_UPLOAD_DIR || "public/uploads/files";
+const filesUploadUrl = process.env.FILES_UPLOAD_URL || "uploads/files";
 const limit = Number(process.env.LIMIT || 20);
 
 export {
@@ -28,4 +31,6 @@ export {
   imagesUploadDir,
   imagesUploadUrl,
   limit,
+  filesUploadDir,
+  filesUploadUrl,
 };

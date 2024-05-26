@@ -35,6 +35,7 @@ export const deleteImageById = async (
   Image.getById(id)
     .then((response) => {
       const imagePath = `${imagesUploadDir}/${response.id}.jpg`;
+      console.log(imagePath);
       fs.unlink(imagePath, (e) => {
         if (e) return next(boom.badImplementation(e));
 
@@ -115,6 +116,7 @@ export const uploadImage = (
     mimetype: file.mimetype,
   })
     .then((imageId) => {
+      console.log(imagesUploadDir);
       sharp(buffer)
         .resize(1000, null, {
           withoutEnlargement: true,

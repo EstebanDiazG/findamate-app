@@ -1,3 +1,30 @@
+
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/video/"},"timestamp":"2024-05-23 20:58:32"}
+{"level":"error","message":{"body":"","error":"column \"deleted_at\" does not exist","method":"GET","params":{},"query":{},"url":"/video/"},"timestamp":"2024-05-23 20:58:33"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/video/"},"timestamp":"2024-05-23 20:59:13"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/video/"},"timestamp":"2024-05-23 20:59:13"}
+{"level":"info","message":{"body":{"idPerson":"456","title":"Mi video","url":"https://example.com/video.mp4"},"method":"POST","params":"","query":"","url":"/video/"},"timestamp":"2024-05-23 21:00:20"}
+{"level":"error","message":{"body":{"idPerson":"456","title":"Mi video","url":"https://example.com/video.mp4"},"error":"\"idPerson\" must be a valid GUID","method":"POST","params":"","query":"","url":"/video/"},"timestamp":"2024-05-23 21:00:20"}
+{"level":"info","message":{"body":{"idPerson":"64856186-6e05-4a3c-bf6a-ffe4e882d64b","title":"Mi video","url":"https://example.com/video.mp4"},"method":"POST","params":"","query":"","url":"/video/"},"timestamp":"2024-05-23 21:01:38"}
+{"level":"error","message":{"body":{"idPerson":"64856186-6e05-4a3c-bf6a-ffe4e882d64b","title":"Mi video","url":"https://example.com/video.mp4"},"error":"there is no unique or exclusion constraint matching the ON CONFLICT specification","method":"POST","params":"","query":"","url":"/video/"},"timestamp":"2024-05-23 21:01:39"}
+{"level":"info","message":{"body":{"idPerson":"64856186-6e05-4a3c-bf6a-ffe4e882d64b","title":"Mi video","url":"https://example.com/video.mp4"},"method":"POST","params":"","query":"","url":"/video/"},"timestamp":"2024-05-23 21:02:15"}
+{"level":"info","message":{"body":{"idPerson":"64856186-6e05-4a3c-bf6a-ffe4e882d64b","title":"Mi video","url":"https://example.com/video.mp4"},"method":"POST","params":"","query":"","url":"/video/"},"timestamp":"2024-05-23 21:02:16"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/video/"},"timestamp":"2024-05-23 21:02:22"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/video/"},"timestamp":"2024-05-23 21:02:23"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/video/id/e8e80d6c-e6c7-4c5a-9a2f-065f567c9c32"},"timestamp":"2024-05-23 21:02:49"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id":"e8e80d6c-e6c7-4c5a-9a2f-065f567c9c32"},"query":{},"url":"/video/id/e8e80d6c-e6c7-4c5a-9a2f-065f567c9c32"},"timestamp":"2024-05-23 21:02:50"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/video/person/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-23 21:03:32"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/video/person/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-23 21:03:32"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/video/personId/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-23 21:03:51"}
+{"level":"info","message":{"body":"","method":"GET","params":{"idPerson":"64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"query":{},"url":"/video/personId/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-23 21:03:52"}
+{"level":"info","message":{"body":{"idPerson":"64856186-6e05-4a3c-bf6a-ffe4e882d64b","title":"Hi Clavero","url":"https://www.youtube.com/watch?v=I0eFKmlJv3k"},"method":"POST","params":"","query":"","url":"/video/"},"timestamp":"2024-05-23 21:04:54"}
+{"level":"info","message":{"body":{"idPerson":"64856186-6e05-4a3c-bf6a-ffe4e882d64b","title":"Hi Clavero","url":"https://www.youtube.com/watch?v=I0eFKmlJv3k"},"method":"POST","params":"","query":"","url":"/video/"},"timestamp":"2024-05-23 21:04:55"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/video/personId/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-23 21:05:19"}
+{"level":"info","message":{"body":"","method":"GET","params":{"idPerson":"64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"query":{},"url":"/video/personId/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-23 21:05:20"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/video/id/e8e80d6c-e6c7-4c5a-9a2f-065f567c9c32"},"timestamp":"2024-05-23 21:05:41"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{"id":"e8e80d6c-e6c7-4c5a-9a2f-065f567c9c32"},"query":"","url":"/video/id/e8e80d6c-e6c7-4c5a-9a2f-065f567c9c32"},"timestamp":"2024-05-23 21:05:42"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/video/id/e8e80d6c-e6c7-4c5a-9a2f-065f567c9c32"},"timestamp":"2024-05-23 21:07:25"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{"id":"e8e80d6c-e6c7-4c5a-9a2f-065f567c9c32"},"query":"","url":"/video/id/e8e80d6c-e6c7-4c5a-9a2f-065f567c9c32"},"timestamp":"2024-05-23 21:07:26"}
 {"level":"info","message":{"body":"","method":"PUT","params":{},"query":"","url":"/person/personId/interest/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-23 22:52:17"}
 {"level":"error","message":{"body":"","error":"\"id_person\" is required","method":"PUT","params":{},"query":"","url":"/person/personId/interest/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-23 22:52:17"}
 {"level":"info","message":{"body":"","method":"PUT","params":{},"query":"","url":"/person/personId/interest/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-23 22:53:49"}
@@ -42,3 +69,4 @@
 {"level":"info","message":{"body":"","method":"GET","params":{"id_person":"64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"query":{},"url":"/person/personId/getPerson/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-23 23:44:12"}
 {"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/person/personId/getPerson/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-23 23:44:45"}
 {"level":"info","message":{"body":"","method":"GET","params":{"id_person":"64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"query":{},"url":"/person/personId/getPerson/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-23 23:44:45"}
+
