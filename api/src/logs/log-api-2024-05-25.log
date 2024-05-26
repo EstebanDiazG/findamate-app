@@ -1,0 +1,30 @@
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/"},"timestamp":"2024-05-25 13:23:07"}
+{"level":"error","message":{"body":"","error":"relation \"app.perdon\" does not exist","method":"GET","params":{},"query":{},"url":"/topic/"},"timestamp":"2024-05-25 13:23:21"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/"},"timestamp":"2024-05-25 13:24:11"}
+{"level":"error","message":{"body":"","error":"column reference \"deleted_at\" is ambiguous","method":"GET","params":{},"query":{},"url":"/topic/"},"timestamp":"2024-05-25 13:24:12"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/"},"timestamp":"2024-05-25 13:24:47"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/"},"timestamp":"2024-05-25 13:24:47"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/"},"timestamp":"2024-05-25 13:26:43"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/"},"timestamp":"2024-05-25 13:26:44"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/"},"timestamp":"2024-05-25 14:55:13"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/"},"timestamp":"2024-05-25 14:55:14"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/idPerson/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-25 14:55:41"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id_person":"64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"query":{},"url":"/topic/idPerson/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-25 14:55:42"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/"},"timestamp":"2024-05-25 14:56:35"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/"},"timestamp":"2024-05-25 14:56:36"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/"},"timestamp":"2024-05-25 14:56:46"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/"},"timestamp":"2024-05-25 14:56:47"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/id/f0319ac5-2ec9-4dfc-93bf-dcf00cc10d85"},"timestamp":"2024-05-25 14:57:24"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id":"f0319ac5-2ec9-4dfc-93bf-dcf00cc10d85"},"query":{},"url":"/topic/id/f0319ac5-2ec9-4dfc-93bf-dcf00cc10d85"},"timestamp":"2024-05-25 14:57:25"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/idPerson/06f9530e-67de-41d9-a693-0e67ab347fc2"},"timestamp":"2024-05-25 14:57:51"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id_person":"06f9530e-67de-41d9-a693-0e67ab347fc2"},"query":{},"url":"/topic/idPerson/06f9530e-67de-41d9-a693-0e67ab347fc2"},"timestamp":"2024-05-25 14:57:52"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/idPerson/06f9530e-67de-41d9-a693-0e67ab347fc2"},"timestamp":"2024-05-25 14:59:31"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id_person":"06f9530e-67de-41d9-a693-0e67ab347fc2"},"query":{},"url":"/topic/idPerson/06f9530e-67de-41d9-a693-0e67ab347fc2"},"timestamp":"2024-05-25 14:59:32"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/idPerson/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-25 14:59:53"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id_person":"64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"query":{},"url":"/topic/idPerson/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-25 14:59:54"}
+{"level":"info","message":{"body":{"content":"Estoy haciendo mi proyecto de titulo con un lengaje que no conosco y necesito ayuda :c","id_person":"d0260c49-9184-4fe7-a76d-7c5b814ddb06","title":"Ayuda con React"},"method":"POST","params":"","query":"","url":"/topic/"},"timestamp":"2024-05-25 15:30:00"}
+{"level":"error","message":{"body":{"content":"Estoy haciendo mi proyecto de titulo con un lengaje que no conosco y necesito ayuda :c","id_person":"d0260c49-9184-4fe7-a76d-7c5b814ddb06","title":"Ayuda con React"},"error":"syntax error at or near \"DO\"","method":"POST","params":"","query":"","url":"/topic/"},"timestamp":"2024-05-25 15:30:01"}
+{"level":"info","message":{"body":{"content":"Estoy haciendo mi proyecto de titulo con un lengaje que no conosco y necesito ayuda :c","id_person":"d0260c49-9184-4fe7-a76d-7c5b814ddb06","title":"Ayuda con React"},"method":"POST","params":"","query":"","url":"/topic/"},"timestamp":"2024-05-25 15:30:56"}
+{"level":"error","message":{"body":{"content":"Estoy haciendo mi proyecto de titulo con un lengaje que no conosco y necesito ayuda :c","id_person":"d0260c49-9184-4fe7-a76d-7c5b814ddb06","title":"Ayuda con React"},"error":"syntax error at or near \"DO\"","method":"POST","params":"","query":"","url":"/topic/"},"timestamp":"2024-05-25 15:30:57"}
+{"level":"info","message":{"body":{"content":"Estoy haciendo mi proyecto de titulo con un lengaje que no conosco y necesito ayuda :c","id_person":"d0260c49-9184-4fe7-a76d-7c5b814ddb06","title":"Ayuda con React"},"method":"POST","params":"","query":"","url":"/topic/"},"timestamp":"2024-05-25 16:00:05"}
+{"level":"error","message":{"body":{"content":"Estoy haciendo mi proyecto de titulo con un lengaje que no conosco y necesito ayuda :c","id_person":"d0260c49-9184-4fe7-a76d-7c5b814ddb06","title":"Ayuda con React"},"error":"syntax error at or near \"UPDATE\"","method":"POST","params":"","query":"","url":"/topic/"},"timestamp":"2024-05-25 16:00:06"}

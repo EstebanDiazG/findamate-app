@@ -77,48 +77,27 @@ const deleteById = async (req: Request, res: Response, next: NextFunction) => {
     }
 };
 
-
 const update = async (
-    req: Request,
-    res: Response,
-    next: NextFunction
-): Promise<void> => {
-    try {
-      const { body } = req;
-      const schemaValidate = updateProfileSchema.validate(body);
-      if (schemaValidate.error) {
-        return next(boom.badRequest(schemaValidate.error));
-      }
-  
-      const { name, paternalLastName, maternalLastName, password, id_image,description, idPerson } = schemaValidate.value;
-  
-      const response = await Profile.update(name, paternalLastName, maternalLastName,password,id_image,description,idPerson);
-      return sendResponse(req, res, response);
-    } catch (err: any) {
-      return next(boom.badImplementation(err));
+  req: Request,
+  res: Response,
+  next: NextFunction
+) => {
+  try {
+    const { id } = req.params;
+    const { description } = req.body;
+    const schemaValidate = idProfileSchema.validate({ id });
+    if (schemaValidate.error) {
+      return next(boom.badRequest(schemaValidate.error));
     }
+    const schemaValidate2 = updateProfileSchema.validate({ description });
+    if (schemaValidate2.error) {
+      return next(boom.badRequest(schemaValidate2.error));
+    }
+    const response = await Profile.update(id,description);
+    return sendResponse(req, res, response);
+  } catch (err: any) {
+    return next(boom.badImplementation(err));
+  }
 };
 
-
-const updatePersonProfile = async (
-    req: Request,
-    res: Response,
-    next: NextFunction
-): Promise<void> => {
-    try {
-      const { body } = req;
-      const schemaValidate = updateProfileSchema.validate(body);
-      if (schemaValidate.error) {
-        return next(boom.badRequest(schemaValidate.error));
-      }
-  
-      const { name, paternalLastName, maternalLastName, idPerson } = schemaValidate.value;
-  
-      const response = await Profile.updatePersonProfile(name, paternalLastName, maternalLastName,idPerson);
-      return sendResponse(req, res, response);
-    } catch (err: any) {
-      return next(boom.badImplementation(err));
-    }
-};
-
-export { getAll, getById, getByIdPerson, deleteById, updatePersonProfile };
+export { getAll, getById, getByIdPerson, deleteById, update };

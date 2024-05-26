@@ -9,10 +9,13 @@ import {
   rutPersonSchema,
   idPersonGroupSchema,
   idStudyGroupSchema,
+  idInterestGroupSchema,
+  idPersonInterestGroupSchema,
 } from "../schemas/personSchema";
 
 import Person from "../models/Person";
 import StudyGroupPerson from "../models/studyGroupPerson";
+import InterestGroup from "../models/InterestGroup";
 
 const getAll = async (
   req: Request,
@@ -154,6 +157,72 @@ const removePerson = async (
   }
 };
 
+const getInterestsByPersonId = async (
+  req: Request,
+  res: Response,
+  next: NextFunction
+): Promise<void> => {
+  try {
+    const { params } = req;
+    const schemaValidate = idPersonInterestGroupSchema.validate(params);
+    if (schemaValidate.error) {
+      return next(boom.badRequest(schemaValidate.error));
+    }
+    const { id_person } = schemaValidate.value;
+    const response = await InterestGroup.getInterestsByPersonId(id_person);
+    sendResponse(req, res, response);
+  } catch (err: any) {
+    return next(boom.badImplementation(err));
+  }
+};
+
+const assignInterest = async (
+  req: Request,
+  res: Response,
+  next: NextFunction
+) => {
+  try {
+    const { id_person } = req.params;
+    const { id_interest } = req.body;
+    const schemaValidate = idPersonInterestGroupSchema.validate({ id_person });
+    if (schemaValidate.error) {
+      return next(boom.badRequest(schemaValidate.error));
+    }
+    const schemaValidate2 = idInterestGroupSchema.validate({ id_interest });
+    if (schemaValidate2.error) {
+      return next(boom.badRequest(schemaValidate2.error));
+    }
+    const response = await InterestGroup.assignInterest(id_person, id_interest);
+    return sendResponse(req, res, response);
+  } catch (err: any) {
+    return next(boom.badImplementation(err));
+  }
+};
+
+const removeInterest = async (
+  req: Request,
+  res: Response,
+  next: NextFunction
+) => {
+  try {
+    const { id_person } = req.params;
+    const { id_interest } = req.body;
+    const schemaValidate = idPersonInterestGroupSchema.validate({ id_person });
+    if (schemaValidate.error) {
+      return next(boom.badRequest(schemaValidate.error));
+    }
+    const schemaValidate2 = idInterestGroupSchema.validate({ id_interest });
+    if (schemaValidate2.error) {
+      return next(boom.badRequest(schemaValidate2.error));
+    }
+    const response = await InterestGroup.removeInterest(id_person, id_interest);
+    return sendResponse(req, res, response);
+  } catch (err: any) {
+    return next(boom.badImplementation(err));
+  }
+};
+
+
 export {
   getAll,
   getById,
@@ -162,4 +231,7 @@ export {
   deleteById,
   assignPerson,
   removePerson,
+  assignInterest,
+  removeInterest,
+  getInterestsByPersonId,
 };

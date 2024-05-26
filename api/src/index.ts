@@ -7,7 +7,12 @@ import handlerResponse from "./middlewares/handlerResponse";
 import handlerRequest from "./middlewares/handlerRequest";
 import handlerError from "./middlewares/handlerError";
 
+
 import profileRoutes from "./routes/profile";
+import profileRoutes from './routes/profile';
+import interestRoutes from './routes/interest';
+import categoryInterestRoutes from './routes/categoryInterest';
+
 import personRoutes from "./routes/person";
 import userRoutes from "./routes/user";
 import rolRoutes from "./routes/rol";
@@ -16,6 +21,9 @@ import imageRoutes from "./routes/image";
 import studyGroupRoutes from "./routes/studyGroup";
 import videoRoutes from "./routes/video";
 import fileRoutes from "./routes/file";
+import topicRoutes from "./routes/topic";
+import messageTopicRoutes from "./routes/messageTopic";
+
 
 //database
 pool.connect((err) => {
@@ -35,7 +43,10 @@ app.use(handlerRequest);
 
 //enrutamiento
 
+
 app.use("/profile", profileRoutes);
+app.use('/interest', interestRoutes);
+app.use('/categoryInterest', categoryInterestRoutes);
 app.use("/person", personRoutes);
 app.use("/user", userRoutes);
 app.use("/rol", rolRoutes);
@@ -44,6 +55,10 @@ app.use("/image", imageRoutes);
 app.use("/study-group", studyGroupRoutes);
 app.use("/video", videoRoutes);
 app.use("/file", fileRoutes);
+app.use("/topic", topicRoutes);
+app.use("/message_topic", messageTopicRoutes);
+
+
 
 app.use(handlerError);
 app.use(handlerResponse);

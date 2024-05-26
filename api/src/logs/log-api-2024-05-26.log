@@ -1,3 +1,4 @@
+
 {"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/search"},"timestamp":"2024-05-25 18:04:36"}
 {"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/file/search"},"timestamp":"2024-05-25 18:04:36"}
 {"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/search"},"timestamp":"2024-05-25 18:05:26"}
@@ -261,3 +262,86 @@
 {"level":"info","message":{"body":"","method":"PUT","params":{"idPerson":"64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"query":"","url":"/video/comment/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-26 01:50:51"}
 {"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/video/comment/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-26 01:51:31"}
 {"level":"info","message":{"body":"","method":"DELETE","params":{"idPerson":"64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"query":"","url":"/video/comment/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-26 01:51:32"}
+{"level":"info","message":{"body":{"content":"Estoy haciendo mi proyecto de titulo con un lengaje que no conosco y necesito ayuda :c","id_person":"d0260c49-9184-4fe7-a76d-7c5b814ddb06","title":"Ayuda con React"},"method":"POST","params":"","query":"","url":"/topic/"},"timestamp":"2024-05-25 16:00:51"}
+{"level":"error","message":{"body":{"content":"Estoy haciendo mi proyecto de titulo con un lengaje que no conosco y necesito ayuda :c","id_person":"d0260c49-9184-4fe7-a76d-7c5b814ddb06","title":"Ayuda con React"},"error":"syntax error at or near \")\"","method":"POST","params":"","query":"","url":"/topic/"},"timestamp":"2024-05-25 16:00:52"}
+{"level":"info","message":{"body":{"content":"Estoy haciendo mi proyecto de titulo con un lengaje que no conosco y necesito ayuda :c","id_person":"d0260c49-9184-4fe7-a76d-7c5b814ddb06","title":"Ayuda con React"},"method":"POST","params":"","query":"","url":"/topic/"},"timestamp":"2024-05-25 16:04:34"}
+{"level":"error","message":{"body":{"content":"Estoy haciendo mi proyecto de titulo con un lengaje que no conosco y necesito ayuda :c","id_person":"d0260c49-9184-4fe7-a76d-7c5b814ddb06","title":"Ayuda con React"},"error":"syntax error at end of input","method":"POST","params":"","query":"","url":"/topic/"},"timestamp":"2024-05-25 16:04:35"}
+{"level":"info","message":{"body":{"content":"Estoy haciendo mi proyecto de titulo con un lengaje que no conosco y necesito ayuda :c","id_person":"d0260c49-9184-4fe7-a76d-7c5b814ddb06","title":"Ayuda con React"},"method":"POST","params":"","query":"","url":"/topic/"},"timestamp":"2024-05-25 16:05:53"}
+{"level":"error","message":{"body":{"content":"Estoy haciendo mi proyecto de titulo con un lengaje que no conosco y necesito ayuda :c","id_person":"d0260c49-9184-4fe7-a76d-7c5b814ddb06","title":"Ayuda con React"},"error":"relation \"app.topic\" does not exist","method":"POST","params":"","query":"","url":"/topic/"},"timestamp":"2024-05-25 16:05:54"}
+{"level":"info","message":{"body":{"content":"Estoy haciendo mi proyecto de titulo con un lengaje que no conosco y necesito ayuda :c","id_person":"d0260c49-9184-4fe7-a76d-7c5b814ddb06","title":"Ayuda con React"},"method":"POST","params":"","query":"","url":"/topic/"},"timestamp":"2024-05-25 16:06:04"}
+{"level":"error","message":{"body":{"content":"Estoy haciendo mi proyecto de titulo con un lengaje que no conosco y necesito ayuda :c","id_person":"d0260c49-9184-4fe7-a76d-7c5b814ddb06","title":"Ayuda con React"},"error":"relation \"app.topic\" does not exist","method":"POST","params":"","query":"","url":"/topic/"},"timestamp":"2024-05-25 16:06:05"}
+{"level":"info","message":{"body":{"content":"Estoy haciendo mi proyecto de titulo con un lengaje que no conosco y necesito ayuda :c","id_person":"d0260c49-9184-4fe7-a76d-7c5b814ddb06","title":"Ayuda con React"},"method":"POST","params":"","query":"","url":"/topic/"},"timestamp":"2024-05-25 16:06:38"}
+{"level":"info","message":{"body":{"content":"Estoy haciendo mi proyecto de titulo con un lengaje que no conosco y necesito ayuda :c","id_person":"d0260c49-9184-4fe7-a76d-7c5b814ddb06","title":"Ayuda con React"},"method":"POST","params":"","query":"","url":"/topic/"},"timestamp":"2024-05-25 16:06:39"}
+{"level":"info","message":{"body":{"content":"hay que hacer una junta de programadores","id_person":"d0260c49-9184-4fe7-a76d-7c5b814ddb06","title":"Junta de programadores"},"method":"POST","params":"","query":"","url":"/topic/"},"timestamp":"2024-05-25 16:08:15"}
+{"level":"info","message":{"body":{"content":"hay que hacer una junta de programadores","id_person":"d0260c49-9184-4fe7-a76d-7c5b814ddb06","title":"Junta de programadores"},"method":"POST","params":"","query":"","url":"/topic/"},"timestamp":"2024-05-25 16:08:16"}
+{"level":"info","message":{"body":{"content":"contenido test 1","id_person":"d0260c49-9184-4fe7-a76d-7c5b814ddb06","title":"test 1"},"method":"POST","params":"","query":"","url":"/topic/"},"timestamp":"2024-05-25 16:10:46"}
+{"level":"info","message":{"body":{"content":"contenido test 1","id_person":"d0260c49-9184-4fe7-a76d-7c5b814ddb06","title":"test 1"},"method":"POST","params":"","query":"","url":"/topic/"},"timestamp":"2024-05-25 16:10:47"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/idPerson/d0260c49-9184-4fe7-a76d-7c5b814ddb06"},"timestamp":"2024-05-25 16:11:19"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id_person":"d0260c49-9184-4fe7-a76d-7c5b814ddb06"},"query":{},"url":"/topic/idPerson/d0260c49-9184-4fe7-a76d-7c5b814ddb06"},"timestamp":"2024-05-25 16:11:20"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/idPerson/d0260c49-9184-4fe7-a76d-7c5b814ddb06"},"timestamp":"2024-05-25 16:11:40"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id_person":"d0260c49-9184-4fe7-a76d-7c5b814ddb06"},"query":{},"url":"/topic/idPerson/d0260c49-9184-4fe7-a76d-7c5b814ddb06"},"timestamp":"2024-05-25 16:11:41"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/"},"timestamp":"2024-05-25 16:12:05"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/"},"timestamp":"2024-05-25 16:12:05"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/idPerson/d0260c49-9184-4fe7-a76d-7c5b814ddb06"},"timestamp":"2024-05-25 16:20:53"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id_person":"d0260c49-9184-4fe7-a76d-7c5b814ddb06"},"query":{},"url":"/topic/idPerson/d0260c49-9184-4fe7-a76d-7c5b814ddb06"},"timestamp":"2024-05-25 16:20:54"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/idPerson/d0260c49-9184-4fe7-a76d-7c5b814ddb06"},"timestamp":"2024-05-25 16:21:21"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id_person":"d0260c49-9184-4fe7-a76d-7c5b814ddb06"},"query":{},"url":"/topic/idPerson/d0260c49-9184-4fe7-a76d-7c5b814ddb06"},"timestamp":"2024-05-25 16:21:22"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/idPerson/d0260c49-9184-4fe7-a76d-7c5b814ddb06"},"timestamp":"2024-05-25 16:23:18"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id_person":"d0260c49-9184-4fe7-a76d-7c5b814ddb06"},"query":{},"url":"/topic/idPerson/d0260c49-9184-4fe7-a76d-7c5b814ddb06"},"timestamp":"2024-05-25 16:23:20"}
+{"level":"info","message":{"body":"","method":"PUT","params":{},"query":"","url":"/topic/id/9102715a-cf5f-46b2-8ce7-585df61da753"},"timestamp":"2024-05-25 16:40:54"}
+{"level":"info","message":{"body":"","method":"PUT","params":{"id":"9102715a-cf5f-46b2-8ce7-585df61da753"},"query":"","url":"/topic/id/9102715a-cf5f-46b2-8ce7-585df61da753"},"timestamp":"2024-05-25 16:40:55"}
+{"level":"info","message":{"body":"","method":"PUT","params":{},"query":"","url":"/topic/id/9102715a-cf5f-46b2-8ce7-585df61da753"},"timestamp":"2024-05-25 16:42:25"}
+{"level":"info","message":{"body":"","method":"PUT","params":{"id":"9102715a-cf5f-46b2-8ce7-585df61da753"},"query":"","url":"/topic/id/9102715a-cf5f-46b2-8ce7-585df61da753"},"timestamp":"2024-05-25 16:42:26"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/"},"timestamp":"2024-05-25 16:43:49"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/"},"timestamp":"2024-05-25 16:43:50"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/topic/id/9102715a-cf5f-46b2-8ce7-585df61da753"},"timestamp":"2024-05-25 16:47:16"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{"id":"9102715a-cf5f-46b2-8ce7-585df61da753"},"query":"","url":"/topic/id/9102715a-cf5f-46b2-8ce7-585df61da753"},"timestamp":"2024-05-25 16:47:17"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/"},"timestamp":"2024-05-25 16:47:50"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/"},"timestamp":"2024-05-25 16:47:51"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/idPerson/d0260c49-9184-4fe7-a76d-7c5b814ddb06"},"timestamp":"2024-05-25 16:47:58"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id_person":"d0260c49-9184-4fe7-a76d-7c5b814ddb06"},"query":{},"url":"/topic/idPerson/d0260c49-9184-4fe7-a76d-7c5b814ddb06"},"timestamp":"2024-05-25 16:47:58"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/idPerson/d0260c49-9184-4fe7-a76d-7c5b814ddb06"},"timestamp":"2024-05-25 16:48:35"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id_person":"d0260c49-9184-4fe7-a76d-7c5b814ddb06"},"query":{},"url":"/topic/idPerson/d0260c49-9184-4fe7-a76d-7c5b814ddb06"},"timestamp":"2024-05-25 16:48:36"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/"},"timestamp":"2024-05-25 16:48:39"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/"},"timestamp":"2024-05-25 16:48:40"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic/"},"timestamp":"2024-05-25 20:02:03"}
+{"level":"error","message":{"body":"","error":"missing FROM-clause entry for table \"tpc\"","method":"GET","params":{},"query":{},"url":"/message_topic/"},"timestamp":"2024-05-25 20:02:04"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic/"},"timestamp":"2024-05-25 20:16:59"}
+{"level":"error","message":{"body":"","error":"missing FROM-clause entry for table \"tpc\"","method":"GET","params":{},"query":{},"url":"/message_topic/"},"timestamp":"2024-05-25 20:17:00"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic/"},"timestamp":"2024-05-25 20:19:00"}
+{"level":"error","message":{"body":"","error":"missing FROM-clause entry for table \"tpc\"","method":"GET","params":{},"query":{},"url":"/message_topic/"},"timestamp":"2024-05-25 20:19:01"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic/"},"timestamp":"2024-05-25 20:20:20"}
+{"level":"error","message":{"body":"","error":"column mtpc.deleted_at does not exist","method":"GET","params":{},"query":{},"url":"/message_topic/"},"timestamp":"2024-05-25 20:20:21"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic/"},"timestamp":"2024-05-25 20:20:57"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic/"},"timestamp":"2024-05-25 20:20:57"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic/"},"timestamp":"2024-05-25 20:22:07"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic/"},"timestamp":"2024-05-25 20:22:08"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic/id/f80c9bf8-92a6-4e63-b2f9-a0ea64b1cc8d"},"timestamp":"2024-05-25 20:44:16"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id":"f80c9bf8-92a6-4e63-b2f9-a0ea64b1cc8d"},"query":{},"url":"/message_topic/id/f80c9bf8-92a6-4e63-b2f9-a0ea64b1cc8d"},"timestamp":"2024-05-25 20:44:17"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic/idPerson/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-25 20:56:33"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id_person":"64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"query":{},"url":"/message_topic/idPerson/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-25 20:56:34"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic/idTopic/27b9f16f-d196-4568-8158-ecf0671ed792"},"timestamp":"2024-05-25 21:09:14"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id_topic":"27b9f16f-d196-4568-8158-ecf0671ed792"},"query":{},"url":"/message_topic/idTopic/27b9f16f-d196-4568-8158-ecf0671ed792"},"timestamp":"2024-05-25 21:09:15"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic/idTopic/27b9f16f-d196-4568-8158-ecf0671ed792"},"timestamp":"2024-05-25 21:11:13"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id_topic":"27b9f16f-d196-4568-8158-ecf0671ed792"},"query":{},"url":"/message_topic/idTopic/27b9f16f-d196-4568-8158-ecf0671ed792"},"timestamp":"2024-05-25 21:11:14"}
+{"level":"info","message":{"body":{"content":"Si, puedes venir con mas personas","id_person":"164255c8-a32c-4661-8ac1-837024ef6f93","id_topic":"27b9f16f-d196-4568-8158-ecf0671ed792"},"method":"POST","params":"","query":"","url":"/message_topic/"},"timestamp":"2024-05-25 21:27:25"}
+{"level":"error","message":{"body":{"content":"Si, puedes venir con mas personas","id_person":"164255c8-a32c-4661-8ac1-837024ef6f93","id_topic":"27b9f16f-d196-4568-8158-ecf0671ed792"},"error":"column \"id_topic\" of relation \"topics\" does not exist","method":"POST","params":"","query":"","url":"/message_topic/"},"timestamp":"2024-05-25 21:27:26"}
+{"level":"info","message":{"body":{"content":"Si, puedes venir con mas personas","id_person":"164255c8-a32c-4661-8ac1-837024ef6f93","id_topic":"27b9f16f-d196-4568-8158-ecf0671ed792"},"method":"POST","params":"","query":"","url":"/message_topic/"},"timestamp":"2024-05-25 21:28:58"}
+{"level":"info","message":{"body":{"content":"Si, puedes venir con mas personas","id_person":"164255c8-a32c-4661-8ac1-837024ef6f93","id_topic":"27b9f16f-d196-4568-8158-ecf0671ed792"},"method":"POST","params":"","query":"","url":"/message_topic/"},"timestamp":"2024-05-25 21:28:59"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic/idTopic/27b9f16f-d196-4568-8158-ecf0671ed792"},"timestamp":"2024-05-25 21:29:09"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id_topic":"27b9f16f-d196-4568-8158-ecf0671ed792"},"query":{},"url":"/message_topic/idTopic/27b9f16f-d196-4568-8158-ecf0671ed792"},"timestamp":"2024-05-25 21:29:10"}
+{"level":"info","message":{"body":"","method":"PUT","params":{},"query":"","url":"/message_topic/id/3e4d0af8-798b-49e5-95a3-92feee71a9ac"},"timestamp":"2024-05-25 21:41:42"}
+{"level":"info","message":{"body":"","method":"PUT","params":{"id":"3e4d0af8-798b-49e5-95a3-92feee71a9ac"},"query":"","url":"/message_topic/id/3e4d0af8-798b-49e5-95a3-92feee71a9ac"},"timestamp":"2024-05-25 21:41:49"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic/idTopic/27b9f16f-d196-4568-8158-ecf0671ed792"},"timestamp":"2024-05-25 21:47:50"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id_topic":"27b9f16f-d196-4568-8158-ecf0671ed792"},"query":{},"url":"/message_topic/idTopic/27b9f16f-d196-4568-8158-ecf0671ed792"},"timestamp":"2024-05-25 21:47:51"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/message_topic/id/3e4d0af8-798b-49e5-95a3-92feee71a9ac"},"timestamp":"2024-05-25 21:48:11"}
+{"level":"error","message":{"body":"","error":"column \"deleted_at\" does not exist","method":"DELETE","params":{},"query":"","url":"/message_topic/id/3e4d0af8-798b-49e5-95a3-92feee71a9ac"},"timestamp":"2024-05-25 21:48:12"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/message_topic/id/3e4d0af8-798b-49e5-95a3-92feee71a9ac"},"timestamp":"2024-05-25 21:48:46"}
+{"level":"error","message":{"body":"","error":"column \"deleted_at\" of relation \"message_topic\" does not exist","method":"DELETE","params":{},"query":"","url":"/message_topic/id/3e4d0af8-798b-49e5-95a3-92feee71a9ac"},"timestamp":"2024-05-25 21:48:47"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/message_topic/id/3e4d0af8-798b-49e5-95a3-92feee71a9ac"},"timestamp":"2024-05-25 21:49:29"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{"id":"3e4d0af8-798b-49e5-95a3-92feee71a9ac"},"query":"","url":"/message_topic/id/3e4d0af8-798b-49e5-95a3-92feee71a9ac"},"timestamp":"2024-05-25 21:49:29"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic/idTopic/27b9f16f-d196-4568-8158-ecf0671ed792"},"timestamp":"2024-05-25 21:49:35"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id_topic":"27b9f16f-d196-4568-8158-ecf0671ed792"},"query":{},"url":"/message_topic/idTopic/27b9f16f-d196-4568-8158-ecf0671ed792"},"timestamp":"2024-05-25 21:49:36"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic/idTopic/27b9f16f-d196-4568-8158-ecf0671ed792"},"timestamp":"2024-05-25 21:49:56"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id_topic":"27b9f16f-d196-4568-8158-ecf0671ed792"},"query":{},"url":"/message_topic/idTopic/27b9f16f-d196-4568-8158-ecf0671ed792"},"timestamp":"2024-05-25 21:49:57"}
+
