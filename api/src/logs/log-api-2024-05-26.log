@@ -1,0 +1,263 @@
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/search"},"timestamp":"2024-05-25 18:04:36"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/file/search"},"timestamp":"2024-05-25 18:04:36"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/search"},"timestamp":"2024-05-25 18:05:26"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/search"},"timestamp":"2024-05-25 18:05:26"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/file"},"timestamp":"2024-05-25 18:06:49"}
+{"level":"error","message":{"body":{},"error":"Input buffer contains unsupported image format","method":"POST","params":"","query":"","url":"/file"},"timestamp":"2024-05-25 18:06:49"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/file"},"timestamp":"2024-05-25 18:18:58"}
+{"level":"error","message":{"body":{},"error":"No file uploaded","method":"POST","params":"","query":"","url":"/file"},"timestamp":"2024-05-25 18:18:58"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/file"},"timestamp":"2024-05-25 18:21:05"}
+{"level":"error","message":{"body":{},"error":"No file uploaded","method":"POST","params":"","query":"","url":"/file"},"timestamp":"2024-05-25 18:21:05"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/file"},"timestamp":"2024-05-25 18:23:27"}
+{"level":"error","message":{"body":{},"error":"column \"originalname\" of relation \"file\" does not exist","method":"POST","params":"","query":"","url":"/file"},"timestamp":"2024-05-25 18:23:28"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/file"},"timestamp":"2024-05-25 18:23:53"}
+{"level":"error","message":{"body":{},"error":"No file uploaded","method":"POST","params":"","query":"","url":"/file"},"timestamp":"2024-05-25 18:23:53"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/file"},"timestamp":"2024-05-25 18:34:41"}
+{"level":"error","message":{"body":{},"error":"No file uploaded","method":"POST","params":"","query":"","url":"/file"},"timestamp":"2024-05-25 18:34:41"}
+{"level":"error","message":{"body":{},"error":"No file uploaded","method":"POST","params":"","query":"","url":"/file"},"timestamp":"2024-05-25 18:37:53"}
+{"level":"error","message":{"body":{},"error":"No file uploaded","method":"POST","params":"","query":"","url":"/file"},"timestamp":"2024-05-25 18:38:04"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/file"},"timestamp":"2024-05-25 18:42:12"}
+{"level":"error","message":{"body":{},"error":"Input buffer contains unsupported image format","method":"POST","params":"","query":"","url":"/file"},"timestamp":"2024-05-25 18:42:12"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/file"},"timestamp":"2024-05-25 18:50:57"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/file"},"timestamp":"2024-05-25 18:54:17"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/file"},"timestamp":"2024-05-25 18:55:55"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/file"},"timestamp":"2024-05-25 18:57:12"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/file"},"timestamp":"2024-05-25 18:58:38"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/file"},"timestamp":"2024-05-25 19:01:17"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/search"},"timestamp":"2024-05-25 19:02:58"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/search"},"timestamp":"2024-05-25 19:02:58"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/id/0a423fed-2bf1-4714-9871-079ad1f69e1e"},"timestamp":"2024-05-25 19:03:22"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/id/0a423fed-2bf1-4714-9871-079ad1f69e1e"},"timestamp":"2024-05-25 19:05:57"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/file"},"timestamp":"2024-05-25 19:57:03"}
+{"level":"error","message":{"body":{},"error":"Error processing file","method":"POST","params":"","query":"","url":"/file"},"timestamp":"2024-05-25 19:57:03"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/file"},"timestamp":"2024-05-25 20:00:48"}
+{"level":"error","message":{"body":{},"error":"Error writing file","method":"POST","params":"","query":"","url":"/file"},"timestamp":"2024-05-25 20:00:48"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/file"},"timestamp":"2024-05-25 20:03:45"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/search"},"timestamp":"2024-05-25 20:05:19"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/search"},"timestamp":"2024-05-25 20:05:20"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/file"},"timestamp":"2024-05-25 20:06:12"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-25 20:07:25"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-25 20:07:26"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-25 20:08:37"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-25 20:08:38"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/search"},"timestamp":"2024-05-25 20:12:42"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/search"},"timestamp":"2024-05-25 20:12:42"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/id/06855dd8-813a-430f-8c4d-4b617e485c3d"},"timestamp":"2024-05-25 20:12:55"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/id/06855dd8-813a-430f-8c4d-4b617e485c3d"},"timestamp":"2024-05-25 20:14:59"}
+{"level":"error","message":{"body":"","error":"File not found on server","method":"GET","params":{},"query":{},"url":"/file/id/06855dd8-813a-430f-8c4d-4b617e485c3d"},"timestamp":"2024-05-25 20:14:59"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/id/06855dd8-813a-430f-8c4d-4b617e485c3d"},"timestamp":"2024-05-25 20:17:41"}
+{"level":"error","message":{"body":"","error":"File not found on server","method":"GET","params":{},"query":{},"url":"/file/id/06855dd8-813a-430f-8c4d-4b617e485c3d"},"timestamp":"2024-05-25 20:17:42"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/id/06855dd8-813a-430f-8c4d-4b617e485c3d"},"timestamp":"2024-05-25 20:17:43"}
+{"level":"error","message":{"body":"","error":"File not found on server","method":"GET","params":{},"query":{},"url":"/file/id/06855dd8-813a-430f-8c4d-4b617e485c3d"},"timestamp":"2024-05-25 20:17:43"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/id/06855dd8-813a-430f-8c4d-4b617e485c3d"},"timestamp":"2024-05-25 20:18:19"}
+{"level":"error","message":{"body":"","error":"Not Found","method":"GET","params":{},"query":{},"url":"/file/id/06855dd8-813a-430f-8c4d-4b617e485c3d"},"timestamp":"2024-05-25 20:18:20"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/id/06855dd8-813a-430f-8c4d-4b617e485c3d"},"timestamp":"2024-05-25 20:18:21"}
+{"level":"error","message":{"body":"","error":"Not Found","method":"GET","params":{},"query":{},"url":"/file/id/06855dd8-813a-430f-8c4d-4b617e485c3d"},"timestamp":"2024-05-25 20:18:22"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/id/06855dd8-813a-430f-8c4d-4b617e485c3d"},"timestamp":"2024-05-25 20:19:05"}
+{"level":"error","message":{"body":"","error":"Not Found","method":"GET","params":{},"query":{},"url":"/file/id/06855dd8-813a-430f-8c4d-4b617e485c3d"},"timestamp":"2024-05-25 20:19:06"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/id/06855dd8-813a-430f-8c4d-4b617e485c3d"},"timestamp":"2024-05-25 20:19:41"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/id/06855dd8-813a-430f-8c4d-4b617e485c3d"},"timestamp":"2024-05-25 20:20:00"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/id/06855dd8-813a-430f-8c4d-4b617e485c3d"},"timestamp":"2024-05-25 20:22:01"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/search"},"timestamp":"2024-05-25 20:22:54"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/search"},"timestamp":"2024-05-25 20:22:55"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/id/06855dd8-813a-430f-8c4d-4b617e485c3d"},"timestamp":"2024-05-25 20:24:17"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id":"06855dd8-813a-430f-8c4d-4b617e485c3d"},"query":{},"url":"/file/id/06855dd8-813a-430f-8c4d-4b617e485c3d"},"timestamp":"2024-05-25 20:24:18"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/file"},"timestamp":"2024-05-25 20:35:34"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/uploads/files/1716683734339-TALLER%20API-GIT.pdf"},"timestamp":"2024-05-25 20:37:00"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/file/uploads/files/1716683734339-TALLER%20API-GIT.pdf"},"timestamp":"2024-05-25 20:37:00"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-05-25 20:37:00"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-05-25 20:37:00"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/uploads/files/1716683734339-TALLER%20API-GIT.pdf"},"timestamp":"2024-05-25 20:38:56"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/file/uploads/files/1716683734339-TALLER%20API-GIT.pdf"},"timestamp":"2024-05-25 20:38:56"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-05-25 20:38:56"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-05-25 20:38:56"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/uploads/files/1716683734339-TALLER%20API-GIT.pdf"},"timestamp":"2024-05-25 20:38:58"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/file/uploads/files/1716683734339-TALLER%20API-GIT.pdf"},"timestamp":"2024-05-25 20:38:58"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-05-25 20:38:58"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-05-25 20:38:58"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/uploads/files/1716683734339-TALLER%20API-GIT.pdf"},"timestamp":"2024-05-25 20:38:58"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/file/uploads/files/1716683734339-TALLER%20API-GIT.pdf"},"timestamp":"2024-05-25 20:38:58"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-05-25 20:38:58"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-05-25 20:38:58"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/file"},"timestamp":"2024-05-25 20:59:17"}
+{"level":"error","message":{"body":{},"error":"Error creating file record","method":"POST","params":"","query":"","url":"/file"},"timestamp":"2024-05-25 20:59:18"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/file"},"timestamp":"2024-05-25 21:04:06"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/uploads/files/cab5311a-764a-409c-b6b0-bc1b0d429788.pdf"},"timestamp":"2024-05-25 21:14:42"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/file/uploads/files/cab5311a-764a-409c-b6b0-bc1b0d429788.pdf"},"timestamp":"2024-05-25 21:14:42"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-05-25 21:14:42"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-05-25 21:14:42"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/uploads/file/cab5311a-764a-409c-b6b0-bc1b0d429788.pdf"},"timestamp":"2024-05-25 21:14:50"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/file/uploads/file/cab5311a-764a-409c-b6b0-bc1b0d429788.pdf"},"timestamp":"2024-05-25 21:14:50"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-05-25 21:14:50"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-05-25 21:14:50"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/uploads/files/cab5311a-764a-409c-b6b0-bc1b0d429788.pdf"},"timestamp":"2024-05-25 21:14:57"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/file/uploads/files/cab5311a-764a-409c-b6b0-bc1b0d429788.pdf"},"timestamp":"2024-05-25 21:14:57"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-05-25 21:14:57"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-05-25 21:14:57"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/files/cab5311a-764a-409c-b6b0-bc1b0d429788.pdf"},"timestamp":"2024-05-25 21:18:15"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/uploads/files/cab5311a-764a-409c-b6b0-bc1b0d429788.pdf"},"timestamp":"2024-05-25 21:18:15"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-05-25 21:18:15"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-05-25 21:18:15"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-05-25 21:19:15"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-05-25 21:19:15"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/id/06855dd8-813a-430f-8c4d-4b617e485c3d"},"timestamp":"2024-05-25 22:40:39"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/file/id/06855dd8-813a-430f-8c4d-4b617e485c3d"},"timestamp":"2024-05-25 22:40:40"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/search"},"timestamp":"2024-05-25 22:40:46"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/search"},"timestamp":"2024-05-25 22:40:46"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/id/cab5311a-764a-409c-b6b0-bc1b0d429788"},"timestamp":"2024-05-25 22:40:58"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id":"cab5311a-764a-409c-b6b0-bc1b0d429788"},"query":{},"url":"/file/id/cab5311a-764a-409c-b6b0-bc1b0d429788"},"timestamp":"2024-05-25 22:40:59"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/image/id/cab5311a-764a-409c-b6b0-bc1b0d429788"},"timestamp":"2024-05-25 22:41:29"}
+{"level":"error","message":{"body":"","error":"Cannot read properties of null (reading 'id')","method":"DELETE","params":{},"query":"","url":"/image/id/cab5311a-764a-409c-b6b0-bc1b0d429788"},"timestamp":"2024-05-25 22:41:30"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-05-25 22:42:31"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-05-25 22:42:32"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/search"},"timestamp":"2024-05-25 22:44:39"}
+{"level":"error","message":{"body":"","error":"bind message supplies 2 parameters, but prepared statement \"\" requires 3","method":"GET","params":{},"query":{},"url":"/file/search"},"timestamp":"2024-05-25 22:44:39"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/search"},"timestamp":"2024-05-25 22:45:42"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/search"},"timestamp":"2024-05-25 22:45:43"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/search"},"timestamp":"2024-05-25 22:45:46"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/search"},"timestamp":"2024-05-25 22:45:46"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/search"},"timestamp":"2024-05-25 22:45:47"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/search"},"timestamp":"2024-05-25 22:45:47"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/search"},"timestamp":"2024-05-25 22:47:10"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/search"},"timestamp":"2024-05-25 22:47:11"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/search"},"timestamp":"2024-05-25 22:54:03"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/search"},"timestamp":"2024-05-25 22:54:04"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/search"},"timestamp":"2024-05-25 22:57:55"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/search"},"timestamp":"2024-05-25 22:57:55"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/file"},"timestamp":"2024-05-25 22:58:51"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/search"},"timestamp":"2024-05-25 22:58:59"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/search"},"timestamp":"2024-05-25 22:58:59"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-05-25 22:59:16"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-05-25 22:59:16"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/search"},"timestamp":"2024-05-25 23:00:36"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/search"},"timestamp":"2024-05-25 23:00:37"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-05-25 23:01:25"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-05-25 23:01:25"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-25 23:03:00"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-25 23:03:01"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-25 23:03:03"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-25 23:03:03"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-25 23:07:33"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-25 23:07:34"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-25 23:09:03"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-25 23:09:04"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-25 23:11:07"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-25 23:11:08"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-25 23:16:59"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-25 23:17:00"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-25 23:22:26"}
+{"level":"error","message":{"body":{},"error":"public/uploads/images/92c95804-1ba6-4278-95cf-2d778068a602.jpg: unable to open for write\nwindows error: El sistema no puede encontrar el archivo especificado.","method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-25 23:22:27"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-25 23:23:06"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-25 23:23:07"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-25 23:23:35"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-25 23:23:36"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-05-25 23:24:23"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-05-25 23:24:23"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/id/cab5311a-764a-409c-b6b0-bc1b0d429788"},"timestamp":"2024-05-25 23:24:54"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id":"cab5311a-764a-409c-b6b0-bc1b0d429788"},"query":{},"url":"/file/id/cab5311a-764a-409c-b6b0-bc1b0d429788"},"timestamp":"2024-05-25 23:24:55"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/search"},"timestamp":"2024-05-25 23:24:58"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/search"},"timestamp":"2024-05-25 23:24:58"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/image/id/cab5311a-764a-409c-b6b0-bc1b0d429788"},"timestamp":"2024-05-25 23:25:15"}
+{"level":"error","message":{"body":"","error":"Cannot read properties of null (reading 'id')","method":"DELETE","params":{},"query":"","url":"/image/id/cab5311a-764a-409c-b6b0-bc1b0d429788"},"timestamp":"2024-05-25 23:25:16"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/id/5869c40f-8292-4b64-8b57-78a3355fd852"},"timestamp":"2024-05-25 23:28:32"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id":"5869c40f-8292-4b64-8b57-78a3355fd852"},"query":{},"url":"/image/id/5869c40f-8292-4b64-8b57-78a3355fd852"},"timestamp":"2024-05-25 23:28:33"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/id/cab5311a-764a-409c-b6b0-bc1b0d429788"},"timestamp":"2024-05-25 23:36:18"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id":"cab5311a-764a-409c-b6b0-bc1b0d429788"},"query":{},"url":"/file/id/cab5311a-764a-409c-b6b0-bc1b0d429788"},"timestamp":"2024-05-25 23:36:19"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/id/cab5311a-764a-409c-b6b0-bc1b0d429788"},"timestamp":"2024-05-25 23:36:42"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id":"cab5311a-764a-409c-b6b0-bc1b0d429788"},"query":{},"url":"/file/id/cab5311a-764a-409c-b6b0-bc1b0d429788"},"timestamp":"2024-05-25 23:36:43"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/id/cab5311a-764a-409c-b6b0-bc1b0d429788"},"timestamp":"2024-05-25 23:36:52"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id":"cab5311a-764a-409c-b6b0-bc1b0d429788"},"query":{},"url":"/file/id/cab5311a-764a-409c-b6b0-bc1b0d429788"},"timestamp":"2024-05-25 23:36:52"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/id/cab5311a-764a-409c-b6b0-bc1b0d429788"},"timestamp":"2024-05-25 23:39:39"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id":"cab5311a-764a-409c-b6b0-bc1b0d429788"},"query":{},"url":"/file/id/cab5311a-764a-409c-b6b0-bc1b0d429788"},"timestamp":"2024-05-25 23:39:40"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/image/id/cab5311a-764a-409c-b6b0-bc1b0d429788"},"timestamp":"2024-05-25 23:39:59"}
+{"level":"error","message":{"body":"","error":"Cannot read properties of null (reading 'id')","method":"DELETE","params":{},"query":"","url":"/image/id/cab5311a-764a-409c-b6b0-bc1b0d429788"},"timestamp":"2024-05-25 23:40:00"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/image/id/cab5311a-764a-409c-b6b0-bc1b0d429788"},"timestamp":"2024-05-25 23:42:47"}
+{"level":"error","message":{"body":"","error":"Cannot read properties of null (reading 'id')","method":"DELETE","params":{},"query":"","url":"/image/id/cab5311a-764a-409c-b6b0-bc1b0d429788"},"timestamp":"2024-05-25 23:42:47"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/image/id/cab5311a-764a-409c-b6b0-bc1b0d429788"},"timestamp":"2024-05-25 23:45:40"}
+{"level":"error","message":{"body":"","error":"Cannot read properties of null (reading 'id')","method":"DELETE","params":{},"query":"","url":"/image/id/cab5311a-764a-409c-b6b0-bc1b0d429788"},"timestamp":"2024-05-25 23:45:41"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/image/id/cab5311a-764a-409c-b6b0-bc1b0d429788"},"timestamp":"2024-05-25 23:46:39"}
+{"level":"error","message":{"body":"","error":"Cannot read properties of null (reading 'id')","method":"DELETE","params":{},"query":"","url":"/image/id/cab5311a-764a-409c-b6b0-bc1b0d429788"},"timestamp":"2024-05-25 23:46:40"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/image/id/cab5311a-764a-409c-b6b0-bc1b0d429788"},"timestamp":"2024-05-25 23:49:14"}
+{"level":"error","message":{"body":"","error":"Cannot read properties of null (reading 'id')","method":"DELETE","params":{},"query":"","url":"/image/id/cab5311a-764a-409c-b6b0-bc1b0d429788"},"timestamp":"2024-05-25 23:49:15"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/file/id/cab5311a-764a-409c-b6b0-bc1b0d429788"},"timestamp":"2024-05-25 23:54:44"}
+{"level":"error","message":{"body":"","error":"ENOENT: no such file or directory, unlink 'C:\\Users\\esteb\\OneDrive\\Documentos\\Workspace\\findamate-app\\api\\public\\uploads\\files\\cab5311a-764a-409c-b6b0-bc1b0d429788.pdf'","method":"DELETE","params":{},"query":"","url":"/file/id/cab5311a-764a-409c-b6b0-bc1b0d429788"},"timestamp":"2024-05-25 23:54:45"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/file/id/cab5311a-764a-409c-b6b0-bc1b0d429788"},"timestamp":"2024-05-25 23:58:21"}
+{"level":"error","message":{"body":"","error":"ENOENT: no such file or directory, unlink 'C:\\Users\\esteb\\OneDrive\\Documentos\\Workspace\\findamate-app\\api\\public\\uploads\\files\\undefined.pdf'","method":"DELETE","params":{},"query":"","url":"/file/id/cab5311a-764a-409c-b6b0-bc1b0d429788"},"timestamp":"2024-05-25 23:58:22"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/file/id/cab5311a-764a-409c-b6b0-bc1b0d429788"},"timestamp":"2024-05-26 00:00:51"}
+{"level":"error","message":{"body":"","error":"ENOENT: no such file or directory, unlink 'C:\\Users\\esteb\\OneDrive\\Documentos\\Workspace\\findamate-app\\api\\public\\uploads\\files\\undefined'","method":"DELETE","params":{},"query":"","url":"/file/id/cab5311a-764a-409c-b6b0-bc1b0d429788"},"timestamp":"2024-05-26 00:00:51"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/file/id/cab5311a-764a-409c-b6b0-bc1b0d429788"},"timestamp":"2024-05-26 00:01:30"}
+{"level":"error","message":{"body":"","error":"ENOENT: no such file or directory, unlink 'C:\\Users\\esteb\\OneDrive\\Documentos\\Workspace\\findamate-app\\api\\public\\uploads\\files\\undefined'","method":"DELETE","params":{},"query":"","url":"/file/id/cab5311a-764a-409c-b6b0-bc1b0d429788"},"timestamp":"2024-05-26 00:01:31"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/file/id/cab5311a-764a-409c-b6b0-bc1b0d429788"},"timestamp":"2024-05-26 00:03:22"}
+{"level":"error","message":{"body":"","error":"ENOENT: no such file or directory, unlink 'C:\\Users\\esteb\\OneDrive\\Documentos\\Workspace\\findamate-app\\api\\public\\uploads\\files\\undefined'","method":"DELETE","params":{},"query":"","url":"/file/id/cab5311a-764a-409c-b6b0-bc1b0d429788"},"timestamp":"2024-05-26 00:03:23"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/file/id/cab5311a-764a-409c-b6b0-bc1b0d429788"},"timestamp":"2024-05-26 00:04:01"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{"id":"cab5311a-764a-409c-b6b0-bc1b0d429788"},"query":"","url":"/file/id/cab5311a-764a-409c-b6b0-bc1b0d429788"},"timestamp":"2024-05-26 00:04:02"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/image/id/860a6d60-d9af-4b89-83cc-a37c0fb558a2"},"timestamp":"2024-05-26 00:05:52"}
+{"level":"error","message":{"body":"","error":"Cannot read properties of null (reading 'id')","method":"DELETE","params":{},"query":"","url":"/image/id/860a6d60-d9af-4b89-83cc-a37c0fb558a2"},"timestamp":"2024-05-26 00:05:52"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/image/id/5869c40f-8292-4b64-8b57-78a3355fd852"},"timestamp":"2024-05-26 00:06:11"}
+{"level":"error","message":{"body":"","error":"ENOENT: no such file or directory, unlink 'C:\\Users\\esteb\\OneDrive\\Documentos\\Workspace\\findamate-app\\api\\public\\uploads\\images\\5869c40f-8292-4b64-8b57-78a3355fd852.jpg'","method":"DELETE","params":{},"query":"","url":"/image/id/5869c40f-8292-4b64-8b57-78a3355fd852"},"timestamp":"2024-05-26 00:06:11"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-05-26 00:06:34"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-05-26 00:06:35"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/id/5869c40f-8292-4b64-8b57-78a3355fd852"},"timestamp":"2024-05-26 00:06:39"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id":"5869c40f-8292-4b64-8b57-78a3355fd852"},"query":{},"url":"/image/id/5869c40f-8292-4b64-8b57-78a3355fd852"},"timestamp":"2024-05-26 00:06:39"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/image/id/5869c40f-8292-4b64-8b57-78a3355fd852"},"timestamp":"2024-05-26 00:07:07"}
+{"level":"error","message":{"body":"","error":"ENOENT: no such file or directory, unlink 'C:\\Users\\esteb\\OneDrive\\Documentos\\Workspace\\findamate-app\\api\\public\\uploads\\images\\5869c40f-8292-4b64-8b57-78a3355fd852.jpg'","method":"DELETE","params":{},"query":"","url":"/image/id/5869c40f-8292-4b64-8b57-78a3355fd852"},"timestamp":"2024-05-26 00:07:08"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-05-26 00:10:09"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-05-26 00:10:10"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/image/id/5869c40f-8292-4b64-8b57-78a3355fd852"},"timestamp":"2024-05-26 00:10:14"}
+{"level":"error","message":{"body":"","error":"ENOENT: no such file or directory, unlink 'C:\\Users\\esteb\\OneDrive\\Documentos\\Workspace\\findamate-app\\api\\public\\uploads\\images\\5869c40f-8292-4b64-8b57-78a3355fd852.jpg'","method":"DELETE","params":{},"query":"","url":"/image/id/5869c40f-8292-4b64-8b57-78a3355fd852"},"timestamp":"2024-05-26 00:10:14"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/image/id/5869c40f-8292-4b64-8b57-78a3355fd852"},"timestamp":"2024-05-26 00:12:31"}
+{"level":"error","message":{"body":"","error":"ENOENT: no such file or directory, unlink 'C:\\Users\\esteb\\OneDrive\\Documentos\\Workspace\\findamate-app\\api\\public\\uploads\\images\\5869c40f-8292-4b64-8b57-78a3355fd852.jpg'","method":"DELETE","params":{},"query":"","url":"/image/id/5869c40f-8292-4b64-8b57-78a3355fd852"},"timestamp":"2024-05-26 00:12:32"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/image/id/5869c40f-8292-4b64-8b57-78a3355fd852"},"timestamp":"2024-05-26 00:14:22"}
+{"level":"error","message":{"body":"","error":"ENOENT: no such file or directory, unlink 'C:\\Users\\esteb\\OneDrive\\Documentos\\Workspace\\findamate-app\\api\\public\\uploads\\images\\5869c40f-8292-4b64-8b57-78a3355fd852.jpg'","method":"DELETE","params":{},"query":"","url":"/image/id/5869c40f-8292-4b64-8b57-78a3355fd852"},"timestamp":"2024-05-26 00:14:23"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/image/id/5869c40f-8292-4b64-8b57-78a3355fd852"},"timestamp":"2024-05-26 00:15:07"}
+{"level":"error","message":{"body":"","error":"ENOENT: no such file or directory, unlink 'C:\\Users\\esteb\\OneDrive\\Documentos\\Workspace\\findamate-app\\api\\public\\uploads\\images\\5869c40f-8292-4b64-8b57-78a3355fd852.jpg'","method":"DELETE","params":{},"query":"","url":"/image/id/5869c40f-8292-4b64-8b57-78a3355fd852"},"timestamp":"2024-05-26 00:15:08"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/image/id/5869c40f-8292-4b64-8b57-78a3355fd852"},"timestamp":"2024-05-26 00:18:28"}
+{"level":"error","message":{"body":"","error":"ENOENT: no such file or directory, unlink 'C:\\Users\\esteb\\OneDrive\\Documentos\\Workspace\\findamate-app\\api\\public\\uploads\\images\\5869c40f-8292-4b64-8b57-78a3355fd852.jpg'","method":"DELETE","params":{},"query":"","url":"/image/id/5869c40f-8292-4b64-8b57-78a3355fd852"},"timestamp":"2024-05-26 00:18:28"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-26 00:20:00"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-26 00:20:01"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/image/id/e2c317a0-e50e-4274-b132-6d00a3603cb6"},"timestamp":"2024-05-26 00:20:20"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{"id":"e2c317a0-e50e-4274-b132-6d00a3603cb6"},"query":"","url":"/image/id/e2c317a0-e50e-4274-b132-6d00a3603cb6"},"timestamp":"2024-05-26 00:20:21"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-26 00:21:23"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-05-26 00:21:24"}
+{"level":"info","message":{"body":"","method":"PUT","params":{},"query":"","url":"/video/like/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-26 01:13:33"}
+{"level":"error","message":{"body":"","error":"relation \"like_video\" does not exist","method":"PUT","params":{},"query":"","url":"/video/like/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-26 01:13:34"}
+{"level":"info","message":{"body":"","method":"PUT","params":{},"query":"","url":"/video/like/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-26 01:14:51"}
+{"level":"error","message":{"body":"","error":"column \"updated_at\" of relation \"like_video\" does not exist","method":"PUT","params":{},"query":"","url":"/video/like/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-26 01:14:52"}
+{"level":"info","message":{"body":"","method":"PUT","params":{},"query":"","url":"/video/like/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-26 01:15:56"}
+{"level":"error","message":{"body":"","error":"relation \"person\" does not exist","method":"PUT","params":{},"query":"","url":"/video/like/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-26 01:15:57"}
+{"level":"info","message":{"body":"","method":"PUT","params":{},"query":"","url":"/video/like/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-26 01:18:05"}
+{"level":"error","message":{"body":"","error":"syntax error at end of input","method":"PUT","params":{},"query":"","url":"/video/like/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-26 01:18:06"}
+{"level":"info","message":{"body":"","method":"PUT","params":{},"query":"","url":"/video/like/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-26 01:19:02"}
+{"level":"error","message":{"body":"","error":"column v.id_video does not exist","method":"PUT","params":{},"query":"","url":"/video/like/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-26 01:19:03"}
+{"level":"info","message":{"body":"","method":"PUT","params":{},"query":"","url":"/video/like/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-26 01:20:44"}
+{"level":"info","message":{"body":"","method":"PUT","params":{"idPerson":"64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"query":"","url":"/video/like/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-26 01:20:45"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/video/like/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-26 01:23:07"}
+{"level":"error","message":{"body":"","error":"Not found","method":"DELETE","params":{},"query":"","url":"/video/like/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-26 01:23:07"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/video/dislike/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-26 01:23:21"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{"idPerson":"64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"query":"","url":"/video/dislike/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-26 01:23:22"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/video/dislike/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-26 01:25:17"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{"idPerson":"64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"query":"","url":"/video/dislike/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-26 01:25:18"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/video/dislike/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-26 01:25:32"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{"idPerson":"64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"query":"","url":"/video/dislike/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-26 01:25:33"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/video/dislike/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-26 01:25:44"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{"idPerson":"64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"query":"","url":"/video/dislike/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-26 01:25:45"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/video/dislike/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-26 01:26:34"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{"idPerson":"64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"query":"","url":"/video/dislike/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-26 01:26:34"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/video/dislike/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-26 01:27:23"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{"idPerson":"64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"query":"","url":"/video/dislike/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-26 01:27:24"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/video/dislike/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-26 01:27:58"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{"idPerson":"64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"query":"","url":"/video/dislike/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-26 01:27:59"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/video/dislike/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-26 01:29:28"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{"idPerson":"64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"query":"","url":"/video/dislike/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-26 01:29:29"}
+{"level":"info","message":{"body":"","method":"PUT","params":{},"query":"","url":"/video/comment/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-26 01:44:52"}
+{"level":"error","message":{"body":"","error":"column \"comment\" of relation \"comment_video\" does not exist","method":"PUT","params":{},"query":"","url":"/video/comment/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-26 01:44:53"}
+{"level":"info","message":{"body":"","method":"PUT","params":{},"query":"","url":"/video/comment/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-26 01:47:59"}
+{"level":"info","message":{"body":"","method":"PUT","params":{"idPerson":"64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"query":"","url":"/video/comment/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-26 01:48:00"}
+{"level":"info","message":{"body":"","method":"PUT","params":{},"query":"","url":"/video/comment/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-26 01:48:49"}
+{"level":"info","message":{"body":"","method":"PUT","params":{"idPerson":"64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"query":"","url":"/video/comment/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-26 01:48:50"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/video/comment/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-26 01:50:32"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{"idPerson":"64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"query":"","url":"/video/comment/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-26 01:50:32"}
+{"level":"info","message":{"body":"","method":"PUT","params":{},"query":"","url":"/video/comment/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-26 01:50:51"}
+{"level":"info","message":{"body":"","method":"PUT","params":{"idPerson":"64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"query":"","url":"/video/comment/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-26 01:50:51"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/video/comment/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-26 01:51:31"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{"idPerson":"64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"query":"","url":"/video/comment/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-05-26 01:51:32"}
