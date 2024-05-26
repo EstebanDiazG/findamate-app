@@ -15,6 +15,8 @@ import rolRoutes from "./routes/rol";
 import actionRoutes from "./routes/action";
 import imageRoutes from "./routes/image";
 import studyGroupRoutes from "./routes/studyGroup";
+import topicRoutes from "./routes/topic";
+import messageTopicRoutes from "./routes/messageTopic";
 
 //database
 pool.connect((err) => {
@@ -43,6 +45,8 @@ app.use("/rol", rolRoutes);
 app.use("/action", actionRoutes);
 app.use("/image", imageRoutes);
 app.use("/study-group", studyGroupRoutes);
+app.use("/topic", topicRoutes);
+app.use("/message_topic", messageTopicRoutes);
 
 
 

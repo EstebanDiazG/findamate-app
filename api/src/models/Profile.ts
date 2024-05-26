@@ -96,18 +96,18 @@ class Profile{
           [id]
         );
         return response.rows[0] || null;
-      };
+    };
 
-      static update = async (id: string, description: string): Promise<Profile | null> => {
-        const response = await connection.query(
-           `UPDATE app.profile 
-            SET description = $2
-            WHERE id = $1
-            RETURNING description AS "descripcion"`,
-            [id, description]
-        );
-    
-        return response.rows[0] || null;
+    static update = async (id: string, description: string): Promise<Profile | null> => {
+    const response = await connection.query(
+        `UPDATE app.profile 
+        SET description = $2
+        WHERE id = $1
+        RETURNING description AS "descripcion"`,
+        [id, description]
+    );
+
+    return response.rows[0] || null;
     };    
 }
 
