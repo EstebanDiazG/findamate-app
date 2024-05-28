@@ -1,0 +1,34 @@
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/video/id/f83ddfc2-f90e-420f-a09b-dfaab7a4a8e4"},"timestamp":"2024-05-27 21:06:12"}
+{"level":"error","message":{"body":"","error":"column \"id\" does not exist","method":"GET","params":{},"query":{},"url":"/video/id/f83ddfc2-f90e-420f-a09b-dfaab7a4a8e4"},"timestamp":"2024-05-27 21:06:13"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/video/id/f83ddfc2-f90e-420f-a09b-dfaab7a4a8e4"},"timestamp":"2024-05-27 21:09:54"}
+{"level":"error","message":{"body":"","error":"column \"id\" does not exist","method":"GET","params":{},"query":{},"url":"/video/id/f83ddfc2-f90e-420f-a09b-dfaab7a4a8e4"},"timestamp":"2024-05-27 21:09:55"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/video/"},"timestamp":"2024-05-27 21:09:58"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/video/"},"timestamp":"2024-05-27 21:09:58"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/video/id/e8e80d6c-e6c7-4c5a-9a2f-065f567c9c32"},"timestamp":"2024-05-27 21:10:24"}
+{"level":"error","message":{"body":"","error":"column \"id\" does not exist","method":"GET","params":{},"query":{},"url":"/video/id/e8e80d6c-e6c7-4c5a-9a2f-065f567c9c32"},"timestamp":"2024-05-27 21:10:25"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/video/id/e8e80d6c-e6c7-4c5a-9a2f-065f567c9c32"},"timestamp":"2024-05-27 21:11:43"}
+{"level":"error","message":{"body":"","error":"column \"id\" does not exist","method":"GET","params":{},"query":{},"url":"/video/id/e8e80d6c-e6c7-4c5a-9a2f-065f567c9c32"},"timestamp":"2024-05-27 21:11:44"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/video/"},"timestamp":"2024-05-27 21:11:53"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/video/"},"timestamp":"2024-05-27 21:11:54"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/video/id/e8e80d6c-e6c7-4c5a-9a2f-065f567c9c32"},"timestamp":"2024-05-27 21:12:01"}
+{"level":"error","message":{"body":"","error":"column \"id\" does not exist","method":"GET","params":{},"query":{},"url":"/video/id/e8e80d6c-e6c7-4c5a-9a2f-065f567c9c32"},"timestamp":"2024-05-27 21:12:01"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/video/id/e8e80d6c-e6c7-4c5a-9a2f-065f567c9c32"},"timestamp":"2024-05-27 21:14:12"}
+{"level":"error","message":{"body":"","error":"column \"id\" does not exist","method":"GET","params":{},"query":{},"url":"/video/id/e8e80d6c-e6c7-4c5a-9a2f-065f567c9c32"},"timestamp":"2024-05-27 21:14:13"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/video/id/e8e80d6c-e6c7-4c5a-9a2f-065f567c9c32"},"timestamp":"2024-05-27 21:14:14"}
+{"level":"error","message":{"body":"","error":"column \"id\" does not exist","method":"GET","params":{},"query":{},"url":"/video/id/e8e80d6c-e6c7-4c5a-9a2f-065f567c9c32"},"timestamp":"2024-05-27 21:14:15"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/video/id/e8e80d6c-e6c7-4c5a-9a2f-065f567c9c32"},"timestamp":"2024-05-27 21:17:23"}
+{"level":"error","message":{"body":"","error":"column \"id\" does not exist","method":"GET","params":{},"query":{},"url":"/video/id/e8e80d6c-e6c7-4c5a-9a2f-065f567c9c32"},"timestamp":"2024-05-27 21:17:24"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/video/id/e8e80d6c-e6c7-4c5a-9a2f-065f567c9c32"},"timestamp":"2024-05-27 21:19:22"}
+{"level":"error","message":{"body":"","error":"column \"create_at\" does not exist","method":"GET","params":{},"query":{},"url":"/video/id/e8e80d6c-e6c7-4c5a-9a2f-065f567c9c32"},"timestamp":"2024-05-27 21:19:23"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/video/id/e8e80d6c-e6c7-4c5a-9a2f-065f567c9c32"},"timestamp":"2024-05-27 21:19:38"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id":"e8e80d6c-e6c7-4c5a-9a2f-065f567c9c32"},"query":{},"url":"/video/id/e8e80d6c-e6c7-4c5a-9a2f-065f567c9c32"},"timestamp":"2024-05-27 21:19:39"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/video/id/f83ddfc2-f90e-420f-a09b-dfaab7a4a8e4"},"timestamp":"2024-05-27 21:20:01"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id":"f83ddfc2-f90e-420f-a09b-dfaab7a4a8e4"},"query":{},"url":"/video/id/f83ddfc2-f90e-420f-a09b-dfaab7a4a8e4"},"timestamp":"2024-05-27 21:20:02"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/video/id/f83ddfc2-f90e-420f-a09b-dfaab7a4a8e4"},"timestamp":"2024-05-27 21:20:38"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id":"f83ddfc2-f90e-420f-a09b-dfaab7a4a8e4"},"query":{},"url":"/video/id/f83ddfc2-f90e-420f-a09b-dfaab7a4a8e4"},"timestamp":"2024-05-27 21:20:39"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/video/id/f83ddfc2-f90e-420f-a09b-dfaab7a4a8e4"},"timestamp":"2024-05-27 21:21:00"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id":"f83ddfc2-f90e-420f-a09b-dfaab7a4a8e4"},"query":{},"url":"/video/id/f83ddfc2-f90e-420f-a09b-dfaab7a4a8e4"},"timestamp":"2024-05-27 21:21:01"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic/"},"timestamp":"2024-05-27 21:21:40"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic/"},"timestamp":"2024-05-27 21:21:40"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/video/id/e8e80d6c-e6c7-4c5a-9a2f-065f567c9c32"},"timestamp":"2024-05-27 21:23:44"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id":"e8e80d6c-e6c7-4c5a-9a2f-065f567c9c32"},"query":{},"url":"/video/id/e8e80d6c-e6c7-4c5a-9a2f-065f567c9c32"},"timestamp":"2024-05-27 21:23:45"}

@@ -43,7 +43,6 @@ class Video {
     if (video) {
       const commentsQuery = await connection.query(
         `SELECT
-                id,
                 id_person AS "idPerson",
                 id_video AS "idVideo",
                 content,
@@ -56,7 +55,7 @@ class Video {
       );
 
       const likesQuery = await connection.query(
-        `SELECT COUNT(id) AS "likesCount"
+        `SELECT COUNT(created_at) AS "likesCount"
             FROM app.like_video
             WHERE id_video = $1 AND deleted_at IS NULL`,
         [id]
