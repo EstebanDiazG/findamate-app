@@ -1,4 +1,4 @@
-import { Request, Response, NextFunction } from 'express';
+import { Request, Response, NextFunction } from "express";
 import boom from "@hapi/boom";
 import bcrypt from "bcrypt";
 
@@ -16,6 +16,7 @@ import {
 
 import User from "../models/User";
 import UserRol from "../models/UserRol";
+import Person from "../models/Person";
 
 const getAll = async (
   req: Request,
@@ -105,8 +106,9 @@ const deleteById = async (req: Request, res: Response, next: NextFunction) => {
       return next(boom.badRequest(schemaValidate.error));
     }
     const { id } = schemaValidate.value;
-    const response = await User.deleteById(id);
-    sendResponse(req, res, response);
+    const userResponse = await User.deleteById(id);
+    const personResponse = await Person.deleteById(id);
+    sendResponse(req, res, { user: userResponse, person: personResponse });
   } catch (err: any) {
     return next(boom.badImplementation(err));
   }
@@ -211,4 +213,3 @@ export {
   assignRol,
   removeRol,
 };
-
