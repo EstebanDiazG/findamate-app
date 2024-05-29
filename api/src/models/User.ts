@@ -40,7 +40,15 @@ class User {
       per.name,
       per.paternal_lastname AS "paternalLastName", 
       per.maternal_lastname AS "maternalLastName",
-      per.email              
+      per.email,
+      (
+        SELECT json_agg(json_build_object('id', rol.id, 'name', rol.name , 'code', rol.code))
+        FROM app.user_rol uro
+        INNER JOIN app.rol rol ON uro.rol_id = rol.id
+        WHERE use.id = uro.user_id 
+        AND uro.deleted_at IS NULL
+    ) AS roles
+                 
     FROM 
         app.user use
     LEFT JOIN 
@@ -127,12 +135,19 @@ class User {
 
   static deleteById = async (id: string): Promise<User | null> => {
     const response = await connection.query(
-      `UPDATE app.user 
-                 SET deleted_at = now()
-                 WHERE id = $1
-                 RETURNING id, deleted_at AS "deletedAt"`,
+      `WITH updated_user AS (
+           UPDATE app.user 
+           SET deleted_at = now()
+           WHERE id = $1
+           RETURNING id, person_id
+         )
+         UPDATE app.person 
+         SET deleted_at = now()
+         WHERE id IN (SELECT person_id FROM updated_user)
+        `,
       [id]
     );
+
     return response.rows[0] || null;
   };
 

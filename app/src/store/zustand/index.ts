@@ -1,3 +1,4 @@
 import { personStore } from "./personStore";
+import { userStore } from "./userStore";
 
-export { personStore };
+export { personStore, userStore };
