@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import { useUser } from "@/store/hooks";
 import { IUser, IRol } from "@/interfaces/user";
 import style from "./Login.module.scss";
+import { useRouter } from "next/router";
+import Link from "next/link";
 
 const Login = () => {
   const { user, userList, isError, error, userValidate } = useUser();
@@ -22,6 +24,7 @@ const Login = () => {
   };
 
   const [formLogin, setFormLogin] = useState<IUser>(initialDataUser);
+  const router = useRouter();
 
   const handleOnChangeEmail = (e: React.ChangeEvent<HTMLInputElement>) => {
     setFormLogin({ ...formLogin, email: e.target.value });
@@ -34,6 +37,7 @@ const Login = () => {
   const handleValidate = async () => {
     try {
       await userValidate(formLogin.email, formLogin.password);
+      router.push("/user"); // Redirige a la página /user
     } catch (error) {
       const err = error as Error;
       console.error(err);
@@ -69,7 +73,9 @@ const Login = () => {
               <button className={style.button} onClick={handleValidate}>
                 Ingresar
               </button>
-              <button className={style.button}>Registrar</button>
+              <Link href="/register">
+                <button className={style.button}>Registrar</button>
+              </Link>
             </div>
           </div>
         </div>
