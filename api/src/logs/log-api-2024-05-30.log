@@ -1,0 +1,46 @@
+{"level":"info","message":{"body":{"email":"","password":""},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-05-29 20:34:19"}
+{"level":"error","message":{"body":{"email":"","password":""},"error":"\"email\" is not allowed to be empty","method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-05-29 20:34:19"}
+{"level":"info","message":{"body":{"email":"Katherine@gmail.com","password":"nicol12345"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-05-29 20:35:41"}
+{"level":"info","message":{"body":{"email":"Katherine@gmail.com","password":"nicol12345"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-05-29 20:35:42"}
+{"level":"info","message":{"body":{"email":"Katherine@gmail.com","password":"nicol12345"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-05-29 20:36:12"}
+{"level":"info","message":{"body":{"email":"Katherine@gmail.com","password":"nicol12345"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-05-29 20:36:13"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/person"},"timestamp":"2024-05-29 20:36:13"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/person"},"timestamp":"2024-05-29 20:36:13"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/person"},"timestamp":"2024-05-29 20:36:13"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/person"},"timestamp":"2024-05-29 20:36:13"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/person"},"timestamp":"2024-05-29 20:36:13"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/person"},"timestamp":"2024-05-29 20:36:13"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/person"},"timestamp":"2024-05-29 20:36:13"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/person"},"timestamp":"2024-05-29 20:36:14"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile/"},"timestamp":"2024-05-29 20:59:31"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile/"},"timestamp":"2024-05-29 20:59:32"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile/id/498af297-ce80-4bae-abc2-d3a795a542bd"},"timestamp":"2024-05-29 21:00:59"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id":"498af297-ce80-4bae-abc2-d3a795a542bd"},"query":{},"url":"/profile/id/498af297-ce80-4bae-abc2-d3a795a542bd"},"timestamp":"2024-05-29 21:01:00"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile/id_person/06f9530e-67de-41d9-a693-0e67ab347fc2"},"timestamp":"2024-05-29 21:01:07"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id_person":"06f9530e-67de-41d9-a693-0e67ab347fc2"},"query":{},"url":"/profile/id_person/06f9530e-67de-41d9-a693-0e67ab347fc2"},"timestamp":"2024-05-29 21:01:08"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile/"},"timestamp":"2024-05-29 21:35:41"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile/"},"timestamp":"2024-05-29 21:35:42"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/person"},"timestamp":"2024-05-29 21:42:50"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/person"},"timestamp":"2024-05-29 21:42:51"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/person"},"timestamp":"2024-05-29 21:42:51"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/person"},"timestamp":"2024-05-29 21:42:51"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/person"},"timestamp":"2024-05-29 21:52:17"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/person"},"timestamp":"2024-05-29 21:52:18"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/person"},"timestamp":"2024-05-29 21:52:18"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/person"},"timestamp":"2024-05-29 21:52:18"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/person/rut/"},"timestamp":"2024-05-29 22:08:05"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/person/rut/"},"timestamp":"2024-05-29 22:08:05"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/person/rut/"},"timestamp":"2024-05-29 22:08:11"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/person/rut/"},"timestamp":"2024-05-29 22:08:11"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/person/rut/"},"timestamp":"2024-05-29 22:09:04"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/person/rut/"},"timestamp":"2024-05-29 22:09:04"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/person/rut/"},"timestamp":"2024-05-29 22:09:05"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/person/rut/"},"timestamp":"2024-05-29 22:09:05"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/person/rut/"},"timestamp":"2024-05-29 22:10:34"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/person/rut/"},"timestamp":"2024-05-29 22:10:34"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/person/rut/"},"timestamp":"2024-05-29 22:10:37"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/person/rut/"},"timestamp":"2024-05-29 22:10:37"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/person/rut/"},"timestamp":"2024-05-29 22:15:37"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/person/rut/"},"timestamp":"2024-05-29 22:15:37"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/person/rut/"},"timestamp":"2024-05-29 22:42:20"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/person/rut/"},"timestamp":"2024-05-29 22:42:20"}
