@@ -10,6 +10,9 @@ import Input from "@/components/ui/Input";
 import Button from "@/components/ui/Button";
 import LogoLarge from "@/components/ui/LogoLarge";
 import TableCell from "@/components/ui/TableCell";
+import { useRouter } from "next/router";
+import Link from "next/link";
+
 
 const Login = () => {
   const { user, userList, isError, error, userValidate } = useUser();
@@ -30,6 +33,7 @@ const Login = () => {
   };
 
   const [formLogin, setFormLogin] = useState<IUser>(initialDataUser);
+  const router = useRouter();
 
   const handleOnChangeEmail = (e: React.ChangeEvent<HTMLInputElement>) => {
     setFormLogin({ ...formLogin, email: e.target.value });
@@ -42,6 +46,7 @@ const Login = () => {
   const handleValidate = async () => {
     try {
       await userValidate(formLogin.email, formLogin.password);
+      router.push("/user"); // Redirige a la página /user
     } catch (error) {
       const err = error as Error;
       console.error(err);
@@ -50,6 +55,7 @@ const Login = () => {
   };
 
   return userList ? (
+
     <Background imageUrl="/image/background2.png">
       <div className={style.logoContainer}>
         <LogoLarge width="20" height="30" />
@@ -107,6 +113,7 @@ const Login = () => {
             </ContentCol>
           
           </Box>
+
       </div>
   
     </Background>

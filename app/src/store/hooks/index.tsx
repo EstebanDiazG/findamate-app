@@ -1,3 +1,4 @@
 import usePerson from "./usePerson";
 import useUser from "./useUser";
-export { usePerson, useUser };
+import useProfile from "./useProfile";
+export { usePerson, useUser, useProfile };
