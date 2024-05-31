@@ -1,3 +1,37 @@
+
+{"level":"info","message":{"body":{"email":"Katherine@gmail.com","password":"nicole12345"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-05-29 21:28:19"}
+{"level":"info","message":{"body":{"email":"Katherine@gmail.com","password":"nicole12345"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-05-29 21:28:20"}
+{"level":"info","message":{"body":{"email":"Katherine@gmail.com","password":"nicol12345"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-05-29 21:28:57"}
+{"level":"info","message":{"body":{"email":"Katherine@gmail.com","password":"nicol12345"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-05-29 21:28:57"}
+{"level":"info","message":{"body":{"email":"","password":""},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-05-29 22:18:17"}
+{"level":"error","message":{"body":{"email":"","password":""},"error":"\"email\" is not allowed to be empty","method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-05-29 22:18:17"}
+{"level":"info","message":{"body":{"email":"","password":""},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-05-29 23:36:31"}
+{"level":"error","message":{"body":{"email":"","password":""},"error":"\"email\" is not allowed to be empty","method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-05-29 23:36:31"}
+{"level":"info","message":{"body":{"email":"","password":""},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-05-29 23:37:28"}
+{"level":"error","message":{"body":{"email":"","password":""},"error":"\"email\" is not allowed to be empty","method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-05-29 23:37:28"}
+{"level":"info","message":{"body":{"email":"","password":""},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-05-29 23:50:11"}
+{"level":"error","message":{"body":{"email":"","password":""},"error":"\"email\" is not allowed to be empty","method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-05-29 23:50:11"}
+{"level":"info","message":{"body":{"email":"","password":""},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-05-29 23:52:18"}
+{"level":"error","message":{"body":{"email":"","password":""},"error":"\"email\" is not allowed to be empty","method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-05-29 23:52:18"}
+{"level":"info","message":{"body":{"email":"","password":""},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-05-29 23:55:41"}
+{"level":"error","message":{"body":{"email":"","password":""},"error":"\"email\" is not allowed to be empty","method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-05-29 23:55:41"}
+{"level":"info","message":{"body":{"email":"","password":""},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-05-29 23:59:50"}
+{"level":"error","message":{"body":{"email":"","password":""},"error":"\"email\" is not allowed to be empty","method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-05-29 23:59:50"}
+{"level":"info","message":{"body":{"email":"","password":""},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-05-30 00:05:42"}
+{"level":"error","message":{"body":{"email":"","password":""},"error":"\"email\" is not allowed to be empty","method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-05-30 00:05:42"}
+{"level":"info","message":{"body":{"email":"","password":""},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-05-30 00:26:48"}
+{"level":"error","message":{"body":{"email":"","password":""},"error":"\"email\" is not allowed to be empty","method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-05-30 00:26:48"}
+{"level":"info","message":{"body":{"email":"","password":""},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-05-30 00:30:35"}
+{"level":"error","message":{"body":{"email":"","password":""},"error":"\"email\" is not allowed to be empty","method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-05-30 00:30:35"}
+{"level":"info","message":{"body":{"email":"Katherine@gmail.com","password":"nicol12345"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-05-30 00:33:40"}
+{"level":"info","message":{"body":{"email":"Katherine@gmail.com","password":"nicol12345"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-05-30 00:33:41"}
+{"level":"info","message":{"body":{"email":"Katherine@gmail.com","password":"nicol12345"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-05-30 00:45:56"}
+{"level":"info","message":{"body":{"email":"Katherine@gmail.com","password":"nicol12345"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-05-30 00:45:57"}
+{"level":"info","message":{"body":{"email":"Katherine@gmail.com","password":"nicol12345"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-05-30 01:04:14"}
+{"level":"info","message":{"body":{"email":"Katherine@gmail.com","password":"nicol12345"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-05-30 01:04:15"}
+{"level":"info","message":{"body":{"email":"Katherine@gmail.com","password":"nicol12345"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-05-30 01:18:54"}
+{"level":"info","message":{"body":{"email":"Katherine@gmail.com","password":"nicol12345"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-05-30 01:18:55"}
+
 {"level":"info","message":{"body":{"email":"","password":""},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-05-29 20:34:19"}
 {"level":"error","message":{"body":{"email":"","password":""},"error":"\"email\" is not allowed to be empty","method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-05-29 20:34:19"}
 {"level":"info","message":{"body":{"email":"Katherine@gmail.com","password":"nicol12345"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-05-29 20:35:41"}
@@ -522,3 +556,4 @@
 {"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/user"},"timestamp":"2024-05-30 00:39:48"}
 {"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/user"},"timestamp":"2024-05-30 00:39:48"}
 {"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/user"},"timestamp":"2024-05-30 00:39:48"}
+
