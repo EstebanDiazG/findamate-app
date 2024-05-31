@@ -1,0 +1,38 @@
+.inputContainer {
+  display: flex;
+}
+
+.inputField {
+
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius:30px;
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0.18);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.8px);
+  -webkit-backdrop-filter: blur(5.8px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+
+
+  &:focus {
+    outline: none;
+    border-color: #ce2be0;
+    box-shadow: 0 0 8px rgba(150, 25, 203, 0.5);
+
+
+  }
+
+  &::placeholder {
+    color: #e7e7e7;
+    
+  }
+
+    &:hover {
+      border-color: #a42be0;
+      transform: translateY(-2px);
+
+    }
+  
+}

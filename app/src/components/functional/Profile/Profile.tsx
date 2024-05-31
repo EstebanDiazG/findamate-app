@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect } from "react";
 
 import { useProfile } from "@/store/hooks";
 
@@ -6,78 +6,78 @@ import styles from "./Profile.module.scss";
 
 import { IProfile } from "@/interfaces/profile";
 
-
 const Profile = () => {
-    const {
-        profile,
-        profileList,
-        isLoading,
-        isError,
-        error,
-        profileGetAll,
-        profileGetById,
-        profileGetByIdPerson,
-        profileUpdateDescription,
-        profileDeleteById,
-        profileReset,
-        profileResetAll,
-    } = useProfile();
+  const {
+    profile,
+    profileList,
+    isLoading,
+    isError,
+    error,
+    profileGetAll,
+    profileGetById,
+    profileGetByIdPerson,
+    profileUpdateDescription,
+    profileDeleteById,
+    profileReset,
+  } = useProfile();
 
-    const initialDataProfile = {
-        id: "",
-        description: "",
-        personID: "",
-        Name: "",
-        paternalLastName: "",
-        maternalLastName: "",
-        password: "",
-        id_imagen: "",
-        createdAt: "",
-        updatedAt: "",
-        deletedAt: "",
-    };
+  const initialDataProfile = {
+    id: "",
+    description: "",
+    personID: "",
+    Name: "",
+    paternalLastName: "",
+    maternalLastName: "",
+    password: "",
+    id_imagen: "",
+    createdAt: "",
+    updatedAt: "",
+    deletedAt: "",
+  };
 
-    const [formProfile, setFormProfile] = useState<IProfile>(initialDataProfile);
+  const [formProfile, setFormProfile] = useState<IProfile>(initialDataProfile);
 
-    const handleOnChangeid = (e: React.ChangeEvent<HTMLInputElement>) => {
-        setFormProfile({ ...initialDataProfile, id: e.target.value });
-    };
+  const handleOnChangeid = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setFormProfile({ ...initialDataProfile, id: e.target.value });
+  };
 
-    const handleOnChangeidPerson = (e: React.ChangeEvent<HTMLInputElement>) => {
-        setFormProfile({ ...initialDataProfile, personID: e.target.value });
-    };
+  const handleOnChangeidPerson = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setFormProfile({ ...formProfile, personID: e.target.value });
+  };
 
-    const handleOnChangeDescription = (e: React.ChangeEvent<HTMLInputElement>) => {
-        setFormProfile({ ...initialDataProfile, description: e.target.value });
-    };
+  const handleOnChangeDescription = (
+    e: React.ChangeEvent<HTMLInputElement>
+  ) => {
+    setFormProfile({ ...formProfile, description: e.target.value });
+  };
 
-    const handleOnBlurId = () => {
-        profileGetById(formProfile.id);
-    };
+  const handleOnBlurId = () => {
+    profileGetById(formProfile.id);
+  };
 
-    const handleOnClickClean = () => {
-        profileReset();
-    };
+  const handleOnClickClean = () => {
+    profileReset();
+  };
 
-    const handleOnClickUpdate = () => {
-        console.log("hola mundo");
-    };
+  const handleOnClickUpdate = () => {
+    profileUpdateDescription(formProfile.id, formProfile.description);
+  };
 
-    const handleOnClickDelete = () => {
-        profileDeleteById(formProfile.id);
-        profileReset();
-    };
+  const handleOnClickDelete = () => {
+    profileDeleteById(formProfile.id);
+    profileReset();
+  };
 
-    useEffect(() => {
-        profileGetAll();
-    }, [profileGetAll]);
+  useEffect(() => {
+    profileGetAll();
+  }, [profileGetAll]);
 
-    useEffect(() => {
+  useEffect(() => {
     if (profile) {
-        setFormProfile(profile);
-        profileGetAll();
+      setFormProfile(profile);
+      profileGetAll();
     }
-    }, [profile, profileGetAll]);   
+  }, [profile, profileGetAll]);
 
   return profileList ? (
     <div className={styles.container}>
@@ -163,4 +163,4 @@ const Profile = () => {
   );
 };
 
-export default Profile
+export default Profile;
