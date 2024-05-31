@@ -1,0 +1,30 @@
+.buttonIcon {
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: none;
+    background-color: transparent; /* Eliminar el fondo predeterminado */
+    outline: none;
+
+    /* No se necesita un fondo por defecto en este nivel */
+  }
+
+
+    button:hover {
+      background-color: #999999;
+      span {
+        color: #ffffff;
+      }
+    }
+  
+
+  &.buttonIcon-no-border {
+    button:hover {
+      background-color: transparent; /* Evita el fondo en hover */
+    }
+  }
+}
+
+
