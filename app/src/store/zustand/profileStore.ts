@@ -12,7 +12,13 @@ interface ProfileState {
   profileGetAll: () => void;
   profileGetById: (id: string) => void;
   profileGetByIdPerson: (id_person: string) => void;
-  profileUpdateDescription: (id: string, description: string) => void;
+  profileUpdate: (
+    id: string,
+    description: string,
+    name: string,
+    paternalLastName: string,
+    maternalLastName: string
+  ) => void;
   profileDeleteById: (id: string) => void;
   profileReset: () => void;
   profileResetAll: () => void;
@@ -21,8 +27,8 @@ interface ProfileState {
 const initialData: IProfile = {
   id: "",
   description: "",
-  personID: "",
-  Name: "",
+  personId: "",
+  name: "",
   paternalLastName: "",
   maternalLastName: "",
   password: "",
@@ -72,11 +78,20 @@ export const profileStore = create<ProfileState>((set) => ({
     }
   },
 
-  profileUpdateDescription: async (id: string, description: string) => {
+  profileUpdate: async (
+    id: string,
+    description: string,
+    name: string,
+    paternalLastName: string,
+    maternalLastName: string
+  ) => {
     try {
       set({ isLoading: true });
       const response = await apiInstance.put(`/profile/id/${id}`, {
         description,
+        name,
+        paternalLastName,
+        maternalLastName,
       });
       const { data } = response.data;
       set({ profile: data, isLoading: false });

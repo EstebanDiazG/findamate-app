@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-import { useProfile } from "@/store/hooks";
+import { useProfile, useUser } from "@/store/hooks";
 
 import styles from "./Profile.module.scss";
 
@@ -10,13 +10,9 @@ const Profile = () => {
   const {
     profile,
     profileList,
-    isLoading,
-    isError,
-    error,
     profileGetAll,
     profileGetById,
-    profileGetByIdPerson,
-    profileUpdateDescription,
+    profileUpdate,
     profileDeleteById,
     profileReset,
   } = useProfile();
@@ -24,8 +20,8 @@ const Profile = () => {
   const initialDataProfile = {
     id: "",
     description: "",
-    personID: "",
-    Name: "",
+    personId: "",
+    name: "",
     paternalLastName: "",
     maternalLastName: "",
     password: "",
@@ -37,12 +33,30 @@ const Profile = () => {
 
   const [formProfile, setFormProfile] = useState<IProfile>(initialDataProfile);
 
+  const { userUpdatePassword } = useUser();
+
   const handleOnChangeid = (e: React.ChangeEvent<HTMLInputElement>) => {
     setFormProfile({ ...initialDataProfile, id: e.target.value });
   };
 
+  const handleOnChangeName = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setFormProfile({ ...formProfile, name: e.target.value });
+  };
+
+  const handleOnChangePaternalLastName = (
+    e: React.ChangeEvent<HTMLInputElement>
+  ) => {
+    setFormProfile({ ...formProfile, paternalLastName: e.target.value });
+  };
+
+  const handleOnChangeMaternalLastName = (
+    e: React.ChangeEvent<HTMLInputElement>
+  ) => {
+    setFormProfile({ ...formProfile, maternalLastName: e.target.value });
+  };
+
   const handleOnChangeidPerson = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setFormProfile({ ...formProfile, personID: e.target.value });
+    setFormProfile({ ...formProfile, personId: e.target.value });
   };
 
   const handleOnChangeDescription = (
@@ -59,8 +73,20 @@ const Profile = () => {
     profileReset();
   };
 
+  const handlePasswordChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const newPassword = event.target.value;
+    userUpdatePassword(formProfile.personId, newPassword);
+  };
+
   const handleOnClickUpdate = () => {
-    profileUpdateDescription(formProfile.id, formProfile.description);
+    profileUpdate(
+      formProfile.id,
+      formProfile.description,
+      formProfile.name,
+      formProfile.paternalLastName,
+      formProfile.maternalLastName
+    );
+    userUpdatePassword(formProfile.personId, formProfile.password);
   };
 
   const handleOnClickDelete = () => {
@@ -93,9 +119,10 @@ const Profile = () => {
       <br />
       <input
         type="text"
-        value={formProfile?.Name}
+        value={formProfile?.name}
         placeholder="name"
         className={styles.inputField}
+        onChange={handleOnChangeName}
       />
       <br />
       <input
@@ -103,6 +130,7 @@ const Profile = () => {
         value={formProfile?.paternalLastName}
         placeholder="paternalLastName"
         className={styles.inputField}
+        onChange={handleOnChangePaternalLastName}
       />
       <br />
       <input
@@ -110,11 +138,12 @@ const Profile = () => {
         value={formProfile?.maternalLastName}
         placeholder="maternalLastName"
         className={styles.inputField}
+        onChange={handleOnChangeMaternalLastName}
       />
       <br />
       <input
         type="text"
-        value={formProfile?.personID}
+        value={formProfile?.personId}
         placeholder="personID"
         onChange={handleOnChangeidPerson}
         className={styles.inputField}
@@ -130,7 +159,7 @@ const Profile = () => {
       <br />
       <input
         type="text"
-        value={formProfile?.password}
+        onChange={handlePasswordChange}
         placeholder="Password"
         className={styles.inputField}
       />
@@ -154,7 +183,7 @@ const Profile = () => {
             <div
               key={idx}
               className={styles.personItem}
-            >{` ${item.id} | ${item.Name} ${item.paternalLastName} ${item.maternalLastName} | ${item.personID} | ${item.description}`}</div>
+            >{` ${item.id} | ${item.name} ${item.paternalLastName} ${item.maternalLastName} | ${item.personId} | ${item.description}`}</div>
           ))}
       </div>
     </div>
