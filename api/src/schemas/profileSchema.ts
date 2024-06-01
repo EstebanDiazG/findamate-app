@@ -1,7 +1,7 @@
-import joi from 'joi';
+import joi from "joi";
 
 const idProfileSchema = joi.object({
-    id: joi.string().uuid().required(),
+  id: joi.string().uuid().required(),
 });
 
 const id_personProfileSchema = joi.object({
@@ -9,8 +9,10 @@ const id_personProfileSchema = joi.object({
 });
 
 const updateProfileSchema = joi.object({
-
-  description: joi.string().optional()
+  description: joi.string(),
+  name: joi.string(),
+  paternalLastName: joi.string(),
+  maternalLastName: joi.string(),
 });
 
 export { idProfileSchema, id_personProfileSchema, updateProfileSchema };
