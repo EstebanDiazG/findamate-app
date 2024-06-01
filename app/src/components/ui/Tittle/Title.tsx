@@ -4,13 +4,14 @@ import styles from "./Title.module.scss";
 interface ITitle {
   text: string;
   level: "h1" | "h2" | "h3" | "h4" | "p";
+  width?: string;
   color?: string;
 }
 
-const Title = ({ text, level, color = "auto" }: ITitle) => {
+const Title = ({ text, level, width="auto",  color = "auto" }: ITitle) => {
   const Heading = level;
   return (
-    <div className={styles.headingContainer} style={{ color }}>
+    <div className={styles.headingContainer} style={{ color, width}}>
       <Heading>{text}</Heading>
     </div>
   );

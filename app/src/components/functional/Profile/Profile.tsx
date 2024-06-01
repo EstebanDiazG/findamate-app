@@ -6,6 +6,7 @@ import ProfilePhoto from "@/components/ui/ProfilePhoto";
 import InputPage from "@/components/ui/InputPage";
 import Button from "@/components/ui/Button";
 import Tittle from "@/components/ui/Tittle";  
+import Input from "@/components/ui/Input";
 
 const Profile = () => {
   const {
@@ -103,12 +104,15 @@ const Profile = () => {
   return profileList ? (
     <div className={styles.profile}>
       <div className={styles.leftColumn}>
-        <ProfilePhoto />
-        <InputPage
+        <ProfilePhoto src="/image/profile-photo.png" alt="profile-photo"/>
+        <br />
+        <Tittle width="500px" text="¡Bienvenido a Findamate!, en este espacio puedes compatir con los demas mates acerca de tus intereses, tus logros o lo que esperas aprender." level="h2" />
+        <br />
+        <Input
           width="500px"
           height="200px"
           type="text"
-          label="Cuentanos sobre ti..."
+          name="description"
           value={formProfile?.description}
           placeholder="Cuentanos sobre ti..."
           onChange={handleOnChangeDescription}
@@ -116,6 +120,7 @@ const Profile = () => {
       </div>
       <div className={styles.rightColumn}>
         <Tittle text="Mi perfil" level="h2" />
+        <br />
         <InputPage
           width="500px"
           height="50px"

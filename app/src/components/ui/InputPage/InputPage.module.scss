@@ -1,26 +1,33 @@
 .inputContainer {
   display: flex;
-  flex-direction: column;  /* Cambia la dirección del flex a columna */
-  align-items: flex-start; /* Alinea los elementos al inicio */
-  margin-bottom: 20px;     /* Espacio inferior entre los inputs */
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;  /* Animación suave */
+}
+
+.inputLabel {
+  font-size: 16px;
+  color: #5a5a5a;          /* Color más elegante */
+  margin-right: 15px;      /* Espacio entre el label y el input */
+  min-width: 150px;
+  font-weight: 600;        /* Negrita para resaltar el label */
 }
 
 .inputField {
-  padding: 10px;            /* Ajusta el padding para adaptarse mejor */
-  margin-top: 5px;          /* Espacio entre el label y el input */
-  border-radius: 20px;
+  padding: 12px 15px;       /* Padding ajustado */
+  border-radius: 10px;      /* Bordes más sutiles */
   font-size: 16px;
-  background: rgba(239, 232, 251, 0.521);
-  box-shadow: 0 4px 30px rgba(91, 91, 91, 0.1);
-  backdrop-filter: blur(5.8px);
-  -webkit-backdrop-filter: blur(5.8px);
-  border: 1px solid rgba(148, 102, 205, 0.575);
-         /* Ajusta la altura según especificado */
+  background: rgba(255, 255, 255, 0.8);  /* Fondo blanco translúcido */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Sombra más sutil */
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 100%;
+  transition: all 0.3s ease;  /* Animación suave */
 
   &:focus {
     outline: none;
-    border-color: #ce2be0;
-    box-shadow: 0 0 8px rgba(150, 25, 203, 0.5);
+    border-color: #7a4de6;  /* Color de borde al enfocarse */
+    box-shadow: 0 0 10px rgba(122, 77, 230, 0.5);  /* Sombra al enfocarse */
   }
 
   &::placeholder {
@@ -28,14 +35,8 @@
   }
 
   &:hover {
-    border-color: #a42be0;
-    transform: translateY(-2px);
+    border-color: #7a4de6;  /* Color de borde al pasar el mouse */
+    transform: translateY(-2px);  /* Desplazamiento sutil */
+    box-shadow: 0 4px 12px rgba(122, 77, 230, 0.15);  /* Sombra al pasar el mouse */
   }
-}
-
-.inputLabel {
-  font-size: 16px;
-  color: #a1a1a1cc;           /* Color del label */
-  margin-bottom: 5px; 
-  margin-left: 10px;      /* Espacio entre el label y el input */
 }
