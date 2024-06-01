@@ -11,7 +11,7 @@ import Button from "@/components/ui/Button";
 import LogoLarge from "@/components/ui/LogoLarge";
 import TableCell from "@/components/ui/TableCell";
 import { useRouter } from "next/router";
-import Link from "next/link";
+
 
 const Login = () => {
   const { user, userList, isError, error, userValidate } = useUser();
@@ -68,6 +68,7 @@ const Login = () => {
               <Input
                 value={formLogin.email || ""}
                 placeholder="Email"
+                name="email"
                 onChange={handleOnChangeEmail}
                 width="400px"
                 height="50px"
@@ -76,6 +77,7 @@ const Login = () => {
                 <Input
                   type="password"
                   value={formLogin.password || ""}
+                  name="password"
                   placeholder="Password"
                   onChange={handleOnChangePassword}
                   width="400px"

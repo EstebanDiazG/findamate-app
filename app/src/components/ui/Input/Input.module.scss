@@ -5,7 +5,7 @@
 .inputField {
   padding: 20px;
   margin-bottom: 10px;
-  border-radius:30px;
+  border-radius: 10px;  
   font-size: 16px;
   background: rgba(255, 255, 255, 0.18);
   border-radius: 16px;
@@ -22,17 +22,20 @@
   }
 
   &::placeholder {
-    color: #e7e7e7;
+    position: absolute; /* Hace que el placeholder sea absoluto dentro del input */
+    top: 10px; /* Alinea el placeholder en la parte superior */
+    left: 20px; /* Ajusta la posición izquierda del placeholder */
+    color: #0a0a0b;
+    font-size: 16px;
   }
+
 
   &:hover {
     border-color: #a42be0;
     transform: translateY(-2px);
   }
 
-  &:valid {
-    background-color: #d8bfd8; /* Color lila para el fondo cuando el input es válido */
-  }
+ 
 
   &:invalid {
     background-color: #ffe135; /* Color amarillo para el fondo cuando el input no es válido (opcional) */
