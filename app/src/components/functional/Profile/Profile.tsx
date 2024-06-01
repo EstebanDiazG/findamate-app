@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, use } from "react";
 import { useProfile, useUser } from "@/store/hooks";
 import styles from "./Profile.module.scss";
 import { IProfile } from "@/interfaces/profile";
 import ProfilePhoto from "@/components/ui/ProfilePhoto";
 import InputPage from "@/components/ui/InputPage";
 import Button from "@/components/ui/Button";
-import Tittle from "@/components/ui/Tittle";  
+import Tittle from "@/components/ui/Tittle";
 
 const Profile = () => {
   const {
@@ -16,6 +16,7 @@ const Profile = () => {
     profileUpdate,
     profileDeleteById,
     profileReset,
+    profileGetByIdPerson,
   } = useProfile();
 
   const initialDataProfile = {
@@ -34,7 +35,7 @@ const Profile = () => {
 
   const [formProfile, setFormProfile] = useState<IProfile>(initialDataProfile);
 
-  const { userUpdatePassword } = useUser();
+  const { user, userUpdatePassword } = useUser();
 
   const handleOnChangeid = (e: React.ChangeEvent<HTMLInputElement>) => {
     setFormProfile({ ...initialDataProfile, id: e.target.value });
@@ -44,11 +45,15 @@ const Profile = () => {
     setFormProfile({ ...formProfile, name: e.target.value });
   };
 
-  const handleOnChangePaternalLastName = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleOnChangePaternalLastName = (
+    e: React.ChangeEvent<HTMLInputElement>
+  ) => {
     setFormProfile({ ...formProfile, paternalLastName: e.target.value });
   };
 
-  const handleOnChangeMaternalLastName = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleOnChangeMaternalLastName = (
+    e: React.ChangeEvent<HTMLInputElement>
+  ) => {
     setFormProfile({ ...formProfile, maternalLastName: e.target.value });
   };
 
@@ -56,12 +61,14 @@ const Profile = () => {
     setFormProfile({ ...formProfile, personId: e.target.value });
   };
 
-  const handleOnChangeDescription = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleOnChangeDescription = (
+    e: React.ChangeEvent<HTMLInputElement>
+  ) => {
     setFormProfile({ ...formProfile, description: e.target.value });
   };
 
   const handleOnBlurId = () => {
-    profileGetById(formProfile.id);
+    profileGetByIdPerson(formProfile.personId);
   };
 
   const handleOnClickClean = () => {
@@ -69,8 +76,10 @@ const Profile = () => {
   };
 
   const handlePasswordChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    const newPassword = event.target.value;
-    userUpdatePassword(formProfile.personId, newPassword);
+    setFormProfile((prevState) => ({
+      ...prevState,
+      password: event.target.value,
+    }));
   };
 
   const handleOnClickUpdate = () => {
@@ -90,6 +99,12 @@ const Profile = () => {
   };
 
   useEffect(() => {
+    if (user) {
+      profileGetByIdPerson(user.personId);
+    }
+  }, [user]);
+
+  useEffect(() => {
     profileGetAll();
   }, [profileGetAll]);
 
@@ -100,7 +115,7 @@ const Profile = () => {
     }
   }, [profile, profileGetAll]);
 
-  return profileList ? (
+  return (
     <div className={styles.profile}>
       <div className={styles.leftColumn}>
         <ProfilePhoto />
@@ -151,6 +166,7 @@ const Profile = () => {
           value={formProfile?.personId}
           placeholder="ID de Persona"
           onChange={handleOnChangeidPerson}
+          onBlur={handleOnBlurId}
         />
         <InputPage
           width="500px"
@@ -186,8 +202,7 @@ const Profile = () => {
         </div>
       </div>
     </div>
-  ) : null;
+  );
 };
 
 export default Profile;
-
