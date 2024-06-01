@@ -3,7 +3,6 @@
 }
 
 .inputField {
-
   padding: 20px;
   margin-bottom: 10px;
   border-radius:30px;
@@ -14,25 +13,28 @@
   backdrop-filter: blur(5.8px);
   -webkit-backdrop-filter: blur(5.8px);
   border: 1px solid rgba(255, 255, 255, 0.18);
-
+  color: rgb(89, 77, 101); /* Asegurar que el texto siempre sea blanco */
 
   &:focus {
     outline: none;
     border-color: #ce2be0;
     box-shadow: 0 0 8px rgba(150, 25, 203, 0.5);
-
-
   }
 
   &::placeholder {
     color: #e7e7e7;
-    
   }
 
-    &:hover {
-      border-color: #a42be0;
-      transform: translateY(-2px);
+  &:hover {
+    border-color: #a42be0;
+    transform: translateY(-2px);
+  }
 
-    }
-  
+  &:valid {
+    background-color: #d8bfd8; /* Color lila para el fondo cuando el input es válido */
+  }
+
+  &:invalid {
+    background-color: #ffe135; /* Color amarillo para el fondo cuando el input no es válido (opcional) */
+  }
 }
