@@ -1,5 +1,7 @@
 import { personStore } from "./personStore";
 import { userStore } from "./userStore";
 import { profileStore } from "./profileStore";
+import { interestStore } from "./interestStore";
+import { categoryInterestStore } from "./categoryInterestStore";
 
-export { personStore, userStore, profileStore };
+export { personStore, userStore, profileStore, interestStore, categoryInterestStore };
