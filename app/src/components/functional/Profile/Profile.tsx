@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from "react";
-
 import { useProfile, useUser } from "@/store/hooks";
-
 import styles from "./Profile.module.scss";
-
 import { IProfile } from "@/interfaces/profile";
+import ProfilePhoto from "@/components/ui/ProfilePhoto";
+import InputPage from "@/components/ui/InputPage";
+import Button from "@/components/ui/Button";
+import Tittle from "@/components/ui/Tittle";  
 
 const Profile = () => {
   const {
@@ -43,15 +44,11 @@ const Profile = () => {
     setFormProfile({ ...formProfile, name: e.target.value });
   };
 
-  const handleOnChangePaternalLastName = (
-    e: React.ChangeEvent<HTMLInputElement>
-  ) => {
+  const handleOnChangePaternalLastName = (e: React.ChangeEvent<HTMLInputElement>) => {
     setFormProfile({ ...formProfile, paternalLastName: e.target.value });
   };
 
-  const handleOnChangeMaternalLastName = (
-    e: React.ChangeEvent<HTMLInputElement>
-  ) => {
+  const handleOnChangeMaternalLastName = (e: React.ChangeEvent<HTMLInputElement>) => {
     setFormProfile({ ...formProfile, maternalLastName: e.target.value });
   };
 
@@ -59,9 +56,7 @@ const Profile = () => {
     setFormProfile({ ...formProfile, personId: e.target.value });
   };
 
-  const handleOnChangeDescription = (
-    e: React.ChangeEvent<HTMLInputElement>
-  ) => {
+  const handleOnChangeDescription = (e: React.ChangeEvent<HTMLInputElement>) => {
     setFormProfile({ ...formProfile, description: e.target.value });
   };
 
@@ -106,90 +101,93 @@ const Profile = () => {
   }, [profile, profileGetAll]);
 
   return profileList ? (
-    <div className={styles.container}>
-      <h1 className={styles.title}> PROFILE </h1>
-      <input
-        type="text"
-        value={formProfile?.id}
-        placeholder="id"
-        onChange={handleOnChangeid}
-        onBlur={handleOnBlurId}
-        className={styles.inputField}
-      />
-      <br />
-      <input
-        type="text"
-        value={formProfile?.name}
-        placeholder="name"
-        className={styles.inputField}
-        onChange={handleOnChangeName}
-      />
-      <br />
-      <input
-        type="text"
-        value={formProfile?.paternalLastName}
-        placeholder="paternalLastName"
-        className={styles.inputField}
-        onChange={handleOnChangePaternalLastName}
-      />
-      <br />
-      <input
-        type="text"
-        value={formProfile?.maternalLastName}
-        placeholder="maternalLastName"
-        className={styles.inputField}
-        onChange={handleOnChangeMaternalLastName}
-      />
-      <br />
-      <input
-        type="text"
-        value={formProfile?.personId}
-        placeholder="personID"
-        onChange={handleOnChangeidPerson}
-        className={styles.inputField}
-      />
-      <br />
-      <input
-        type="text"
-        value={formProfile?.description}
-        placeholder="descripcion"
-        onChange={handleOnChangeDescription}
-        className={styles.inputField}
-      />
-      <br />
-      <input
-        type="text"
-        onChange={handlePasswordChange}
-        placeholder="Password"
-        className={styles.inputField}
-      />
-      <br />
-
-      <div>
-        <button className={styles.button} onClick={handleOnClickUpdate}>
-          Actualizar
-        </button>
-        <button className={styles.button} onClick={handleOnClickClean}>
-          Limpiar
-        </button>
-        <button className={styles.button} onClick={handleOnClickDelete}>
-          Eliminar
-        </button>
+    <div className={styles.profile}>
+      <div className={styles.leftColumn}>
+        <ProfilePhoto />
+        <InputPage
+          width="500px"
+          height="200px"
+          type="text"
+          label="Cuentanos sobre ti..."
+          value={formProfile?.description}
+          placeholder="Cuentanos sobre ti..."
+          onChange={handleOnChangeDescription}
+        />
       </div>
-
-      <div className={styles.profileList}>
-        {profileList?.length &&
-          profileList.map((item, idx) => (
-            <div
-              key={idx}
-              className={styles.personItem}
-            >{` ${item.id} | ${item.name} ${item.paternalLastName} ${item.maternalLastName} | ${item.personId} | ${item.description}`}</div>
-          ))}
+      <div className={styles.rightColumn}>
+        <Tittle text="Mi perfil" level="h2" />
+        <InputPage
+          width="500px"
+          height="50px"
+          type="text"
+          label="Nombre"
+          value={formProfile?.name}
+          placeholder="Ingrese nombre"
+          onChange={handleOnChangeName}
+        />
+        <InputPage
+          width="500px"
+          height="50px"
+          type="text"
+          label="Apellido Paterno"
+          value={formProfile?.paternalLastName}
+          placeholder="Apellido Paterno"
+          onChange={handleOnChangePaternalLastName}
+        />
+        <InputPage
+          width="500px"
+          height="50px"
+          type="text"
+          label="Apellido Materno"
+          value={formProfile?.maternalLastName}
+          placeholder="Apellido Materno"
+          onChange={handleOnChangeMaternalLastName}
+        />
+        <InputPage
+          width="500px"
+          height="50px"
+          type="text"
+          label="ID de Persona"
+          value={formProfile?.personId}
+          placeholder="ID de Persona"
+          onChange={handleOnChangeidPerson}
+        />
+        <InputPage
+          width="500px"
+          height="50px"
+          type="password"
+          label="Contraseña"
+          value={formProfile.password || ""}
+          onChange={handlePasswordChange}
+          placeholder="Contraseña"
+        />
+        <div className={styles.buttonContainer}>
+          <Button
+            width="150px"
+            height="40px"
+            text="Actualizar"
+            color="primary"
+            onClick={handleOnClickUpdate}
+          />
+          <Button
+            width="150px"
+            height="40px"
+            text="Limpiar"
+            color="primary"
+            onClick={handleOnClickClean}
+          />
+          <Button
+            width="150px"
+            height="40px"
+            text="Eliminar"
+            color="primary"
+            onClick={handleOnClickDelete}
+          />
+        </div>
       </div>
     </div>
-  ) : (
-    <div>Cargando</div>
-  );
+  ) : null;
 };
 
 export default Profile;
+

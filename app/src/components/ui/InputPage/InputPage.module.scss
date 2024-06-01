@@ -1,0 +1,41 @@
+.inputContainer {
+  display: flex;
+  flex-direction: column;  /* Cambia la dirección del flex a columna */
+  align-items: flex-start; /* Alinea los elementos al inicio */
+  margin-bottom: 20px;     /* Espacio inferior entre los inputs */
+}
+
+.inputField {
+  padding: 10px;            /* Ajusta el padding para adaptarse mejor */
+  margin-top: 5px;          /* Espacio entre el label y el input */
+  border-radius: 20px;
+  font-size: 16px;
+  background: rgba(239, 232, 251, 0.521);
+  box-shadow: 0 4px 30px rgba(91, 91, 91, 0.1);
+  backdrop-filter: blur(5.8px);
+  -webkit-backdrop-filter: blur(5.8px);
+  border: 1px solid rgba(148, 102, 205, 0.575);
+         /* Ajusta la altura según especificado */
+
+  &:focus {
+    outline: none;
+    border-color: #ce2be0;
+    box-shadow: 0 0 8px rgba(150, 25, 203, 0.5);
+  }
+
+  &::placeholder {
+    color: #a1a1a1cc;
+  }
+
+  &:hover {
+    border-color: #a42be0;
+    transform: translateY(-2px);
+  }
+}
+
+.inputLabel {
+  font-size: 16px;
+  color: #a1a1a1cc;           /* Color del label */
+  margin-bottom: 5px; 
+  margin-left: 10px;      /* Espacio entre el label y el input */
+}
