@@ -10,7 +10,7 @@ interface IContent {
   height?: string;
 }
 
-const ContentCol = ({ children, gap, width="auto", height="auto", justifyContent="center" }: IContent) => {
+const ContentCol = ({ children, gap, width="auto", height="auto", justifyContent}: IContent) => {
   return (
     <div 
       className={styles.contentCol} 
