@@ -5,9 +5,8 @@ import { IProfile } from "@/interfaces/profile";
 import ProfilePhoto from "@/components/ui/ProfilePhoto";
 import InputPage from "@/components/ui/InputPage";
 import Button from "@/components/ui/Button";
-import Tittle from "@/components/ui/Tittle";  
+import Tittle from "@/components/ui/Tittle";
 import Input from "@/components/ui/Input";
-
 
 const Profile = () => {
   const {
@@ -120,15 +119,18 @@ const Profile = () => {
   return (
     <div className={styles.profile}>
       <div className={styles.leftColumn}>
-        <ProfilePhoto src="/image/profile-photo.png" alt="profile-photo"/>
+        <ProfilePhoto src="/image/profile-photo.png" alt="profile-photo" />
         <br />
-        <Tittle width="500px" text="¡Bienvenido a Findamate!, en este espacio puedes compatir con los demas mates acerca de tus intereses, tus logros o lo que esperas aprender." level="h2" />
+        <Tittle
+          width="500px"
+          text="¡Bienvenido a Findamate!, en este espacio puedes compatir con los demas mates acerca de tus intereses, tus logros o lo que esperas aprender."
+          level="h2"
+        />
         <br />
-        <Input
+        <InputPage
           width="500px"
           height="200px"
           type="text"
-          name="description"
           value={formProfile?.description}
           placeholder="Cuentanos sobre ti..."
           onChange={handleOnChangeDescription}
