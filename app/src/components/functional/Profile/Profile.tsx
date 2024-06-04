@@ -6,14 +6,11 @@ import ProfilePhoto from "@/components/ui/ProfilePhoto";
 import InputPage from "@/components/ui/InputPage";
 import Button from "@/components/ui/Button";
 import Tittle from "@/components/ui/Tittle";
-import Input from "@/components/ui/Input";
 
 const Profile = () => {
   const {
     profile,
-    profileList,
     profileGetAll,
-    profileGetById,
     profileUpdate,
     profileDeleteById,
     profileReset,
@@ -37,10 +34,6 @@ const Profile = () => {
   const [formProfile, setFormProfile] = useState<IProfile>(initialDataProfile);
 
   const { user, userUpdatePassword } = useUser();
-
-  const handleOnChangeid = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setFormProfile({ ...initialDataProfile, id: e.target.value });
-  };
 
   const handleOnChangeName = (e: React.ChangeEvent<HTMLInputElement>) => {
     setFormProfile({ ...formProfile, name: e.target.value });
@@ -70,10 +63,6 @@ const Profile = () => {
 
   const handleOnBlurId = () => {
     profileGetByIdPerson(formProfile.personId);
-  };
-
-  const handleOnClickClean = () => {
-    profileReset();
   };
 
   const handlePasswordChange = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -167,6 +156,7 @@ const Profile = () => {
           onChange={handleOnChangeMaternalLastName}
         />
         <InputPage
+          hidden={true}
           width="500px"
           height="50px"
           type="text"
@@ -196,14 +186,7 @@ const Profile = () => {
           <Button
             width="150px"
             height="40px"
-            text="Limpiar"
-            color="primary"
-            onClick={handleOnClickClean}
-          />
-          <Button
-            width="150px"
-            height="40px"
-            text="Eliminar"
+            text="Eliminar Cuenta"
             color="primary"
             onClick={handleOnClickDelete}
           />

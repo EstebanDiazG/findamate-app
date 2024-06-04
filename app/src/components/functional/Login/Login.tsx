@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useUser } from "@/store/hooks";
-import { IUser, IRol } from "@/interfaces/user";
+import { IUser } from "@/interfaces/user";
 import style from "./Login.module.scss";
 import Background from "@/components/ui/Background/Background";
 import Box from "@/components/ui/Box";
@@ -9,12 +9,10 @@ import Title from "@/components/ui/Tittle";
 import Input from "@/components/ui/Input";
 import Button from "@/components/ui/Button";
 import LogoLarge from "@/components/ui/LogoLarge";
-import TableCell from "@/components/ui/TableCell";
 import { useRouter } from "next/router";
 
-
 const Login = () => {
-  const { user, userList, isError, error, userValidate } = useUser();
+  const { userValidate } = useUser();
 
   const initialDataUser: IUser = {
     id: "",
@@ -45,7 +43,7 @@ const Login = () => {
   const handleValidate = async () => {
     try {
       await userValidate(formLogin.email, formLogin.password);
-      //router.push("/user");
+      router.push("/");
     } catch (error) {
       const err = error as Error;
       console.error(err);
@@ -100,16 +98,6 @@ const Login = () => {
                     onClick={handleRegister}
                   />
                 </ContentRow>
-
-                <ContentCol gap="10px">
-                  {userList &&
-                    userList.length > 0 &&
-                    userList.map((item, idx) => (
-                      <TableCell key={idx}>
-                        {`${item.id} | ${item.name} | ${item.rut}`}
-                      </TableCell>
-                    ))}
-                </ContentCol>
               </ContentCol>
             </ContentCol>
           </ContentCol>

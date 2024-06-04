@@ -1,11 +1,5 @@
-import Header from "@/components/ui/Header";
-import styles from "./Home.module.scss";
-
 const Home = () => {
-  return (
-    <Header/>
-  )
-}
-
+  return <div>hola</div>;
+};
 
 export default Home;

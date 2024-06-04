@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./InputPage.module.scss";
 
 interface IInputPage {
+  hidden?: boolean;
   placeholder: string;
   value: string;
   width?: string;
@@ -10,7 +11,7 @@ interface IInputPage {
   onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
   onBlur?: () => void;
   readOnly?: boolean;
-  label?: string;  // Añadido para incluir una etiqueta
+  label?: string;
 }
 
 const InputPage = ({
@@ -22,11 +23,16 @@ const InputPage = ({
   onChange,
   onBlur,
   readOnly,
-  label,  // Añadido para incluir una etiqueta
+  label,
+  hidden = false,
 }: IInputPage) => {
+  if (hidden) {
+    return null;
+  }
   return (
     <div className={styles.inputContainer}>
-      {label && <label className={styles.inputLabel}>{label}</label>}  {/* Añadido para mostrar la etiqueta */}
+      {label && <label className={styles.inputLabel}>{label}</label>}{" "}
+      {/* Añadido para mostrar la etiqueta */}
       <input
         type={type}
         placeholder={placeholder}
