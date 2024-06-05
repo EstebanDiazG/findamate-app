@@ -26,7 +26,6 @@ const Header = () => {
         <ContentRow gap="18px">
           <SearchBox width="250px" value="" onChange={() => {}} />
           <Avatar />
-          <ButtonIcon iconName="logout" onClick={handleOnClickCloseSession} />
         </ContentRow>
       </ContentRow>
     </div>

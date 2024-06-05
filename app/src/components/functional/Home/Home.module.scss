@@ -1,7 +1,7 @@
-.welcome {
+.home {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  padding: 32px;
   width: 100%;
   height: calc(100vh - 70px);
 }

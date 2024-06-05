@@ -1,15 +1,16 @@
 import Style from "./LogoSmall.module.scss";
 
 interface IlogoSmall {
-    children?: React.ReactNode;  
     width?: string;
     height?: string;
 }
 
-const LogoSmall = ({children, width="auto", height="auto"}: IlogoSmall) => {
+const LogoSmall = ({width="auto", height="auto"}: IlogoSmall) => {
   return (
-    <img src="/image/logoLarge.png" alt="logo-simple" style={{width, height}}>
-    {children}
+    <img 
+    src="/image/logoSmall-01.png" 
+    alt="logo-simple" 
+    style={{width, height}}>
     </img>
   )
 }
