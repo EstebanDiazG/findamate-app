@@ -3,5 +3,6 @@ import { userStore } from "./userStore";
 import { profileStore } from "./profileStore";
 import { interestStore } from "./interestStore";
 import { categoryInterestStore } from "./categoryInterestStore";
+import { topicStore } from "./topicStore";
 
-export { personStore, userStore, profileStore, interestStore, categoryInterestStore };
+export { personStore, userStore, profileStore, interestStore, categoryInterestStore, topicStore };

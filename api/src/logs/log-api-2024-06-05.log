@@ -1,0 +1,4 @@
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/"},"timestamp":"2024-06-04 21:33:53"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/"},"timestamp":"2024-06-04 21:33:54"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/categoryInterest/id/ae789f63-c621-4a47-9c9a-394ae69b704b"},"timestamp":"2024-06-04 21:47:28"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id":"ae789f63-c621-4a47-9c9a-394ae69b704b"},"query":{},"url":"/categoryInterest/id/ae789f63-c621-4a47-9c9a-394ae69b704b"},"timestamp":"2024-06-04 21:47:28"}
