@@ -1,0 +1,27 @@
+$color-purple: #8E6CA0;
+$color-red: #FF647C;
+$color-green: #00C48C;
+$color-blue: #0084F4;
+$color-pink: #f544a2;
+$color-aqua: #69C5D5;
+$color-orange: #ff9412;
+$color-violet: #96238F;
+
+.rectangle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 30px 50px;
+  color: aliceblue;
+}
+
+/* Definir clases para cada color */
+.purple { background-color: $color-purple; }
+.red { background-color: $color-red; }
+.green { background-color: $color-green; }
+.blue { background-color: $color-blue; }
+.pink { background-color: $color-pink; }
+.aqua { background-color: $color-aqua; }
+.orange { background-color: $color-orange; }
+.violet { background-color: $color-violet; }

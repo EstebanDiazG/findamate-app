@@ -7,6 +7,7 @@ interface IContainer {
   gap?: string;
   width?: string;
   height?: string;
+  
 }
 
 const Container = ({ children, gap, width, height }: IContainer) => {

@@ -4,6 +4,7 @@ interface IRectangle {
     children: React.ReactNode;
     }
 
+
 const Rectangle = ({children}: IRectangle) => {
   return (
     <div 
