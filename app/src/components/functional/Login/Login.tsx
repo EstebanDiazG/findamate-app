@@ -84,14 +84,14 @@ const Login = () => {
 
                 <ContentRow gap="8px" justifyContent="space-between">
                   <Button
-                    width="200px"
+                    width="190px"
                     height="50px"
                     text="Ingresar"
                     color="primary"
                     onClick={handleValidate}
                   />
                   <Button
-                    width="200px"
+                    width="190px"
                     height="50px"
                     text="Registrar"
                     color="primary"

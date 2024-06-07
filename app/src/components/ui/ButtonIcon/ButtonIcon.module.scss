@@ -8,16 +8,18 @@
     background-color: transparent; 
     outline: none;
 
+    span {
+     font-size: 34px;
+    }
   }
-
-
+  
     button:hover {
-      background-color: #999999;
+      background-color: transparent;
       span {
         color: #ffffff;
+        font-size: 3em;
       }
     }
-  
 
   &.buttonIcon-no-border {
     button:hover {

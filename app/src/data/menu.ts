@@ -22,18 +22,21 @@ export const menu = [
       {
         id: 0,
         code: "findamateHome",
+        icon: "home",
         name: "Inicio",
         path: "/",
       },
       {
         id: 1,
         code: "findamateProfile",
+        icon: "face",
         name: "Mi cuenta",
         path: "/profile",
       },
       {
         id: 2,
         code: "findamateTopics",
+        icon: "rocket_launch",
         name: "Foro",
         path: "/topics",
       },

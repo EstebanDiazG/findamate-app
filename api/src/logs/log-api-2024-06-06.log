@@ -1,4 +1,42 @@
 
+{"level":"info","message":{"body":{"email":"nicole@gmail.com","password":"niko1234"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-05 20:32:01"}
+{"level":"info","message":{"body":{"email":"nicole@gmail.com","password":"niko1234"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-05 20:32:01"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile"},"timestamp":"2024-06-05 20:32:22"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile/id_person/78fc515c-c837-49dd-9b15-bb1ea9b916ea"},"timestamp":"2024-06-05 20:32:22"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile"},"timestamp":"2024-06-05 20:32:23"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile"},"timestamp":"2024-06-05 20:32:23"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id_person":"78fc515c-c837-49dd-9b15-bb1ea9b916ea"},"query":{},"url":"/profile/id_person/78fc515c-c837-49dd-9b15-bb1ea9b916ea"},"timestamp":"2024-06-05 20:32:23"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile/id_person/78fc515c-c837-49dd-9b15-bb1ea9b916ea"},"timestamp":"2024-06-05 20:32:23"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile"},"timestamp":"2024-06-05 20:32:23"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile"},"timestamp":"2024-06-05 20:32:23"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id_person":"78fc515c-c837-49dd-9b15-bb1ea9b916ea"},"query":{},"url":"/profile/id_person/78fc515c-c837-49dd-9b15-bb1ea9b916ea"},"timestamp":"2024-06-05 20:32:23"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile"},"timestamp":"2024-06-05 20:32:23"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile"},"timestamp":"2024-06-05 20:32:23"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile"},"timestamp":"2024-06-05 20:32:24"}
+{"level":"info","message":{"body":{"email":"nicole@gmail.com","password":"niko1234"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-05 20:38:53"}
+{"level":"info","message":{"body":{"email":"nicole@gmail.com","password":"niko1234"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-05 20:38:54"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile/id_person/78fc515c-c837-49dd-9b15-bb1ea9b916ea"},"timestamp":"2024-06-05 20:39:40"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile"},"timestamp":"2024-06-05 20:39:40"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id_person":"78fc515c-c837-49dd-9b15-bb1ea9b916ea"},"query":{},"url":"/profile/id_person/78fc515c-c837-49dd-9b15-bb1ea9b916ea"},"timestamp":"2024-06-05 20:39:41"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile/id_person/78fc515c-c837-49dd-9b15-bb1ea9b916ea"},"timestamp":"2024-06-05 20:39:41"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile"},"timestamp":"2024-06-05 20:39:41"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile"},"timestamp":"2024-06-05 20:39:41"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id_person":"78fc515c-c837-49dd-9b15-bb1ea9b916ea"},"query":{},"url":"/profile/id_person/78fc515c-c837-49dd-9b15-bb1ea9b916ea"},"timestamp":"2024-06-05 20:39:41"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile"},"timestamp":"2024-06-05 20:39:41"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile"},"timestamp":"2024-06-05 20:39:41"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile"},"timestamp":"2024-06-05 20:39:42"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile"},"timestamp":"2024-06-05 20:39:42"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile"},"timestamp":"2024-06-05 20:39:42"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile/id_person/78fc515c-c837-49dd-9b15-bb1ea9b916ea"},"timestamp":"2024-06-05 20:41:57"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile"},"timestamp":"2024-06-05 20:41:57"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id_person":"78fc515c-c837-49dd-9b15-bb1ea9b916ea"},"query":{},"url":"/profile/id_person/78fc515c-c837-49dd-9b15-bb1ea9b916ea"},"timestamp":"2024-06-05 20:41:58"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile"},"timestamp":"2024-06-05 20:41:58"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile/id_person/78fc515c-c837-49dd-9b15-bb1ea9b916ea"},"timestamp":"2024-06-05 20:41:58"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile"},"timestamp":"2024-06-05 20:41:58"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id_person":"78fc515c-c837-49dd-9b15-bb1ea9b916ea"},"query":{},"url":"/profile/id_person/78fc515c-c837-49dd-9b15-bb1ea9b916ea"},"timestamp":"2024-06-05 20:41:58"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile"},"timestamp":"2024-06-05 20:41:58"}
+{"level":"info","message":{"body":{"email":"nicole@gmail.com","password":"niko1234"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-05 20:42:32"}
+{"level":"info","message":{"body":{"email":"nicole@gmail.com","password":"niko1234"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-05 20:42:33"}
 {"level":"info","message":{"body":{"email":"Katherine@gmail.com","password":"nicol12345"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-06 12:25:34"}
 {"level":"info","message":{"body":{"email":"Katherine@gmail.com","password":"nicol12345"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-06 12:25:35"}
 {"level":"info","message":{"body":{"email":"Katherine@gmail.com","password":"nicol12345"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-06 12:25:45"}
@@ -949,4 +987,3 @@
 {"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-06 02:21:15"}
 {"level":"error","message":{"error":{"code":"XX000","file":"relcache.c","length":83,"line":"6490","name":"error","routine":"write_item","severity":"FATAL"},"util":"database"},"timestamp":"2024-06-06 02:21:16"}
 {"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-06 02:22:36"}
-

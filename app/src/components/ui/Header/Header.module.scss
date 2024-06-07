@@ -1,7 +1,8 @@
 .header {
+  padding: 20px;
   display: flex;
   height: 70px;
-  background: linear-gradient(70deg, rgba(48, 11, 91, 0.50), rgba(15, 117, 129, 0.50));
+  background: linear-gradient(70deg, #241963, #982390);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5.8px);
   -webkit-backdrop-filter: blur(5.8px);
