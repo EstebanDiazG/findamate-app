@@ -6,7 +6,7 @@ interface IlogoSmall {
     height?: string;
 }
 
-export const LogoSmall = ({children, width="auto", height="auto"}: IlogoSmall) => {
+const LogoSmall = ({children, width="auto", height="auto"}: IlogoSmall) => {
   return (
     <img src="/image/logoLarge.png" alt="logo-simple" style={{width, height}}>
     {children}

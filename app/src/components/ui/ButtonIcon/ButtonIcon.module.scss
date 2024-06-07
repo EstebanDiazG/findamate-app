@@ -5,10 +5,9 @@
     justify-content: center;
     color: white;
     border: none;
-    background-color: transparent; /* Eliminar el fondo predeterminado */
+    background-color: transparent; 
     outline: none;
 
-    /* No se necesita un fondo por defecto en este nivel */
   }
 
 
@@ -22,7 +21,7 @@
 
   &.buttonIcon-no-border {
     button:hover {
-      background-color: transparent; /* Evita el fondo en hover */
+      background-color: transparent; 
     }
   }
 }

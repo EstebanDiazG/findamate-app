@@ -1,0 +1,45 @@
+.inputContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+  transition: all 0.3s ease; /* Animación suave */
+}
+
+.inputLabel {
+  font-size: 16px;
+  color: #5a5a5a; /* Color más elegante */
+  margin-right: 15px; /* Espacio entre el label y el input */
+  min-width: 150px;
+  font-weight: 600; /* Negrita para resaltar el label */
+}
+
+.inputField {
+  padding: 12px 15px; /* Padding ajustado */
+  border-radius: 10px; /* Bordes más sutiles */
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0.23); /* Fondo blanco translúcido */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra más sutil */
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 100%;
+  transition: all 0.3s ease; /* Animación suave */
+
+  &:focus {
+    outline: none;
+    border-color: #7a4de6; /* Color de borde al enfocarse */
+    box-shadow: 0 0 10px rgba(122, 77, 230, 0.5); /* Sombra al enfocarse */
+  }
+
+  &::placeholder {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    color: #2928289e;
+  }
+
+  &:hover {
+    border-color: #7a4de6; /* Color de borde al pasar el mouse */
+    transform: translateY(-2px); /* Desplazamiento sutil */
+    box-shadow: 0 4px 12px rgba(122, 77, 230, 0.15); /* Sombra al pasar el mouse */
+  }
+}
