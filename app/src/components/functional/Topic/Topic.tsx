@@ -1,67 +1,67 @@
 import React, { useState, useEffect } from "react";
 
-import { useTopic, useCategoryInterest,useUser  } from "@/store/hooks";
+import { useTopic, useInterest, useUser } from "@/store/hooks";
 
 import styles from "./Topic.module.scss";
+import Container from "@/components/layout/Container";
 
 import { ITopic } from "@/interfaces/topic";
 
 const Topic = () => {
   const {
-      topic,
-      topicList,
-      isLoading,
-      isError,
-      error,
-      topicGetAll,
-      topicGetById,
-      topicGetByIdPerson,
-      topicUpsert,
-      topicDeleteById,
-      topicReset,
-      topicResetAll,
+    topic,
+    topicList,
+    topicGetAll,
+    topicGetById,
+    topicGetByIdPerson,
+    topicUpsert,
+    topicDeleteById,
+    topicReset,
+    topicResetAll,
   } = useTopic();
 
-  //Hook de categoria
+  //hook de interes
   const {
-    categoryInterest,
-    categoryInterestList,
-    isLoading: categoryInterestLoading,
-    isError: categoryInterestError,
-    error: categoryInterestErrorMessage,
-    categoryInterestGetAll,
-  } = useCategoryInterest();
+    interest,
+    interestList,
+    isLoading: interestLoading,
+    isError: interestError,
+    error: interestErrorMessage,
+    interestGetAll,
+  } = useInterest();
 
   //Hook de User
   const { user } = useUser();
 
   useEffect(() => {
     topicGetAll();
-    categoryInterestGetAll(); // Llama a categoryInterestGetAll para obtener las categorías
-  }, [topicGetAll, categoryInterestGetAll]);
-  
-  const initialDataTopic = {
-      id:"",
-      id_person: "",
-      id_imagen: "",
-      id_video: "",
-      id_file: "",
-      title: "",
-      creadorTopico:"", 
-      imagen: "",
-      content: "",
-      createdAt: "",
-      updatedAt: "",
-      deletedAt: "",
-      //nueva propiedad
-      categoryId: "",
-      categoryInterest: "",
-  };
-  
-  const [formTopic, setFormTopic] = useState<ITopic>(initialDataTopic);
-  const [selectedCategories, setSelectedCategories] = useState<{ [key: string]: string }>({});
+    interestGetAll(); // Llama a categoryInterestGetAll para obtener las categorías
+  }, [topicGetAll, interestGetAll]);
 
-  
+  const initialDataTopic = {
+    id: "",
+    id_person: "",
+    id_imagen: "",
+    id_video: "",
+    id_file: "",
+    title: "",
+    creadorTopico: "",
+    imagen: "",
+    content: "",
+    createdAt: "",
+    updatedAt: "",
+    deletedAt: "",
+    //nueva propiedad
+    interestId: "",
+    categoryInterest: "",
+    Interest: "",
+  };
+
+  const [formTopic, setFormTopic] = useState<ITopic>(initialDataTopic);
+  const [selectedCategories, setSelectedCategories] = useState<{
+    [key: string]: string;
+  }>({});
+
   const handleOnChangeTitle = (e: React.ChangeEvent<HTMLInputElement>) => {
     setFormTopic({ ...formTopic, title: e.target.value });
   };
@@ -70,36 +70,27 @@ const Topic = () => {
     setFormTopic({ ...formTopic, content: e.target.value });
   };
 
-  const handleOnChangeCategory = (e: React.ChangeEvent<HTMLSelectElement>) => {
-    const selectedCategory = categoryInterestList?.find(category => category.id === e.target.value);
+  const handleOnChangeInterest = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    const selectedCategory = interestList?.find(
+      (category) => category.id === e.target.value
+    );
     if (selectedCategory) {
-      setFormTopic({ ...formTopic, categoryId: e.target.value });
-      setSelectedCategories(prev => ({
+      setFormTopic({ ...formTopic, interestId: e.target.value });
+      setSelectedCategories((prev) => ({
         ...prev,
-        [formTopic.id]: selectedCategory.interes
+        [formTopic.id]: selectedCategory.id,
       }));
     }
-  };  
+  };
 
   const handleOnClickSave = () => {
     const id_person = user?.personId ?? "";
     const title = formTopic.title;
     const content = formTopic.content;
-    const categoryId = formTopic.categoryId;
-    const categoryInterest = formTopic.categoryInterest;
+    const id_interest = formTopic.interestId;
 
-    topicUpsert(id_person, title, content);
-
-    setSelectedCategories(prev => ({
-      ...prev,
-      [formTopic.id]: categoryInterest
-    }));
-
+    topicUpsert(id_person, title, content, id_interest);
     setFormTopic(initialDataTopic); // Limpia los campos después de guardar
-  };
-
-  const handleOnClickClean = () => {
-    topicReset();
   };
 
   const handleOnClickDelete = (id: string) => {
@@ -120,15 +111,25 @@ const Topic = () => {
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>Topics</h1>
+      <h1 className={styles.title}>Foros</h1>
       <div className={styles.topicList}>
         {topicList?.length &&
           topicList.map((item, idx) => (
             <div key={idx} className={styles.topicItem}>
               <h2>{item.title}</h2>
               <p>{item.content}</p>
+              <small>{item.Interest}</small>
+              <br />
+              <small>{item.categoryInterest}</small>
+              <br />
               <small>By {item.creadorTopico}</small>
-              <button className={`${styles.button} ${styles.deleteButton}`} onClick={() => handleOnClickDelete(item.id)}>X</button>
+
+              <button
+                className={`${styles.button} ${styles.deleteButton}`}
+                onClick={() => handleOnClickDelete(item.id)}
+              >
+                X
+              </button>
             </div>
           ))}
       </div>
@@ -153,17 +154,17 @@ const Topic = () => {
           className={styles.textArea}
         />
         <select
-          value={formTopic.categoryId}
-          onChange={handleOnChangeCategory}
+          value={formTopic.interestId}
+          onChange={handleOnChangeInterest}
           className={styles.selectField}
         >
-          {categoryInterestList?.map((category) => (
-            <option key={category.id} value={category.id}>
-              {category.interes}
+          {interestList?.map((interest) => (
+            <option key={interest.id} value={interest.id}>
+              {interest.name}
             </option>
           ))}
         </select>
-  
+
         <input
           type="text"
           value={user?.name}
@@ -178,7 +179,7 @@ const Topic = () => {
           readOnly
           className={styles.inputField}
         />
-  
+
         <button className={styles.button} onClick={handleOnClickSave}>
           Guardar
         </button>

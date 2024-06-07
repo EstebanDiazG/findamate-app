@@ -38,7 +38,7 @@ export const menu = [
         code: "findamateTopics",
         icon: "rocket_launch",
         name: "Foro",
-        path: "/topics",
+        path: "/topic",
       },
     ],
   },
