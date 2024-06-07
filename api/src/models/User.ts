@@ -104,6 +104,12 @@ class User {
             ON CONFLICT (person_id)
             DO UPDATE SET hash = $6, updated_at = now()
             RETURNING *
+          ), profile_data AS (
+            INSERT INTO app.profile (id_person)
+            VALUES ((SELECT id FROM person_data))
+            ON CONFLICT (id_person)
+            DO NOTHING
+            RETURNING *
         )
           SELECT
           use.id, 

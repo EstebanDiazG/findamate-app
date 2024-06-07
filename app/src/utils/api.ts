@@ -4,7 +4,7 @@ import { config } from "@/utils/config";
 
 const apiInstance = axios.create({
   baseURL: `${config.apiURL}`,
-  //headers: { id: config.apiKey },
+  headers: { duoc: config.apiKey },
 });
 
 export { apiInstance };

@@ -19,7 +19,7 @@ class Topic{
             tpc.id,
             tpc.title,
             tpc.content,
-            per.name AS "Creador Topico",
+            per.name AS "creadorTopico",
             ima.originalname AS "imagen"
         FROM app.topics tpc
         LEFT JOIN
@@ -38,7 +38,7 @@ class Topic{
                 tpc.id,
                 tpc.title,
                 tpc.content,
-                per.name AS "Creador Topico",
+                per.name AS "creadorTopico",
                 ima.originalname AS "imagen"
             FROM app.topics tpc
             LEFT JOIN
@@ -58,7 +58,7 @@ class Topic{
                 tpc.id,
                 tpc.title,
                 tpc.content,
-                per.name AS "Creador Topico",
+                per.name AS "creadorTopico",
                 ima.originalname AS "imagen"
             FROM app.topics tpc
             LEFT JOIN

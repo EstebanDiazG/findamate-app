@@ -22,10 +22,22 @@ var __importStar = (this && this.__importStar) || function (mod) {
     __setModuleDefault(result, mod);
     return result;
 };
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = require("express");
 const Person = __importStar(require("../controllers/person"));
+const auth_1 = __importDefault(require("../middlewares/auth"));
 const personRoutes = (0, express_1.Router)();
-personRoutes.get('/', Person.getAll);
-personRoutes.get('/id/:id', Person.getById);
+personRoutes.get("/", auth_1.default, Person.getAll);
+personRoutes.get("/id/:id", auth_1.default, Person.getById);
+personRoutes.get("/rut/:rut", auth_1.default, Person.getByRut);
+personRoutes.post("/", auth_1.default, Person.upsert);
+personRoutes.delete("/id/:id", auth_1.default, Person.deleteById);
+personRoutes.put("/personId/:personId", auth_1.default, Person.assignPerson);
+personRoutes.delete("/personId/:personId", auth_1.default, Person.removePerson);
+personRoutes.put("/personId/interest/:id_person", auth_1.default, Person.assignInterest);
+personRoutes.delete("/personId/removeInterest/:id_person", auth_1.default, Person.removeInterest);
+personRoutes.get("/personId/getPerson/:id_person", auth_1.default, Person.getInterestsByPersonId);
 exports.default = personRoutes;
