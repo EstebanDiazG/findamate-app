@@ -23,6 +23,7 @@ class Topic {
       `   
         SELECT
             tpc.id,
+            tpc.id_person,
             tpc.title,
             tpc.content,
             per.name AS "creadorTopico",
@@ -49,6 +50,7 @@ class Topic {
         `
           SELECT
               tpc.id,
+              tpc.id_person,
               tpc.title,
               tpc.content,
               per.name AS "creadorTopico",
@@ -79,6 +81,7 @@ class Topic {
       `
         SELECT
             tpc.id,
+            tpc.id_person,
             tpc.title,
             tpc.content,
             per.name AS "creadorTopico",
