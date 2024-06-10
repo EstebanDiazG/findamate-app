@@ -88,10 +88,20 @@ const Topic = () => {
     const title = formTopic.title;
     const content = formTopic.content;
     const id_interest = formTopic.interestId;
+    console.log("Saving topic with:", { id_person, title, content, id_interest });
 
     topicUpsert(id_person, title, content, id_interest);
     setFormTopic(initialDataTopic); // Limpia los campos después de guardar
   };
+
+  useEffect(() => {
+    if (interestList?.length && !formTopic.interestId) {
+      setFormTopic((prevForm) => ({
+        ...prevForm,
+        interestId: interestList[0].id,
+      }));
+    }
+  }, [interestList]);
 
   const handleOnClickDelete = (id: string) => {
     topicDeleteById(id);
@@ -124,12 +134,14 @@ const Topic = () => {
               <br />
               <small>By {item.creadorTopico}</small>
 
-              <button
-                className={`${styles.button} ${styles.deleteButton}`}
-                onClick={() => handleOnClickDelete(item.id)}
-              >
-                X
-              </button>
+              {item.id_person === user?.personId && (
+                <button
+                  className={`${styles.button} ${styles.deleteButton}`}
+                  onClick={() => handleOnClickDelete(item.id)}
+                >
+                  X
+                </button>
+              )}
             </div>
           ))}
       </div>
