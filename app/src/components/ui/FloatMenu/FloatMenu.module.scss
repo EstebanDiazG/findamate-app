@@ -1,0 +1,9 @@
+.floatMenu {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+}

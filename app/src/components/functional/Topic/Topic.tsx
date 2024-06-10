@@ -2,6 +2,12 @@ import React, { useState, useEffect } from "react";
 
 import { useTopic, useInterest, useUser } from "@/store/hooks";
 
+import Window from "@/components/ui/Window";
+import { ContentCol, ContentRow } from "@/components/layout/Content";
+import Input from "@/components/ui/Input";
+import Button from "@/components/ui/Button";
+import FloatMenu from "@/components/ui/FloatMenu";
+
 import styles from "./Topic.module.scss";
 import Container from "@/components/layout/Container";
 
@@ -62,6 +68,22 @@ const Topic = () => {
   const [selectedCategories, setSelectedCategories] = useState<{
     [key: string]: string;
   }>({});
+  const [isDisplayWindow, setIsDisplayWindow] = useState(false);
+  const [windowTitle, setWindowTitle] = useState("Nuevo Foro");
+
+  const dataMenu = [
+    {
+      icon: "add",
+      onClick: () => handleOnClickAdd(),
+    },
+  ];
+
+  const handleOnClickAdd = () => {
+    setFormTopic(initialDataTopic);
+    topicReset();
+    setIsDisplayWindow(true);
+    setWindowTitle("Nuevo Foro");
+  };
 
   const handleOnChangeTitle = (e: React.ChangeEvent<HTMLInputElement>) => {
     setFormTopic({ ...formTopic, title: e.target.value });
@@ -89,9 +111,15 @@ const Topic = () => {
     const title = formTopic.title;
     const content = formTopic.content;
     const id_interest = formTopic.interestId;
-    console.log("Saving topic with:", { id_person, title, content, id_interest });
+    console.log("Saving topic with:", {
+      id_person,
+      title,
+      content,
+      id_interest,
+    });
 
     topicUpsert(id_person, title, content, id_interest);
+    setIsDisplayWindow(false);
     setFormTopic(initialDataTopic); // Limpia los campos después de guardar
   };
 
@@ -166,57 +194,47 @@ const Topic = () => {
           <p>No se encontraron temas.</p>
         )}
       </div>
-      <button
-        className={styles.floatingButton}
-        onClick={() => setFormTopic(initialDataTopic)}
+      <FloatMenu menu={dataMenu} />
+      <Window
+        title="Nuevo tema"
+        display={isDisplayWindow}
+        setClose={() => setIsDisplayWindow(false)}
       >
-        +
-      </button>
-      <div className={styles.topicForm}>
-        <input
-          type="text"
-          value={formTopic.title}
-          placeholder="Title"
-          onChange={handleOnChangeTitle}
-          className={styles.inputField}
-        />
-        <textarea
-          value={formTopic.content}
-          placeholder="Content"
-          onChange={handleOnChangeContent}
-          className={styles.textArea}
-        />
-        <select
-          value={formTopic.interestId}
-          onChange={handleOnChangeInterest}
-          className={styles.selectField}
-        >
-          {interestList?.map((interest) => (
-            <option key={interest.id} value={interest.id}>
-              {interest.name}
-            </option>
-          ))}
-        </select>
-
-        <input
-          type="text"
-          value={user?.name}
-          placeholder="Creator"
-          readOnly
-          className={styles.inputField}
-        />
-        <input
-          type="text"
-          value={user?.personId}
-          placeholder="Person ID"
-          readOnly
-          className={styles.inputField}
-        />
-
-        <button className={styles.button} onClick={handleOnClickSave}>
-          Guardar
-        </button>
-      </div>
+        <ContentCol gap="20px">
+          <ContentCol gap="5px">
+            <Input
+              name="title"
+              value={formTopic.title}
+              placeholder="Title"
+              onChange={handleOnChangeTitle}
+              width="479px"
+            />
+            <select
+              value={formTopic.interestId}
+              onChange={handleOnChangeInterest}
+              style={{ width: "479px" }}
+            >
+              {interestList?.map((interest) => (
+                <option key={interest.id} value={interest.id}>
+                  {interest.name}
+                </option>
+              ))}
+            </select>
+            <textarea
+              value={formTopic.content}
+              placeholder="Content"
+              onChange={handleOnChangeContent}
+              style={{ width: "479px" }}
+            />
+          </ContentCol>
+          <Button
+            width="300px"
+            text="Guardar"
+            color="tertiary"
+            onClick={handleOnClickSave}
+          />
+        </ContentCol>
+      </Window>
     </div>
   );
 };

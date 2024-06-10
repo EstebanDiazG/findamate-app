@@ -1,0 +1,21 @@
+.window {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #ffffff;
+
+  .window-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+
+    p {
+      font-weight: 700;
+      font-size: 20px;
+    }
+  }
+
+  .window-body {
+    padding: 10px;
+  }
+}

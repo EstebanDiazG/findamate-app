@@ -5,27 +5,25 @@
     justify-content: center;
     color: white;
     border: none;
-    background-color: transparent; 
+    background-color: transparent;
     outline: none;
 
     span {
-     font-size: 34px;
+      font-size: 34px;
     }
   }
-  
-    button:hover {
-      background-color: transparent;
-      span {
-        color: #ffffff;
-        font-size: 3em;
-      }
+
+  button:hover {
+    background-color: transparent;
+    span {
+      color: #ffffff;
+      font-size: 3em;
     }
+  }
 
   &.buttonIcon-no-border {
     button:hover {
-      background-color: transparent; 
+      background-color: transparent;
     }
   }
 }
-
-
