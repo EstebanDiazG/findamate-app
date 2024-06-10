@@ -4,9 +4,15 @@ import styles from "./Menu.module.scss";
 import { useUi } from "@/store/hooks";
 import Link from "next/link";
 import LogoSmall from "../LogoSmall";
+import { useUser } from "@/store/hooks";
 
 const Menu = () => {
+  const { userReset } = useUser();
   const { ui, uiTogleOpenMenu } = useUi();
+
+  const handleOnClickCloseSession = () => {
+    userReset();
+  };
 
   return (
     <div
@@ -14,7 +20,7 @@ const Menu = () => {
       style={{ left: ui.isOpenMenu ? "0px" : "-300px" }}
     >
       <div className={styles["menu-logo"]}>
-       <LogoSmall width="180px"/>
+        <LogoSmall width="180px" />
       </div>
       <ul className={styles["menu-section"]}>
         {menu.map((section) => (
@@ -38,7 +44,12 @@ const Menu = () => {
       </ul>
       <div className={styles["menu-exit"]}>
         <div className={styles["menu-item-content"]}>
-          <span className="material-symbols-outlined">logout</span>
+          <span
+            className="material-symbols-outlined"
+            onClick={handleOnClickCloseSession}
+          >
+            logout
+          </span>
           <span>Salida</span>
         </div>
       </div>
