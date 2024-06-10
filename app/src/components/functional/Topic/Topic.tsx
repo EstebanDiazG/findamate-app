@@ -58,6 +58,7 @@ const Topic = () => {
   };
 
   const [formTopic, setFormTopic] = useState<ITopic>(initialDataTopic);
+  const [searchTerm, setSearchTerm] = useState(""); //estado de busqueda
   const [selectedCategories, setSelectedCategories] = useState<{
     [key: string]: string;
   }>({});
@@ -119,12 +120,29 @@ const Topic = () => {
     }
   }, [topic, topicGetAll]);
 
+  //filta la lista segun lo buscado
+  const filteredTopics = topicList
+    ? topicList.filter((item) =>
+        item.title.toLowerCase().includes(searchTerm.toLowerCase())
+      )
+    : [];
+
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>Foros</h1>
+
+      {/* Campo de entrada para la búsqueda */}
+      <input
+        type="text"
+        placeholder="Buscar por título..."
+        value={searchTerm}
+        onChange={(e) => setSearchTerm(e.target.value)}
+        className={styles.searchField}
+      />
+
       <div className={styles.topicList}>
-        {topicList?.length &&
-          topicList.map((item, idx) => (
+        {filteredTopics.length > 0 ? (
+          filteredTopics.map((item, idx) => (
             <div key={idx} className={styles.topicItem}>
               <h2>{item.title}</h2>
               <p>{item.content}</p>
@@ -143,7 +161,10 @@ const Topic = () => {
                 </button>
               )}
             </div>
-          ))}
+          ))
+        ) : (
+          <p>No se encontraron temas.</p>
+        )}
       </div>
       <button
         className={styles.floatingButton}

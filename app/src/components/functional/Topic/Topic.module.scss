@@ -92,6 +92,16 @@
   background-color: #218838;
 }
 
+.searchField {
+  width: 100%;
+  max-width: 800px;
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
 .deleteButton {
   position: absolute;
   top: 5px;
