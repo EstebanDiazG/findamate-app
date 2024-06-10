@@ -1024,3 +1024,23 @@
 {"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-09 18:14:48"}
 {"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-09 18:14:48"}
 {"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-09 18:14:48"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-09 22:34:07"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-09 22:34:08","util":"database"}
+{"level":"info","message":{"body":{"email":"esteban@diaz.cl","password":"esteban123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-09 22:37:14"}
+{"level":"info","message":{"body":{"email":"esteban@diaz.cl","password":"esteban123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-09 22:37:15"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-09 22:37:51"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-09 22:37:51"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-09 22:37:52"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-09 22:37:52"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-09 22:37:52"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-09 22:37:52"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-09 22:37:52"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-09 22:37:52"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-09 22:37:52"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-09 22:37:53"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-09 22:37:53"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-09 22:37:53"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-09 22:37:53"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-09 22:37:53"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-09 22:37:53"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-09 22:37:53"}
