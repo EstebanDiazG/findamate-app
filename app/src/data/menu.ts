@@ -40,6 +40,13 @@ export const menu = [
         name: "Foro",
         path: "/topic",
       },
+      {
+        id: 3,
+        code: "findamateImage",
+        icon: "image",
+        name: "Imagenes",
+        path: "/image",
+      },
     ],
   },
 ];

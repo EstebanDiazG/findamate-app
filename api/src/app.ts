@@ -58,7 +58,7 @@ const routeMappings = [
 
 function initializeRoutes(server: Express) {
   routeMappings.forEach((route) => {
-    server.use(route.path, route.router);
+    server.use(route.path, route.router, handlerError);
   });
 
   server.use((err: any, req: Request, res: Response, next: NextFunction) => {
