@@ -1,0 +1,22 @@
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-10 22:15:30"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-10 22:15:31","util":"database"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-10 22:15:45"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-10 22:15:45","util":"database"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-10 23:30:49"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-10 23:30:49","util":"database"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-10 23:30:58"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-10 23:30:58","util":"database"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-10 23:31:06"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-10 23:31:07","util":"database"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-10 23:31:14"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-10 23:31:15","util":"database"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-10 23:31:25"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-10 23:31:26","util":"database"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic/idTopic/27b9f16f-d196-4568-8158-ecf0671ed792"},"timestamp":"2024-06-10 23:31:47"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id_topic":"27b9f16f-d196-4568-8158-ecf0671ed792"},"query":{},"url":"/message_topic/idTopic/27b9f16f-d196-4568-8158-ecf0671ed792"},"timestamp":"2024-06-10 23:31:48"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic/idPerson/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-06-10 23:32:04"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id_person":"64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"query":{},"url":"/message_topic/idPerson/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-06-10 23:32:04"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic/"},"timestamp":"2024-06-10 23:32:41"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic/"},"timestamp":"2024-06-10 23:32:42"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic/id/f80c9bf8-92a6-4e63-b2f9-a0ea64b1cc8d"},"timestamp":"2024-06-10 23:32:53"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id":"f80c9bf8-92a6-4e63-b2f9-a0ea64b1cc8d"},"query":{},"url":"/message_topic/id/f80c9bf8-92a6-4e63-b2f9-a0ea64b1cc8d"},"timestamp":"2024-06-10 23:32:54"}

@@ -1,2 +1,2 @@
-import Topic from "./Topic";
-export default Topic;
+import TopicList from "./TopicList";
+export {TopicList};

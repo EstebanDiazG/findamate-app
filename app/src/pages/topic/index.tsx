@@ -1,9 +1,9 @@
 import React from "react";
 
-import Topic from "@/components/functional/Topic";
+import {TopicList} from "@/components/functional/Topic";
 
 const TopicPage = () => {
-  return <Topic />;
+  return <TopicList />;
 };
 
 export default TopicPage;
