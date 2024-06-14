@@ -6,6 +6,7 @@ import { interestStore } from "./interestStore";
 import { categoryInterestStore } from "./categoryInterestStore";
 import { topicStore } from "./topicStore";
 import { imageStore } from "./imageStore";
+import { messageTopicStore } from "./messageTopicStore";
 
 export {
   personStore,
@@ -16,4 +17,6 @@ export {
   topicStore,
   uiStore,
   imageStore,
+  messageTopicStore,
 };
+

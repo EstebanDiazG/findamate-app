@@ -17,8 +17,10 @@ class MessageTopic{
           `   
         SELECT
             mtpc.id,
-            mtpc.content AS "mensaje",
-            per.name AS "Creador mensaje"
+            mtpc.id_topic,
+            mtpc.id_person,
+            mtpc.content,
+            per.name AS "creadorMensaje"
         FROM app.message_topic mtpc
         LEFT JOIN
             app.person per ON per.id = mtpc.id_person
@@ -32,8 +34,10 @@ class MessageTopic{
             `
         SELECT
             mtpc.id,
-            mtpc.content AS "mensaje",
-            per.name AS "Creador mensaje"
+            mtpc.id_topic,
+            mtpc.id_person,
+            mtpc.content,
+            per.name AS "creadorMensaje"
         FROM app.message_topic mtpc
         LEFT JOIN
             app.person per ON per.id = mtpc.id_person
@@ -48,8 +52,10 @@ class MessageTopic{
             `
         SELECT
             mtpc.id,
-            mtpc.content AS "mensaje",
-            per.name AS "Creador mensaje"
+            mtpc.id_topic,
+            mtpc.id_person,
+            mtpc.content,
+            per.name AS "creadorMensaje"
         FROM app.message_topic mtpc
         LEFT JOIN
             app.person per ON per.id = mtpc.id_person
@@ -64,8 +70,10 @@ class MessageTopic{
             `
         SELECT
             mtpc.id,
-            mtpc.content AS "mensaje",
-            per.name AS "Creador mensaje"
+            mtpc.id_topic,
+            mtpc.id_person,
+            mtpc.content,
+            per.name AS "creadorMensaje"
         FROM app.message_topic mtpc
         LEFT JOIN
             app.person per ON per.id = mtpc.id_person

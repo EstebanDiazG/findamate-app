@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import {useRouter} from "next/router";
 
 import { useTopic, useInterest, useUser } from "@/store/hooks";
 
@@ -39,9 +40,12 @@ const Topic = () => {
   //Hook de User
   const { user } = useUser();
 
+  //Router
+  const router = useRouter();
+
   useEffect(() => {
     topicGetAll();
-    interestGetAll(); // Llama a categoryInterestGetAll para obtener las categorías
+    interestGetAll(); 
   }, [topicGetAll, interestGetAll]);
 
   const initialDataTopic = {
@@ -171,7 +175,7 @@ const Topic = () => {
       <div className={styles.topicList}>
         {filteredTopics.length > 0 ? (
           filteredTopics.map((item, idx) => (
-            <div key={idx} className={styles.topicItem}>
+            <div key={idx} className={styles.topicItem} onClick={() => router.push(`/topic/${item.id}`)}>
               <h2>{item.title}</h2>
               <p>{item.content}</p>
               <small>{item.Interest}</small>
