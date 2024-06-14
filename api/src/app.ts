@@ -16,6 +16,8 @@ import createLogger from "./utils/functions/logger";
 import pool from "./utils/lib/pg";
 import * as routes from "./routes";
 
+const app = express();
+
 const corsOptions = {
   preflightContinue: false,
   methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
@@ -23,7 +25,10 @@ const corsOptions = {
     origin: string | undefined,
     callback: (err: Error | null, allow?: boolean) => void
   ) => {
-    if (process.env.ENV !== "dev") {
+    console.log("Origin:", origin);
+    if (process.env.ENV === "dev") {
+      callback(null, true);
+    } else {
       if (!origin || allowedOrigins.indexOf(origin) !== -1) {
         callback(null, true);
       } else {
@@ -33,8 +38,6 @@ const corsOptions = {
         });
         callback(null, false);
       }
-    } else {
-      callback(null, true);
     }
   },
   credentials: true,
@@ -56,12 +59,12 @@ const routeMappings = [
   { path: "/message_topic", router: routes.messageTopicRoutes },
 ];
 
-function initializeRoutes(server: Express) {
+function initializeRoutes(app: Express) {
   routeMappings.forEach((route) => {
-    server.use(route.path, route.router);
+    app.use(route.path, route.router, handlerError);
   });
 
-  server.use((err: any, req: Request, res: Response, next: NextFunction) => {
+  app.use((err: any, req: Request, res: Response, next: NextFunction) => {
     if (err instanceof SyntaxError && err.message.includes("JSON")) {
       return res.status(400).json({ error: "Json Request Format is invalid" });
     }
@@ -71,8 +74,11 @@ function initializeRoutes(server: Express) {
 
   const virtualPath = "/public";
   const diskPath = path.join(__dirname, "..", "public");
-  server.use(virtualPath, express.static(diskPath));
+  app.use(virtualPath, express.static(diskPath));
 }
+
+const imagesUploadDir = path.join(__dirname, "../public/uploads/images");
+app.use("/uploads/images", express.static(imagesUploadDir));
 
 pool.connect((err) => {
   if (err) {
@@ -82,13 +88,11 @@ pool.connect((err) => {
   console.log("Successful database connection");
 });
 
-const server = express();
-
-server.use(setSecurityHeaders);
-server.use(express.json());
-server.use(cors(corsOptions));
-server.use(express.urlencoded({ extended: false }));
-server.use(
+app.use(setSecurityHeaders);
+app.use(express.json());
+app.use(cors(corsOptions));
+app.use(express.urlencoded({ extended: false }));
+app.use(
   helmet({
     contentSecurityPolicy: {
       directives: {
@@ -102,12 +106,12 @@ server.use(
     hsts: { maxAge: 31536000, includeSubDomains: true },
   })
 );
-server.use(handlerRequest);
-server.use(auth);
+app.use(handlerRequest);
+app.use(auth);
 
-initializeRoutes(server);
+initializeRoutes(app);
 
-server.use(handlerError);
-server.use(handlerResponse);
+app.use(handlerError);
+app.use(handlerResponse);
 
-export default server;
+export default app;

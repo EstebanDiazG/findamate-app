@@ -21,7 +21,7 @@ export default class Images {
     limit: number;
   }) {
     const response = await pool.query(
-      `SELECT img.id, '${imagesUploadUrl}/' || img.id || '.jpg' AS url, count(*) over() AS total FROM app.image img WHERE $3::int2 is null OR status_code = $3 ORDER BY created_at DESC LIMIT $2 OFFSET ($1 - 1) * $2;`,
+      `SELECT img.id, '${imagesUploadUrl}/' || img.id || '.jpg' AS url FROM app.image img WHERE $3::int2 is null OR status_code = $3 ORDER BY created_at DESC LIMIT $2 OFFSET ($1 - 1) * $2;`,
       [query.page, query.limit, query.statusCode]
     );
     return response.rows;

@@ -1,3 +1,4 @@
+
 {"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-13 23:25:32"}
 {"level":"info","message":"Database connected","timestamp":"2024-06-13 23:25:32","util":"database"}
 {"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic/"},"timestamp":"2024-06-13 23:26:16"}
@@ -34,3 +35,1142 @@
 {"level":"info","message":{"body":"","method":"GET","params":{"id":"e3a531f8-809e-4edc-8b28-28558f5c6cb7"},"query":{},"url":"/topic/id/e3a531f8-809e-4edc-8b28-28558f5c6cb7"},"timestamp":"2024-06-13 23:28:07"}
 {"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/message_topic/id/ebd595ac-e9f9-4605-87ce-4fdc683c72f7"},"timestamp":"2024-06-13 23:28:17"}
 {"level":"info","message":{"body":"","method":"DELETE","params":{"id":"ebd595ac-e9f9-4605-87ce-4fdc683c72f7"},"query":"","url":"/message_topic/id/ebd595ac-e9f9-4605-87ce-4fdc683c72f7"},"timestamp":"2024-06-13 23:28:18"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-13 22:09:01"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-13 22:09:02","util":"database"}
+{"level":"info","message":{"body":{"email":"esteban@diaz.cl","password":"esteban123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-13 22:10:00"}
+{"level":"info","message":{"body":{"email":"esteban@diaz.cl","password":"esteban123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-13 22:10:01"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 22:10:08"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-13 22:10:08"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 22:10:08"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 22:10:08"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 22:10:08"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 22:10:08"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 22:10:08"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 22:10:08"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 22:10:08"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 22:10:08"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 22:10:09"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 22:10:09"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-13 22:10:09"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-13 22:10:09"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 22:10:09"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-13 22:10:09"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-13 22:10:10"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/id/ba8d45b2-464b-4520-b77f-5f8df9933685"},"timestamp":"2024-06-13 22:10:10"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-13 22:10:10"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id":"ba8d45b2-464b-4520-b77f-5f8df9933685"},"query":{},"url":"/topic/id/ba8d45b2-464b-4520-b77f-5f8df9933685"},"timestamp":"2024-06-13 22:10:10"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-13 22:10:10"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/id/ba8d45b2-464b-4520-b77f-5f8df9933685"},"timestamp":"2024-06-13 22:10:10"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-13 22:10:10"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id":"ba8d45b2-464b-4520-b77f-5f8df9933685"},"query":{},"url":"/topic/id/ba8d45b2-464b-4520-b77f-5f8df9933685"},"timestamp":"2024-06-13 22:10:10"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 22:10:16"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-13 22:10:16"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-13 22:10:16"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 22:10:16"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-13 22:10:16"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 22:10:16"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-13 22:10:17"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 22:10:17"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 22:10:17"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 22:10:17"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 22:10:17"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 22:10:17"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 22:10:17"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 22:10:17"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 22:10:17"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 22:10:17"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 22:10:25"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 22:10:25"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/id/e3a531f8-809e-4edc-8b28-28558f5c6cb7"},"timestamp":"2024-06-13 22:10:36"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-13 22:10:36"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-13 22:10:36"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id":"e3a531f8-809e-4edc-8b28-28558f5c6cb7"},"query":{},"url":"/topic/id/e3a531f8-809e-4edc-8b28-28558f5c6cb7"},"timestamp":"2024-06-13 22:10:36"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-13 22:10:36"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/id/e3a531f8-809e-4edc-8b28-28558f5c6cb7"},"timestamp":"2024-06-13 22:10:36"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-13 22:10:37"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id":"e3a531f8-809e-4edc-8b28-28558f5c6cb7"},"query":{},"url":"/topic/id/e3a531f8-809e-4edc-8b28-28558f5c6cb7"},"timestamp":"2024-06-13 22:10:37"}
+{"level":"info","message":{"body":{"content":"cacharon esta epica pelea? \nhttps://www.youtube.com/watch?v=npp6yXKFqjE","id_person":"64856186-6e05-4a3c-bf6a-ffe4e882d64b","id_topic":"e3a531f8-809e-4edc-8b28-28558f5c6cb7"},"method":"POST","params":"","query":"","url":"/message_topic"},"timestamp":"2024-06-13 22:11:35"}
+{"level":"info","message":{"body":{"content":"cacharon esta epica pelea? \nhttps://www.youtube.com/watch?v=npp6yXKFqjE","id_person":"64856186-6e05-4a3c-bf6a-ffe4e882d64b","id_topic":"e3a531f8-809e-4edc-8b28-28558f5c6cb7"},"method":"POST","params":"","query":"","url":"/message_topic"},"timestamp":"2024-06-13 22:11:36"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-13 22:11:36"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-13 22:11:36"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 22:12:06"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-13 22:12:06"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-13 22:12:06"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-13 22:12:06"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 22:12:06"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 22:12:06"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-13 22:12:06"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 22:12:07"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 22:12:07"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 22:12:07"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 22:12:07"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 22:12:07"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 22:12:07"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 22:12:07"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 22:12:07"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 22:12:07"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-13 22:12:09"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/id/27b9f16f-d196-4568-8158-ecf0671ed792"},"timestamp":"2024-06-13 22:12:09"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-13 22:12:09"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-13 22:12:09"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id":"27b9f16f-d196-4568-8158-ecf0671ed792"},"query":{},"url":"/topic/id/27b9f16f-d196-4568-8158-ecf0671ed792"},"timestamp":"2024-06-13 22:12:09"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/id/27b9f16f-d196-4568-8158-ecf0671ed792"},"timestamp":"2024-06-13 22:12:09"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-13 22:12:09"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id":"27b9f16f-d196-4568-8158-ecf0671ed792"},"query":{},"url":"/topic/id/27b9f16f-d196-4568-8158-ecf0671ed792"},"timestamp":"2024-06-13 22:12:09"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/message_topic/id/79e7fefa-749e-42b6-b0bb-a67c5a594213"},"timestamp":"2024-06-13 22:12:14"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{"id":"79e7fefa-749e-42b6-b0bb-a67c5a594213"},"query":"","url":"/message_topic/id/79e7fefa-749e-42b6-b0bb-a67c5a594213"},"timestamp":"2024-06-13 22:12:14"}
+{"level":"info","message":{"body":{"content":"voy con el eduardo, peguenle","id_person":"64856186-6e05-4a3c-bf6a-ffe4e882d64b","id_topic":"27b9f16f-d196-4568-8158-ecf0671ed792"},"method":"POST","params":"","query":"","url":"/message_topic"},"timestamp":"2024-06-13 22:12:36"}
+{"level":"info","message":{"body":{"content":"voy con el eduardo, peguenle","id_person":"64856186-6e05-4a3c-bf6a-ffe4e882d64b","id_topic":"27b9f16f-d196-4568-8158-ecf0671ed792"},"method":"POST","params":"","query":"","url":"/message_topic"},"timestamp":"2024-06-13 22:12:37"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-13 22:12:37"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-13 22:12:37"}
+{"level":"info","message":{"body":{"content":"","id_person":"64856186-6e05-4a3c-bf6a-ffe4e882d64b","id_topic":"27b9f16f-d196-4568-8158-ecf0671ed792"},"method":"POST","params":"","query":"","url":"/message_topic"},"timestamp":"2024-06-13 22:12:53"}
+{"level":"error","message":{"body":{"content":"","id_person":"64856186-6e05-4a3c-bf6a-ffe4e882d64b","id_topic":"27b9f16f-d196-4568-8158-ecf0671ed792"},"error":"\"content\" is not allowed to be empty","method":"POST","params":"","query":"","url":"/message_topic"},"timestamp":"2024-06-13 22:12:53"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-13 22:12:53"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-13 22:12:54"}
+{"level":"info","message":{"body":{"content":"hola","id_person":"64856186-6e05-4a3c-bf6a-ffe4e882d64b","id_topic":"27b9f16f-d196-4568-8158-ecf0671ed792"},"method":"POST","params":"","query":"","url":"/message_topic"},"timestamp":"2024-06-13 22:12:58"}
+{"level":"info","message":{"body":{"content":"hola","id_person":"64856186-6e05-4a3c-bf6a-ffe4e882d64b","id_topic":"27b9f16f-d196-4568-8158-ecf0671ed792"},"method":"POST","params":"","query":"","url":"/message_topic"},"timestamp":"2024-06-13 22:12:58"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-13 22:12:58"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-13 22:12:58"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:13:07"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:13:07"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:13:07"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:13:07"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-06-13 22:21:04"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-06-13 22:21:05"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:21:20"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:21:21"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/images/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 22:22:38"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 22:22:38"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 22:22:39"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 22:22:39"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-13 22:23:40"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/images/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 22:23:40"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 22:23:40"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 22:23:40"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 22:23:40"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-13 22:23:40","util":"database"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 22:23:48"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 22:23:48"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 22:23:48"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 22:23:48"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-13 22:24:04"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-13 22:24:04","util":"database"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:24:52"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:24:52"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:25:20"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:25:21"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:27:16"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:27:17"}
+{"level":"info","message":{"body":{"email":"esteban@diaz.cl","password":"esteban123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-13 22:27:43"}
+{"level":"info","message":{"body":{"email":"esteban@diaz.cl","password":"esteban123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-13 22:27:43"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:27:43"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:27:44"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:27:44"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:27:44"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:27:47"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:27:48"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:27:48"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:27:48"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:31:04"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:31:05"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:31:05"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:31:05"}
+{"level":"info","message":{"body":{"email":"esteban@diaz.cl","password":"esteban123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-13 22:31:15"}
+{"level":"info","message":{"body":{"email":"esteban@diaz.cl","password":"esteban123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-13 22:31:16"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:31:16"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:31:16"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:31:16"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:31:16"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:31:29"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:31:30"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:31:30"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:31:30"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:31:56"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:31:56"}
+{"level":"info","message":{"body":{"email":"esteban@diaz.cl","password":"esteban123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-13 22:32:07"}
+{"level":"info","message":{"body":{"email":"esteban@diaz.cl","password":"esteban123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-13 22:32:08"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:32:08"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:32:08"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:32:08"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:32:08"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:32:13"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:32:13"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:32:13"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:32:14"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-13 22:34:13"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-13 22:34:13","util":"database"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-13 22:35:53"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-13 22:35:53","util":"database"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:35:54"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:35:54"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-13 22:36:57"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-13 22:36:58","util":"database"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:36:58"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:36:59"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-13 22:37:36"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:37:36"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-13 22:37:37","util":"database"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:37:37"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-13 22:40:51"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:40:51"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-13 22:40:52","util":"database"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:40:52"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:41:34"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:41:35"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-13 22:41:41"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-13 22:41:42","util":"database"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:41:42"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:41:43"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-13 22:42:47"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-13 22:42:48","util":"database"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:42:55"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:42:55"}
+{"level":"info","message":{"body":{"email":"esteban@diaz.cl","password":"esteban123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-13 22:43:31"}
+{"level":"info","message":{"body":{"email":"esteban@diaz.cl","password":"esteban123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-13 22:43:32"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:43:32"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:43:32"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:43:32"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:43:32"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:43:38"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:43:38"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:43:38"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:43:39"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-13 22:56:58"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-13 22:56:58","util":"database"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:56:59"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:57:00"}
+{"level":"info","message":{"body":{"email":"esteban@diaz.cl","password":"esteban123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-13 22:57:31"}
+{"level":"info","message":{"body":{"email":"esteban@diaz.cl","password":"esteban123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-13 22:57:32"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:57:32"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:57:32"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:57:32"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:57:33"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:57:36"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:57:37"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:57:37"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:57:37"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:58:56"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4cb417f6-c96f-4e44-b34c-d8e1f57a8b18.jpg"},"timestamp":"2024-06-13 22:58:56"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 22:58:56"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/5393545a-cae2-4d6e-b957-26aee76ea1c4.jpg"},"timestamp":"2024-06-13 22:58:56"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 22:58:56"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 22:58:56"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 22:58:56"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:58:57"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:59:23"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 22:59:23"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:00:18"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4cb417f6-c96f-4e44-b34c-d8e1f57a8b18.jpg"},"timestamp":"2024-06-13 23:00:18"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:00:18"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/5393545a-cae2-4d6e-b957-26aee76ea1c4.jpg"},"timestamp":"2024-06-13 23:00:18"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:00:18"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:00:18"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:00:18"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:00:19"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:00:19"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:00:19"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/id/"},"timestamp":"2024-06-13 23:08:23"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/image/id/"},"timestamp":"2024-06-13 23:08:23"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4cb417f6-c96f-4e44-b34c-d8e1f57a8b18.jpg"},"timestamp":"2024-06-13 23:08:23"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:08:23"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/5393545a-cae2-4d6e-b957-26aee76ea1c4.jpg"},"timestamp":"2024-06-13 23:08:23"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:08:23"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:08:23"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:08:23"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/id/"},"timestamp":"2024-06-13 23:08:23"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/image/id/"},"timestamp":"2024-06-13 23:08:23"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:09:05"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4cb417f6-c96f-4e44-b34c-d8e1f57a8b18.jpg"},"timestamp":"2024-06-13 23:09:05"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:09:05"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/5393545a-cae2-4d6e-b957-26aee76ea1c4.jpg"},"timestamp":"2024-06-13 23:09:05"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:09:05"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:09:05"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:09:05"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:09:06"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:09:06"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:09:06"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:09:23"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:09:23"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-06-13 23:09:38"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-06-13 23:09:39"}
+{"level":"info","message":{"body":{"email":"esteban@diaz.cl","password":"esteban123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-13 23:09:48"}
+{"level":"info","message":{"body":{"email":"esteban@diaz.cl","password":"esteban123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-13 23:09:48"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:09:48"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:09:48"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:09:48"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:09:48"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:09:52"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:09:52"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:09:52"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:09:52"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:10:16"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:10:17"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:10:38"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:10:39"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:10:59"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:11:00"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:11:00"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:11:00"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/bd7ac7d4-7b95-49df-9379-c4112ba41016"},"timestamp":"2024-06-13 23:16:17"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:16:17"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4cb417f6-c96f-4e44-b34c-d8e1f57a8b18"},"timestamp":"2024-06-13 23:16:17"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:16:17"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:16:17"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/5393545a-cae2-4d6e-b957-26aee76ea1c4"},"timestamp":"2024-06-13 23:16:17"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:16:17"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a"},"timestamp":"2024-06-13 23:16:17"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:16:17"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:16:18"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 23:16:36"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-13 23:16:36"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 23:16:37"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 23:16:37"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-13 23:16:37"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-13 23:16:37"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 23:16:37"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 23:16:37"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-13 23:16:37"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 23:16:37"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 23:16:37"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 23:16:37"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 23:16:37"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 23:16:37"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 23:16:37"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 23:16:37"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:16:38"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/bd7ac7d4-7b95-49df-9379-c4112ba41016"},"timestamp":"2024-06-13 23:16:38"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:16:38"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4cb417f6-c96f-4e44-b34c-d8e1f57a8b18"},"timestamp":"2024-06-13 23:16:38"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:16:38"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/5393545a-cae2-4d6e-b957-26aee76ea1c4"},"timestamp":"2024-06-13 23:16:38"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:16:38"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a"},"timestamp":"2024-06-13 23:16:38"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:16:38"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:16:38"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:16:38"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:16:38"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/bd7ac7d4-7b95-49df-9379-c4112ba41016.jpg"},"timestamp":"2024-06-13 23:17:00"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:17:00"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4cb417f6-c96f-4e44-b34c-d8e1f57a8b18.jpg"},"timestamp":"2024-06-13 23:17:00"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:17:00"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:17:00"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/5393545a-cae2-4d6e-b957-26aee76ea1c4.jpg"},"timestamp":"2024-06-13 23:17:00"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:17:00"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:17:00"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:17:00"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:17:01"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-13 23:17:42"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-13 23:17:42","util":"database"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-13 23:17:50"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-13 23:17:50","util":"database"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 23:17:59"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-13 23:17:59"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 23:17:59"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 23:17:59"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-13 23:17:59"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-13 23:17:59"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 23:17:59"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 23:17:59"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-13 23:18:00"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 23:18:00"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 23:18:00"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 23:18:00"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 23:18:00"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 23:18:00"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 23:18:00"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 23:18:00"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/bd7ac7d4-7b95-49df-9379-c4112ba41016.jpg"},"timestamp":"2024-06-13 23:18:01"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:18:01"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4cb417f6-c96f-4e44-b34c-d8e1f57a8b18.jpg"},"timestamp":"2024-06-13 23:18:01"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:18:01"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/5393545a-cae2-4d6e-b957-26aee76ea1c4.jpg"},"timestamp":"2024-06-13 23:18:01"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:18:01"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:18:01"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:18:01"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:18:01"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:18:01"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:18:01"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:18:01"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:18:32"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:18:32"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:18:32"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:18:32"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-13 23:22:14"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-13 23:22:15","util":"database"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-13 23:23:25"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-13 23:23:26","util":"database"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 23:23:30"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-13 23:23:30"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-13 23:23:31"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 23:23:31"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-13 23:23:31"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 23:23:31"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-13 23:23:31"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 23:23:31"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 23:23:31"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 23:23:31"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 23:23:31"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 23:23:31"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 23:23:31"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 23:23:31"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 23:23:31"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 23:23:31"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/bd7ac7d4-7b95-49df-9379-c4112ba41016.jpg"},"timestamp":"2024-06-13 23:23:32"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:23:32"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4cb417f6-c96f-4e44-b34c-d8e1f57a8b18.jpg"},"timestamp":"2024-06-13 23:23:32"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:23:32"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/5393545a-cae2-4d6e-b957-26aee76ea1c4.jpg"},"timestamp":"2024-06-13 23:23:32"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:23:32"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:23:32"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:23:32"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:23:32"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:23:32"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:23:32"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:23:32"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 23:23:47"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-13 23:23:47"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-13 23:23:48"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-13 23:23:48"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 23:23:48"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 23:23:48"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-13 23:23:48"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 23:23:48"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 23:23:48"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 23:23:48"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 23:23:48"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 23:23:48"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 23:23:48"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 23:23:48"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 23:23:48"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-13 23:23:49"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:23:50"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/bd7ac7d4-7b95-49df-9379-c4112ba41016.jpg"},"timestamp":"2024-06-13 23:23:50"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:23:50"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4cb417f6-c96f-4e44-b34c-d8e1f57a8b18.jpg"},"timestamp":"2024-06-13 23:23:50"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:23:50"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/5393545a-cae2-4d6e-b957-26aee76ea1c4.jpg"},"timestamp":"2024-06-13 23:23:50"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:23:50"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:23:50"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:23:50"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:23:50"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:23:50"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:23:50"}
+{"level":"info","message":{"body":{"email":"esteban@diaz.cl","password":"esteban123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-13 23:25:35"}
+{"level":"info","message":{"body":{"email":"esteban@diaz.cl","password":"esteban123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-13 23:25:36"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:25:36"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:25:36"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:25:36"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/bd7ac7d4-7b95-49df-9379-c4112ba41016.jpg"},"timestamp":"2024-06-13 23:25:36"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:25:36"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:25:36"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:25:36"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/5393545a-cae2-4d6e-b957-26aee76ea1c4.jpg"},"timestamp":"2024-06-13 23:25:36"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:25:36"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4cb417f6-c96f-4e44-b34c-d8e1f57a8b18.jpg"},"timestamp":"2024-06-13 23:25:36"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:25:36"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:25:36"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/bd7ac7d4-7b95-49df-9379-c4112ba41016.jpg"},"timestamp":"2024-06-13 23:25:42"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:25:42"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/5393545a-cae2-4d6e-b957-26aee76ea1c4.jpg"},"timestamp":"2024-06-13 23:25:42"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:25:42"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4cb417f6-c96f-4e44-b34c-d8e1f57a8b18.jpg"},"timestamp":"2024-06-13 23:25:42"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:25:42"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:25:42"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:25:42"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:25:42"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:25:43"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:25:43"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:25:43"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:25:58"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:25:58"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:25:58"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:25:58"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:26:02"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:26:02"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:26:02"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:26:02"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-13 23:26:46"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:26:46"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:26:46"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:26:46"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:26:46"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-13 23:26:47","util":"database"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:26:48"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:26:48"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:26:48"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:26:48"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:26:52"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:26:52"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:26:52"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:26:52"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-13 23:27:01"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-13 23:27:02","util":"database"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:27:04"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:27:04"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:27:04"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:27:04"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:27:05"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:27:05"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:27:06"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:27:06"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:27:07"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:27:07"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:27:07"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:27:07"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-13 23:27:57"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:27:57"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:27:57"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:27:57"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:27:57"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-13 23:27:58","util":"database"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:27:59"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:27:59"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:27:59"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:27:59"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:28:01"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:28:01"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:28:01"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:28:01"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:28:04"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:28:04"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:28:04"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:28:04"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:28:08"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:28:08"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:28:08"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:28:08"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:28:24"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:28:24"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:28:24"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:28:24"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:28:26"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:28:26"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:28:26"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:28:26"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-13 23:28:48"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-13 23:28:49","util":"database"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-06-13 23:29:51"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-06-13 23:29:52"}
+{"level":"info","message":{"body":{"email":"esteban@diaz.cl","password":"esteban123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-13 23:30:21"}
+{"level":"info","message":{"body":{"email":"esteban@diaz.cl","password":"esteban123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-13 23:30:22"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:30:22"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:30:22"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:30:22"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:30:22"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:30:25"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/2cd0fe45-9bc2-45e8-9f0d-a99a9c557a06.jpg"},"timestamp":"2024-06-13 23:30:25"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:30:25"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/bd7ac7d4-7b95-49df-9379-c4112ba41016.jpg"},"timestamp":"2024-06-13 23:30:25"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:30:25"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4cb417f6-c96f-4e44-b34c-d8e1f57a8b18.jpg"},"timestamp":"2024-06-13 23:30:25"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:30:25"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/5393545a-cae2-4d6e-b957-26aee76ea1c4.jpg"},"timestamp":"2024-06-13 23:30:25"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:30:25"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:30:25"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:30:25"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:30:25"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:30:25"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:30:25"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:31:22"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:31:22"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:31:22"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:31:22"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-13 23:33:47"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:33:47"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:33:47"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:33:47"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:33:47"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-13 23:33:48","util":"database"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:33:49"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:33:49"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:33:49"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:33:49"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-13 23:34:03"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:34:03"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:34:03"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:34:03"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:34:03"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-13 23:34:04","util":"database"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:34:05"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:34:05"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:34:05"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:34:05"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:34:06"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:34:06"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:34:06"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:34:06"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-13 23:34:15"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-13 23:34:15","util":"database"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-13 23:34:33"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-13 23:34:33","util":"database"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:34:35"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:34:35"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:34:35"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:34:35"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:34:35"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:34:35"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:34:35"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:34:35"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:34:36"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:34:36"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:34:36"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:34:36"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-13 23:34:58"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-13 23:34:59","util":"database"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-13 23:35:33"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-13 23:35:34","util":"database"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:35:35"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:35:35"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:35:35"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:35:35"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:35:36"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:35:36"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:35:36"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:35:36"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-13 23:39:32"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-13 23:39:33","util":"database"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:39:33"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:39:33"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:39:33"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:39:33"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:39:35"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:39:35"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:39:35"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:39:35"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-13 23:40:18"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:40:18"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:40:18"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:40:18"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:40:18"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-13 23:40:19","util":"database"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:40:20"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:40:20"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:40:20"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:40:20"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:40:21"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:40:21"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:40:21"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:40:21"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-13 23:40:39"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-13 23:40:40","util":"database"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:41:56"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:41:56"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:41:56"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:41:56"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:41:58"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:41:58"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:41:58"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-13 23:41:58"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-13 23:42:27"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:42:27"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:42:27"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:42:27"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:42:27"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-13 23:42:27","util":"database"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:42:30"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:42:30"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:42:30"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:42:30"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:42:32"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:42:32"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:42:32"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:42:32"}
+{"level":"info","message":{"body":{"email":"esteban@diaz.cl","password":"esteban123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-13 23:42:42"}
+{"level":"info","message":{"body":{"email":"esteban@diaz.cl","password":"esteban123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-13 23:42:43"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:42:43"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:42:43"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:42:43"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:42:43"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:42:47"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/2cd0fe45-9bc2-45e8-9f0d-a99a9c557a06.jpg"},"timestamp":"2024-06-13 23:42:47"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/uploads/images/2cd0fe45-9bc2-45e8-9f0d-a99a9c557a06.jpg"},"timestamp":"2024-06-13 23:42:47"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/bd7ac7d4-7b95-49df-9379-c4112ba41016.jpg"},"timestamp":"2024-06-13 23:42:47"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/uploads/images/bd7ac7d4-7b95-49df-9379-c4112ba41016.jpg"},"timestamp":"2024-06-13 23:42:47"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4cb417f6-c96f-4e44-b34c-d8e1f57a8b18.jpg"},"timestamp":"2024-06-13 23:42:47"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/uploads/images/4cb417f6-c96f-4e44-b34c-d8e1f57a8b18.jpg"},"timestamp":"2024-06-13 23:42:47"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/5393545a-cae2-4d6e-b957-26aee76ea1c4.jpg"},"timestamp":"2024-06-13 23:42:47"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/uploads/images/5393545a-cae2-4d6e-b957-26aee76ea1c4.jpg"},"timestamp":"2024-06-13 23:42:47"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:42:47"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:42:47"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:42:47"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:42:47"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:42:47"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:43:08"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/image/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:43:08"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:43:08"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:43:08"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:43:10"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/image/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:43:10"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:43:10"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:43:10"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:43:39"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/image/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:43:39"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:43:39"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:43:39"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:43:41"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/image/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:43:41"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:43:41"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:43:41"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:43:47"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:43:48"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/5393545a-cae2-4d6e-b957-26aee76ea1c4.jpg"},"timestamp":"2024-06-13 23:44:00"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/uploads/images/5393545a-cae2-4d6e-b957-26aee76ea1c4.jpg"},"timestamp":"2024-06-13 23:44:00"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:44:00"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:44:00"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/5393545a-cae2-4d6e-b957-26aee76ea1c4.jpg"},"timestamp":"2024-06-13 23:44:03"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/uploads/images/5393545a-cae2-4d6e-b957-26aee76ea1c4.jpg"},"timestamp":"2024-06-13 23:44:03"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:44:03"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:44:03"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:44:19"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/image/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:44:19"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:44:19"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:44:19"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image"},"timestamp":"2024-06-13 23:44:23"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/image"},"timestamp":"2024-06-13 23:44:23"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:44:23"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:44:23"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/5393545a-cae2-4d6e-b957-26aee76ea1c4.jpg"},"timestamp":"2024-06-13 23:44:38"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/uploads/images/5393545a-cae2-4d6e-b957-26aee76ea1c4.jpg"},"timestamp":"2024-06-13 23:44:38"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:44:38"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:44:38"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/images/4cb417f6-c96f-4e44-b34c-d8e1f57a8b18.jpg"},"timestamp":"2024-06-13 23:45:35"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/images/4cb417f6-c96f-4e44-b34c-d8e1f57a8b18.jpg"},"timestamp":"2024-06-13 23:45:35"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:45:35"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:45:35"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4cb417f6-c96f-4e44-b34c-d8e1f57a8b18.jpg"},"timestamp":"2024-06-13 23:45:50"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/uploads/images/4cb417f6-c96f-4e44-b34c-d8e1f57a8b18.jpg"},"timestamp":"2024-06-13 23:45:50"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:45:50"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:45:50"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/id/4e052f41-9b9b-4abf-81e9-6e46a149c78a"},"timestamp":"2024-06-13 23:46:09"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id":"4e052f41-9b9b-4abf-81e9-6e46a149c78a"},"query":{},"url":"/image/id/4e052f41-9b9b-4abf-81e9-6e46a149c78a"},"timestamp":"2024-06-13 23:46:10"}
+{"level":"info","message":{"body":{"email":"","password":""},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-13 23:46:36"}
+{"level":"error","message":{"body":{"email":"","password":""},"error":"\"email\" is not allowed to be empty","method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-13 23:46:36"}
+{"level":"info","message":{"body":{"email":"esteban@diaz.cl","password":"esteban123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-13 23:46:45"}
+{"level":"info","message":{"body":{"email":"esteban@diaz.cl","password":"esteban123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-13 23:46:45"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:46:50"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:46:50"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:46:50"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/2cd0fe45-9bc2-45e8-9f0d-a99a9c557a06.jpg"},"timestamp":"2024-06-13 23:46:50"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/uploads/images/2cd0fe45-9bc2-45e8-9f0d-a99a9c557a06.jpg"},"timestamp":"2024-06-13 23:46:50"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/bd7ac7d4-7b95-49df-9379-c4112ba41016.jpg"},"timestamp":"2024-06-13 23:46:50"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/uploads/images/bd7ac7d4-7b95-49df-9379-c4112ba41016.jpg"},"timestamp":"2024-06-13 23:46:50"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4cb417f6-c96f-4e44-b34c-d8e1f57a8b18.jpg"},"timestamp":"2024-06-13 23:46:50"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/uploads/images/4cb417f6-c96f-4e44-b34c-d8e1f57a8b18.jpg"},"timestamp":"2024-06-13 23:46:50"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/5393545a-cae2-4d6e-b957-26aee76ea1c4.jpg"},"timestamp":"2024-06-13 23:46:50"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/uploads/images/5393545a-cae2-4d6e-b957-26aee76ea1c4.jpg"},"timestamp":"2024-06-13 23:46:50"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:46:50"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:46:50"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:46:50"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:47:07"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:47:07"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:47:07"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:47:07"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:47:27"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:47:28"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:47:28"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:47:28"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search/uploads/images/2cd0fe45-9bc2-45e8-9f0d-a99a9c557a06.jpg"},"timestamp":"2024-06-13 23:47:39"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/image/search/uploads/images/2cd0fe45-9bc2-45e8-9f0d-a99a9c557a06.jpg"},"timestamp":"2024-06-13 23:47:39"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:47:39"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:47:39"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/uploads/images/2cd0fe45-9bc2-45e8-9f0d-a99a9c557a06.jpg"},"timestamp":"2024-06-13 23:48:01"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/image/uploads/images/2cd0fe45-9bc2-45e8-9f0d-a99a9c557a06.jpg"},"timestamp":"2024-06-13 23:48:01"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:48:01"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:48:01"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/search"},"timestamp":"2024-06-13 23:48:25"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/search"},"timestamp":"2024-06-13 23:48:26"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/files/1716692331712-Retrospectiva-sprint-1.pdf"},"timestamp":"2024-06-13 23:48:37"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/uploads/files/1716692331712-Retrospectiva-sprint-1.pdf"},"timestamp":"2024-06-13 23:48:37"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:48:37"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:48:37"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/files/1716692331712-Retrospectiva-sprint-1.pdf"},"timestamp":"2024-06-13 23:48:40"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/uploads/files/1716692331712-Retrospectiva-sprint-1.pdf"},"timestamp":"2024-06-13 23:48:40"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:48:40"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:48:40"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/uploads/files/1716692331712-Retrospectiva-sprint-1.pdf"},"timestamp":"2024-06-13 23:48:47"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/file/uploads/files/1716692331712-Retrospectiva-sprint-1.pdf"},"timestamp":"2024-06-13 23:48:47"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:48:47"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:48:47"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/uploads/files/1716692331712-Retrospectiva-sprint-1.pdf"},"timestamp":"2024-06-13 23:48:50"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/file/uploads/files/1716692331712-Retrospectiva-sprint-1.pdf"},"timestamp":"2024-06-13 23:48:50"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:48:50"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:48:50"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/files/1716692331712-Retrospectiva-sprint-1.pdf"},"timestamp":"2024-06-13 23:48:58"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/uploads/files/1716692331712-Retrospectiva-sprint-1.pdf"},"timestamp":"2024-06-13 23:48:58"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:48:58"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:48:58"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-13 23:49:47"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-13 23:49:47","util":"database"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/files/1716692331712-Retrospectiva-sprint-1.pdf"},"timestamp":"2024-06-13 23:49:51"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/uploads/files/1716692331712-Retrospectiva-sprint-1.pdf"},"timestamp":"2024-06-13 23:49:51"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:49:51"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:49:51"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/files/1716692331712-Retrospectiva-sprint-1.pdf"},"timestamp":"2024-06-13 23:49:52"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/uploads/files/1716692331712-Retrospectiva-sprint-1.pdf"},"timestamp":"2024-06-13 23:49:52"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:49:52"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:49:52"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/files/1716692331712-Retrospectiva-sprint-1.pdf"},"timestamp":"2024-06-13 23:49:53"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/uploads/files/1716692331712-Retrospectiva-sprint-1.pdf"},"timestamp":"2024-06-13 23:49:53"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:49:53"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:49:53"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/files/1716692331712-Retrospectiva-sprint-1.pdf"},"timestamp":"2024-06-13 23:49:53"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/uploads/files/1716692331712-Retrospectiva-sprint-1.pdf"},"timestamp":"2024-06-13 23:49:53"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:49:53"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:49:53"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/files/1716692331712-Retrospectiva-sprint-1.pdf"},"timestamp":"2024-06-13 23:49:53"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/uploads/files/1716692331712-Retrospectiva-sprint-1.pdf"},"timestamp":"2024-06-13 23:49:53"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:49:53"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:49:53"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/files/1716692331712-Retrospectiva-sprint-1.pdf"},"timestamp":"2024-06-13 23:49:54"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/uploads/files/1716692331712-Retrospectiva-sprint-1.pdf"},"timestamp":"2024-06-13 23:49:54"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:49:54"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:49:54"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/files/1716692331712-Retrospectiva-sprint-1.pdf"},"timestamp":"2024-06-13 23:49:54"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/uploads/files/1716692331712-Retrospectiva-sprint-1.pdf"},"timestamp":"2024-06-13 23:49:54"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:49:54"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:49:54"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/files/1716692331712-Retrospectiva-sprint-1.pdf"},"timestamp":"2024-06-13 23:50:59"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/uploads/files/1716692331712-Retrospectiva-sprint-1.pdf"},"timestamp":"2024-06-13 23:50:59"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:50:59"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:50:59"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/files/1716692331712-Retrospectiva-sprint-1.pdf"},"timestamp":"2024-06-13 23:51:01"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/uploads/files/1716692331712-Retrospectiva-sprint-1.pdf"},"timestamp":"2024-06-13 23:51:01"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:51:01"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:51:01"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-13 23:52:40"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-13 23:52:41","util":"database"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/files/1716692331712-Retrospectiva-sprint-1.pdf"},"timestamp":"2024-06-13 23:52:41"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/uploads/files/1716692331712-Retrospectiva-sprint-1.pdf"},"timestamp":"2024-06-13 23:52:41"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:52:41"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:52:41"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-13 23:52:51"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-13 23:52:52","util":"database"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-13 23:54:19"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/files/1716692331712-Retrospectiva-sprint-1.pdf"},"timestamp":"2024-06-13 23:54:19"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/uploads/files/1716692331712-Retrospectiva-sprint-1.pdf"},"timestamp":"2024-06-13 23:54:19"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:54:19"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:54:19"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-13 23:54:20","util":"database"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/files/1716692331712-Retrospectiva-sprint-1.pdf"},"timestamp":"2024-06-13 23:54:21"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/uploads/files/1716692331712-Retrospectiva-sprint-1.pdf"},"timestamp":"2024-06-13 23:54:21"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:54:21"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:54:21"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/files/1716692331712-Retrospectiva-sprint-1.pdf"},"timestamp":"2024-06-13 23:54:24"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/uploads/files/1716692331712-Retrospectiva-sprint-1.pdf"},"timestamp":"2024-06-13 23:54:24"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:54:24"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:54:24"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:54:42"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:54:42"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:54:42"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:54:42"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:54:53"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:54:53"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:54:53"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:54:53"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-13 23:55:04"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-13 23:55:05","util":"database"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:55:10"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:55:10"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:55:10"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:55:10"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:55:11"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/uploads/images/4e052f41-9b9b-4abf-81e9-6e46a149c78a.jpg"},"timestamp":"2024-06-13 23:55:11"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:55:11"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:55:11"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-13 23:58:28"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-13 23:58:28","util":"database"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:58:30"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:58:30"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:58:34"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:58:34"}
+{"level":"info","message":{"body":{"email":"esteban@diaz.cl","password":"esteban123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-13 23:58:43"}
+{"level":"info","message":{"body":{"email":"esteban@diaz.cl","password":"esteban123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-13 23:58:44"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:58:44"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:58:44"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:58:44"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:58:44"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:58:47"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:58:47"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:58:47"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-13 23:58:47"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:59:43"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-13 23:59:43"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-06-14 00:00:46"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-06-14 00:00:47"}
+{"level":"info","message":{"body":{"email":"esteban@diaz.cl","password":"esteban123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-14 00:00:57"}
+{"level":"info","message":{"body":{"email":"esteban@diaz.cl","password":"esteban123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-14 00:00:58"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:00:58"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:00:58"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:00:58"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:00:58"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:01:02"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:01:02"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:01:02"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:01:02"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-14 00:02:04"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-14 00:02:05","util":"database"}
+{"level":"info","message":{"body":{"email":"esteban@diaz.cl","password":"esteban123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-14 00:02:12"}
+{"level":"info","message":{"body":{"email":"esteban@diaz.cl","password":"esteban123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-14 00:02:12"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:02:13"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:02:13"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:02:13"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:02:13"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:02:16"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:02:16"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:02:16"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:02:16"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:02:59"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:03:00"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-14 00:03:03"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-14 00:03:03"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-14 00:03:03"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-14 00:03:03"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-14 00:03:04"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-14 00:03:04"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-14 00:03:04"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-14 00:03:04"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-14 00:03:04"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-14 00:03:04"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-14 00:03:04"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-14 00:03:04"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-14 00:03:04"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-14 00:03:04"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-14 00:03:04"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-14 00:03:04"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:03:05"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:03:05"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:03:05"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:03:05"}
+{"level":"info","message":{"body":{"email":"esteban@diaz.cl","password":"esteban123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-14 00:03:19"}
+{"level":"info","message":{"body":{"email":"esteban@diaz.cl","password":"esteban123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-14 00:03:20"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:03:20"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:03:20"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:03:20"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:03:20"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:03:23"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:03:23"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:03:23"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:03:23"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:05:04"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:05:05"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:06:24"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:06:25"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-06-14 00:07:03"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-06-14 00:07:04"}
+{"level":"info","message":{"body":{"email":"esteban@diaz.cl","password":"esteban123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-14 00:09:42"}
+{"level":"info","message":{"body":{"email":"esteban@diaz.cl","password":"esteban123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-14 00:09:42"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:09:42"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:09:43"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:09:43"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:09:43"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:09:47"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:09:47"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:09:47"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:09:47"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-06-14 00:09:53"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-06-14 00:09:54"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:11:18"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:11:18"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:11:19"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:11:19"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:11:37"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:11:38"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-06-14 00:11:48"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-06-14 00:11:49"}
+{"level":"info","message":{"body":{"email":"esteban@diaz.cl","password":"esteban123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-14 00:11:59"}
+{"level":"info","message":{"body":{"email":"esteban@diaz.cl","password":"esteban123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-14 00:12:00"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:12:00"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:12:00"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:12:00"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:12:00"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:12:03"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:12:03"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:12:03"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:12:03"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:13:50"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:13:51"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:13:51"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:13:51"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:14:00"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:14:00"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-06-14 00:14:09"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-06-14 00:14:09"}
+{"level":"info","message":{"body":{"email":"esteban@diaz.cl","password":"esteban123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-14 00:14:27"}
+{"level":"info","message":{"body":{"email":"esteban@diaz.cl","password":"esteban123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-14 00:14:27"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:14:27"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:14:28"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:14:28"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:14:28"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:14:32"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:14:33"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:14:33"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:14:33"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-14 00:15:13"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-14 00:15:13","util":"database"}
+{"level":"info","message":{"body":{"email":"esteban@diaz.cl","password":"esteban123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-14 00:15:17"}
+{"level":"info","message":{"body":{"email":"esteban@diaz.cl","password":"esteban123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-14 00:15:17"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:15:17"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:15:18"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:15:18"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:15:18"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:15:22"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:15:22"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:15:22"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:15:22"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:15:38"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:15:38"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:15:38"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:15:39"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:17:17"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:17:17"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:17:17"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:17:18"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-06-14 00:17:30"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-06-14 00:17:31"}
+{"level":"info","message":{"body":{"email":"esteban@diaz.cl","password":"esteban123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-14 00:17:41"}
+{"level":"info","message":{"body":{"email":"esteban@diaz.cl","password":"esteban123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-14 00:17:41"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:17:41"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:17:42"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:17:42"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:17:42"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:17:46"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:17:46"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:17:46"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:17:46"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-06-14 00:17:52"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-06-14 00:17:53"}
+{"level":"info","message":{"body":{"email":"esteban@diaz.cl","password":"esteban123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-14 00:19:50"}
+{"level":"info","message":{"body":{"email":"esteban@diaz.cl","password":"esteban123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-14 00:19:51"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:19:51"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:19:51"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:19:51"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:19:51"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:19:54"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:19:55"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:19:55"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:19:55"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:23:15"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:23:15"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:23:15"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:23:16"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-06-14 00:23:25"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-06-14 00:23:25"}
+{"level":"info","message":{"body":{"email":"esteban@diaz.cl","password":"esteban123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-14 00:23:35"}
+{"level":"info","message":{"body":{"email":"esteban@diaz.cl","password":"esteban123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-14 00:23:35"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:23:35"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:23:35"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:23:35"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:23:35"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:23:40"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:23:40"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:23:40"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:23:40"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-06-14 00:23:45"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-06-14 00:23:45"}
+{"level":"info","message":{"body":{"email":"esteban@diaz.cl","password":"esteban123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-14 00:24:01"}
+{"level":"info","message":{"body":{"email":"esteban@diaz.cl","password":"esteban123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-14 00:24:02"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:24:02"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:24:02"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:24:02"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:24:02"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:24:05"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:24:05"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:24:05"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:24:05"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-06-14 00:24:21"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-06-14 00:24:23"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:24:31"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:24:31"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-06-14 00:24:39"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-06-14 00:24:40"}
+{"level":"info","message":{"body":{"email":"esteban@diaz.cl","password":"esteban123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-14 00:24:49"}
+{"level":"info","message":{"body":{"email":"esteban@diaz.cl","password":"esteban123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-14 00:24:49"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:24:49"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:24:49"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:24:49"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:24:49"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:24:53"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:24:53"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:24:53"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:24:53"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-14 00:25:04"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-14 00:25:04"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:31:37"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:31:38"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-06-14 00:31:51"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-06-14 00:31:52"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:31:52"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:31:52"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-06-14 00:32:03"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/image"},"timestamp":"2024-06-14 00:32:04"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:32:04"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:32:04"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:32:23"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:32:24"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-14 00:33:29"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-14 00:33:29"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-14 00:33:36"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-14 00:33:36"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-14 00:33:44"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-14 00:33:44"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:34:27"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:34:28"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:34:28"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:34:28"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile/id_person/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-06-14 00:34:30"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile"},"timestamp":"2024-06-14 00:34:30"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id_person":"64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"query":{},"url":"/profile/id_person/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-06-14 00:34:31"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile/id_person/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-06-14 00:34:31"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id_person":"64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"query":{},"url":"/profile/id_person/64856186-6e05-4a3c-bf6a-ffe4e882d64b"},"timestamp":"2024-06-14 00:34:31"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile"},"timestamp":"2024-06-14 00:34:31"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile"},"timestamp":"2024-06-14 00:34:31"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile"},"timestamp":"2024-06-14 00:34:31"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile"},"timestamp":"2024-06-14 00:34:31"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile"},"timestamp":"2024-06-14 00:34:31"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile"},"timestamp":"2024-06-14 00:34:31"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile"},"timestamp":"2024-06-14 00:34:32"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile"},"timestamp":"2024-06-14 00:34:32"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile"},"timestamp":"2024-06-14 00:34:32"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile"},"timestamp":"2024-06-14 00:34:32"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile"},"timestamp":"2024-06-14 00:34:32"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:34:35"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:34:35"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:34:35"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:34:35"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-14 00:35:28"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-14 00:35:28"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-14 00:35:29"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-14 00:35:29"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-14 00:35:29"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-14 00:35:29"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-14 00:35:29"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-14 00:35:29"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-14 00:35:29"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-14 00:35:29"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-14 00:35:29"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-14 00:35:29"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-14 00:35:29"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-14 00:35:29"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-14 00:35:29"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-14 00:35:30"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/id/35cb64ee-0684-4430-a1d4-41bc1cd44a76"},"timestamp":"2024-06-14 00:35:33"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-14 00:35:33"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-14 00:35:33"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id":"35cb64ee-0684-4430-a1d4-41bc1cd44a76"},"query":{},"url":"/topic/id/35cb64ee-0684-4430-a1d4-41bc1cd44a76"},"timestamp":"2024-06-14 00:35:33"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-14 00:35:33"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/id/35cb64ee-0684-4430-a1d4-41bc1cd44a76"},"timestamp":"2024-06-14 00:35:33"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id":"35cb64ee-0684-4430-a1d4-41bc1cd44a76"},"query":{},"url":"/topic/id/35cb64ee-0684-4430-a1d4-41bc1cd44a76"},"timestamp":"2024-06-14 00:35:33"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-14 00:35:33"}
+{"level":"info","message":{"body":{"content":"wena cabros","id_person":"64856186-6e05-4a3c-bf6a-ffe4e882d64b","id_topic":"35cb64ee-0684-4430-a1d4-41bc1cd44a76"},"method":"POST","params":"","query":"","url":"/message_topic"},"timestamp":"2024-06-14 00:35:37"}
+{"level":"info","message":{"body":{"content":"wena cabros","id_person":"64856186-6e05-4a3c-bf6a-ffe4e882d64b","id_topic":"35cb64ee-0684-4430-a1d4-41bc1cd44a76"},"method":"POST","params":"","query":"","url":"/message_topic"},"timestamp":"2024-06-14 00:35:38"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-14 00:35:38"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-14 00:35:38"}
+{"level":"info","message":{"body":{"content":"","id_person":"64856186-6e05-4a3c-bf6a-ffe4e882d64b","id_topic":"35cb64ee-0684-4430-a1d4-41bc1cd44a76"},"method":"POST","params":"","query":"","url":"/message_topic"},"timestamp":"2024-06-14 00:35:56"}
+{"level":"error","message":{"body":{"content":"","id_person":"64856186-6e05-4a3c-bf6a-ffe4e882d64b","id_topic":"35cb64ee-0684-4430-a1d4-41bc1cd44a76"},"error":"\"content\" is not allowed to be empty","method":"POST","params":"","query":"","url":"/message_topic"},"timestamp":"2024-06-14 00:35:56"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-14 00:35:56"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-14 00:35:56"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:36:00"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:36:00"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:36:00"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/image/search"},"timestamp":"2024-06-14 00:36:00"}
+

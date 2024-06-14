@@ -87,14 +87,12 @@ export const searchImages = (
     limit: limit,
   })
     .then((images) => {
-      const total = images.length ? Number(images[0].total) : 0;
+      const data = images.map((image) => ({
+        id: image.id,
+        url: image.url,
+      }));
 
-      sendResponse(req, res, {
-        results: images,
-        total,
-        limit,
-        pages: Math.ceil(total / limit),
-      });
+      sendResponse(req, res, data);
     })
     .catch((e) => next(boom.badImplementation(e)));
 };
