@@ -95,13 +95,15 @@ const createMessage = async (
         return next(boom.badRequest(schemaValidate.error));
       }
   
-      const { id_person, id_topic, content } =
+      const { id_person, id_topic, content,id_file, id_imagen } =
         schemaValidate.value;
   
       const response = await MessageTopic.createMessage(
         id_person,
         id_topic,
-        content
+        content,
+        id_file,
+        id_imagen
       );
       return sendResponse(req, res, response);
     } catch (err: any) {

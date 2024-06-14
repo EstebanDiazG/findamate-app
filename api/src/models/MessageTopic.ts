@@ -4,12 +4,16 @@ class MessageTopic{
     id_person: string;
     id_topic: string;
     content: string;
+    id_file: string;
+    id_imagen: string;
 
-    constructor( id_person: string, id_topic: string, content: string)
+    constructor( id_person: string, id_topic: string, content: string, id_file: string, id_imagen: string)
     {
         this.id_person = id_person;
         this.id_topic = id_topic;
         this.content = content;
+        this.id_file = id_file;
+        this.id_imagen = id_imagen;
     }
 
     static getAll = async (): Promise<Array<MessageTopic>> => {
@@ -20,7 +24,9 @@ class MessageTopic{
             mtpc.id_topic,
             mtpc.id_person,
             mtpc.content,
-            per.name AS "creadorMensaje"
+            per.name AS "creadorMensaje",
+            mtpc.id_file,
+            mtpc.id_imagen
         FROM app.message_topic mtpc
         LEFT JOIN
             app.person per ON per.id = mtpc.id_person
@@ -37,7 +43,9 @@ class MessageTopic{
             mtpc.id_topic,
             mtpc.id_person,
             mtpc.content,
-            per.name AS "creadorMensaje"
+            per.name AS "creadorMensaje",
+            mtpc.id_file,
+            mtpc.id_imagen
         FROM app.message_topic mtpc
         LEFT JOIN
             app.person per ON per.id = mtpc.id_person
@@ -55,7 +63,9 @@ class MessageTopic{
             mtpc.id_topic,
             mtpc.id_person,
             mtpc.content,
-            per.name AS "creadorMensaje"
+            per.name AS "creadorMensaje",
+            mtpc.id_file,
+            mtpc.id_imagen
         FROM app.message_topic mtpc
         LEFT JOIN
             app.person per ON per.id = mtpc.id_person
@@ -73,7 +83,9 @@ class MessageTopic{
             mtpc.id_topic,
             mtpc.id_person,
             mtpc.content,
-            per.name AS "creadorMensaje"
+            per.name AS "creadorMensaje",
+            mtpc.id_file,
+            mtpc.id_imagen
         FROM app.message_topic mtpc
         LEFT JOIN
             app.person per ON per.id = mtpc.id_person
@@ -86,15 +98,17 @@ class MessageTopic{
     static createMessage = async (
         id_person: string,
         id_topic: string,
-        content: string
+        content: string,
+        id_file: string,
+        id_imagen: string
       ) => {
         const response = await connection.query(
           `
-            INSERT INTO app.message_topic (id_person, id_topic, content) 
-            VALUES ($1, $2, $3)
+            INSERT INTO app.message_topic (id_person, id_topic, content, id_file, id_imagen) 
+            VALUES ($1, $2, $3, $4, $5)
             RETURNING *;
           `,
-          [id_person, id_topic, content]
+          [id_person, id_topic, content, id_file, id_imagen]
         );
       
         return response.rowCount ? response.rows[0] : null;
