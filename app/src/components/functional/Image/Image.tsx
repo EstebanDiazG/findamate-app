@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useImage } from "@/store/hooks"; // Asegúrate de que la ruta sea correcta
+import { useImage } from "@/store/hooks";
 import styles from "./Image.module.scss";
 import { IImage } from "@/interfaces/image";
 
@@ -27,6 +27,7 @@ interface Image {
 
 const Image: React.FC = () => {
   const {
+    image,
     imageList,
     isLoading,
     isError,
@@ -39,12 +40,17 @@ const Image: React.FC = () => {
 
   const [formImage, setFormImage] = useState<IImage>(initialData);
   const [selectedFile, setSelectedFile] = useState<File | null>(null);
-  const [results, setResults] = useState<Image[]>([]);
+  const [localImageList, setLocalImageList] = useState<IImage[]>([]);
 
   useEffect(() => {
     imageSearch();
-    console.log(imageList);
   }, [imageSearch]);
+
+  useEffect(() => {
+    if (Array.isArray(imageList)) {
+      setLocalImageList(imageList);
+    }
+  }, [imageList]);
 
   const handleFileChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     if (event.target.files && event.target.files[0]) {
@@ -52,9 +58,10 @@ const Image: React.FC = () => {
     }
   };
 
-  const handleUpload = () => {
+  const handleUpload = async () => {
     if (selectedFile) {
-      imageUpload(selectedFile);
+      await imageUpload(selectedFile);
+      imageSearch();
       setSelectedFile(null);
     }
   };
@@ -75,12 +82,9 @@ const Image: React.FC = () => {
             return (
               <div key={image.id} className={styles.imageItem}>
                 <img
-                  src={`http://localhost:3000/${image.url}`}
-                  alt={image.id}
-                  width={100} // Ajusta el ancho según tus necesidades
-                  height={100} // Ajusta la altura según tus necesidades
+                  src={`http://localhost:3000/uploads/images/${image.id}.jpg`}
                 />
-                <p>{image.id}</p>
+                <h3>{image.id}</h3>
               </div>
             );
           })}
