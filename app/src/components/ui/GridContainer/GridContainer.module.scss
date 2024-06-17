@@ -1,0 +1,6 @@
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; /* Espacio entre los elementos en la cuadrícula */
+  }
+  

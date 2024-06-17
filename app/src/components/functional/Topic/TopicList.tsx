@@ -10,9 +10,16 @@ import Button from "@/components/ui/Button";
 import FloatMenu from "@/components/ui/FloatMenu";
 
 import styles from "./Topic.module.scss";
-import Container from "@/components/layout/Container";
 
 import { ITopic } from "@/interfaces/topic";
+import Card from "@/components/ui/Card";
+import SearchBox from "@/components/ui/SearchBox/SearchBox";
+import Title from "@/components/ui/Tittle";
+import GridContainer from "@/components/ui/GridContainer";
+import Categories from "@/components/ui/Categories";
+import Avatar from "@/components/ui/Avatar";
+import CardButton from "@/components/ui/CardButton";
+
 
 const Topic = () => {
   const {
@@ -124,7 +131,7 @@ const Topic = () => {
 
     topicUpsert(id_person, title, content, id_interest);
     setIsDisplayWindow(false);
-    setFormTopic(initialDataTopic); // Limpia los campos después de guardar
+    setFormTopic(initialDataTopic); 
   };
 
   useEffect(() => {
@@ -161,43 +168,61 @@ const Topic = () => {
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>Foros</h1>
-
-      {/* Campo de entrada para la búsqueda */}
-      <input
-        type="text"
+      <ContentCol width="100%" gap="30px" alignItems="center">
+      <SearchBox
+        height="60px"
+        width="1020px"
         placeholder="Buscar por título..."
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
-        className={styles.searchField}
       />
 
-      <div className={styles.topicList}>
+      <GridContainer>
         {filteredTopics.length > 0 ? (
           filteredTopics.map((item, idx) => (
-            <div key={idx} className={styles.topicItem} onClick={() => router.push(`/topic/${item.id}`)}>
-              <h2>{item.title}</h2>
-              <p>{item.content}</p>
-              <small>{item.Interest}</small>
-              <br />
-              <small>{item.categoryInterest}</small>
-              <br />
-              <small>By {item.creadorTopico}</small>
+            <Card width="500px" height="440px">
+              <div key={idx} className={styles.topicItem} onClick={() => router.push(`/topic/${item.id}`)}>
 
               {item.id_person === user?.personId && (
-                <button
-                  className={`${styles.button} ${styles.deleteButton}`}
+                  <CardButton
+                  iconName="close"
                   onClick={() => handleOnClickDelete(item.id)}
-                >
-                  X
-                </button>
-              )}
-            </div>
+                  />
+                )}
+                <ContentCol gap="10px" alignItems="center">
+                <Title level="h1" color="#41377D" text={item.title}/>
+                <ContentRow width="100%" justifyContent="space-between">
+                  <ContentRow gap="10px" >
+                    <Avatar width="40px" height="40px"/>
+                    <Title height="40px"level="h4" color="#41377D" alignItems="center"text={item.creadorTopico}/>
+                  </ContentRow>
+                    <Categories 
+                    text={item.categoryInterest}
+                    width="200px"
+                    height="40px"
+                    category={item.categoryInterest as ICategories['category']}
+                  />
+                </ContentRow>
+         
+              
+                <Title width="100%" height="126px" level="h3" color="#41377D" text={item.content}/>
+                <Title 
+                  level="h4" 
+                  color="#41377D" 
+                  text={item.Interest}/>
+                </ContentCol>
+              </div>
+            </Card>
+           
           ))
         ) : (
           <p>No se encontraron temas.</p>
         )}
-      </div>
+        </GridContainer>
+        
+
+      </ContentCol>
+     
       <FloatMenu menu={dataMenu} />
       <Window
         title="Nuevo tema"
@@ -239,6 +264,7 @@ const Topic = () => {
           />
         </ContentCol>
       </Window>
+      
     </div>
   );
 };

@@ -6,6 +6,9 @@ import ProfilePhoto from "@/components/ui/ProfilePhoto";
 import InputPage from "@/components/ui/InputPage";
 import Button from "@/components/ui/Button";
 import Tittle from "@/components/ui/Tittle";
+import Card from "@/components/ui/Card";
+import { ContentCol, ContentRow } from "@/components/layout/Content";
+
 
 const Profile = () => {
   const {
@@ -107,91 +110,100 @@ const Profile = () => {
 
   return (
     <div className={styles.profile}>
-      <div className={styles.leftColumn}>
-        <ProfilePhoto src="/image/profile-photo.png" alt="profile-photo" />
-        <br />
-        <Tittle
-          width="500px"
-          text="¡Bienvenido a Findamate!, en este espacio puedes compatir con los demas mates acerca de tus intereses, tus logros o lo que esperas aprender."
-          level="h2"
-        />
-        <br />
-        <InputPage
-          width="500px"
-          height="200px"
-          type="text"
-          value={formProfile?.description}
-          placeholder="Cuentanos sobre ti..."
-          onChange={handleOnChangeDescription}
-        />
-      </div>
-      <div className={styles.rightColumn}>
-        <Tittle text="Mi perfil" level="h2" />
-        <br />
-        <InputPage
-          width="500px"
-          height="50px"
-          type="text"
-          label="Nombre"
-          value={formProfile?.name}
-          placeholder="Ingrese nombre"
-          onChange={handleOnChangeName}
-        />
-        <InputPage
-          width="500px"
-          height="50px"
-          type="text"
-          label="Apellido Paterno"
-          value={formProfile?.paternalLastName}
-          placeholder="Apellido Paterno"
-          onChange={handleOnChangePaternalLastName}
-        />
-        <InputPage
-          width="500px"
-          height="50px"
-          type="text"
-          label="Apellido Materno"
-          value={formProfile?.maternalLastName}
-          placeholder="Apellido Materno"
-          onChange={handleOnChangeMaternalLastName}
-        />
-        <InputPage
-          hidden={true}
-          width="500px"
-          height="50px"
-          type="text"
-          label="ID de Persona"
-          value={formProfile?.personId}
-          placeholder="ID de Persona"
-          onChange={handleOnChangeidPerson}
-          onBlur={handleOnBlurId}
-        />
-        <InputPage
-          width="500px"
-          height="50px"
-          type="password"
-          label="Contraseña"
-          value={formProfile.password || ""}
-          onChange={handlePasswordChange}
-          placeholder="Contraseña"
-        />
-        <div className={styles.buttonContainer}>
-          <Button
-            width="150px"
-            height="40px"
-            text="Actualizar"
-            color="primary"
-            onClick={handleOnClickUpdate}
-          />
-          <Button
-            width="150px"
-            height="40px"
-            text="Eliminar Cuenta"
-            color="primary"
-            onClick={handleOnClickDelete}
-          />
-        </div>
-      </div>
+      <ContentRow gap="20px" width="100%" justifyContent="center" >
+        <Card height="100%" width="90%">
+          <ContentCol gap="20px" width="100%" justifyContent="center" alignItems="center">
+            <ProfilePhoto src="/image/profile-photo.png" alt="profile-photo" />
+              <Tittle
+                width="93%"
+                height="auto"
+                text="¡Bienvenido a Findamate!, en este espacio puedes compatir con los demas mates acerca de tus intereses, tus logros o lo que esperas aprender."
+                level="h2"
+                color="#645A6F"
+              />
+              <InputPage
+                width="520px"
+                height="200px"
+                type="text"
+                value={formProfile?.description}
+                placeholder="Cuentanos sobre ti..."
+                onChange={handleOnChangeDescription}
+              />
+          </ContentCol>
+        </Card>
+        <Card height="100%" width="90%">
+          <ContentCol gap="50px">
+            <ContentCol gap="20px" width="100%" justifyContent="center" alignItems="center">
+              <Tittle text="Mi perfil" level="h2" color="#4A4351" />
+              <InputPage
+                width="400px"
+                height="50px"
+                type="text"
+                label="Nombre"
+                value={formProfile?.name}
+                placeholder="Ingrese nombre"
+                onChange={handleOnChangeName}
+              />
+              <InputPage
+                width="400px"
+                height="50px"
+                type="text"
+                label="Apellido Paterno"
+                value={formProfile?.paternalLastName}
+                placeholder="Apellido Paterno"
+                onChange={handleOnChangePaternalLastName}
+              />
+              <InputPage
+                width="400px"
+                height="50px"
+                type="text"
+                label="Apellido Materno"
+                value={formProfile?.maternalLastName}
+                placeholder="Apellido Materno"
+                onChange={handleOnChangeMaternalLastName}
+              />
+              <InputPage
+                hidden={true}
+                width="400px"
+                height="50px"
+                type="text"
+                label="ID de Persona"
+                value={formProfile?.personId}
+                placeholder="ID de Persona"
+                onChange={handleOnChangeidPerson}
+                onBlur={handleOnBlurId}
+              />
+    
+              <InputPage
+                width="400px"
+                height="50px"
+                type="password"
+                label="Contraseña"
+                value={formProfile.password || ""}
+                onChange={handlePasswordChange}
+                placeholder="Contraseña"
+              />
+            </ContentCol>
+            <ContentRow gap="20px" justifyContent="center">
+                <Button
+                  width="200px"
+                  height="40px"
+                  text="Actualizar"
+                  color="primary"
+                  onClick={handleOnClickUpdate}
+                />
+                <Button
+                  width="200px"
+                  height="40px"
+                  text="Eliminar Cuenta"
+                  color="primary"
+                  onClick={handleOnClickDelete}
+                />
+                </ContentRow>
+              </ContentCol>
+          </Card>
+          
+        </ContentRow>
     </div>
   );
 };
