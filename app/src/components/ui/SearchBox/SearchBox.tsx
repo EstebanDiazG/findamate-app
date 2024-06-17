@@ -7,17 +7,20 @@ interface ISearchBox {
   onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
   placeholder?: string;
   width?: string;
+  height?: string;
 }
 
 const SearchBox: React.FC<ISearchBox> = ({
   value,
   onChange,
   placeholder = "Buscar...",
-  width = "200px",
+  width = "auto",
+  height = "auto", 
+
 }) => {
   return (
     <div className={styles.searchBox} style={{ width }}>
-      <input
+      <input style={{height}}
         type="text"
         value={value}
         onChange={onChange}

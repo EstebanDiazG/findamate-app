@@ -12,9 +12,12 @@ $color-violet: #96238F;
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  padding: 30px 50px;
-  color: aliceblue;
+  padding: 10px;
+  color:white;
+  box-sizing: border-box; 
+
 }
+
 
 /* Definir clases para cada color */
 .purple { background-color: $color-purple; }

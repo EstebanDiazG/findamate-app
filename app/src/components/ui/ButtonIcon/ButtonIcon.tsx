@@ -4,7 +4,6 @@ import styles from "./ButtonIcon.module.scss";
 
 interface IButtonIcon {
   iconName: string;
-  
   onClick: () => void;
   hasBorder?: boolean;
 }

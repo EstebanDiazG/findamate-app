@@ -7,6 +7,7 @@ import styles from "./Home.module.scss";
 import Rectangle from "@/components/ui/Rectangle";
 import Images from "@/components/ui/Images";
 import Categories from "@/components/ui/Categories";
+import Card from "@/components/ui/Card";
 
 const Home = () => {
   const { user } = useUser();
@@ -73,6 +74,7 @@ const Home = () => {
 
     </ContentRow>
     </ContentCol>
+   
     </div>
   );
 };

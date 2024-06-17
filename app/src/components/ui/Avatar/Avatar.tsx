@@ -3,13 +3,16 @@ import styles from "./Avatar.module.scss";
 interface IAvatar {
     src?: string;
     alt?: string;
+    width?: string;
+    height?: string;
+    
 }
 
-const Avatar = ({src, alt}: IAvatar) => {
+const Avatar = ({src, alt, width="auto", height="auto"}: IAvatar) => {
   return (
     <div>
         {src? (
-        <img src={src} alt={alt} className={styles.avatar} />
+        <img src={src} alt={alt} className={styles.avatar} ></img> 
         ) : (
             <img 
                 src= {
@@ -17,6 +20,7 @@ const Avatar = ({src, alt}: IAvatar) => {
                 }
                 alt={alt} 
                 className={styles.avatar}
+                style={{width, height}}
                 />
             )}
     </div>

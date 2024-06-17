@@ -9,12 +9,14 @@ interface ITitle {
   color?: string;
   height?: string;
   justifyContent?: string;
+  alignItems?: string;
+  alignContent?: string;
 }
 
-const Title = ({ children, text="", level, width="auto",  color = "auto", height="auto", justifyContent="auto" }: ITitle) => {
+const Title = ({ children, text="", level, width="auto",  color = "auto", height="auto", justifyContent, alignContent, alignItems }: ITitle) => {
   const Heading = level;
   return (
-    <div className={styles.headingContainer} style={{ color, width, height, justifyContent}}>
+    <div className={styles.headingContainer} style={{ color, width, height, justifyContent, alignContent, alignItems}}>
       <Heading>{text}</Heading>
       {children}
     </div>
