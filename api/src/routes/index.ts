@@ -1,7 +1,5 @@
 import actionRoutes from "./action";
 import categoryInterestRoutes from "./categoryInterest";
-import fileRoutes from "./file";
-import imageRoutes from "./image";
 import interestRoutes from "./interest";
 import messageTopicRoutes from "./messageTopic";
 import personRoutes from "./person";
@@ -10,14 +8,11 @@ import rolRoutes from "./rol";
 import studyGroupRoutes from "./studyGroup";
 import topicRoutes from "./topic";
 import userRoutes from "./user";
-import videoRoutes from "./video";
 import mediaRoutes from "./media";
 
 export {
   actionRoutes,
   categoryInterestRoutes,
-  fileRoutes,
-  imageRoutes,
   interestRoutes,
   messageTopicRoutes,
   personRoutes,
@@ -26,6 +21,5 @@ export {
   studyGroupRoutes,
   topicRoutes,
   userRoutes,
-  videoRoutes,
-  mediaRoutes
+  mediaRoutes,
 };

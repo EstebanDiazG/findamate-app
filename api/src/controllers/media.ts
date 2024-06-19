@@ -4,7 +4,11 @@ import boom from "@hapi/boom";
 import sharp from "sharp";
 import { Request, Response, NextFunction } from "express";
 import Media from "../models/Media";
-import { mediaUploadDir, mediaUploadUrl, limit } from "../utils/functions/config";
+import {
+  mediaUploadDir,
+  mediaUploadUrl,
+  limit,
+} from "../utils/functions/config";
 import sendResponse from "../utils/functions/sendResponse";
 import { mediaIdParams, searchMediaSchema } from "../schemas/mediaSchema";
 
@@ -22,82 +26,87 @@ type MediaType = {
   filename: string;
   url: string;
   mimetype: string;
-  // Agrega más propiedades según sea necesario
+  width?: number;
+  height?: number;
 };
 
-export const deleteMediaById = async (req: Request, res: Response, next: NextFunction) => {
+export const deleteMediaById = async (
+  req: Request,
+  res: Response,
+  next: NextFunction
+) => {
   const { params } = req;
-  const validateSchemaParams = mediaIdParams.validate(params);
-  if (validateSchemaParams.error)
-    return next(boom.badImplementation(validateSchemaParams.error));
-  const { id } = validateSchemaParams.value;
+  const { error, value } = mediaIdParams.validate(params);
+  if (error) return next(boom.badRequest(error));
 
-  Media.getById(id)
-    .then((response) => {
-      const mediaPath = `${mediaUploadDir}/${response.internal_name}`;
-      fs.unlink(mediaPath, (e) => {
-        if (e) return next(boom.badImplementation(e));
-
-        Media.deleteById(id)
-          .then((id) => {
-            if (!id) return next();
-            return sendResponse(req, res, { success: true });
-          })
-          .catch((e) => next(boom.badImplementation(e)));
-      });
-    })
-    .catch((e) => next(boom.badImplementation(e)));
-};
-
-export const getMediaById = (req: Request, res: Response, next: NextFunction) => {
-  const { params } = req;
-  const validateSchemaParams = mediaIdParams.validate(params);
-  if (validateSchemaParams.error)
-    return next(boom.badImplementation(validateSchemaParams.error));
-  const { id } = validateSchemaParams.value;
-
-  Media.getById(id)
-    .then((response) => {
-      if (response) return sendResponse(req, res, response);
-      next();
-    })
-    .catch((e) => next(boom.badImplementation(e)));
-};
-
-export const searchMedia = (req: Request, res: Response, next: NextFunction) => {
-  const { query } = req;
-  const validateSchema = searchMediaSchema.validate(query);
-  if (validateSchema.error) {
-    return next(boom.badImplementation(validateSchema.error));
-  }
-
-  const { page, statusCode } = validateSchema.value;
-  Media.search({
-    page,
-    statusCode,
-    limit: limit,
-  })
-    .then((media) => {
-      const total = media.length ? Number(media[0].total) : 0;
-      sendResponse(req, res, {
-        results: media,
-        total,
-        limit,
-        pages: Math.ceil(total / limit),
-      });
-    })
-    .catch((e) => next(boom.badImplementation(e)));
-};
-
-export const uploadMedia = async (req: Request, res: Response, next: NextFunction) => {
-  if (!req.file) {
-    return next(boom.badRequest("No file uploaded"));
-  }
+  const { id } = value;
 
   try {
-    const internalname = `${Date.now()}-${req.file.originalname}`;
-    const filepath = path.join(mediaUploadDir, internalname);
-    fs.mkdirSync(path.dirname(filepath), { recursive: true });
+    const deletedId = await Media.deleteById(id);
+    if (!deletedId) return next(boom.notFound("Failed to delete media"));
+
+    sendResponse(req, res, { success: true });
+  } catch (err) {
+    next(boom.badImplementation(err as any));
+  }
+};
+
+export const getMediaById = async (
+  req: Request,
+  res: Response,
+  next: NextFunction
+) => {
+  const { params } = req;
+  const { error, value } = mediaIdParams.validate(params);
+  if (error) return next(boom.badRequest(error));
+
+  const { id } = value;
+
+  try {
+    const media = await Media.getById(id);
+    if (!media) return next(boom.notFound("Media not found"));
+
+    sendResponse(req, res, media);
+  } catch (err) {
+    next(boom.badImplementation(err as any));
+  }
+};
+
+export const searchMedia = async (
+  req: Request,
+  res: Response,
+  next: NextFunction
+) => {
+  const { query } = req;
+  const { error, value } = searchMediaSchema.validate(query);
+  if (error) return next(boom.badRequest(error));
+
+  const { page, statusCode } = value;
+  try {
+    const media = await Media.search({ page, statusCode, limit });
+    const total = media.length ? Number(media[0].total) : 0;
+    sendResponse(req, res, {
+      results: media,
+      total,
+      limit,
+      pages: Math.ceil(total / limit),
+    });
+  } catch (err) {
+    next(boom.badImplementation(err as any));
+  }
+};
+
+export const uploadMedia = async (
+  req: Request,
+  res: Response,
+  next: NextFunction
+) => {
+  if (!req.file) return next(boom.badRequest("No file uploaded"));
+
+  try {
+    const internalName = `${Date.now()}-${req.file.originalname}`;
+    const filePath = path.join(mediaUploadDir, internalName);
+    fs.mkdirSync(path.dirname(filePath), { recursive: true });
 
     let media: Partial<MediaType>;
     if (req.file.mimetype.startsWith("image/")) {
@@ -107,34 +116,44 @@ export const uploadMedia = async (req: Request, res: Response, next: NextFunctio
         .flatten({ background: { r: 255, g: 255, b: 255 } })
         .jpeg({ mozjpeg: true })
         .rotate()
-        .toFile(filepath);
+        .toFile(filePath);
 
-      const metadata = await sharp(filepath).metadata();
+      const metadata = await sharp(filePath).metadata();
       media = {
         mimetype: req.file.mimetype,
-        filename: internalname,
-        url: filepath,
-        // Agrega más propiedades según sea necesario
+        filename: internalName,
+        url: filePath,
+        width: metadata.width,
+        height: metadata.height,
       };
     } else {
-      fs.writeFileSync(filepath, req.file.buffer);
+      fs.writeFileSync(filePath, req.file.buffer);
       media = {
         mimetype: req.file.mimetype,
-        filename: internalname,
-        url: filepath,
-        // Agrega más propiedades según sea necesario
+        filename: internalName,
+        url: filePath,
       };
     }
 
-    const mediaId = await Media.create(media);
-    const mediaUrl = `${mediaUploadUrl}/${internalname}`;
+    const mediaId = await Media.create({
+      type: req.file.mimetype.split("/")[0],
+      original_name: req.file.originalname,
+      internal_name: internalName,
+      mimetype: req.file.mimetype,
+      format: req.file.mimetype.split("/")[1],
+      encoding: req.file.encoding,
+      path: filePath,
+      size: req.file.size,
+      width: media.width,
+      height: media.height,
+    });
+    const mediaUrl = `${mediaUploadUrl}/${internalName}`;
     res.status(200).send({
       message: "Media processed successfully",
       id: mediaId,
       url: mediaUrl,
     });
   } catch (err) {
-    console.error("Unexpected error:", err);
     next(boom.internal("Unexpected error"));
   }
 };

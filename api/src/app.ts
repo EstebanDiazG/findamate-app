@@ -51,10 +51,7 @@ const routeMappings = [
   { path: "/user", router: routes.userRoutes },
   { path: "/rol", router: routes.rolRoutes },
   { path: "/action", router: routes.actionRoutes },
-  { path: "/image", router: routes.imageRoutes },
   { path: "/study-group", router: routes.studyGroupRoutes },
-  { path: "/video", router: routes.videoRoutes },
-  { path: "/file", router: routes.fileRoutes },
   { path: "/topic", router: routes.topicRoutes },
   { path: "/message_topic", router: routes.messageTopicRoutes },
   { path: "/media", router: routes.mediaRoutes },
@@ -77,9 +74,6 @@ function initializeRoutes(app: Express) {
   const diskPath = path.join(__dirname, "..", "public");
   app.use(virtualPath, express.static(diskPath));
 }
-
-const imagesUploadDir = path.join(__dirname, "../public/uploads/images");
-app.use("/uploads/images", express.static(imagesUploadDir));
 
 const mediaUploadDir = path.join(__dirname, "../public/uploads/media");
 app.use("/uploads/media", express.static(mediaUploadDir));
@@ -111,7 +105,7 @@ app.use(
   })
 );
 app.use(handlerRequest);
-//app.use(auth);
+app.use(auth);
 
 initializeRoutes(app);
 
