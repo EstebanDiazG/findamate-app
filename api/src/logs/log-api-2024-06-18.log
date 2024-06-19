@@ -1,0 +1,153 @@
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-17 22:37:04"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-17 22:37:05","util":"database"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/media"},"timestamp":"2024-06-17 22:41:24"}
+{"level":"error","message":{"body":{},"error":"Unexpected field","method":"POST","params":"","query":"","url":"/media"},"timestamp":"2024-06-17 22:41:24"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-17 22:47:40"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-17 22:47:40","util":"database"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-17 22:48:58"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-17 22:48:58","util":"database"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-17 22:55:46"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-17 22:55:47","util":"database"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/media"},"timestamp":"2024-06-17 22:55:54"}
+{"level":"error","message":{"body":{},"error":"Unexpected field","method":"POST","params":"","query":"","url":"/media"},"timestamp":"2024-06-17 22:55:54"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/media"},"timestamp":"2024-06-17 22:58:59"}
+{"level":"error","message":{"body":{},"error":"Unexpected field","method":"POST","params":"","query":"","url":"/media"},"timestamp":"2024-06-17 22:58:59"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-17 23:01:06"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-17 23:01:07","util":"database"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/media"},"timestamp":"2024-06-17 23:01:13"}
+{"level":"error","message":{"body":{},"error":"Unexpected field","method":"POST","params":"","query":"","url":"/media"},"timestamp":"2024-06-17 23:01:13"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-17 23:01:55"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-17 23:01:56","util":"database"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/media"},"timestamp":"2024-06-17 23:02:03"}
+{"level":"error","message":{"body":{},"error":"Not found","method":"POST","params":"","query":"","url":"/media"},"timestamp":"2024-06-17 23:02:03"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-17 23:02:42"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-17 23:02:43","util":"database"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/media"},"timestamp":"2024-06-17 23:04:39"}
+{"level":"error","message":{"body":{},"error":"Unexpected field","method":"POST","params":"","query":"","url":"/media"},"timestamp":"2024-06-17 23:04:39"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-17 23:07:49"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-17 23:07:50","util":"database"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/media"},"timestamp":"2024-06-17 23:07:52"}
+{"level":"error","message":{"body":{},"error":"Unexpected field","method":"POST","params":"","query":"","url":"/media"},"timestamp":"2024-06-17 23:07:52"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-17 23:09:10"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-17 23:09:10","util":"database"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/media"},"timestamp":"2024-06-17 23:09:16"}
+{"level":"error","message":{"body":{},"error":"Unexpected field","method":"POST","params":"","query":"","url":"/media"},"timestamp":"2024-06-17 23:09:16"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-17 23:11:19"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-17 23:11:20","util":"database"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-17 23:13:42"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-17 23:13:43","util":"database"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-17 23:18:31"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-17 23:18:32","util":"database"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/media"},"timestamp":"2024-06-17 23:18:41"}
+{"level":"error","message":{"body":{},"error":"Unexpected field","method":"POST","params":"","query":"","url":"/media"},"timestamp":"2024-06-17 23:18:41"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-17 23:19:00"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-17 23:19:00","util":"database"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-17 23:19:08"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-17 23:19:09","util":"database"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-17 23:20:05"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-17 23:20:06","util":"database"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-17 23:21:26"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-17 23:21:26","util":"database"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/media"},"timestamp":"2024-06-17 23:21:47"}
+{"level":"error","message":{"body":{},"error":"Unexpected field","method":"POST","params":"","query":"","url":"/media"},"timestamp":"2024-06-17 23:21:47"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/media"},"timestamp":"2024-06-17 23:23:44"}
+{"level":"error","message":{"body":{},"error":"Unexpected error","method":"POST","params":"","query":"","url":"/media"},"timestamp":"2024-06-17 23:23:44"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-17 23:26:16"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-17 23:26:17","util":"database"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/media"},"timestamp":"2024-06-17 23:26:20"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/media"},"timestamp":"2024-06-17 23:28:26"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/media/1718681306962-Kamina_2.webp"},"timestamp":"2024-06-17 23:29:38"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-17 23:29:38"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-17 23:29:38"}
+{"level":"error","message":"Incorrect api key","timestamp":"2024-06-17 23:29:38"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-17 23:31:05"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-17 23:31:05","util":"database"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/media/1718681306962-Kamina_2.webp"},"timestamp":"2024-06-17 23:31:09"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/uploads/media/1718681306962-Kamina_2.webp"},"timestamp":"2024-06-17 23:31:09"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-17 23:31:09"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-17 23:31:09"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/media/1718681306962-Kamina_2.webp"},"timestamp":"2024-06-17 23:31:11"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/uploads/media/1718681306962-Kamina_2.webp"},"timestamp":"2024-06-17 23:31:11"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-17 23:31:11"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-17 23:31:11"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/media/uploads/media/1718681306962-Kamina_2.webp"},"timestamp":"2024-06-17 23:33:34"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/media/uploads/media/1718681306962-Kamina_2.webp"},"timestamp":"2024-06-17 23:33:34"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-17 23:33:34"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-17 23:33:34"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-17 23:41:57"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-17 23:41:57","util":"database"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-17 23:42:02"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-17 23:42:02"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/media/search"},"timestamp":"2024-06-17 23:44:43"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/media/search"},"timestamp":"2024-06-17 23:44:43"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/search"},"timestamp":"2024-06-17 23:44:53"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/file/search"},"timestamp":"2024-06-17 23:44:53"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-17 23:50:32"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-17 23:50:33","util":"database"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-17 23:54:34"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-17 23:54:35","util":"database"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/media/search"},"timestamp":"2024-06-17 23:54:49"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/media/search"},"timestamp":"2024-06-17 23:54:50"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-17 23:58:02"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-17 23:58:02","util":"database"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/media/search"},"timestamp":"2024-06-17 23:58:03"}
+{"level":"error","message":{"body":"","error":"column \"filename\" does not exist","method":"GET","params":{},"query":{},"url":"/media/search"},"timestamp":"2024-06-17 23:58:04"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/media/search"},"timestamp":"2024-06-17 23:58:06"}
+{"level":"error","message":{"body":"","error":"column \"filename\" does not exist","method":"GET","params":{},"query":{},"url":"/media/search"},"timestamp":"2024-06-17 23:58:06"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-18 00:03:17"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-18 00:03:17","util":"database"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/media/search"},"timestamp":"2024-06-18 00:03:27"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/media/search"},"timestamp":"2024-06-18 00:03:28"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-18 00:04:06"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/media/search"},"timestamp":"2024-06-18 00:04:07"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-18 00:04:07","util":"database"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/media/search"},"timestamp":"2024-06-18 00:04:07"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-18 00:05:04"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-18 00:05:05","util":"database"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-18 00:07:29"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-18 00:07:29","util":"database"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/media/search"},"timestamp":"2024-06-18 00:07:36"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/media/search"},"timestamp":"2024-06-18 00:07:37"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/media/search"},"timestamp":"2024-06-18 00:10:54"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/media/search"},"timestamp":"2024-06-18 00:10:54"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/media/search"},"timestamp":"2024-06-18 00:10:57"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/media/search"},"timestamp":"2024-06-18 00:10:57"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-18 00:13:14"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-18 00:13:14","util":"database"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/media/search"},"timestamp":"2024-06-18 00:13:22"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/media/search"},"timestamp":"2024-06-18 00:13:22"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-18 00:17:23"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-18 00:17:23","util":"database"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-18 00:18:09"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-18 00:18:09","util":"database"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/media/search"},"timestamp":"2024-06-18 00:18:16"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/media/search"},"timestamp":"2024-06-18 00:18:17"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/media/search"},"timestamp":"2024-06-18 00:18:19"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/media/search"},"timestamp":"2024-06-18 00:18:19"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-18 00:19:53"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-18 00:19:53","util":"database"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/media/search"},"timestamp":"2024-06-18 00:20:08"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/media/search"},"timestamp":"2024-06-18 00:20:08"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/media/95cb5e74-632f-4055-9513-8dd8504e8f81"},"timestamp":"2024-06-18 00:21:17"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/uploads/media/95cb5e74-632f-4055-9513-8dd8504e8f81"},"timestamp":"2024-06-18 00:21:17"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-18 00:21:17"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-18 00:21:17"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/media/95cb5e74-632f-4055-9513-8dd8504e8f81.webp"},"timestamp":"2024-06-18 00:21:39"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/uploads/media/95cb5e74-632f-4055-9513-8dd8504e8f81.webp"},"timestamp":"2024-06-18 00:21:39"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-18 00:21:39"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-18 00:21:39"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/media/search"},"timestamp":"2024-06-18 00:23:40"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/media/search"},"timestamp":"2024-06-18 00:23:41"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-18 00:24:33"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-18 00:24:34","util":"database"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/media/search"},"timestamp":"2024-06-18 00:24:34"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/media/search"},"timestamp":"2024-06-18 00:24:35"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-18 00:25:02"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/media/search"},"timestamp":"2024-06-18 00:25:02"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-18 00:25:02","util":"database"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/media/search"},"timestamp":"2024-06-18 00:25:03"}
+{"level":"info","message":{"body":{},"method":"POST","params":"","query":"","url":"/media"},"timestamp":"2024-06-18 00:26:35"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/uploads/media/95cb5e74-632f-4055-9513-8dd8504e8f81.webp"},"timestamp":"2024-06-18 00:27:04"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/uploads/media/95cb5e74-632f-4055-9513-8dd8504e8f81.webp"},"timestamp":"2024-06-18 00:27:04"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-18 00:27:04"}
+{"level":"error","message":{"body":"","error":"Not found","method":"GET","params":{},"query":{},"url":"/favicon.ico"},"timestamp":"2024-06-18 00:27:04"}

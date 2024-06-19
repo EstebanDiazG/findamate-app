@@ -11,6 +11,7 @@ import studyGroupRoutes from "./studyGroup";
 import topicRoutes from "./topic";
 import userRoutes from "./user";
 import videoRoutes from "./video";
+import mediaRoutes from "./media";
 
 export {
   actionRoutes,
@@ -26,4 +27,5 @@ export {
   topicRoutes,
   userRoutes,
   videoRoutes,
+  mediaRoutes
 };
