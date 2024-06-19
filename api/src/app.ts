@@ -57,6 +57,7 @@ const routeMappings = [
   { path: "/file", router: routes.fileRoutes },
   { path: "/topic", router: routes.topicRoutes },
   { path: "/message_topic", router: routes.messageTopicRoutes },
+  { path: "/media", router: routes.mediaRoutes },
 ];
 
 function initializeRoutes(app: Express) {
@@ -79,6 +80,9 @@ function initializeRoutes(app: Express) {
 
 const imagesUploadDir = path.join(__dirname, "../public/uploads/images");
 app.use("/uploads/images", express.static(imagesUploadDir));
+
+const mediaUploadDir = path.join(__dirname, "../public/uploads/media");
+app.use("/uploads/media", express.static(mediaUploadDir));
 
 pool.connect((err) => {
   if (err) {
@@ -107,7 +111,7 @@ app.use(
   })
 );
 app.use(handlerRequest);
-app.use(auth);
+//app.use(auth);
 
 initializeRoutes(app);
 

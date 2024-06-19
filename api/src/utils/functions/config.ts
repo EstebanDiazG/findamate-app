@@ -25,4 +25,10 @@ export const filesUploadDir =
 export const filesUploadUrl = process.env.FILES_UPLOAD_URL || "uploads/files";
 export const limit = Number(process.env.LIMIT || 20);
 
+
+export const mediaUploadDir =
+  process.env.MEDIA_UPLOAD_DIR || "public/uploads/media";
+export const mediaUploadUrl = process.env.MEDIA_UPLOAD_URL || "uploads/media";
+
+
 export default config;
