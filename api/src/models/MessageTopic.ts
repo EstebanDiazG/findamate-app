@@ -25,11 +25,12 @@ class MessageTopic{
             mtpc.id_person,
             mtpc.content,
             per.name AS "creadorMensaje",
-            mtpc.id_file,
-            mtpc.id_imagen
+            med.path
         FROM app.message_topic mtpc
         LEFT JOIN
             app.person per ON per.id = mtpc.id_person
+        LEFT JOIN
+            app.media med ON med.id = mtpc.id_media
         WHERE mtpc.delete_at IS NULL`
         );
         return query.rows || [];
@@ -44,11 +45,12 @@ class MessageTopic{
             mtpc.id_person,
             mtpc.content,
             per.name AS "creadorMensaje",
-            mtpc.id_file,
-            mtpc.id_imagen
+            med.path
         FROM app.message_topic mtpc
         LEFT JOIN
             app.person per ON per.id = mtpc.id_person
+        LEFT JOIN
+            app.media med ON med.id = mtpc.id_media
         WHERE mtpc.id = $1 AND mtpc.delete_at IS NULL`,
           [id]
         );
@@ -64,11 +66,12 @@ class MessageTopic{
             mtpc.id_person,
             mtpc.content,
             per.name AS "creadorMensaje",
-            mtpc.id_file,
-            mtpc.id_imagen
+            med.path
         FROM app.message_topic mtpc
         LEFT JOIN
             app.person per ON per.id = mtpc.id_person
+        LEFT JOIN
+            app.media med ON med.id = mtpc.id_media
         WHERE mtpc.id_person = $1 AND mtpc.delete_at IS NULL`,
           [id_person]
         );
@@ -84,11 +87,12 @@ class MessageTopic{
             mtpc.id_person,
             mtpc.content,
             per.name AS "creadorMensaje",
-            mtpc.id_file,
-            mtpc.id_imagen
+            med.path
         FROM app.message_topic mtpc
         LEFT JOIN
             app.person per ON per.id = mtpc.id_person
+        LEFT JOIN
+            app.media med ON med.id = mtpc.id_media
         WHERE mtpc.id_topic = $1 AND mtpc.delete_at IS NULL`,
           [id_topic]
         );
@@ -99,16 +103,15 @@ class MessageTopic{
         id_person: string,
         id_topic: string,
         content: string,
-        id_file: string,
-        id_imagen: string
+        id_media: string,
       ) => {
         const response = await connection.query(
           `
-            INSERT INTO app.message_topic (id_person, id_topic, content, id_file, id_imagen) 
-            VALUES ($1, $2, $3, $4, $5)
+            INSERT INTO app.message_topic (id_person, id_topic, content, id_media) 
+            VALUES ($1, $2, $3, $4)
             RETURNING *;
           `,
-          [id_person, id_topic, content, id_file, id_imagen]
+          [id_person, id_topic, content, id_media]
         );
       
         return response.rowCount ? response.rows[0] : null;
