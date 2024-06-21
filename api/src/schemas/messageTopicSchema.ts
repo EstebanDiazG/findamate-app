@@ -16,8 +16,7 @@ const createMesaggeSchema = joi.object({
     id_person: joi.string().uuid().required(),
     id_topic: joi.string().uuid().required(),
     content: joi.string().optional(),
-    id_file: joi.string().uuid().optional(),
-    id_imagen: joi.string().uuid().optional(),
+    id_media: joi.string().uuid().optional(),
 });
 
 const updateMessageSchema = joi.object({

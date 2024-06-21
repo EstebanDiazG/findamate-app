@@ -27,14 +27,11 @@ class Topic {
             tpc.title,
             tpc.content,
             per.name AS "creadorTopico",
-            ima.originalname AS "imagen",
             int.name AS "Interest",
             cat.name AS "categoryInterest"
         FROM app.topics tpc
         LEFT JOIN
             app.person per ON per.id = tpc.id_person
-        LEFT JOIN 
-            app.image ima ON ima.id = tpc.id_imagen
         LEFT JOIN
             app.interest int ON int.id = tpc.id_interest
         LEFT JOIN
@@ -54,14 +51,11 @@ class Topic {
               tpc.title,
               tpc.content,
               per.name AS "creadorTopico",
-              ima.originalname AS "imagen",
               int.name AS "Interest",
               cat.name AS "categoryInterest"
           FROM app.topics tpc
           LEFT JOIN
               app.person per ON per.id = tpc.id_person
-          LEFT JOIN 
-              app.image ima ON ima.id = tpc.id_imagen
           LEFT JOIN
               app.interest int ON int.id = tpc.id_interest
           LEFT JOIN
@@ -85,14 +79,11 @@ class Topic {
             tpc.title,
             tpc.content,
             per.name AS "creadorTopico",
-            ima.originalname AS "imagen",
             int.name AS "Interest",
             cat.name AS "categoryInterest"
         FROM app.topics tpc
         LEFT JOIN
             app.person per ON per.id = tpc.id_person
-        LEFT JOIN 
-            app.image ima ON ima.id = tpc.id_imagen
         LEFT JOIN
             app.interest int ON int.id = tpc.id_interest
         LEFT JOIN
