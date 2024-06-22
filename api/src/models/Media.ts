@@ -30,7 +30,8 @@ export default class Media {
     const response = await pool.query(
       `
       SELECT media.id, '${mediaUploadUrl}/' || media.internal_name AS url, 
-      count(*) over() AS total 
+      count(*) over() AS total,
+      internal_name 
       FROM app.media 
       WHERE $3::int2 is null OR status_code = $3 
       ORDER BY created_at DESC LIMIT $2 OFFSET ($1 - 1) * $2;`,
@@ -43,7 +44,7 @@ export default class Media {
     const response = await pool.query(
       `
       SELECT media.id, '${mediaUploadUrl}/' || media.internal_name AS url, 
-      status_code 
+      status_code, internal_name 
       FROM app.media 
       WHERE id = $1`,
       [id]
