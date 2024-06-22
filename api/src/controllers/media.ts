@@ -84,13 +84,7 @@ export const searchMedia = async (
   const { page, statusCode } = value;
   try {
     const media = await Media.search({ page, statusCode, limit });
-    const total = media.length ? Number(media[0].total) : 0;
-    sendResponse(req, res, {
-      results: media,
-      total,
-      limit,
-      pages: Math.ceil(total / limit),
-    });
+    sendResponse(req, res, media);
   } catch (err) {
     next(boom.badImplementation(err as any));
   }
