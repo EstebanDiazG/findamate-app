@@ -1,16 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { useRouter } from "next/router";
-
+import { useRecentTopics } from "@/context/RecentTopicsContext";
 import { useTopic, useInterest, useUser } from "@/store/hooks";
-
 import Window from "@/components/ui/Window";
 import { ContentCol, ContentRow } from "@/components/layout/Content";
 import Input from "@/components/ui/Input";
 import Button from "@/components/ui/Button";
 import FloatMenu from "@/components/ui/FloatMenu";
-
 import styles from "./Topic.module.scss";
-
 import { ITopic } from "@/interfaces/topic";
 import Card from "@/components/ui/Card";
 import SearchBox from "@/components/ui/SearchBox/SearchBox";
@@ -18,7 +15,11 @@ import Title from "@/components/ui/Tittle";
 import GridContainer from "@/components/ui/GridContainer";
 import Categories from "@/components/ui/Categories";
 import Avatar from "@/components/ui/Avatar";
-import CardButton from "@/components/ui/CardButton";
+import TextButton from "@/components/ui/TextButton";
+import TopicText from "@/components/ui/TopicText";
+import ComboBox from "@/components/ui/ComboBox";
+import CardTitle from "@/components/ui/CardTitle";
+import TextArea from "@/components/ui/TextArea";
 
 const Topic = () => {
   const {
@@ -47,7 +48,7 @@ const Topic = () => {
 
   useEffect(() => {
     topicGetAll();
-    interestGetAll(); 
+    interestGetAll();
   }, [topicGetAll, interestGetAll]);
 
   const initialDataTopic = {
@@ -69,10 +70,11 @@ const Topic = () => {
   };
 
   const [formTopic, setFormTopic] = useState<ITopic>(initialDataTopic);
-  const [searchTerm, setSearchTerm] = useState(""); 
+  const [searchTerm, setSearchTerm] = useState("");
   const [selectedCategories, setSelectedCategories] = useState<{ [key: string]: string }>({});
   const [isDisplayWindow, setIsDisplayWindow] = useState(false);
   const [windowTitle, setWindowTitle] = useState("Nuevo Foro");
+  const { recentTopics, setRecentTopics } = useRecentTopics(); 
 
   const dataMenu = [
     {
@@ -116,7 +118,7 @@ const Topic = () => {
 
     topicUpsert(id_person, title, content, id_interest);
     setIsDisplayWindow(false);
-    setFormTopic(initialDataTopic); 
+    setFormTopic(initialDataTopic);
   };
 
   useEffect(() => {
@@ -144,6 +146,36 @@ const Topic = () => {
     }
   }, [topic, topicGetAll]);
 
+  useEffect(() => {
+    if (topicList) {
+      const sortedTopics = topicList.sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime());
+      setRecentTopics(sortedTopics.slice(0, 2)); // Guardar las dos discusiones más recientes
+    }
+  }, [topicList]);
+
+
+  useEffect(() => {
+    const intervalTime = 20 * 60 * 1000; 
+
+    const interval = setInterval(() => {
+      setRecentTopics((prevTopics) => {
+        if (topicList && topicList.length > 0) {
+          if (prevTopics.length > 0) {
+            const currentIndex = topicList.findIndex(topic => topic.id === prevTopics[0].id);
+            if (currentIndex !== -1) {
+              const newIndex = (currentIndex + 2) % topicList.length;
+              return topicList.slice(newIndex, newIndex + 2);
+            }
+          }
+          return topicList.slice(0, 2); 
+        }
+        return prevTopics; 
+      });
+    }, intervalTime);
+
+    return () => clearInterval(interval);
+  }, [topicList, setRecentTopics]);
+
   const filteredTopics = topicList
     ? topicList.filter((item) =>
         item.title.toLowerCase().includes(searchTerm.toLowerCase())
@@ -160,44 +192,48 @@ const Topic = () => {
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         />
-
         <GridContainer>
           {filteredTopics.length > 0 ? (
             filteredTopics.map((item, idx) => (
               <React.Fragment key={idx}>
-                {item.id_person === user?.personId && (
-                  <CardButton
-                    iconName="close"
-                    onClick={() => handleOnClickDelete(item.id)}
-                  />
-                )}
-                <div onClick={() => router.push(`/topic/${item.id}`)}>
-                  <Card width="500px" height="440px">
-                    <div className={styles.topicItem}>
-                      <ContentCol gap="10px" alignItems="center">
-                        <Title level="h1" color="#41377D" text={item.title} />
-                        <ContentRow width="100%" justifyContent="space-between">
-                          <ContentRow gap="10px">
-                            <Avatar width="40px" height="40px" />
-                            <Title height="40px" level="h4" color="#41377D" alignItems="center" text={item.creadorTopico} />
-                          </ContentRow>
-                          <Categories 
-                            text={item.categoryInterest}
-                            width="200px"
-                            height="40px"
-                            category={item.categoryInterest as ICategories['category']}
-                          />
+                <Card width="500px" height="440px" padding="26px">
+                  <div className={styles.topicItem}>
+                    <ContentCol gap="10px" alignItems="center">
+                      <CardTitle level="h1" color="#41377D" height="95px" alignItems="center" text={item.title} />
+                      <ContentRow width="100%" justifyContent="space-between">
+                        <ContentRow gap="8px">
+                          <Avatar width="40px" height="40px" />
+                          <Title height="40px" level="h4" color="#41377D" alignItems="center" text={item.creadorTopico} />
                         </ContentRow>
-                        <Title width="100%" height="126px" level="h3" color="#41377D" text={item.content} />
-                        <Title 
-                          level="h4" 
-                          color="#41377D" 
-                          text={item.Interest} 
+                        <Categories 
+                          text={item.categoryInterest}
+                          width="200px"
+                          height="40px"
+                          justifyContent="center"
+                          category={item.categoryInterest as ICategories['category']}
                         />
-                      </ContentCol>
-                    </div>
-                  </Card>
-                </div>
+                      </ContentRow>
+                      <TopicText width="100%" height="176px" level="h3" color="#41377D" text={item.content} />
+                      <ContentRow gap="10px" width="100%" justifyContent="space-between">
+                        <Button
+                          width="200px"
+                          text="Ir a discusión"
+                          color="secondary"
+                          onClick={() => router.push(`/topic/${item.id}`)}
+                        />
+                        {item.id_person === user?.personId && (
+                          <TextButton
+                            iconName="delete"
+                            text="Eliminar"
+                            textSize="16px"
+                            textColor="#6153B6"
+                            onClick={() => handleOnClickDelete(item.id)}
+                          />
+                        )}
+                      </ContentRow>
+                    </ContentCol>
+                  </div>
+                </Card>
               </React.Fragment>
             ))
           ) : (
@@ -213,38 +249,47 @@ const Topic = () => {
         setClose={() => setIsDisplayWindow(false)}
       >
         <ContentCol gap="20px">
-          <ContentCol gap="5px">
+          <ContentCol gap="10px">
             <Input
               name="title"
               value={formTopic.title}
-              placeholder="Title"
+              placeholder="Título"
               onChange={handleOnChangeTitle}
               width="479px"
             />
-            <select
+            <ComboBox
               value={formTopic.interestId}
               onChange={handleOnChangeInterest}
-              style={{ width: "479px" }}
-            >
-              {interestList?.map((interest) => (
-                <option key={interest.id} value={interest.id}>
-                  {interest.name}
-                </option>
-              ))}
-            </select>
-            <textarea
+              width="479px"
+              data={interestList}
+              optionValueName="id"
+              optionTextName="name"
+              placeholder="::Selecciona una categoría::"
+              label="Categorías"
+            />
+            <TextArea
+              name="content"
               value={formTopic.content}
-              placeholder="Content"
+              placeholder="Ingresa aquí tu pregunta..."
               onChange={handleOnChangeContent}
-              style={{ width: "479px" }}
+              width="479px"
+              height="300px"
             />
           </ContentCol>
-          <Button
-            width="300px"
-            text="Guardar"
-            color="tertiary"
-            onClick={handleOnClickSave}
-          />
+          <ContentRow gap="20px" justifyContent="space-between">
+            <Button
+              width="220px"
+              text="Guardar"
+              color="primary"
+              onClick={handleOnClickSave}
+            />
+            <Button
+              width="220px"
+              text="Salir"
+              color="primary"
+              onClick={() => setIsDisplayWindow(false)}
+            />
+          </ContentRow>
         </ContentCol>
       </Window>
     </div>

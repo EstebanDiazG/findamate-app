@@ -1,5 +1,6 @@
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
+import { RecentTopicsProvider } from "@/context/RecentTopicsContext";
 import Login from "@/components/functional/Login";
 import Register from "@/components/functional/Register";
 import { useUser } from "@/store/hooks";
@@ -15,8 +16,11 @@ export default function App({ Component, pageProps }: AppProps) {
   }
 
   return user && user.id ? (
+   
     <Screen>
-      <Component {...pageProps} />
+       <RecentTopicsProvider>
+        <Component {...pageProps} />
+      </RecentTopicsProvider>
     </Screen>
   ) : (
     <Login />

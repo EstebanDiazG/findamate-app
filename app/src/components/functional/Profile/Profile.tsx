@@ -8,6 +8,7 @@ import Button from "@/components/ui/Button";
 import Tittle from "@/components/ui/Tittle";
 import Card from "@/components/ui/Card";
 import { ContentCol, ContentRow } from "@/components/layout/Content";
+import TextArea from "@/components/ui/TextArea";
 
 
 const Profile = () => {
@@ -58,9 +59,7 @@ const Profile = () => {
     setFormProfile({ ...formProfile, personId: e.target.value });
   };
 
-  const handleOnChangeDescription = (
-    e: React.ChangeEvent<HTMLInputElement>
-  ) => {
+  const handleOnChangeDescription = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
     setFormProfile({ ...formProfile, description: e.target.value });
   };
 
@@ -111,7 +110,7 @@ const Profile = () => {
   return (
     <div className={styles.profile}>
       <ContentRow gap="20px" width="100%" justifyContent="center" >
-        <Card height="100%" width="90%">
+        <Card height="100%" width="40%" padding= "30px" >
           <ContentCol gap="20px" width="100%" justifyContent="center" alignItems="center">
             <ProfilePhoto src="/image/profile-photo.png" alt="profile-photo" />
               <Tittle
@@ -121,17 +120,17 @@ const Profile = () => {
                 level="h2"
                 color="#645A6F"
               />
-              <InputPage
-                width="520px"
+              <TextArea
+                width="460px"
                 height="200px"
-                type="text"
+                name="description"  
                 value={formProfile?.description}
                 placeholder="Cuentanos sobre ti..."
                 onChange={handleOnChangeDescription}
               />
           </ContentCol>
         </Card>
-        <Card height="100%" width="90%">
+        <Card height="100%" width="90%" padding= "30px">
           <ContentCol gap="50px">
             <ContentCol gap="20px" width="100%" justifyContent="center" alignItems="center">
               <Tittle text="Mi perfil" level="h2" color="#4A4351" />
@@ -184,7 +183,7 @@ const Profile = () => {
                 placeholder="Contraseña"
               />
             </ContentCol>
-            <ContentRow gap="20px" justifyContent="center">
+            <ContentRow gap="100px" justifyContent="center">
                 <Button
                   width="200px"
                   height="40px"
@@ -202,7 +201,6 @@ const Profile = () => {
                 </ContentRow>
               </ContentCol>
           </Card>
-          
         </ContentRow>
     </div>
   );

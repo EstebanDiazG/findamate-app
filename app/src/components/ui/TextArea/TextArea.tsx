@@ -1,30 +1,28 @@
 import React from "react";
-import styles from "./Input.module.scss";
+import styles from "./TextArea.module.scss"
 
-interface IInput {
-  name: string; 
+interface ITextArea {
+  name: string;
   placeholder: string;
   value: string;
   width?: string;
   height?: string;
-  type?: "text" | "password";
-  onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
+  onChange?: (e: React.ChangeEvent<HTMLTextAreaElement>) => void;
   onBlur?: () => void;
   readOnly?: boolean;
 }
 
-const Input = ({
-  name, 
+const TextArea = ({
+  name,
   placeholder,
   value,
   width = "auto",
   height = "auto",
-  type = "text",
   onChange,
   onBlur,
   readOnly,
-}: IInput) => {
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+}: ITextArea) => {
+  const handleChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
     if (!readOnly && onChange) {
       onChange(e);
     }
@@ -32,19 +30,18 @@ const Input = ({
 
   return (
     <div className={styles.inputContainer}>
-      <input
-        type={type}
-        name={name} // Agregar el atributo name
+      <textarea
+        name={name}
         placeholder={placeholder}
         value={value}
         onChange={handleChange}
         onBlur={onBlur}
         readOnly={readOnly}
-        className={styles.inputField}
+        className={styles.textAreaField}
         style={{ width, height }}
       />
     </div>
   );
 };
 
-export default Input;
+export default TextArea;
