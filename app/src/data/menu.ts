@@ -42,10 +42,10 @@ export const menu = [
       },
       {
         id: 3,
-        code: "findamateImage",
+        code: "findamateMedia",
         icon: "image",
-        name: "Imagenes",
-        path: "/image",
+        name: "Media",
+        path: "/media",
       },
     ],
   },
