@@ -1,0 +1,60 @@
+// Image.module.scss
+.imageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .h1 {
+    color: #333;
+  }
+  
+  .imageGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .imageItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+  }
+  
+  .imageItem img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .uploadContainer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .uploadContainer button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .uploadContainer button:hover {
+    background-color: #0056b3;
+  }
+  
+  .input-file[type="file"] {
+    margin-bottom: 10px;
+  }
+  
