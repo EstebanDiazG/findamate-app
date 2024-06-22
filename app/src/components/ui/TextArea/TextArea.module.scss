@@ -1,0 +1,45 @@
+.inputContainer {
+    display: flex;
+  }
+  
+  .inputField, .textAreaField {
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.18);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.8px);
+    -webkit-backdrop-filter: blur(5.8px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    color: rgb(89, 77, 101);
+    line-height: 1.5; /* Ajusta la altura de la línea según sea necesario */
+    height: auto; /* Asegúrate de que el textarea tenga una altura automática para que el padding funcione correctamente */
+  
+    &:focus {
+      outline: none;
+      border-color: #ce2be0;
+      box-shadow: 0 0 8px rgba(150, 25, 203, 0.5);
+    }
+  
+    &::placeholder {
+      color: #41377D;
+      font-size: 16px;
+      padding-top: 0px; /* Ajusta el padding superior del placeholder */
+    }
+  
+    &:hover {
+      border-color: #a42be0;
+      transform: translateY(-2px);
+    }
+  
+    &:invalid {
+      background-color: #ffe135;
+    }
+  }
+  
+  .textAreaField {
+    resize: none; /* Opcional, para evitar que el usuario cambie el tamaño del textarea */
+    padding-top: 20px; /* Ajusta el padding superior del textarea */
+  }
+  

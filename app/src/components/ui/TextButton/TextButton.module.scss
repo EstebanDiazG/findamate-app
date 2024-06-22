@@ -1,0 +1,29 @@
+.textButtonWithIcon {
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+
+    span {
+      font-size: 16px;
+    }
+  
+  
+    &:hover {
+      .text {
+        text-decoration: underline;
+      }
+    }
+  
+    .text {
+      margin-right: 6px; 
+      text-decoration: underline;
+    }
+  
+    .icon {
+      font-size: 24rem; 
+    }
+  }
+  

@@ -60,9 +60,9 @@ const Login = () => {
       <div className={style.logoContainer}>
         <LogoLarge width="20" height="30" />
         <Box width="713px" height="443px">
-          <ContentCol gap="63px">
+          <ContentCol gap="60px" alignItems="center">
             <Title text="Login" level="h1" />
-            <ContentCol gap="0px">
+            <ContentCol gap="10px">
               <Input
                 value={formLogin.email || ""}
                 placeholder="Email"
@@ -71,7 +71,7 @@ const Login = () => {
                 width="400px"
                 height="50px"
               />
-              <ContentCol gap="24px">
+              <ContentCol gap="60px">
                 <Input
                   type="password"
                   value={formLogin.password || ""}
@@ -81,7 +81,6 @@ const Login = () => {
                   width="400px"
                   height="50px"
                 />
-
                 <ContentRow gap="8px" justifyContent="space-between">
                   <Button
                     width="190px"

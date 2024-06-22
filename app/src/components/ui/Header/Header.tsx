@@ -17,10 +17,10 @@ const Header = () => {
 
   return (
     <div className={styles.header}>
-      <ContentRow width="100%" justifyContent="space-between">
+      <ContentRow width="100%" justifyContent="space-between" alignItems="center">
         <ButtonIcon iconName="menu" onClick={uiTogleOpenMenu} />
         <ContentRow gap="18px">
-          <SearchBox width="250px" height="40px" value="" onChange={() => {}} />
+          <SearchBox width="300px" height="40px" value="" onChange={() => {}} />
           <Avatar width="43px" height="43px"/>
         </ContentRow>
       </ContentRow>

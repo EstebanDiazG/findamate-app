@@ -4,11 +4,10 @@
 
 .inputField {
   padding: 20px;
-  margin-bottom: 10px;
   border-radius: 10px;  
   font-size: 16px;
   background: rgba(255, 255, 255, 0.18);
-  border-radius: 16px;
+  border-radius: 10px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5.8px);
   -webkit-backdrop-filter: blur(5.8px);
@@ -25,7 +24,7 @@
     position: absolute; /* Hace que el placeholder sea absoluto dentro del input */
     top: 10px; /* Alinea el placeholder en la parte superior */
     left: 20px; /* Ajusta la posición izquierda del placeholder */
-    color: #0a0a0b;
+    color: #41377D;
     font-size: 16px;
   }
 
