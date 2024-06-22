@@ -7,5 +7,6 @@ import useCategoryInterest from "./useCategoryInterest";
 import useTopic from "./useTopic";
 import useImage from "./useImage";
 import useMessageTopic from "./useMessageTopic";
-export { usePerson, useUser, useProfile, useInterest, useCategoryInterest, useTopic, useUi, useMessageTopic,useImage };
+import useMedia from "./useMedia";
+export { usePerson, useUser, useProfile, useInterest, useCategoryInterest, useTopic, useUi, useMessageTopic,useImage,useMedia };
 
