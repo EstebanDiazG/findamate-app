@@ -1,49 +1,54 @@
+.buttonContainer {
+  display: flex;
+  width: 100%;
+  max-width: 200px;
+}
+
 .button {
-  button {
-    border: none;
-    border-radius: 10px;  
-    font-size: 16px;
-    color: white;
-    cursor: pointer;
-    padding: 10px 20px;
-    transition: all 0.4s ease;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
-    position: relative;
-    overflow: hidden;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: all 0.4s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  position: relative;
+  overflow: hidden;
+  width: 100%;
 
-    &::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background: linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1));
-      opacity: 0.1;
-      transition: all 0.6s ease;
-    }
-
-    &:hover::before {
-      opacity: 0.5;
-    }
-
-    &:hover {
-      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.20);
-      transform: translateY(-2px);
-    }
-
-    &:active {
-      transform: translateY(1px) scale(0.98);
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
-    }
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1));
+    opacity: 0.1;
+    transition: all 0.6s ease;
   }
 
-  .primary {
+  &:hover::before {
+    opacity: 0.5;
+  }
+
+  &:hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.20);
+    transform: translateY(-2px);
+  }
+
+  &:active {
+    transform: translateY(1px) scale(0.98);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  }
+
+  &.primary {
     background: linear-gradient(45deg, #7c00f8, #48037d);
   }
 
-  .secondary {
-    background-color:#6153B6;
+  &.secondary {
+    background-color: #6153B6;
     color: white;
     box-shadow: none;
 
@@ -52,7 +57,7 @@
     }
   }
 
-  .tertiary {
+  &.tertiary {
     background-color: #F2F2F2;
     color: #6153B6;
     box-shadow: none;
@@ -62,14 +67,16 @@
     }
   }
 
-  .danger {
+  &.danger {
     background-color: #FF4D4F;
   }
 
-  .disabled {
+  &.disabled {
     background-color: #F2F2F2;
     color: #BDBDBD;
     cursor: not-allowed;
     box-shadow: none;
   }
 }
+
+

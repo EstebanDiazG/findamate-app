@@ -1,8 +1,38 @@
 .rectangle {
-    display: flex;
-    width: 1200px;
-    height: 254px;
-    padding: 30px 50px 30px 50px;
-    background-color: #532696;
-    border-radius: 30px;
+  display: flex;
+  width: 100%;
+  background-image: url("/image/Banner1.png"); 
+  background-size: cover; 
+  background-position: center; 
+  height: auto;
+  padding: 30px 20px;
+  border-radius: 10px;
+  border: 1px solid #ddd; 
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1), 0 10px 25px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+
+  @media (min-width: 376px) {
+    padding: 30px 40px;
+    height: 300px;
   }
+
+  @media (min-width: 576px) {
+    padding: 30px 40px;
+    height: 250px;
+  }
+
+  @media (min-width: 768px) {
+    padding: 30px 50px;
+    height: 250px;
+  }
+
+  @media (min-width: 992px) {
+    padding: 30px 60px;
+    height: 240px;
+  }
+
+  @media (min-width: 1200px) {
+    padding: 30px 70px;
+    height: 254px;
+  }
+}

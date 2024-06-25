@@ -1,0 +1,38 @@
+.filter {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  
+    label {
+      font-size: 16px;
+      color: #41377D;
+    }
+  
+    .options {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+  
+      .optionButton {
+        padding: 8px 12px;
+        font-size: 14px;
+        border: 1px solid #41377D;
+        border-radius: 5px;
+        background-color: white;
+        color: #41377D;
+        cursor: pointer;
+        transition: background-color 0.3s;
+  
+        &:hover {
+          background-color: #ececec;
+        }
+  
+        &.selected {
+          background-color: #41377D;
+          color: white;
+        }
+      }
+    }
+  }
+  

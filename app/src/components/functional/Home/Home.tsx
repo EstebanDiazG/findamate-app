@@ -2,6 +2,7 @@
 import React from "react";
 import { useUser } from "@/store/hooks";
 import { useRouter } from "next/router";
+import { useRecentTopics } from "@/context/RecentTopicsContext";
 import Title from "@/components/ui/Tittle";
 import { ContentCol, ContentRow } from "@/components/layout/Content";
 import styles from "./Home.module.scss";
@@ -9,7 +10,7 @@ import Rectangle from "@/components/ui/Rectangle";
 import Images from "@/components/ui/Images";
 import Categories from "@/components/ui/Categories";
 import Card from "@/components/ui/Card";
-import { useRecentTopics } from "@/context/RecentTopicsContext";
+
 import Avatar from "@/components/ui/Avatar";
 import CardTitle from "@/components/ui/CardTitle";
 import Button from "@/components/ui/Button";
@@ -28,29 +29,35 @@ const Home = () => {
             <ContentCol>
               <Title
                 level="h1"
-                color="#ffffff"
-                text={`Bienvenido a Findamate ${user ? user.name : "no identificado"}`}
+                color="#41377D"
+                text={`Bienvenido ${user ? user.name : "no identificado"}`}
               />
               <Title
                 level="h3"
-                color="#ffffff"
+                color="#41377D"
                 text="Es momento encontrar amigos y de aprender algo nuevo"
               />
+          
             </ContentCol>
-            <Images src="/image/Rectangle-02.png" alt="image-02" width="338px" height="216px" />
+            <Images
+              src="/image/Image05.png"
+              alt="Home1"
+              width="230px"
+              height="230px"
+              />
           </ContentRow>
         </Rectangle>
         <Title 
           level="h2"
           text="Discusiones recientes"
           height="100%"
-          width="1200px"
+          width="100%"
           color="#41377D"
         />
         <GridContainer>
           {recentTopics.map((item, idx) => (
             <React.Fragment key={idx}>
-              <Card width="595px" height="220px" padding="30px 30px">
+              <Card width="100%" height="220px" padding="30px 30px">
                 <ContentCol width="100%">
                   <Categories 
                     text={item.categoryInterest}

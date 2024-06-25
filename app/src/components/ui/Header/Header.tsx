@@ -6,6 +6,7 @@ import { useUi, useUser } from "@/store/hooks";
 import styles from "./Header.module.scss";
 import Avatar from "../Avatar";
 import SearchBox from "../SearchBox/SearchBox";
+import ContentHeader from "@/components/layout/ContentHeader";
 
 const Header = () => {
   const { userReset, user } = useUser();
@@ -17,13 +18,13 @@ const Header = () => {
 
   return (
     <div className={styles.header}>
-      <ContentRow width="100%" justifyContent="space-between" alignItems="center">
+      <ContentHeader width="100%" justifyContent="space-between" alignItems="center">
         <ButtonIcon iconName="menu" onClick={uiTogleOpenMenu} />
-        <ContentRow gap="18px">
+        <ContentHeader gap="18px">
           <SearchBox width="300px" height="40px" value="" onChange={() => {}} />
           <Avatar width="43px" height="43px"/>
-        </ContentRow>
-      </ContentRow>
+        </ContentHeader>
+      </ContentHeader>
     </div>
   );
 };

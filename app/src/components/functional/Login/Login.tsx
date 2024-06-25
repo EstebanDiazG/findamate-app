@@ -59,7 +59,7 @@ const Login = () => {
     <Background imageUrl="/image/background2.png">
       <div className={style.logoContainer}>
         <LogoLarge width="20" height="30" />
-        <Box width="713px" height="443px">
+        <Box width="670px" height="443px">
           <ContentCol gap="60px" alignItems="center">
             <Title text="Login" level="h1" />
             <ContentCol gap="10px">

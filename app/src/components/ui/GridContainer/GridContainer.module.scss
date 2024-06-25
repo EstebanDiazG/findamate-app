@@ -1,6 +1,10 @@
 .gridContainer {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px; /* Espacio entre los elementos en la cuadrícula */
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(2, 1fr); /* Dos columnas con igual tamaño */
+  gap: 20px; /* Espacio entre los elementos en la cuadrícula */
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr; /* Cambia a una sola columna cuando el ancho de la pantalla sea 768px o menos */
   }
-  
+}
