@@ -11,7 +11,7 @@ export interface ITopic {
   createdAt: string;
   updatedAt: string;
   deletedAt: string;
-  interestId: string; // Nueva propiedad categoryId
+  interestId: string; 
   categoryInterest: string;
   Interest: string;
 }

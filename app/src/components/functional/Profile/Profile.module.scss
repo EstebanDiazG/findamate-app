@@ -1,7 +1,22 @@
 .profile {
   display: flex;
   width: 100%;
-  padding: 40px;
-  height: calc(100vh - 70px); 
-  background-color: rgb(243, 243, 243);
+  justify-content: center;
+  
+
+  @media (min-width: 576px) {
+    padding: 30px;
+  }
+
+  @media (min-width: 768px) {
+    padding: 40px;
+  }
+
+  @media (min-width: 992px) {
+    padding: 50px;
+  }
+
+  @media (min-width: 1200px) {
+    padding: 70px;
+  }
 }

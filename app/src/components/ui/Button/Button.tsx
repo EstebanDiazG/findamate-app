@@ -1,5 +1,4 @@
 import React from "react";
-
 import styles from "./Button.module.scss";
 
 interface IButton {
@@ -10,12 +9,10 @@ interface IButton {
   onClick: () => void;
 }
 
-
-const Button = ({ text, color, onClick, width="auto", height="auto" }: IButton) => {
+const Button = ({ text, color, onClick, width = "auto", height = "auto" }: IButton) => {
   return (
-    <div className={styles.button} >
-      <button onClick={onClick} className={styles[color]} style={{width, height}}>
-
+    <div className={styles.buttonContainer}>
+      <button onClick={onClick} className={`${styles.button} ${styles[color]}`} style={{ width, height }}>
         {text}
       </button>
     </div>

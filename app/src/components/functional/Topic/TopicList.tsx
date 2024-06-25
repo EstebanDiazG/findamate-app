@@ -149,32 +149,29 @@ const Topic = () => {
   useEffect(() => {
     if (topicList) {
       const sortedTopics = topicList.sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime());
-      setRecentTopics(sortedTopics.slice(0, 2)); // Guardar las dos discusiones más recientes
+      setRecentTopics(sortedTopics.slice(0, 6)); // Mostrar los primeros 6 tópicos
     }
   }, [topicList]);
-
+  
 
   useEffect(() => {
-    const intervalTime = 20 * 60 * 1000; 
-
+    const intervalTime = 20 * 60 * 1000; // 20 minutos
+  
     const interval = setInterval(() => {
       setRecentTopics((prevTopics) => {
         if (topicList && topicList.length > 0) {
-          if (prevTopics.length > 0) {
-            const currentIndex = topicList.findIndex(topic => topic.id === prevTopics[0].id);
-            if (currentIndex !== -1) {
-              const newIndex = (currentIndex + 2) % topicList.length;
-              return topicList.slice(newIndex, newIndex + 2);
-            }
+          const currentIndex = topicList.findIndex(topic => topic.id === prevTopics[0].id);
+          if (currentIndex !== -1) {
+            const newIndex = (currentIndex + 6) % topicList.length; // Avanzar 6 tópicos cada vez
+            return topicList.slice(newIndex, newIndex + 6); // Mostrar los siguientes 6 tópicos
           }
-          return topicList.slice(0, 2); 
         }
-        return prevTopics; 
+        return prevTopics; // Si no hay cambios, mantener los tópicos actuales
       });
     }, intervalTime);
-
-    return () => clearInterval(interval);
-  }, [topicList, setRecentTopics]);
+  
+    return () => clearInterval(interval); // Limpia el intervalo cuando el componente se desmonta o actualiza
+  }, [topicList]);
 
   const filteredTopics = topicList
     ? topicList.filter((item) =>
@@ -184,19 +181,19 @@ const Topic = () => {
 
   return (
     <div className={styles.container}>
-      <ContentCol width="100%" gap="30px" alignItems="center">
+      <ContentCol width="100%"  gap="30px" alignItems="center">
         <SearchBox
           height="60px"
-          width="1020px"
+          width="100%"
           placeholder="Buscar por título..."
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         />
-        <GridContainer>
+        <GridContainer >
           {filteredTopics.length > 0 ? (
             filteredTopics.map((item, idx) => (
               <React.Fragment key={idx}>
-                <Card width="500px" height="440px" padding="26px">
+                <Card width="100%" height="440px" padding="26px">
                   <div className={styles.topicItem}>
                     <ContentCol gap="10px" alignItems="center">
                       <CardTitle level="h1" color="#41377D" height="95px" alignItems="center" text={item.title} />

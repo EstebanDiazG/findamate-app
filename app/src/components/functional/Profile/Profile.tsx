@@ -109,8 +109,8 @@ const Profile = () => {
 
   return (
     <div className={styles.profile}>
-      <ContentRow gap="20px" width="100%" justifyContent="center" >
-        <Card height="100%" width="40%" padding= "30px" >
+      <ContentCol gap="10px" width="100%"  alignItems="center">
+        <Card height="100%" width="100%" padding= "30px" >
           <ContentCol gap="20px" width="100%" justifyContent="center" alignItems="center">
             <ProfilePhoto src="/image/profile-photo.png" alt="profile-photo" />
               <Tittle
@@ -121,16 +121,24 @@ const Profile = () => {
                 color="#645A6F"
               />
               <TextArea
-                width="460px"
+                width="100%"
                 height="200px"
                 name="description"  
                 value={formProfile?.description}
                 placeholder="Cuentanos sobre ti..."
                 onChange={handleOnChangeDescription}
+                
               />
+              <Button
+                  width="200px"
+                  height="40px"
+                  text="Intereses"
+                  color="primary"
+                  onClick={handleOnClickDelete}
+                />
           </ContentCol>
         </Card>
-        <Card height="100%" width="90%" padding= "30px">
+        <Card height="100%" width="1100px" padding= "30px">
           <ContentCol gap="50px">
             <ContentCol gap="20px" width="100%" justifyContent="center" alignItems="center">
               <Tittle text="Mi perfil" level="h2" color="#4A4351" />
@@ -183,7 +191,7 @@ const Profile = () => {
                 placeholder="Contraseña"
               />
             </ContentCol>
-            <ContentRow gap="100px" justifyContent="center">
+            <ContentRow width="100%" gap="20px" justifyContent="center" >
                 <Button
                   width="200px"
                   height="40px"
@@ -201,7 +209,7 @@ const Profile = () => {
                 </ContentRow>
               </ContentCol>
           </Card>
-        </ContentRow>
+        </ContentCol>
     </div>
   );
 };

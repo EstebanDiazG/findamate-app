@@ -1,10 +1,15 @@
-.contentCol {
-  display: flex;
-  flex-direction: column;
-}
-
 .contentRow {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  gap: 10px; 
+}
+
+.contentCol {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 100%;
+  max-width: 1300px;
 }

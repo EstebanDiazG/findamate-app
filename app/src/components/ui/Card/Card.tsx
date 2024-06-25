@@ -1,4 +1,5 @@
-import styles from "./Card.module.scss";
+import React from 'react';
+import styles from './Card.module.scss';
 
 interface ICard {
   children: React.ReactNode;
@@ -9,17 +10,23 @@ interface ICard {
   justifyContent?: string;
 }
 
-
-
-const Card = ({children, width="auto", height="auto", gap, justifyContent="auto", padding}: ICard) => {
+const Card = ({
+  children,
+  width = "auto",
+  height = "auto",
+  gap,
+  justifyContent = "auto",
+  padding
+}: ICard) => {
   return (
-    <div className={styles.card} style={{gap, width, height, justifyContent, padding}}>
-        <div className={styles.rectangle} >
-            {children}
-        </div>
+    <div className={styles.card} style={{ gap, width, height, justifyContent, padding }}>
+      <div className={styles.rectangle}>
+        {children}
+      </div>
     </div>
-  )
+  );
 }
 
 export default Card;
+
 
