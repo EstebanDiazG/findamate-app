@@ -18,6 +18,7 @@ interface messageTopicState {
       id_person: string,
       id_topic: string,
       content: string,
+      id_media: string,
     ) => void;
     messageTopicDeleteById: (id: string) => void;
     messageTopicReset: () => void;
@@ -30,6 +31,7 @@ const initialData: IMessageTopic = {
     id_topic: "",
     creadorMensaje: "",
     content: "",
+    id_media: "",
     createdAt: "",
     updatedAt: "",
     deletedAt: "",
@@ -90,6 +92,7 @@ export const messageTopicStore = create<messageTopicState>((set) => ({
       id_person: string,
       id_topic: string,
       content: string,
+      id_media: string,
     ) => {
       try {
         set({ isLoading: true });
@@ -97,6 +100,7 @@ export const messageTopicStore = create<messageTopicState>((set) => ({
           id_person,
           id_topic,
           content,
+          id_media,
         });
         const { data, success, error } = response.data;
         set({ messageTopic: data, isLoading: false });

@@ -1,0 +1,28 @@
+Cuenta para Desarrollar: dev_flagare_ext@mutual.cl
+PASS: Mut$2023
+Ambiente Desarrollo: https://mutualdev.crm.dynamics.com/
+Ambiente Pruebas Funcionales: https://mutualdevtest.crm.dynamics.com/
+
+-----------------------------------------------------------------------
+
+COMPLETO
+
+----------------------MUTUAL DESPLEGAR ENTRE AMBIENTES
+EMAIL: cuentaservicios@mutual.cl
+PASS: mutual2014	
+----------------------MUTUAL CREAR/MODIFICAR FLUJOS NUBE
+EMAIL:somosfl@mutual.cl
+PASS: Mut$2021
+----------------------MUTUAL FLAGARE
+Cuenta para Desarrollar: dev_flagare_ext@mutual.cl
+PASS: Mut$2023
+Dynamics Mutual:
+Ambiente Desarrollo: https://mutualdev.crm.dynamics.com/
+Ambiente Pruebas Funcionales: https://mutualdevtest.crm.dynamics.com/
+Ambiente Certificación UAT: https://mutualuat.crm.dynamics.com/
+Ambiente Producción: https://mutualprod.crm.dynamics.com/
+
+--------------------------------------------------------------------------
+
+https://pgarciao.visualstudio.com/AE%20-%20Dynamics%20-%20SOMOS/_boards/board/t/AE%20-%20Dynamics%20-%20SOMOS%20Team/Stories
+

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useMessageTopic, useUser, useTopic } from "@/store/hooks";
+import { useMessageTopic, useUser, useTopic, useMedia  } from "@/store/hooks";
 import styles from "./TopicDetail.module.scss";
 import { IMessageTopic } from "@/interfaces/messageTopic";
 
@@ -14,6 +14,12 @@ const TopicDetail = () => {
 
   const { user } = useUser();
   const { topic } = useTopic();
+  const { 
+    media,
+    mediaList,
+    mediaDeleteMediaById,
+    mediaGetMediaById,
+    mediaUploadMedia} = useMedia();
 
   const initialDataMessageTopic = {
     id: "",
@@ -21,10 +27,12 @@ const TopicDetail = () => {
     id_topic: "",
     creadorMensaje: "",
     content: "",
+    id_media: "",
     createdAt: "",
     updatedAt: "",
     deletedAt: "",
   };
+
 
   const [file, setFile] = useState<File | null>(null);
   const [formMenssageTopic, setFormMessageTopic] = useState<IMessageTopic>(initialDataMessageTopic);
@@ -39,6 +47,14 @@ const TopicDetail = () => {
       setFile(e.target.files[0]);
     }
   };
+
+  const handleUpload = async () => {
+    if (file) {
+      await mediaUploadMedia(file);
+      setFile(null);
+    }
+  };
+
 
   const handleOnClickSave = async () => {
     const id_person = user?.personId ?? "";
@@ -110,7 +126,8 @@ const TopicDetail = () => {
 
   return (
     <div className={styles.container}>
-      <h3 className={styles.title}>Comentarios del Tópico {topic?.id}</h3>
+      <h3 className={styles.title}>{topic?.title}</h3>
+      <h4 className={styles.title}>{topic?.content}</h4>
       <div className={styles.commentList}>
         {filteredComments.length > 0 ? (
           filteredComments.map((comment, idx) => (
@@ -134,7 +151,12 @@ const TopicDetail = () => {
           onChange={handleOnChangeContent}
           placeholder="Escribe un comentario..."
         />
-        <input type="file" className={styles.fileInput} onChange={handleOnChangeFile} />
+        <div>
+          <input type="file" className={styles.fileInput} onChange={handleOnChangeFile} />
+          {file && (
+            <button onClick={handleUpload}>Subir Archivo</button>
+          )}
+        </div>
         <button onClick={handleOnClickSave}>Enviar</button>
       </div>
     </div>

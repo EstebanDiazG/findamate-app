@@ -1,0 +1,27 @@
+clonar got: git clone https://github.com/EstebanDiazG/findamate.git
+ver el status: Git status
+añadir repositorio: git remote add origin https://github.com/EstebanDiazG/findamate.git
+sube todos los archivos especificos: git add -A
+git commit: git commit -m "first version"
+pushear master: git push --set-upstream origin master
+actualiza mi codigo con lo que tenga el repositorio: git pull
+
+borrar remotamente un repositorio que NO cree yo: git push origin --delete master
+
+para crea uan nueva rama (debe ser por cada entidad): git checkout -b nombreRama
+
+para cambiarme de rama: git checkout nombreRama
+
+
+
+
+interface
+zustand
+index de zustand
+hooks
+index hooks
+components/ functional
+page
+
+
+b075e3f0-b459-44ab-90f3-95edb75929c8

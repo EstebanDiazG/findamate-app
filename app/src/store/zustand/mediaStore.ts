@@ -12,7 +12,7 @@ interface MediaState {
     mediaDeleteMediaById: (id: string) => void;
     mediaGetMediaById: (id: string) => void;
     mediaSearchMedia: () => void;
-    mediaUploadMedia: (file: File) => void;
+    mediaUploadMedia: (file: File) => Promise<string | null>;
     mediaReset: () => void;
     mediaResetAll: () => void;
 }
@@ -77,22 +77,24 @@ export const mediaStore = create<MediaState>((set) => ({
       }
     },
   
-    mediaUploadMedia: async (file: File) => {
+    mediaUploadMedia: async (file: File): Promise<string | null> => {
       try {
-        set({ isLoading: true });
-        const formData = new FormData();
-        formData.append("file", file);
-        const response = await apiInstance.post("/media", formData, {
-          headers: {
-            "Content-Type": "multipart/form-data",
-          },
-        });
-        const { data } = response.data;
-        set({ media: data, isLoading: false });
+          set({ isLoading: true });
+          const formData = new FormData();
+          formData.append("file", file);
+          const response = await apiInstance.post("/media", formData, {
+              headers: {
+                  "Content-Type": "multipart/form-data",
+              },
+          });
+          const { data } = response.data;
+          set({ media: data, isLoading: false });
+          return data.id; // Suponiendo que el ID del archivo se llama 'id'
       } catch (error) {
-        set({ isError: true, error: (error as Error).message, isLoading: false });
+          set({ isError: true, error: (error as Error).message, isLoading: false });
+          return null;
       }
-    },
+  },
   
     mediaReset: () => {
       set({ media: initialData });
