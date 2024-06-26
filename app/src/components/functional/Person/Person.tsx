@@ -5,6 +5,7 @@ import { usePerson } from "@/store/hooks";
 import styles from "./Person.module.scss";
 
 import { IPerson } from "@/interfaces/person";
+import Interest from "../Interest";
 
 const Person = () => {
   const {
@@ -16,6 +17,9 @@ const Person = () => {
     personGetByRut,
     personReset,
     isLoading,
+    persongGetInterestsByPersonId,
+    personAssignInterest,
+    personRemoveInterest,
   } = usePerson();
 
   const initialDataPerson = {
@@ -28,6 +32,7 @@ const Person = () => {
     createdAt: "",
     updatedAt: "",
     deletedAt: "",
+    interests: [],
   };
 
   const [formPerson, setFormPerson] = useState<IPerson>(initialDataPerson);

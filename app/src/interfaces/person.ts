@@ -8,4 +8,14 @@ export interface IPerson {
   createdAt: string;
   updatedAt: string;
   deletedAt: string;
+  interests: IInterest[];
+}
+
+export interface IInterest {
+  id: string;
+  name: string;
+  state: string;
+  createdAt: string;
+  updatedAt: string;
+  deletedAt: string;
 }

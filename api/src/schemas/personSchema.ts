@@ -36,6 +36,7 @@ const idInterestGroupSchema = joi.object({
 
 const idPersonInterestGroupSchema = joi.object({
   id_person: joi.string().uuid().required(),
+  state: joi.string(),
 });
 
 export {
