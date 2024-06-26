@@ -9,6 +9,7 @@ import Tittle from "@/components/ui/Tittle";
 import Card from "@/components/ui/Card";
 import { ContentCol, ContentRow } from "@/components/layout/Content";
 import TextArea from "@/components/ui/TextArea";
+import { useRouter } from "next/router";
 
 
 const Profile = () => {
@@ -20,6 +21,8 @@ const Profile = () => {
     profileReset,
     profileGetByIdPerson,
   } = useProfile();
+  
+  const router = useRouter();
 
   const initialDataProfile = {
     id: "",
@@ -134,7 +137,7 @@ const Profile = () => {
                   height="40px"
                   text="Intereses"
                   color="primary"
-                  onClick={handleOnClickDelete}
+                  onClick={() => router.push(`/interest/`)}
                 />
           </ContentCol>
         </Card>

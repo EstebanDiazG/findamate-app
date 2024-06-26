@@ -16,6 +16,9 @@ const usePerson = () => {
     personDeleteById,
     personReset,
     personResetAll,
+    persongGetInterestsByPersonId,
+    personAssignInterest,
+    personRemoveInterest,
   } = personStore(
     (state) => ({
       person: state.person,
@@ -30,6 +33,9 @@ const usePerson = () => {
       personDeleteById: state.personDeleteById,
       personReset: state.personReset,
       personResetAll: state.personResetAll,
+      persongGetInterestsByPersonId: state.persongGetInterestsByPersonId,
+      personAssignInterest: state.personAssignInterest,
+      personRemoveInterest: state.personRemoveInterest,
     }),
     shallow
   );
@@ -47,6 +53,9 @@ const usePerson = () => {
     personDeleteById,
     personReset,
     personResetAll,
+    persongGetInterestsByPersonId,
+    personAssignInterest,
+    personRemoveInterest,
   };
 };
 

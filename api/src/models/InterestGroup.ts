@@ -12,10 +12,10 @@ class InterestGroup{
 
     static getInterestsByPersonId = async (id_person: string): Promise<any> => {
         const response = await connection.query(
-            ` SELECT itr.id, itr.name 
+            ` SELECT ig.state, itr.id, itr.name 
             FROM app.interestgroup ig
             JOIN app.interest itr ON ig.id_interest = itr.id
-            WHERE ig.id_person = $1`,
+            WHERE ig.id_person = $1 AND ig.state = '1'`,
             [id_person]
         );
     
@@ -40,7 +40,7 @@ class InterestGroup{
             INSERT INTO app.interestgroup (id_person, id_interest)
             VALUES ($1, $2)
             ON CONFLICT (id_person, id_interest) 
-            DO UPDATE SET updated_at = now()
+            DO UPDATE SET updated_at = now(), state = '1'
             RETURNING *
         ),
         persons AS (
@@ -90,7 +90,7 @@ class InterestGroup{
         const response = await connection.query(
           `WITH updated_interest_group_person AS (
                 UPDATE app.interestgroup
-                SET deleted_at = NOW(), updated_at = NOW()
+                SET state = '2', updated_at = NOW()
                 WHERE id_person = $1 AND id_interest = $2
                 RETURNING *
             ),

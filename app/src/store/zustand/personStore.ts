@@ -2,7 +2,8 @@ import { create } from "zustand";
 
 import { apiInstance } from "@/utils/api";
 
-import { IPerson } from "@/interfaces/person";
+import { IPerson, IInterest } from "@/interfaces/person";
+import Interest from "@/components/functional/Interest";
 
 interface personState {
   person: IPerson | null;
@@ -17,6 +18,9 @@ interface personState {
   personDeleteById: (id: string) => void;
   personReset: () => void;
   personResetAll: () => void;
+  persongGetInterestsByPersonId: (id: string) => Promise<IInterest[]>;
+  personAssignInterest: (id: string, interests:{ id: string }) => void; 
+  personRemoveInterest: (id: string, interests:{ id: string }) => void; 
 }
 
 const initialData: IPerson = {
@@ -29,6 +33,7 @@ const initialData: IPerson = {
   createdAt: "",
   updatedAt: "",
   deletedAt: "",
+  interests: [],
 };
 
 export const personStore = create<personState>((set) => ({
@@ -94,6 +99,45 @@ export const personStore = create<personState>((set) => ({
       set({ isLoading: true });
       const response = await apiInstance.delete(`/person/id/${id}`);
       const { data, success, error } = response.data;
+      set({ person: data, isLoading: false });
+    } catch (error) {
+      set({ isError: true, error: (error as Error).message, isLoading: false });
+    }
+  },
+
+  persongGetInterestsByPersonId: async (id: string): Promise<IInterest[]> => {
+    try {
+      const response = await apiInstance.get(`/person/personId/getPerson/${id}`);
+      const { data } = response.data;
+      console.log(response);
+      return data;
+    } catch (error) {
+      console.error("Error fetching user interests:", error);
+      return [];
+    }
+  },
+
+  personAssignInterest: async (id: string, interest: { id: string }) => {
+    try {
+      set({ isLoading: true });
+      const response = await apiInstance.put(`/person/personId/interest/${id}`, {
+        id_interest: interest.id,
+      });
+      const { data } = response.data;
+      set({ person: data, isLoading: false });
+    } catch (error) {
+      set({ isError: true, error: (error as Error).message, isLoading: false });
+    }
+  },
+
+  personRemoveInterest: async (id: string, interest: { id: string }) => {
+    try {
+      set({ isLoading: true });
+      const response = await apiInstance.delete(`/person/personId/removeInterest/${id}`, {
+        data: { id_interest: interest.id },
+      });
+
+      const { data } = response.data;
       set({ person: data, isLoading: false });
     } catch (error) {
       set({ isError: true, error: (error as Error).message, isLoading: false });
