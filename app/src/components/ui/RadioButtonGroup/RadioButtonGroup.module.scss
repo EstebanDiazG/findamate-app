@@ -1,0 +1,75 @@
+.radioButtonGroup {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    width: 100%;
+    gap: 10px;
+    padding: 20px;
+    background-color: #ffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .radioButtonItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .radioButtonItem input[type="radio"] {
+    display: none; /* Oculta el radio button nativo */
+  }
+  
+  .radioButtonItem label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .radioButtonItem label::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #00bfa6;
+    background-color: #fff;
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  
+  .radioButtonItem input[type="radio"]:checked + label::before {
+    background-color: #00bfa6;
+    border-color: #00bfa6;
+  }
+  
+  .radioButtonItem label::after {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%) scale(0);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    transition: transform 0.3s;
+  }
+  
+  .radioButtonItem input[type="radio"]:checked + label::after {
+    transform: translateY(-50%) scale(1);
+  }
+  
+  .radioButtonItem:hover label::before {
+    border-color: #00a394;
+  }
+  
+  .radioButtonItem:hover label {
+    color: #00bfa6;
+  }
+  

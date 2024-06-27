@@ -1,4 +1,5 @@
 .menu {
+  display: flex;
   position: fixed;
   top: 70px;
   left: 0;
@@ -8,16 +9,14 @@
   backdrop-filter: blur(5.8px);
   -webkit-backdrop-filter: blur(5.8px);
   border: 1px solid rgba(255, 255, 255, 0.18);
-  color: rgb(113, 64, 163);
-  display: flex;
+
   flex-direction: column; 
   justify-content: space-between; 
   z-index: 3; 
-
-
   width: 220px;
   height: calc(100vh - 70px);
   overflow-x: hidden;
+  border: 0px;
 
   .menu-logo {
     display: flex;
@@ -63,7 +62,6 @@
 
             span {
               margin: 4px 0;
-
             }
           }
 
@@ -86,7 +84,7 @@
   }
 
   .menu-exit {
-    margin-top: auto; /* Empuja el elemento de salida al final */
+    margin-top: auto; 
     border-top: 1px solid white;
 
     .menu-item-content {
@@ -95,11 +93,19 @@
       flex-direction: column;
       align-items: center;
       color: #666666;
+      cursor: pointer;
 
       span {
         margin: 4px 0;
-      
-        
+      }
+
+      &:hover {
+        background-color: #77188e;
+        color: white;
+
+        span {
+          color: white;
+        }
       }
     }
   }

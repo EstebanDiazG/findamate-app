@@ -1,10 +1,10 @@
 .inputContainer {
   display: flex;
-  flex-direction: column; // Cambia la dirección del flujo en pantallas pequeñas
+  flex-direction: column;
   width: 100%;
 
   @media (min-width: 768px) {
-    flex-direction: row; // Mantiene la dirección del flujo en pantallas grandes
+    flex-direction: row;
   }
 }
 
@@ -12,6 +12,7 @@
   padding: 20px;
   border-radius: 10px;
   font-size: 16px;
+  font-weight: 400px;
   background: rgba(255, 255, 255, 0.18);
   border-radius: 10px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -21,23 +22,26 @@
   color: rgb(89, 77, 101);
   line-height: 1.5; 
   height: auto; 
-  width: 100%; // Asegúrate de que el campo de entrada ocupe el 100% del contenedor
+  width: 100%; 
 
   &:focus {
     outline: none;
-    border-color: #ce2be0;
+    border-color: #7a4de6;
     box-shadow: 0 0 8px rgba(150, 25, 203, 0.5);
+    box-shadow: 0 4px 12px rgba(122, 77, 230, 0.15);
   }
 
   &::placeholder {
     color: #41377D;
     font-size: 16px;
+    font-weight: 400px;
     padding-top: 0px;
   }
 
   &:hover {
-    border-color: #a42be0;
+    border-color: #7a4de6;
     transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(122, 77, 230, 0.15);
   }
 
   &:invalid {
@@ -45,13 +49,13 @@
   }
 
   @media (max-width: 768px) {
-    font-size: 14px; // Ajusta el tamaño de la fuente en pantallas medianas
-    padding: 15px; // Ajusta el padding en pantallas medianas
+    font-size: 14px; 
+    padding: 15px; 
   }
 
   @media (max-width: 480px) {
-    font-size: 12px; // Ajusta el tamaño de la fuente en pantallas pequeñas
-    padding: 10px; // Ajusta el padding en pantallas pequeñas
+    font-size: 12px; 
+    padding: 10px; 
   }
 }
 
