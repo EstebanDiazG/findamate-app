@@ -6,7 +6,7 @@ export interface IProfile {
   paternalLastName: string;
   maternalLastName: string;
   password: string;
-  id_imagen: string;
+  id_media: string;
   createdAt: string;
   updatedAt: string;
   deletedAt: string;

@@ -61,7 +61,7 @@ const Login = () => {
         <LogoLarge width="20" height="30" />
         <Box width="670px" height="443px">
           <ContentCol gap="60px" alignItems="center">
-            <Title text="Login" level="h1"  />
+            <Title text="Login" level="h1" />
             <ContentCol gap="8px">
               <Input
                 value={formLogin.email || ""}

@@ -32,7 +32,7 @@ const initialData: IProfile = {
   paternalLastName: "",
   maternalLastName: "",
   password: "",
-  id_imagen: "",
+  id_media: "",
   createdAt: "",
   updatedAt: "",
   deletedAt: "",

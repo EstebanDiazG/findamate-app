@@ -13,6 +13,7 @@ import { useRouter } from "next/router";
 import Avatar from "@/components/ui/Avatar";
 import InterestViewer from "@/components/ui/InterestViewer"; // Importa el componente InterestViewer
 import { IInterest } from "@/interfaces/interest";
+import { useMedia } from "@/store/hooks";
 
 const Profile = () => {
   const {
@@ -37,7 +38,7 @@ const Profile = () => {
     paternalLastName: "",
     maternalLastName: "",
     password: "",
-    id_imagen: "",
+    id_media: "",
     createdAt: "",
     updatedAt: "",
     deletedAt: "",
@@ -46,6 +47,8 @@ const Profile = () => {
   const [formProfile, setFormProfile] = useState<IProfile>(initialDataProfile);
   const [newImageFile, setNewImageFile] = useState<File | null>(null);
   const [userInterests, setUserInterests] = useState<IInterest[]>([]); // Estado para los intereses del usuario
+  const [updateError, setUpdateError] = useState<string | null>(null);
+  const { mediaUploadMedia, mediaGetMediaById } = useMedia();
 
   const handleImageChange = (file: File) => {
     setNewImageFile(file);
@@ -77,52 +80,70 @@ const Profile = () => {
     setFormProfile({ ...formProfile, description: e.target.value });
   };
 
-  const handlePasswordChange = (
-    event: React.ChangeEvent<HTMLInputElement>
-  ) => {
+  const handlePasswordChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setFormProfile((prevState) => ({
       ...prevState,
       password: event.target.value,
     }));
   };
 
-  const handleOnClickUpdate = () => {
-    // Actualiza el perfil con la nueva imagen si se ha seleccionado una
-    if (newImageFile) {
-      const formData = new FormData();
-      formData.append("profileImage", newImageFile);
+  const handleOnClickUpdate = async () => {
+    setUpdateError(null);
 
-      fetch("/api/uploadProfileImage", {
-        method: "POST",
-        body: formData,
-      })
-        .then((response) => response.json())
-        .then((data) => {
-          const updatedProfile: IProfile = {
-            ...formProfile,
-            id_imagen: data.imageUrl,
-          };
-          profileUpdate(
-            updatedProfile.id,
-            updatedProfile.description,
-            updatedProfile.name,
-            updatedProfile.paternalLastName,
-            updatedProfile.maternalLastName
-          );
-          userUpdatePassword(updatedProfile.personId, updatedProfile.password);
-        })
-        .catch((error) => {
-          console.error("Error al subir la imagen:", error);
+    try {
+      if (newImageFile) {
+        const formData = new FormData();
+        formData.append("profileImage", newImageFile);
+
+        const response = await fetch("/api/uploadProfileImage", {
+          method: "POST",
+          body: formData,
         });
-    } else {
-      profileUpdate(
-        formProfile.id,
-        formProfile.description,
-        formProfile.name,
-        formProfile.paternalLastName,
-        formProfile.maternalLastName
-      );
-      userUpdatePassword(formProfile.personId, formProfile.password);
+
+        if (!response.ok) {
+          throw new Error("Error al subir la imagen");
+        }
+
+        const data = await response.json();
+        const updatedProfile: IProfile = {
+          ...formProfile,
+          id_media: data.imageUrl,
+        };
+
+        await profileUpdate(
+          updatedProfile.id,
+          updatedProfile.description,
+          updatedProfile.name,
+          updatedProfile.paternalLastName,
+          updatedProfile.maternalLastName
+        );
+
+        await userUpdatePassword(
+          updatedProfile.personId,
+          updatedProfile.password
+        );
+      } else {
+        await profileUpdate(
+          formProfile.id,
+          formProfile.description,
+          formProfile.name,
+          formProfile.paternalLastName,
+          formProfile.maternalLastName
+        );
+
+        await userUpdatePassword(formProfile.personId, formProfile.password);
+      }
+
+      // Refrescar el perfil después de la actualización
+      profileGetByIdPerson(user?.personId || "");
+
+      // Redirigir a la página de inicio de sesión después de actualizar la contraseña
+      if (formProfile.password) {
+        window.location.reload();
+      }
+    } catch (error) {
+      console.error("Error al actualizar el perfil:", error);
+      setUpdateError("Ocurrió un error al actualizar el perfil.");
     }
   };
 
@@ -134,15 +155,11 @@ const Profile = () => {
   useEffect(() => {
     if (user) {
       profileGetByIdPerson(user.personId);
-      persongGetInterestsByPersonId(user.personId) 
+      persongGetInterestsByPersonId(user.personId)
         .then((interests) => setUserInterests(interests))
         .catch((error) => console.error("Error al obtener intereses:", error));
     }
   }, [user, profileGetByIdPerson, persongGetInterestsByPersonId]);
-
-  useEffect(() => {
-    profileGetAll();
-  }, [profileGetAll]);
 
   useEffect(() => {
     if (profile) {
@@ -164,7 +181,7 @@ const Profile = () => {
             <Avatar
               width="170px"
               height="170px"
-              src={formProfile.id_imagen}
+              src={formProfile.id_media}
               alt="profile-photo"
               onImageChange={handleImageChange}
             />
@@ -265,6 +282,7 @@ const Profile = () => {
                 onClick={handleOnClickDelete}
               />
             </ContentRow>
+            {updateError && <p className={styles.error}>{updateError}</p>}
           </ContentCol>
         </Card>
       </ContentCol>
