@@ -15,6 +15,7 @@ const useMessageTopic = () => {
       messageTopicGetByIdTopic,
       messageTopicCreateMessage,
       messageTopicDeleteById,
+      messageTopicUpdate,
       messageTopicReset,
       messageTopicResetAll,
     } = messageTopicStore(
@@ -30,6 +31,7 @@ const useMessageTopic = () => {
           messageTopicGetByIdTopic: state.messageTopicGetByIdTopic,
           messageTopicCreateMessage: state.messageTopicCreateMessage,
           messageTopicDeleteById: state.messageTopicDeleteById,
+          messageTopicUpdate: state.messageTopicUpdate,
           messageTopicReset: state.messageTopicReset,
           messageTopicResetAll: state.messageTopicResetAll,
       }),
@@ -48,6 +50,7 @@ const useMessageTopic = () => {
         messageTopicGetByIdTopic,
         messageTopicCreateMessage,
         messageTopicDeleteById,
+        messageTopicUpdate,
         messageTopicReset,
         messageTopicResetAll,
     };
