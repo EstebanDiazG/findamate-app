@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useUser } from "@/store/hooks";
 import { IUser } from "@/interfaces/user";
 import { useRouter } from "next/router";
-import { ContentCol, ContentRow } from "@/components/layout/Content"; 
+import { ContentCol, ContentRow } from "@/components/layout/Content";
 import style from "./Register.module.scss";
 import Background from "@/components/ui/Background/Background";
 import LogoLarge from "@/components/ui/LogoLarge";
@@ -69,34 +69,33 @@ const Register = () => {
   };
 
   const handleLogin = () => {
-    router.push("/login");
+    router.push("/");
   };
-
 
   const validateRut = (rut: string) => {
     const rutRegex = /^\d{7,8}-[\dkK]$/;
-  
+
     if (!rutRegex.test(rut)) {
       return false;
     }
-  
+
     const [rutPart, dv] = rut.split("-");
-  
+
     if (rutPart.length < 7 || rutPart.length > 8) {
       return false;
     }
-  
+
     if (!/^\d$|^K$/i.test(dv)) {
       return false;
     }
-  
+
     return true;
   };
 
   return userList ? (
     <Background imageUrl="/image/background2.png">
       <div className={style.register}>
-        <Box width="670px"height="600px">
+        <Box width="670px" height="600px">
           <ContentCol gap="15px" alignItems="center">
             <Title text="Registro" level="h1" />
             <ContentCol gap="8px">
@@ -112,7 +111,7 @@ const Register = () => {
               <Input
                 width="400px"
                 height="50px"
-                name="name" 
+                name="name"
                 value={formRegister.name || ""}
                 placeholder="Nombre"
                 onChange={handleOnChange}
@@ -151,31 +150,31 @@ const Register = () => {
                 onChange={handleOnChange}
               />
               <ContentCol gap="25px">
-              <Input
-                width="400px"
-                height="50px"
-                type="password"
-                name="repeatPassword"
-                value={repeatPassword}
-                placeholder="Repite la contraseña"
-                onChange={handleOnChangeRepeatPassword}
-              />
-              <ContentRow gap="8px" justifyContent="space-between">
-                <Button
-                  width="200px"
+                <Input
+                  width="400px"
                   height="50px"
-                  text="Registrar"
-                  color="primary"
-                  onClick={handleRegister}
+                  type="password"
+                  name="repeatPassword"
+                  value={repeatPassword}
+                  placeholder="Repite la contraseña"
+                  onChange={handleOnChangeRepeatPassword}
                 />
-                 <Button
-                  width="200px"
-                  height="50px"
-                  text="Login"
-                  color="primary"
-                  onClick={handleLogin}
-                />
-              </ContentRow>
+                <ContentRow gap="8px" justifyContent="space-between">
+                  <Button
+                    width="200px"
+                    height="50px"
+                    text="Registrar"
+                    color="primary"
+                    onClick={handleRegister}
+                  />
+                  <Button
+                    width="200px"
+                    height="50px"
+                    text="Login"
+                    color="primary"
+                    onClick={handleLogin}
+                  />
+                </ContentRow>
               </ContentCol>
             </ContentCol>
           </ContentCol>
@@ -188,4 +187,3 @@ const Register = () => {
 };
 
 export default Register;
-
