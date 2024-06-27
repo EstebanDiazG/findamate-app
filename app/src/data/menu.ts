@@ -40,13 +40,6 @@ export const menu = [
         name: "Foro",
         path: "/topic",
       },
-      {
-        id: 3,
-        code: "findamateMedia",
-        icon: "image",
-        name: "Media",
-        path: "/media",
-      },
     ],
   },
 ];
