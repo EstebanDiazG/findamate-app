@@ -10,6 +10,7 @@ const TopicDetail = () => {
     messageTopicGetAll,
     messageTopicCreateMessage,
     messageTopicDeleteById,
+    messageTopicUpdate,
   } = useMessageTopic();
 
   const { user } = useUser();
@@ -26,7 +27,6 @@ const TopicDetail = () => {
     deletedAt: "",
   };
 
-  const [file, setFile] = useState<File | null>(null);
   const [formMenssageTopic, setFormMessageTopic] = useState<IMessageTopic>(initialDataMessageTopic);
   const [localMessageTopicList, setLocalMessageTopicList] = useState<IMessageTopic[]>([]);
 
@@ -34,11 +34,6 @@ const TopicDetail = () => {
     setFormMessageTopic({ ...formMenssageTopic, content: e.target.value });
   };
 
-  const handleOnChangeFile = (e: React.ChangeEvent<HTMLInputElement>) => {
-    if (e.target.files) {
-      setFile(e.target.files[0]);
-    }
-  };
 
   const handleOnClickSave = async () => {
     const id_person = user?.personId ?? "";
@@ -72,7 +67,8 @@ const TopicDetail = () => {
   const linkify = (text: string) => {
     const urlPattern = /https?:\/\/[^\s]+/g;
     const youtubePattern = /https?:\/\/(www\.)?youtube\.com\/watch\?v=([^\s&]+)/;
-
+    const imagePattern = /\.(jpeg|jpg|gif|png)$/;
+  
     return text.split(urlPattern).reduce((acc, part, index, array) => {
       if (index < array.length - 1) {
         const match = text.match(urlPattern)?.[index];
@@ -91,6 +87,13 @@ const TopicDetail = () => {
               ></iframe>
             </div>
           );
+        } else if (match && imagePattern.test(match)) {
+          acc.push(<span key={index}>{part}</span>);
+          acc.push(
+            <div key={`${index}-image`} className={styles.imageWrapper}>
+              <img src={match} alt="Image" />
+            </div>
+          );
         } else {
           acc.push(
             <span key={index}>{part}</span>,
@@ -105,12 +108,15 @@ const TopicDetail = () => {
       return acc;
     }, [] as JSX.Element[]);
   };
+  
 
   const filteredComments = localMessageTopicList.filter(comment => comment.id_topic === topic?.id) || [];
 
   return (
     <div className={styles.container}>
-      <h3 className={styles.title}>Comentarios del Tópico {topic?.id}</h3>
+      <h3 className={styles.title}>{topic?.title}</h3>
+      <h4>{topic?.content}</h4>
+      <h4>Creador: {topic?.creadorTopico}</h4>
       <div className={styles.commentList}>
         {filteredComments.length > 0 ? (
           filteredComments.map((comment, idx) => (
@@ -134,7 +140,6 @@ const TopicDetail = () => {
           onChange={handleOnChangeContent}
           placeholder="Escribe un comentario..."
         />
-        <input type="file" className={styles.fileInput} onChange={handleOnChangeFile} />
         <button onClick={handleOnClickSave}>Enviar</button>
       </div>
     </div>

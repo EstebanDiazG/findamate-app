@@ -1120,3 +1120,475 @@
 {"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-26 21:57:07"}
 {"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-26 21:57:07"}
 {"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-26 21:57:07"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-06-26 22:13:19"}
+{"level":"info","message":"Database connected","timestamp":"2024-06-26 22:13:20","util":"database"}
+{"level":"info","message":{"body":{"email":"camilo@boggle.cl","maternalLastName":"Chacon","name":"Camilo","password":"camilo1234","paternalLastName":"Boggle","rut":"16666666-6"},"method":"POST","params":"","query":"","url":"/user"},"timestamp":"2024-06-26 22:17:55"}
+{"level":"info","message":{"body":{"email":"camilo@boggle.cl","maternalLastName":"Chacon","name":"Camilo","password":"camilo1234","paternalLastName":"Boggle","rut":"16666666-6"},"method":"POST","params":"","query":"","url":"/user"},"timestamp":"2024-06-26 22:17:56"}
+{"level":"info","message":{"body":{"email":"camilo@boggle.cl","password":"camilo1234"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-26 22:18:20"}
+{"level":"info","message":{"body":{"email":"camilo@boggle.cl","password":"camilo1234"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-26 22:18:21"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-26 22:18:45"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-26 22:18:45"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-26 22:18:46"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-26 22:18:46"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-26 22:18:46"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-26 22:18:46"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-26 22:18:46"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-26 22:18:46"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-26 22:18:46"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-26 22:18:46"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-26 22:18:46"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-26 22:18:46"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-26 22:18:46"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-26 22:18:46"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-26 22:18:46"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-26 22:18:46"}
+{"level":"info","message":{"body":{"content":"DLC de Elden Ring","id_interest":"918719ac-48db-4a05-8237-36451ee3b7da","id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee","title":"Tema para probar mi nuevo usuario"},"method":"POST","params":"","query":"","url":"/topic"},"timestamp":"2024-06-26 22:19:11"}
+{"level":"info","message":{"body":{"content":"DLC de Elden Ring","id_interest":"918719ac-48db-4a05-8237-36451ee3b7da","id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee","title":"Tema para probar mi nuevo usuario"},"method":"POST","params":"","query":"","url":"/topic"},"timestamp":"2024-06-26 22:19:11"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-26 22:19:11"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-26 22:19:11"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-26 22:22:07"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/id/19f1949e-8674-4f52-b27c-35753d6cfe18"},"timestamp":"2024-06-26 22:22:07"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"query":{},"url":"/topic/id/19f1949e-8674-4f52-b27c-35753d6cfe18"},"timestamp":"2024-06-26 22:22:08"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/id/19f1949e-8674-4f52-b27c-35753d6cfe18"},"timestamp":"2024-06-26 22:22:08"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"query":{},"url":"/topic/id/19f1949e-8674-4f52-b27c-35753d6cfe18"},"timestamp":"2024-06-26 22:22:08"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-26 22:22:08"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-26 22:22:08"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-26 22:22:09"}
+{"level":"info","message":{"body":{"content":"probando comentario","id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee","id_topic":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"method":"POST","params":"","query":"","url":"/message_topic"},"timestamp":"2024-06-26 22:22:13"}
+{"level":"info","message":{"body":{"content":"probando comentario","id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee","id_topic":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"method":"POST","params":"","query":"","url":"/message_topic"},"timestamp":"2024-06-26 22:22:13"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-26 22:22:13"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-26 22:22:13"}
+{"level":"info","message":{"body":{"content":"https://tvymanga3.com/","id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee","id_topic":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"method":"POST","params":"","query":"","url":"/message_topic"},"timestamp":"2024-06-26 22:26:56"}
+{"level":"info","message":{"body":{"content":"https://tvymanga3.com/","id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee","id_topic":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"method":"POST","params":"","query":"","url":"/message_topic"},"timestamp":"2024-06-26 22:26:57"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-26 22:26:57"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-26 22:26:57"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/message_topic/id/24dcf5ac-cdeb-4e8d-acd3-72f9f84ec58e"},"timestamp":"2024-06-26 22:27:03"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{"id":"24dcf5ac-cdeb-4e8d-acd3-72f9f84ec58e"},"query":"","url":"/message_topic/id/24dcf5ac-cdeb-4e8d-acd3-72f9f84ec58e"},"timestamp":"2024-06-26 22:27:03"}
+{"level":"info","message":{"body":{"content":"prueba mensaje con URL https://www.duoc.cl/","id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee","id_topic":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"method":"POST","params":"","query":"","url":"/message_topic"},"timestamp":"2024-06-26 22:27:24"}
+{"level":"info","message":{"body":{"content":"prueba mensaje con URL https://www.duoc.cl/","id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee","id_topic":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"method":"POST","params":"","query":"","url":"/message_topic"},"timestamp":"2024-06-26 22:27:25"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-26 22:27:25"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-26 22:27:25"}
+{"level":"info","message":{"body":{"content":"prueba con URL de yutuh https://www.youtube.com/watch?v=M-Xh4vbs6go","id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee","id_topic":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"method":"POST","params":"","query":"","url":"/message_topic"},"timestamp":"2024-06-26 22:28:00"}
+{"level":"info","message":{"body":{"content":"prueba con URL de yutuh https://www.youtube.com/watch?v=M-Xh4vbs6go","id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee","id_topic":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"method":"POST","params":"","query":"","url":"/message_topic"},"timestamp":"2024-06-26 22:28:01"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-26 22:28:01"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-26 22:28:01"}
+{"level":"info","message":{"body":{"content":"prueba de URL de imagen https://i.imgur.com/ymUeYFE.jpeg","id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee","id_topic":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"method":"POST","params":"","query":"","url":"/message_topic"},"timestamp":"2024-06-26 22:29:29"}
+{"level":"info","message":{"body":{"content":"prueba de URL de imagen https://i.imgur.com/ymUeYFE.jpeg","id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee","id_topic":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"method":"POST","params":"","query":"","url":"/message_topic"},"timestamp":"2024-06-26 22:29:30"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-26 22:29:30"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-26 22:29:30"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/message_topic/id/44dae774-1e67-49a2-b244-fb758139c00e"},"timestamp":"2024-06-26 22:29:42"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{"id":"44dae774-1e67-49a2-b244-fb758139c00e"},"query":"","url":"/message_topic/id/44dae774-1e67-49a2-b244-fb758139c00e"},"timestamp":"2024-06-26 22:29:43"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-26 22:34:24"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-26 22:34:25"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-26 22:35:40"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-26 22:35:40"}
+{"level":"info","message":{"body":{"email":"camilo@boggle.cl","password":"camilo1234"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-26 22:35:51"}
+{"level":"info","message":{"body":{"email":"camilo@boggle.cl","password":"camilo1234"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-26 22:35:52"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-26 22:35:52"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/id/19f1949e-8674-4f52-b27c-35753d6cfe18"},"timestamp":"2024-06-26 22:35:52"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-26 22:35:52"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-26 22:35:52"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-26 22:35:52"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"query":{},"url":"/topic/id/19f1949e-8674-4f52-b27c-35753d6cfe18"},"timestamp":"2024-06-26 22:35:53"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/id/19f1949e-8674-4f52-b27c-35753d6cfe18"},"timestamp":"2024-06-26 22:35:53"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"query":{},"url":"/topic/id/19f1949e-8674-4f52-b27c-35753d6cfe18"},"timestamp":"2024-06-26 22:35:53"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile/id_person/1c2d67b4-d013-4cc1-8d04-4b74394460ee"},"timestamp":"2024-06-26 22:35:57"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/person/personId/getPerson/1c2d67b4-d013-4cc1-8d04-4b74394460ee"},"timestamp":"2024-06-26 22:35:57"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile"},"timestamp":"2024-06-26 22:35:57"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee"},"query":{},"url":"/profile/id_person/1c2d67b4-d013-4cc1-8d04-4b74394460ee"},"timestamp":"2024-06-26 22:35:57"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile/id_person/1c2d67b4-d013-4cc1-8d04-4b74394460ee"},"timestamp":"2024-06-26 22:35:57"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee"},"query":{},"url":"/person/personId/getPerson/1c2d67b4-d013-4cc1-8d04-4b74394460ee"},"timestamp":"2024-06-26 22:35:58"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/person/personId/getPerson/1c2d67b4-d013-4cc1-8d04-4b74394460ee"},"timestamp":"2024-06-26 22:35:58"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee"},"query":{},"url":"/profile/id_person/1c2d67b4-d013-4cc1-8d04-4b74394460ee"},"timestamp":"2024-06-26 22:35:58"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee"},"query":{},"url":"/person/personId/getPerson/1c2d67b4-d013-4cc1-8d04-4b74394460ee"},"timestamp":"2024-06-26 22:35:58"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile"},"timestamp":"2024-06-26 22:35:59"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile"},"timestamp":"2024-06-26 22:35:59"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile"},"timestamp":"2024-06-26 22:35:59"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-26 22:36:00"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-26 22:36:00"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-26 22:36:00"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-26 22:36:00"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-26 22:36:00"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-26 22:36:00"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-26 22:36:00"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-26 22:36:00"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-26 22:36:01"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-26 22:36:01"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-26 22:36:01"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-26 22:36:01"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-26 22:36:01"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-26 22:36:01"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-26 22:36:01"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-26 22:36:01"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-26 22:36:09"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/id/19f1949e-8674-4f52-b27c-35753d6cfe18"},"timestamp":"2024-06-26 22:36:09"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-26 22:36:09"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-26 22:36:09"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"query":{},"url":"/topic/id/19f1949e-8674-4f52-b27c-35753d6cfe18"},"timestamp":"2024-06-26 22:36:09"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/id/19f1949e-8674-4f52-b27c-35753d6cfe18"},"timestamp":"2024-06-26 22:36:09"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-26 22:36:09"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"query":{},"url":"/topic/id/19f1949e-8674-4f52-b27c-35753d6cfe18"},"timestamp":"2024-06-26 22:36:09"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-26 22:36:24"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-26 22:36:25"}
+{"level":"info","message":{"body":{"content":"comentario con URL de imagen https://i.imgur.com/ymUeYFE.jpeg","id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee","id_topic":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"method":"POST","params":"","query":"","url":"/message_topic"},"timestamp":"2024-06-26 22:36:47"}
+{"level":"info","message":{"body":{"content":"comentario con URL de imagen https://i.imgur.com/ymUeYFE.jpeg","id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee","id_topic":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"method":"POST","params":"","query":"","url":"/message_topic"},"timestamp":"2024-06-26 22:36:48"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-26 22:36:48"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-26 22:36:48"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/message_topic/id/bf5e48e6-ced3-4f24-9a70-39f47810940a"},"timestamp":"2024-06-26 22:36:55"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{"id":"bf5e48e6-ced3-4f24-9a70-39f47810940a"},"query":"","url":"/message_topic/id/bf5e48e6-ced3-4f24-9a70-39f47810940a"},"timestamp":"2024-06-26 22:36:56"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-26 22:37:19"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-26 22:37:20"}
+{"level":"info","message":{"body":{"content":"prueba mensaje con URL de imagen https://i.imgur.com/ymUeYFE.jpeg","id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee","id_topic":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"method":"POST","params":"","query":"","url":"/message_topic"},"timestamp":"2024-06-26 22:37:52"}
+{"level":"info","message":{"body":{"content":"prueba mensaje con URL de imagen https://i.imgur.com/ymUeYFE.jpeg","id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee","id_topic":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"method":"POST","params":"","query":"","url":"/message_topic"},"timestamp":"2024-06-26 22:37:53"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-26 22:37:53"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-26 22:37:53"}
+{"level":"info","message":{"body":{"content":"si comento una imagen https://i.imgur.com/ymUeYFE.jpeg\n\ny abajo le pongo mas cosas","id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee","id_topic":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"method":"POST","params":"","query":"","url":"/message_topic"},"timestamp":"2024-06-26 22:39:22"}
+{"level":"info","message":{"body":{"content":"si comento una imagen https://i.imgur.com/ymUeYFE.jpeg\n\ny abajo le pongo mas cosas","id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee","id_topic":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"method":"POST","params":"","query":"","url":"/message_topic"},"timestamp":"2024-06-26 22:39:23"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-26 22:39:23"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-26 22:39:23"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/message_topic/id/991101b8-ff10-4d76-86e3-bb123cf67399"},"timestamp":"2024-06-26 22:39:27"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{"id":"991101b8-ff10-4d76-86e3-bb123cf67399"},"query":"","url":"/message_topic/id/991101b8-ff10-4d76-86e3-bb123cf67399"},"timestamp":"2024-06-26 22:39:27"}
+{"level":"info","message":{"body":{"content":"mensaje https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyiqkN03yZcetXAlBRz2AaCf3ND8b1hGMzpQ&s","id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee","id_topic":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"method":"POST","params":"","query":"","url":"/message_topic"},"timestamp":"2024-06-26 22:40:59"}
+{"level":"info","message":{"body":{"content":"mensaje https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyiqkN03yZcetXAlBRz2AaCf3ND8b1hGMzpQ&s","id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee","id_topic":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"method":"POST","params":"","query":"","url":"/message_topic"},"timestamp":"2024-06-26 22:41:00"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-26 22:41:00"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-26 22:41:00"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/message_topic/id/2a3bd676-46e1-4f76-9a75-483e19972375"},"timestamp":"2024-06-26 22:41:14"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{"id":"2a3bd676-46e1-4f76-9a75-483e19972375"},"query":"","url":"/message_topic/id/2a3bd676-46e1-4f76-9a75-483e19972375"},"timestamp":"2024-06-26 22:41:15"}
+{"level":"info","message":{"body":{"email":"camilo@boggle.cl","password":"camilo1234"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-26 23:08:50"}
+{"level":"info","message":{"body":{"email":"camilo@boggle.cl","password":"camilo1234"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-26 23:08:51"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-26 23:08:51"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/id/19f1949e-8674-4f52-b27c-35753d6cfe18"},"timestamp":"2024-06-26 23:08:51"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-26 23:08:51"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-26 23:08:51"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-26 23:08:51"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"query":{},"url":"/topic/id/19f1949e-8674-4f52-b27c-35753d6cfe18"},"timestamp":"2024-06-26 23:08:52"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/id/19f1949e-8674-4f52-b27c-35753d6cfe18"},"timestamp":"2024-06-26 23:08:52"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"query":{},"url":"/topic/id/19f1949e-8674-4f52-b27c-35753d6cfe18"},"timestamp":"2024-06-26 23:08:52"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile/id_person/1c2d67b4-d013-4cc1-8d04-4b74394460ee"},"timestamp":"2024-06-26 23:08:59"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/person/personId/getPerson/1c2d67b4-d013-4cc1-8d04-4b74394460ee"},"timestamp":"2024-06-26 23:08:59"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile"},"timestamp":"2024-06-26 23:08:59"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee"},"query":{},"url":"/profile/id_person/1c2d67b4-d013-4cc1-8d04-4b74394460ee"},"timestamp":"2024-06-26 23:08:59"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee"},"query":{},"url":"/person/personId/getPerson/1c2d67b4-d013-4cc1-8d04-4b74394460ee"},"timestamp":"2024-06-26 23:08:59"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile/id_person/1c2d67b4-d013-4cc1-8d04-4b74394460ee"},"timestamp":"2024-06-26 23:08:59"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/person/personId/getPerson/1c2d67b4-d013-4cc1-8d04-4b74394460ee"},"timestamp":"2024-06-26 23:08:59"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee"},"query":{},"url":"/profile/id_person/1c2d67b4-d013-4cc1-8d04-4b74394460ee"},"timestamp":"2024-06-26 23:09:00"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee"},"query":{},"url":"/person/personId/getPerson/1c2d67b4-d013-4cc1-8d04-4b74394460ee"},"timestamp":"2024-06-26 23:09:00"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile"},"timestamp":"2024-06-26 23:09:00"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile"},"timestamp":"2024-06-26 23:09:00"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile"},"timestamp":"2024-06-26 23:09:00"}
+{"level":"info","message":{"body":"","method":"PUT","params":{},"query":"","url":"/profile/id/774f4e06-1de5-4b6c-a0b4-e8431c753582"},"timestamp":"2024-06-26 23:09:27"}
+{"level":"error","message":{"body":"","error":"\"description\" must be a string","method":"PUT","params":{},"query":"","url":"/profile/id/774f4e06-1de5-4b6c-a0b4-e8431c753582"},"timestamp":"2024-06-26 23:09:27"}
+{"level":"info","message":{"body":"","method":"PUT","params":{},"query":"","url":"/user/update"},"timestamp":"2024-06-26 23:09:27"}
+{"level":"info","message":{"body":"","method":"PUT","params":{},"query":"","url":"/user/update"},"timestamp":"2024-06-26 23:09:28"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile/id_person/undefined"},"timestamp":"2024-06-26 23:09:28"}
+{"level":"error","message":{"body":"","error":"\"id_person\" must be a valid GUID","method":"GET","params":{},"query":{},"url":"/profile/id_person/undefined"},"timestamp":"2024-06-26 23:09:28"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/person/personId/getPerson/undefined"},"timestamp":"2024-06-26 23:09:28"}
+{"level":"error","message":{"body":"","error":"\"id_person\" must be a valid GUID","method":"GET","params":{},"query":{},"url":"/person/personId/getPerson/undefined"},"timestamp":"2024-06-26 23:09:28"}
+{"level":"info","message":{"body":{"email":"camilo@boggle.cl","password":"camilo123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-26 23:09:59"}
+{"level":"info","message":{"body":{"email":"camilo@boggle.cl","password":"camilo123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-26 23:09:59"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-26 23:57:39"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-26 23:57:39"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-26 23:57:40"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-26 23:57:40"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-26 23:57:40"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-26 23:57:40"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-26 23:57:40"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-26 23:57:40"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-26 23:57:40"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-26 23:57:40"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-26 23:57:40"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-26 23:57:40"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-26 23:57:40"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-26 23:57:40"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-26 23:57:40"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-26 23:57:40"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/id/19f1949e-8674-4f52-b27c-35753d6cfe18"},"timestamp":"2024-06-26 23:57:45"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-26 23:57:45"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-26 23:57:45"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"query":{},"url":"/topic/id/19f1949e-8674-4f52-b27c-35753d6cfe18"},"timestamp":"2024-06-26 23:57:45"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-26 23:57:45"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/id/19f1949e-8674-4f52-b27c-35753d6cfe18"},"timestamp":"2024-06-26 23:57:45"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-26 23:57:45"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"query":{},"url":"/topic/id/19f1949e-8674-4f52-b27c-35753d6cfe18"},"timestamp":"2024-06-26 23:57:45"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/message_topic/id/61e64119-113d-41ad-8338-e9c4ff99e801"},"timestamp":"2024-06-26 23:57:51"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{"id":"61e64119-113d-41ad-8338-e9c4ff99e801"},"query":"","url":"/message_topic/id/61e64119-113d-41ad-8338-e9c4ff99e801"},"timestamp":"2024-06-26 23:57:51"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:00:16"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:00:17"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:00:17"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:00:17"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:02:26"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:02:26"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:02:26"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:02:26"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-27 00:02:38"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-27 00:02:38"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-27 00:02:38"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-27 00:02:38"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-27 00:02:38"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-27 00:02:38"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-27 00:02:38"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-27 00:02:38"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-27 00:02:38"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-27 00:02:39"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-27 00:02:39"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-27 00:02:39"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-27 00:02:39"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-27 00:02:39"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-27 00:02:39"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-27 00:02:39"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:02:44"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/id/19f1949e-8674-4f52-b27c-35753d6cfe18"},"timestamp":"2024-06-27 00:02:44"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:02:44"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:02:44"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"query":{},"url":"/topic/id/19f1949e-8674-4f52-b27c-35753d6cfe18"},"timestamp":"2024-06-27 00:02:44"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/id/19f1949e-8674-4f52-b27c-35753d6cfe18"},"timestamp":"2024-06-27 00:02:44"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:02:45"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"query":{},"url":"/topic/id/19f1949e-8674-4f52-b27c-35753d6cfe18"},"timestamp":"2024-06-27 00:02:45"}
+{"level":"info","message":{"body":{"content":"prueba para editar","id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee","id_topic":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"method":"POST","params":"","query":"","url":"/message_topic"},"timestamp":"2024-06-27 00:02:53"}
+{"level":"info","message":{"body":{"content":"prueba para editar","id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee","id_topic":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"method":"POST","params":"","query":"","url":"/message_topic"},"timestamp":"2024-06-27 00:02:53"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:02:53"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:02:53"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/message_topic/id/fc2ee370-919d-473a-96e1-842ecd9c07c1"},"timestamp":"2024-06-27 00:02:56"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{"id":"fc2ee370-919d-473a-96e1-842ecd9c07c1"},"query":"","url":"/message_topic/id/fc2ee370-919d-473a-96e1-842ecd9c07c1"},"timestamp":"2024-06-27 00:02:56"}
+{"level":"info","message":{"body":{"email":"camilo@boggle.cl","password":"camilo123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-27 00:03:06"}
+{"level":"info","message":{"body":{"email":"camilo@boggle.cl","password":"camilo123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-27 00:03:07"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:03:07"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/id/19f1949e-8674-4f52-b27c-35753d6cfe18"},"timestamp":"2024-06-27 00:03:07"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:03:07"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:03:07"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:03:07"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"query":{},"url":"/topic/id/19f1949e-8674-4f52-b27c-35753d6cfe18"},"timestamp":"2024-06-27 00:03:07"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/id/19f1949e-8674-4f52-b27c-35753d6cfe18"},"timestamp":"2024-06-27 00:03:07"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"query":{},"url":"/topic/id/19f1949e-8674-4f52-b27c-35753d6cfe18"},"timestamp":"2024-06-27 00:03:07"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-27 00:03:09"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-27 00:03:09"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-27 00:03:09"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-27 00:03:09"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-27 00:03:09"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-27 00:03:09"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-27 00:03:09"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-27 00:03:09"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-27 00:03:09"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-27 00:03:09"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-27 00:03:09"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-27 00:03:10"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-27 00:03:10"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-27 00:03:10"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-27 00:03:10"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-27 00:03:10"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:03:12"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/id/19f1949e-8674-4f52-b27c-35753d6cfe18"},"timestamp":"2024-06-27 00:03:12"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:03:13"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"query":{},"url":"/topic/id/19f1949e-8674-4f52-b27c-35753d6cfe18"},"timestamp":"2024-06-27 00:03:13"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:03:13"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/id/19f1949e-8674-4f52-b27c-35753d6cfe18"},"timestamp":"2024-06-27 00:03:13"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:03:13"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"query":{},"url":"/topic/id/19f1949e-8674-4f52-b27c-35753d6cfe18"},"timestamp":"2024-06-27 00:03:13"}
+{"level":"info","message":{"body":{"content":"prueba para editar 2","id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee","id_topic":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"method":"POST","params":"","query":"","url":"/message_topic"},"timestamp":"2024-06-27 00:03:19"}
+{"level":"info","message":{"body":{"content":"prueba para editar 2","id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee","id_topic":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"method":"POST","params":"","query":"","url":"/message_topic"},"timestamp":"2024-06-27 00:03:19"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:03:19"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:03:19"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/message_topic/id/ab46f6c7-cb42-4813-84af-2548282c04ae"},"timestamp":"2024-06-27 00:03:23"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{"id":"ab46f6c7-cb42-4813-84af-2548282c04ae"},"query":"","url":"/message_topic/id/ab46f6c7-cb42-4813-84af-2548282c04ae"},"timestamp":"2024-06-27 00:03:23"}
+{"level":"info","message":{"body":{"content":"","id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee","id_topic":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"method":"POST","params":"","query":"","url":"/message_topic"},"timestamp":"2024-06-27 00:03:26"}
+{"level":"error","message":{"body":{"content":"","id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee","id_topic":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"error":"\"content\" is not allowed to be empty","method":"POST","params":"","query":"","url":"/message_topic"},"timestamp":"2024-06-27 00:03:26"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:03:26"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:03:26"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:03:38"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:03:39"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:03:39"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:03:39"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:05:11"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:05:12"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:05:12"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:05:12"}
+{"level":"info","message":{"body":{"email":"camilo@boggle.cl","password":"camilo123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-27 00:05:31"}
+{"level":"info","message":{"body":{"email":"camilo@boggle.cl","password":"camilo123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-27 00:05:32"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:05:32"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/id/19f1949e-8674-4f52-b27c-35753d6cfe18"},"timestamp":"2024-06-27 00:05:32"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:05:32"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:05:32"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:05:32"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"query":{},"url":"/topic/id/19f1949e-8674-4f52-b27c-35753d6cfe18"},"timestamp":"2024-06-27 00:05:32"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/id/19f1949e-8674-4f52-b27c-35753d6cfe18"},"timestamp":"2024-06-27 00:05:32"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"query":{},"url":"/topic/id/19f1949e-8674-4f52-b27c-35753d6cfe18"},"timestamp":"2024-06-27 00:05:32"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-27 00:05:35"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-27 00:05:35"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-27 00:05:35"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-27 00:05:35"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-27 00:05:35"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-27 00:05:35"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-27 00:05:35"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-27 00:05:35"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-27 00:05:35"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-27 00:05:35"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-27 00:05:36"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-27 00:05:36"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-27 00:05:36"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-27 00:05:36"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-27 00:05:36"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-27 00:05:36"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:05:39"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/id/19f1949e-8674-4f52-b27c-35753d6cfe18"},"timestamp":"2024-06-27 00:05:39"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:05:39"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:05:39"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"query":{},"url":"/topic/id/19f1949e-8674-4f52-b27c-35753d6cfe18"},"timestamp":"2024-06-27 00:05:39"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/id/19f1949e-8674-4f52-b27c-35753d6cfe18"},"timestamp":"2024-06-27 00:05:39"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:05:39"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"query":{},"url":"/topic/id/19f1949e-8674-4f52-b27c-35753d6cfe18"},"timestamp":"2024-06-27 00:05:39"}
+{"level":"info","message":{"body":{"content":"prueba para editar ","id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee","id_topic":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"method":"POST","params":"","query":"","url":"/message_topic"},"timestamp":"2024-06-27 00:05:44"}
+{"level":"info","message":{"body":{"content":"prueba para editar ","id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee","id_topic":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"method":"POST","params":"","query":"","url":"/message_topic"},"timestamp":"2024-06-27 00:05:44"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:05:45"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:05:45"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/message_topic/id/f111cb67-df8f-46fa-acc0-1307f6e174d0"},"timestamp":"2024-06-27 00:05:50"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{"id":"f111cb67-df8f-46fa-acc0-1307f6e174d0"},"query":"","url":"/message_topic/id/f111cb67-df8f-46fa-acc0-1307f6e174d0"},"timestamp":"2024-06-27 00:05:50"}
+{"level":"info","message":{"body":{"content":"prueba para editar\n","id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee","id_topic":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"method":"POST","params":"","query":"","url":"/message_topic"},"timestamp":"2024-06-27 00:06:06"}
+{"level":"info","message":{"body":{"content":"prueba para editar\n","id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee","id_topic":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"method":"POST","params":"","query":"","url":"/message_topic"},"timestamp":"2024-06-27 00:06:06"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:06:06"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:06:06"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/message_topic/id/e8dc8bec-3b1c-4203-864a-014e0ff618f1"},"timestamp":"2024-06-27 00:06:10"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{"id":"e8dc8bec-3b1c-4203-864a-014e0ff618f1"},"query":"","url":"/message_topic/id/e8dc8bec-3b1c-4203-864a-014e0ff618f1"},"timestamp":"2024-06-27 00:06:10"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:09:43"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:09:43"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:09:43"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:09:43"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:20:42"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:20:42"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:20:42"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:20:42"}
+{"level":"info","message":{"body":{"content":"prueba texcto","id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee","id_topic":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"method":"POST","params":"","query":"","url":"/message_topic"},"timestamp":"2024-06-27 00:20:58"}
+{"level":"info","message":{"body":{"content":"prueba texcto","id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee","id_topic":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"method":"POST","params":"","query":"","url":"/message_topic"},"timestamp":"2024-06-27 00:20:59"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:20:59"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:20:59"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/message_topic/id/5f2b4345-6262-4477-8d37-c3f15e2eebc9"},"timestamp":"2024-06-27 00:21:03"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{"id":"5f2b4345-6262-4477-8d37-c3f15e2eebc9"},"query":"","url":"/message_topic/id/5f2b4345-6262-4477-8d37-c3f15e2eebc9"},"timestamp":"2024-06-27 00:21:03"}
+{"level":"info","message":{"body":{"content":"mensaje pruebaaaaaa","id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee","id_topic":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"method":"POST","params":"","query":"","url":"/message_topic"},"timestamp":"2024-06-27 00:21:23"}
+{"level":"info","message":{"body":{"content":"mensaje pruebaaaaaa","id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee","id_topic":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"method":"POST","params":"","query":"","url":"/message_topic"},"timestamp":"2024-06-27 00:21:23"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:21:23"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:21:23"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/message_topic/id/b175117e-1efe-4b20-9a85-f8cf7c971058"},"timestamp":"2024-06-27 00:21:31"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{"id":"b175117e-1efe-4b20-9a85-f8cf7c971058"},"query":"","url":"/message_topic/id/b175117e-1efe-4b20-9a85-f8cf7c971058"},"timestamp":"2024-06-27 00:21:31"}
+{"level":"info","message":{"body":{"content":"prueba mensaje","id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee","id_topic":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"method":"POST","params":"","query":"","url":"/message_topic"},"timestamp":"2024-06-27 00:22:15"}
+{"level":"info","message":{"body":{"content":"prueba mensaje","id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee","id_topic":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"method":"POST","params":"","query":"","url":"/message_topic"},"timestamp":"2024-06-27 00:22:16"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:22:16"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:22:16"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/message_topic/id/a6c573d2-4af4-47be-a7c6-cdf35d05ece1"},"timestamp":"2024-06-27 00:22:22"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{"id":"a6c573d2-4af4-47be-a7c6-cdf35d05ece1"},"query":"","url":"/message_topic/id/a6c573d2-4af4-47be-a7c6-cdf35d05ece1"},"timestamp":"2024-06-27 00:22:22"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:23:29"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:23:30"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:23:30"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:23:30"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:24:26"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:24:27"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:24:27"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:24:27"}
+{"level":"info","message":{"body":{"content":"prueba contexto","id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee","id_topic":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"method":"POST","params":"","query":"","url":"/message_topic"},"timestamp":"2024-06-27 00:24:39"}
+{"level":"info","message":{"body":{"content":"prueba contexto","id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee","id_topic":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"method":"POST","params":"","query":"","url":"/message_topic"},"timestamp":"2024-06-27 00:24:40"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:24:40"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:24:40"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/message_topic/id/265fe6d8-409f-4451-ab56-9cb6806a06d7"},"timestamp":"2024-06-27 00:24:44"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{"id":"265fe6d8-409f-4451-ab56-9cb6806a06d7"},"query":"","url":"/message_topic/id/265fe6d8-409f-4451-ab56-9cb6806a06d7"},"timestamp":"2024-06-27 00:24:44"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:24:50"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:24:50"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:24:50"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:24:50"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:30:22"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:30:22"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:30:22"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:30:23"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/message_topic/id/b59b3c2b-b8d2-4ff7-8076-97ce24789df5"},"timestamp":"2024-06-27 00:30:33"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{"id":"b59b3c2b-b8d2-4ff7-8076-97ce24789df5"},"query":"","url":"/message_topic/id/b59b3c2b-b8d2-4ff7-8076-97ce24789df5"},"timestamp":"2024-06-27 00:30:34"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:30:34"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:30:34"}
+{"level":"info","message":{"body":{"content":"prueba mensajee ","id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee","id_topic":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"method":"POST","params":"","query":"","url":"/message_topic"},"timestamp":"2024-06-27 00:30:42"}
+{"level":"info","message":{"body":{"content":"prueba mensajee ","id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee","id_topic":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"method":"POST","params":"","query":"","url":"/message_topic"},"timestamp":"2024-06-27 00:30:42"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:30:42"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:30:42"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:31:42"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:31:43"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:31:43"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:31:43"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:34:46"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:34:47"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:34:47"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:34:47"}
+{"level":"info","message":{"body":{"email":"camilo@boggle.cl","password":"camilo123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-27 00:35:13"}
+{"level":"info","message":{"body":{"email":"camilo@boggle.cl","password":"camilo123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-06-27 00:35:14"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:35:14"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/id/19f1949e-8674-4f52-b27c-35753d6cfe18"},"timestamp":"2024-06-27 00:35:14"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:35:14"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:35:14"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:35:14"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"query":{},"url":"/topic/id/19f1949e-8674-4f52-b27c-35753d6cfe18"},"timestamp":"2024-06-27 00:35:14"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/id/19f1949e-8674-4f52-b27c-35753d6cfe18"},"timestamp":"2024-06-27 00:35:15"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"query":{},"url":"/topic/id/19f1949e-8674-4f52-b27c-35753d6cfe18"},"timestamp":"2024-06-27 00:35:15"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-27 00:35:17"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-27 00:35:17"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-27 00:35:17"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-27 00:35:17"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-27 00:35:17"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-27 00:35:17"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-27 00:35:17"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-27 00:35:17"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-06-27 00:35:17"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-27 00:35:17"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-27 00:35:17"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-27 00:35:17"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-27 00:35:17"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-27 00:35:17"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-27 00:35:17"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-06-27 00:35:17"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:35:20"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/id/19f1949e-8674-4f52-b27c-35753d6cfe18"},"timestamp":"2024-06-27 00:35:20"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:35:20"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:35:20"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"query":{},"url":"/topic/id/19f1949e-8674-4f52-b27c-35753d6cfe18"},"timestamp":"2024-06-27 00:35:20"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic/id/19f1949e-8674-4f52-b27c-35753d6cfe18"},"timestamp":"2024-06-27 00:35:20"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:35:20"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"query":{},"url":"/topic/id/19f1949e-8674-4f52-b27c-35753d6cfe18"},"timestamp":"2024-06-27 00:35:20"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/message_topic/id/a052452c-cc0f-4475-8352-9660901a10b1"},"timestamp":"2024-06-27 00:35:23"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{"id":"a052452c-cc0f-4475-8352-9660901a10b1"},"query":"","url":"/message_topic/id/a052452c-cc0f-4475-8352-9660901a10b1"},"timestamp":"2024-06-27 00:35:23"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:36:31"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:36:32"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:36:32"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:36:32"}
+{"level":"info","message":{"body":{"content":"mensajes de pruebaaaa\n","id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee","id_topic":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"method":"POST","params":"","query":"","url":"/message_topic"},"timestamp":"2024-06-27 00:36:43"}
+{"level":"info","message":{"body":{"content":"mensajes de pruebaaaa\n","id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee","id_topic":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"method":"POST","params":"","query":"","url":"/message_topic"},"timestamp":"2024-06-27 00:36:44"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:36:44"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:36:44"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:45:12"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:45:13"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:45:13"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:45:13"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/message_topic/id/63039aac-d144-463c-ab89-9fd752dca37b"},"timestamp":"2024-06-27 00:45:16"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{"id":"63039aac-d144-463c-ab89-9fd752dca37b"},"query":"","url":"/message_topic/id/63039aac-d144-463c-ab89-9fd752dca37b"},"timestamp":"2024-06-27 00:45:17"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:45:31"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:45:32"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:45:32"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:45:32"}
+{"level":"info","message":{"body":{"content":"editarrrrrrss","id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee","id_topic":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"method":"POST","params":"","query":"","url":"/message_topic"},"timestamp":"2024-06-27 00:45:39"}
+{"level":"info","message":{"body":{"content":"editarrrrrrss","id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee","id_topic":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"method":"POST","params":"","query":"","url":"/message_topic"},"timestamp":"2024-06-27 00:45:39"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:45:39"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:45:39"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:48:32"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:48:32"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:48:32"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:48:33"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:50:38"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:50:39"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:50:39"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:50:39"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{},"query":"","url":"/message_topic/id/111618e8-f8c9-4d1b-a7c9-11a168159562"},"timestamp":"2024-06-27 00:51:02"}
+{"level":"info","message":{"body":"","method":"DELETE","params":{"id":"111618e8-f8c9-4d1b-a7c9-11a168159562"},"query":"","url":"/message_topic/id/111618e8-f8c9-4d1b-a7c9-11a168159562"},"timestamp":"2024-06-27 00:51:03"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:51:11"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:51:11"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:51:11"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:51:11"}
+{"level":"info","message":{"body":{"content":"El luffy ta re loco!!!!\n\nhttps://hips.hearstapps.com/hmg-prod/images/one-piece-gear-5-portada-6505f17bdc0df.jpg","id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee","id_topic":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"method":"POST","params":"","query":"","url":"/message_topic"},"timestamp":"2024-06-27 00:53:35"}
+{"level":"info","message":{"body":{"content":"El luffy ta re loco!!!!\n\nhttps://hips.hearstapps.com/hmg-prod/images/one-piece-gear-5-portada-6505f17bdc0df.jpg","id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee","id_topic":"19f1949e-8674-4f52-b27c-35753d6cfe18"},"method":"POST","params":"","query":"","url":"/message_topic"},"timestamp":"2024-06-27 00:53:36"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:53:36"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:53:36"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:55:12"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:55:14"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:55:23"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/message_topic"},"timestamp":"2024-06-27 00:55:24"}

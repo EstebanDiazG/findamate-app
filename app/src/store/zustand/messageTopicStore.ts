@@ -20,6 +20,7 @@ interface messageTopicState {
       content: string,
     ) => void;
     messageTopicDeleteById: (id: string) => void;
+    messageTopicUpdate: (id: string, content: string) => Promise<void>;
     messageTopicReset: () => void;
     messageTopicResetAll: () => void;
 }
@@ -111,6 +112,26 @@ export const messageTopicStore = create<messageTopicState>((set) => ({
         const response = await apiInstance.delete(`/message_topic/id/${id}`);
         const { data } = response.data;
         set({ messageTopic: data, isLoading: false });
+      } catch (error) {
+        set({ isError: true, error: (error as Error).message, isLoading: false });
+      }
+    },
+
+    messageTopicUpdate: async (id: string, content: string) => {
+      try {
+        set({ isLoading: true });
+        const response = await apiInstance.put(`/message_topic/id/${id}`, { content });
+        const { data, success, error } = response.data;
+        if (success) {
+          set((state) => ({
+            messageTopicList: state.messageTopicList?.map((message) =>
+              message.id === id ? { ...message, content } : message
+            ) || [],
+            isLoading: false,
+          }));
+        } else {
+          set({ isError: true, error, isLoading: false });
+        }
       } catch (error) {
         set({ isError: true, error: (error as Error).message, isLoading: false });
       }
