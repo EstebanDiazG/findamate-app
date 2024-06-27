@@ -10,7 +10,6 @@ import Rectangle from "@/components/ui/Rectangle";
 import Images from "@/components/ui/Images";
 import Categories from "@/components/ui/Categories";
 import Card from "@/components/ui/Card";
-
 import Avatar from "@/components/ui/Avatar";
 import CardTitle from "@/components/ui/CardTitle";
 import Button from "@/components/ui/Button";
@@ -66,7 +65,7 @@ const Home = () => {
                     justifyContent="center"
                     category={item.categoryInterest as Categories ['category']}
                   />
-                  <CardTitle level="h2" color="#41377D" height="70px" text={item.title} />
+                  <CardTitle level="h2" color="#41377D" height="85px" text={item.title} />
                   <ContentRow width="100%" justifyContent="space-between">
                     <ContentRow gap="8px">
                       <Avatar width="40px" height="40px" />
@@ -75,7 +74,7 @@ const Home = () => {
                     <Button
                       width="200px"
                       text="Ir a discusión"
-                      color="secondary"
+                      color="primary"
                       onClick={() => router.push(`/topic/${item.id}`)}
                     />
                   </ContentRow>

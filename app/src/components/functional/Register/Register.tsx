@@ -96,11 +96,10 @@ const Register = () => {
   return userList ? (
     <Background imageUrl="/image/background2.png">
       <div className={style.register}>
-        <LogoLarge width="20" height="30" />
-        <Box width="713px" height="700px">
-          <ContentCol gap="15px">
+        <Box width="670px"height="600px">
+          <ContentCol gap="15px" alignItems="center">
             <Title text="Registro" level="h1" />
-            <ContentCol gap="4px">
+            <ContentCol gap="8px">
               <Input
                 width="400px"
                 height="50px"

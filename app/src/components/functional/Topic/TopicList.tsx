@@ -215,7 +215,7 @@ const Topic = () => {
                         <Button
                           width="200px"
                           text="Ir a discusión"
-                          color="secondary"
+                          color="primary"
                           onClick={() => router.push(`/topic/${item.id}`)}
                         />
                         {item.id_person === user?.personId && (
