@@ -15,7 +15,7 @@ import Button from "@/components/ui/Button";
 import TextButton from "@/components/ui/TextButton";
 import CommentCount from "@/components/ui/CommentCount";
 import EmbedContent from "@/components/ui/EmbedContent"; 
-
+import PaginationComponent from "@/components/ui/PaginationComponent";
 
 
 const TopicDetail = () => {
@@ -87,6 +87,7 @@ const TopicDetail = () => {
     setCurrentPage(pageNumber);
   };
 
+
   const startIndex = (currentPage - 1) * itemsPerPage;
   const endIndex = startIndex + itemsPerPage;
   const commentsToShow = filteredComments.slice(startIndex, endIndex);
@@ -150,6 +151,7 @@ const TopicDetail = () => {
         <ContentCol width="100%" gap="20px" alignItems="center">
           {commentsToShow.length > 0 ? (
                 commentsToShow.map(comment => (
+       
               <ForumResponse  width="100%"  padding="26px">
                 <div className={styles.commentCard}>
                   <ContentCol gap="10px">
@@ -184,10 +186,17 @@ const TopicDetail = () => {
             ))
           ) : (
             <p>No se encontraron comentarios.</p>
-          )} 
+          )}
+        
         </ContentCol>
       </ContentCol>
-     
+      <PaginationComponent
+        totalItems={filteredComments.length}
+        itemsPerPage={itemsPerPage}
+        onPageChange={handlePageChange}
+      />
     </div>
   );
 };
+
+export default TopicDetail;

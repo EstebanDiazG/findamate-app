@@ -1,7 +1,9 @@
 .embedContent {
     .videoWrapper,
     .imageWrapper {
-      width: 400px; 
+
+      width: 100%; 
+      max-width: 400px;
       height: auto; 
       margin-top: 10px; 
       display: block; 
