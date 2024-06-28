@@ -1,10 +1,9 @@
-// Categories.tsx
 import React from 'react';
 import styles from './Categories.module.scss';
 import Title from '../Tittle';
 
 export type ICategories = {
-  text: string;
+  text?: string;
   width: string;
   height: string;
   justifyContent?: string;
@@ -31,7 +30,7 @@ const truncateText = (text: string, wordLimit: number) => {
   return safeText;
 };
 
-const Categories = ({ text, width, height, alignItems, justifyContent, category }: ICategories) => {
+const Categories = ({ text = "", width, height, alignItems, justifyContent, category }: ICategories) => {
   const colorClass = styles[categoryColors[category]];
   const truncatedText = truncateText(text, 3);
   return (

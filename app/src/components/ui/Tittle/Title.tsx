@@ -11,12 +11,14 @@ interface ITitle {
   justifyContent?: string;
   alignItems?: string;
   alignContent?: string;
+  onClick?: () => void; // Añade la prop onClick de tipo función
 }
 
-const Title = ({ children, text="", level, width="auto",  color = "auto", height="auto", justifyContent, alignContent, alignItems }: ITitle) => {
+const Title = ({ children, text = "", level, width = "auto", color = "auto", height = "auto", justifyContent, alignContent, alignItems, onClick }: ITitle) => {
   const Heading = level;
+
   return (
-    <div className={styles.headingContainer} style={{ color, width, height, justifyContent, alignContent, alignItems}}>
+    <div className={styles.headingContainer} style={{ color, width, height, justifyContent, alignContent, alignItems }} onClick={onClick}>
       <Heading>{text}</Heading>
       {children}
     </div>

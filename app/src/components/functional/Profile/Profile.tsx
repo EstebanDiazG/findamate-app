@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
-import { useProfile, useUser, usePerson } from "@/store/hooks"; // Asegúrate de importar usePerson
+import { useProfile, useUser, usePerson } from "@/store/hooks"; 
 import styles from "./Profile.module.scss";
 import { IProfile } from "@/interfaces/profile";
-import ProfilePhoto from "@/components/ui/ProfilePhoto";
 import InputPage from "@/components/ui/InputPage";
 import Button from "@/components/ui/Button";
 import Tittle from "@/components/ui/Tittle";
@@ -11,7 +10,7 @@ import { ContentCol, ContentRow } from "@/components/layout/Content";
 import TextArea from "@/components/ui/TextArea";
 import { useRouter } from "next/router";
 import Avatar from "@/components/ui/Avatar";
-import InterestViewer from "@/components/ui/InterestViewer"; // Importa el componente InterestViewer
+import InterestViewer from "@/components/ui/InterestViewer"; 
 import { IInterest } from "@/interfaces/interest";
 import { useMedia } from "@/store/hooks";
 
