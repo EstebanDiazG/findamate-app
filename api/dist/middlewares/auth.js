@@ -7,7 +7,7 @@ const config_1 = __importDefault(require("../utils/functions/config"));
 const logger_1 = __importDefault(require("../utils/functions/logger"));
 const auth = (req, res, next) => {
     const { apiKey } = config_1.default;
-    if (req.headers.id !== apiKey.toString()) {
+    if (req.headers.duoc !== apiKey.toString()) {
         logger_1.default.error("Incorrect api key");
         res.status(401).json({ message: "Incorrect api key" });
         return;

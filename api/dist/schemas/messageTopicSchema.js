@@ -21,6 +21,7 @@ const createMesaggeSchema = joi_1.default.object({
     id_person: joi_1.default.string().uuid().required(),
     id_topic: joi_1.default.string().uuid().required(),
     content: joi_1.default.string().optional(),
+    id_media: joi_1.default.string().uuid().optional(),
 });
 exports.createMesaggeSchema = createMesaggeSchema;
 const updateMessageSchema = joi_1.default.object({

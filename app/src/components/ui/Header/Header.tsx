@@ -18,11 +18,15 @@ const Header = () => {
 
   return (
     <div className={styles.header}>
-      <ContentHeader width="100%" justifyContent="space-between" alignItems="center">
+      <ContentHeader
+        width="100%"
+        justifyContent="space-between"
+        alignItems="center"
+      >
         <ButtonIcon iconName="menu" onClick={uiTogleOpenMenu} />
         <ContentHeader gap="18px">
-          <SearchBox width="300px" height="40px" value="" onChange={() => {}} />
-          <Avatar width="43px" height="43px"/>
+          {/* <SearchBox width="300px" height="40px" value="" onChange={() => {}} /> */}
+          <Avatar width="43px" height="43px" />
         </ContentHeader>
       </ContentHeader>
     </div>

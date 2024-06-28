@@ -3,7 +3,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.limit = exports.filesUploadUrl = exports.filesUploadDir = exports.imagesUploadUrl = exports.imagesUploadDir = void 0;
+exports.limit = exports.mediaUploadUrl = exports.mediaUploadDir = void 0;
 const dotenv_1 = __importDefault(require("dotenv"));
 const path_1 = __importDefault(require("path"));
 const process_1 = __importDefault(require("process"));
@@ -19,9 +19,7 @@ const config = {
     dbPort: parseInt(process_1.default.env.DB_PORT || "5432"),
     apiKey: process_1.default.env.API_KEY || "1234",
 };
-exports.imagesUploadDir = process_1.default.env.IMAGES_UPLOADS_DIR || "public/uploads/images";
-exports.imagesUploadUrl = process_1.default.env.IMAGES_UPLOADS_URL || "uploads/images";
-exports.filesUploadDir = process_1.default.env.FILES_UPLOAD_DIR || "public/uploads/files";
-exports.filesUploadUrl = process_1.default.env.FILES_UPLOAD_URL || "uploads/files";
-exports.limit = Number(process_1.default.env.LIMIT || 20);
+exports.mediaUploadDir = process_1.default.env.MEDIA_UPLOAD_DIR || "public/uploads/media";
+exports.mediaUploadUrl = process_1.default.env.MEDIA_UPLOAD_URL || "uploads/media";
+exports.limit = Number(process_1.default.env.LIMIT);
 exports.default = config;

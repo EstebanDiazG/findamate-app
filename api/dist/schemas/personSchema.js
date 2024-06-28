@@ -41,5 +41,6 @@ const idInterestGroupSchema = joi_1.default.object({
 exports.idInterestGroupSchema = idInterestGroupSchema;
 const idPersonInterestGroupSchema = joi_1.default.object({
     id_person: joi_1.default.string().uuid().required(),
+    state: joi_1.default.string(),
 });
 exports.idPersonInterestGroupSchema = idPersonInterestGroupSchema;

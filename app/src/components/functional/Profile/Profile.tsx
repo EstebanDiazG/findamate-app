@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useProfile, useUser, usePerson } from "@/store/hooks"; 
+import { useProfile, useUser, usePerson } from "@/store/hooks";
 import styles from "./Profile.module.scss";
 import { IProfile } from "@/interfaces/profile";
 import InputPage from "@/components/ui/InputPage";
@@ -10,7 +10,7 @@ import { ContentCol, ContentRow } from "@/components/layout/Content";
 import TextArea from "@/components/ui/TextArea";
 import { useRouter } from "next/router";
 import Avatar from "@/components/ui/Avatar";
-import InterestViewer from "@/components/ui/InterestViewer"; 
+import InterestViewer from "@/components/ui/InterestViewer";
 import { IInterest } from "@/interfaces/interest";
 import { useMedia } from "@/store/hooks";
 
@@ -24,8 +24,8 @@ const Profile = () => {
     profileGetByIdPerson,
   } = useProfile();
 
-  const { user, userUpdatePassword } = useUser();
-  const { persongGetInterestsByPersonId } = usePerson(); // Obtén la función para obtener intereses por ID de persona
+  const { user, userUpdatePassword, userDelete } = useUser();
+  const { persongGetInterestsByPersonId, personDeleteById } = usePerson(); // Obtén la función para obtener intereses por ID de persona
 
   const router = useRouter();
 
@@ -148,7 +148,9 @@ const Profile = () => {
 
   const handleOnClickDelete = () => {
     profileDeleteById(formProfile.id);
-    profileReset();
+    userDelete(user?.id || "");
+    personDeleteById(formProfile.personId);
+    window.location.reload();
   };
 
   useEffect(() => {
@@ -165,6 +167,9 @@ const Profile = () => {
       setFormProfile(profile);
     }
   }, [profile]);
+
+  console.log("formProfile", formProfile);
+  console.log("user", user);
 
   return (
     <div className={styles.profile}>

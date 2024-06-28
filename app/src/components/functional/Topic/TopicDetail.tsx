@@ -14,9 +14,8 @@ import TextArea from "@/components/ui/TextArea";
 import Button from "@/components/ui/Button";
 import TextButton from "@/components/ui/TextButton";
 import CommentCount from "@/components/ui/CommentCount";
-import EmbedContent from "@/components/ui/EmbedContent"; 
+import EmbedContent from "@/components/ui/EmbedContent";
 import PaginationComponent from "@/components/ui/PaginationComponent";
-
 
 const TopicDetail = () => {
   const {
@@ -42,8 +41,12 @@ const TopicDetail = () => {
     deletedAt: "",
   };
 
-  const [formMenssageTopic, setFormMessageTopic] = useState<IMessageTopic>(initialDataMessageTopic);
-  const [localMessageTopicList, setLocalMessageTopicList] = useState<IMessageTopic[]>([]);
+  const [formMenssageTopic, setFormMessageTopic] = useState<IMessageTopic>(
+    initialDataMessageTopic
+  );
+  const [localMessageTopicList, setLocalMessageTopicList] = useState<
+    IMessageTopic[]
+  >([]);
 
   const handleOnChangeContent = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
     setFormMessageTopic({ ...formMenssageTopic, content: e.target.value });
@@ -65,7 +68,9 @@ const TopicDetail = () => {
 
   const handleOnClickDelete = async (id: string) => {
     await messageTopicDeleteById(id);
-    setLocalMessageTopicList(localMessageTopicList.filter((message) => message.id !== id));
+    setLocalMessageTopicList(
+      localMessageTopicList.filter((message) => message.id !== id)
+    );
   };
 
   useEffect(() => {
@@ -78,15 +83,16 @@ const TopicDetail = () => {
     }
   }, [messageTopicList]);
 
-  const filteredComments = localMessageTopicList.filter(comment => comment.id_topic === topic?.id) || [];
+  const filteredComments =
+    localMessageTopicList.filter((comment) => comment.id_topic === topic?.id) ||
+    [];
 
   const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 10; 
+  const itemsPerPage = 10;
 
   const handlePageChange = (pageNumber: number) => {
     setCurrentPage(pageNumber);
   };
-
 
   const startIndex = (currentPage - 1) * itemsPerPage;
   const endIndex = startIndex + itemsPerPage;
@@ -150,12 +156,15 @@ const TopicDetail = () => {
         />
         <ContentCol width="100%" gap="20px" alignItems="center">
           {commentsToShow.length > 0 ? (
-                commentsToShow.map(comment => (
-       
-              <ForumResponse  width="100%"  padding="26px">
+            commentsToShow.map((comment) => (
+              <ForumResponse key={comment.id} width="100%" padding="26px">
                 <div className={styles.commentCard}>
                   <ContentCol gap="10px">
-                    <ContentRow width="100%" gap="10px" justifyContent="space-between">
+                    <ContentRow
+                      width="100%"
+                      gap="10px"
+                      justifyContent="space-between"
+                    >
                       <ContentRow>
                         <Avatar width="40px" height="40px" />
                         <Title
@@ -182,12 +191,10 @@ const TopicDetail = () => {
                   </ContentCol>
                 </div>
               </ForumResponse>
-              
             ))
           ) : (
             <p>No se encontraron comentarios.</p>
           )}
-        
         </ContentCol>
       </ContentCol>
       <PaginationComponent

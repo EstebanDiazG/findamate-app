@@ -57,8 +57,8 @@ const upsert = async (req, res, next) => {
         if (schemaValidate.error) {
             return next(boom_1.default.badRequest(schemaValidate.error));
         }
-        const { id_person, title, content } = schemaValidate.value;
-        const response = await Topic_1.default.upsert(id_person, title, content);
+        const { id_person, title, content, id_interest } = schemaValidate.value;
+        const response = await Topic_1.default.upsert(id_person, title, content, id_interest);
         return (0, sendResponse_1.default)(req, res, response);
     }
     catch (err) {
