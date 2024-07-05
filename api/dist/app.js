@@ -41,11 +41,16 @@ const allowedOrigins_1 = require("./middlewares/allowedOrigins");
 const logger_1 = __importDefault(require("./utils/functions/logger"));
 const pg_1 = __importDefault(require("./utils/lib/pg"));
 const routes = __importStar(require("./routes"));
+const app = (0, express_1.default)();
 const corsOptions = {
     preflightContinue: false,
     methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
     origin: (origin, callback) => {
-        if (process.env.ENV !== "dev") {
+        console.log("Origin:", origin);
+        if (process.env.ENV === "dev") {
+            callback(null, true);
+        }
+        else {
             if (!origin || allowedOrigins_1.allowedOrigins.indexOf(origin) !== -1) {
                 callback(null, true);
             }
@@ -56,9 +61,6 @@ const corsOptions = {
                 });
                 callback(null, false);
             }
-        }
-        else {
-            callback(null, true);
         }
     },
     credentials: true,
@@ -71,18 +73,16 @@ const routeMappings = [
     { path: "/user", router: routes.userRoutes },
     { path: "/rol", router: routes.rolRoutes },
     { path: "/action", router: routes.actionRoutes },
-    { path: "/image", router: routes.imageRoutes },
     { path: "/study-group", router: routes.studyGroupRoutes },
-    { path: "/video", router: routes.videoRoutes },
-    { path: "/file", router: routes.fileRoutes },
     { path: "/topic", router: routes.topicRoutes },
     { path: "/message_topic", router: routes.messageTopicRoutes },
+    { path: "/media", router: routes.mediaRoutes },
 ];
-function initializeRoutes(server) {
+function initializeRoutes(app) {
     routeMappings.forEach((route) => {
-        server.use(route.path, route.router);
+        app.use(route.path, route.router, handlerError_1.default);
     });
-    server.use((err, req, res, next) => {
+    app.use((err, req, res, next) => {
         if (err instanceof SyntaxError && err.message.includes("JSON")) {
             return res.status(400).json({ error: "Json Request Format is invalid" });
         }
@@ -90,8 +90,10 @@ function initializeRoutes(server) {
     });
     const virtualPath = "/public";
     const diskPath = path_1.default.join(__dirname, "..", "public");
-    server.use(virtualPath, express_1.default.static(diskPath));
+    app.use(virtualPath, express_1.default.static(diskPath));
 }
+const mediaUploadDir = path_1.default.join(__dirname, "../public/uploads/media");
+app.use("/uploads/media", express_1.default.static(mediaUploadDir));
 pg_1.default.connect((err) => {
     if (err) {
         console.log(`Failed to connect db`, err.stack);
@@ -99,12 +101,11 @@ pg_1.default.connect((err) => {
     }
     console.log("Successful database connection");
 });
-const server = (0, express_1.default)();
-server.use(setSecurityHeaders_1.setSecurityHeaders);
-server.use(express_1.default.json());
-server.use((0, cors_1.default)(corsOptions));
-server.use(express_1.default.urlencoded({ extended: false }));
-server.use((0, helmet_1.default)({
+app.use(setSecurityHeaders_1.setSecurityHeaders);
+app.use(express_1.default.json());
+app.use((0, cors_1.default)(corsOptions));
+app.use(express_1.default.urlencoded({ extended: false }));
+app.use((0, helmet_1.default)({
     contentSecurityPolicy: {
         directives: {
             defaultSrc: ["'self'"],
@@ -116,9 +117,9 @@ server.use((0, helmet_1.default)({
     noSniff: true,
     hsts: { maxAge: 31536000, includeSubDomains: true },
 }));
-server.use(handlerRequest_1.default);
-server.use(auth_1.default);
-initializeRoutes(server);
-server.use(handlerError_1.default);
-server.use(handlerResponse_1.default);
-exports.default = server;
+app.use(handlerRequest_1.default);
+app.use(auth_1.default);
+initializeRoutes(app);
+app.use(handlerError_1.default);
+app.use(handlerResponse_1.default);
+exports.default = app;

@@ -73,8 +73,8 @@ const createMessage = async (req, res, next) => {
         if (schemaValidate.error) {
             return next(boom_1.default.badRequest(schemaValidate.error));
         }
-        const { id_person, id_topic, content } = schemaValidate.value;
-        const response = await MessageTopic_1.default.createMessage(id_person, id_topic, content);
+        const { id_person, id_topic, content, id_media } = schemaValidate.value;
+        const response = await MessageTopic_1.default.createMessage(id_person, id_topic, content, id_media);
         return (0, sendResponse_1.default)(req, res, response);
     }
     catch (err) {

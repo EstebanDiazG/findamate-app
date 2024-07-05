@@ -23,15 +23,12 @@ Profile.getAll = async () => {
             per.paternal_lastname AS "paternalLastName", 
             per.maternal_lastname AS "maternalLastName",
             us.hash AS "password",
-            pro.description,
-            img.id AS "id_imagen"
+            pro.description
         FROM app.profile pro
         LEFT JOIN 
             app.person per ON per.id = pro.id_person
         LEFT JOIN
             app.user us ON per.id = us.person_id
-        LEFT JOIN
-            app.image img ON pro.id_imagen = img.id
         WHERE pro.deleted_at IS NULL`);
     return query.rows || [];
 };
@@ -43,15 +40,12 @@ Profile.getById = async (id) => {
                 per.name AS "name", 
                 per.paternal_lastname AS "paternalLastName",
                 per.maternal_lastname AS "maternalLastName",
-                pro.description,
-                img.id AS "id_imagen"
+                pro.description
             FROM app.profile pro
             LEFT JOIN 
                 app.person per ON per.id = pro.id_person
             LEFT JOIN
                 app.user us ON per.id = us.person_id
-            LEFT JOIN
-                app.image img ON pro.id_imagen = img.id
             WHERE pro.id = $1 AND pro.deleted_at IS NULL`, [id]);
     return query.rowCount ? query.rows[0] : null;
 };
@@ -63,15 +57,12 @@ Profile.getByIdPerson = async (id_person) => {
                 per.name AS "name", 
                 per.paternal_lastname AS "paternalLastName", 
                 per.maternal_lastname AS "maternalLastName",
-                pro.description,
-                img.id AS "id_imagen"
+                pro.description
             FROM app.profile pro
             LEFT JOIN 
                 app.person per ON per.id = pro.id_person
             LEFT JOIN
                 app.user us ON per.id = us.person_id
-            LEFT JOIN
-                app.image img ON pro.id_imagen = img.id
             WHERE pro.id_person = $1 AND pro.deleted_at IS NULL`, [id_person]);
     return query.rowCount ? query.rows[0] : null;
 };

@@ -4,6 +4,7 @@
   "main": "server.js",
   "license": "MIT",
   "scripts": {
+    "postinstall": "yarn add sharp --ignore-engines && yarn rebuild sharp",
     "build": "tsc",
     "start": "node dist/server.js",
     "dev": "nodemon src/server.ts"

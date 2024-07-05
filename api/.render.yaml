@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: findamate-app
+    env: node
+    plan: free
+    buildCommand: "yarn install --ignore-engines && yarn build"
+    startCommand: "yarn start"
+    runtime: "node 20"
+    envVars:
+      - key: NODE_OPTIONS
+        value: "--max-old-space-size=4096"
+      - key: SHARP_IGNORE_GLOBAL_LIBVIPS
+        value: "true"

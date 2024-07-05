@@ -17,9 +17,10 @@ const createTopicSchema = joi_1.default.object({
     id_person: joi_1.default.string().uuid().required(),
     title: joi_1.default.string().required(),
     content: joi_1.default.string().optional(),
+    id_interest: joi_1.default.string().uuid().required(),
 });
 exports.createTopicSchema = createTopicSchema;
 const updateTopicSchema = joi_1.default.object({
-    content: joi_1.default.string().optional()
+    content: joi_1.default.string().optional(),
 });
 exports.updateTopicSchema = updateTopicSchema;

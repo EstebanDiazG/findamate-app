@@ -26,15 +26,16 @@ const CategoryInterest = () => {
     deletedAt: "",
   };
 
-  const [formCategoryInterest, setFormCategoryInterest] = useState<ICategoryInterest>(initialDataCategoryInterest);
+  const [formCategoryInterest, setFormCategoryInterest] =
+    useState<ICategoryInterest>(initialDataCategoryInterest);
 
   useEffect(() => {
     if (categoryInterest) {
-      setFormCategoryInterest({
-        ...formCategoryInterest,
+      setFormCategoryInterest((prevState) => ({
+        ...prevState,
         name: categoryInterest.name,
         interes: categoryInterest.interes,
-      });
+      }));
     }
   }, [categoryInterest]);
 
@@ -87,7 +88,10 @@ const CategoryInterest = () => {
         <button className={styles.button} onClick={handleOnClickGetAll}>
           Mostrar Todo
         </button>
-        <button className={styles.button} onClick={() => handleOnClickGetById(formCategoryInterest.id)}>
+        <button
+          className={styles.button}
+          onClick={() => handleOnClickGetById(formCategoryInterest.id)}
+        >
           Buscar
         </button>
         <button className={styles.button} onClick={handleOnClickClean}>

@@ -13,10 +13,10 @@ class InterestGroup {
 }
 _a = InterestGroup;
 InterestGroup.getInterestsByPersonId = async (id_person) => {
-    const response = await pg_1.default.query(` SELECT itr.id, itr.name 
+    const response = await pg_1.default.query(` SELECT ig.state, itr.id, itr.name 
             FROM app.interestgroup ig
             JOIN app.interest itr ON ig.id_interest = itr.id
-            WHERE ig.id_person = $1`, [id_person]);
+            WHERE ig.id_person = $1 AND ig.state = '1'`, [id_person]);
     return response.rows;
 };
 InterestGroup.assignInterest = async (id_person, id_interest) => {
@@ -28,7 +28,7 @@ InterestGroup.assignInterest = async (id_person, id_interest) => {
             INSERT INTO app.interestgroup (id_person, id_interest)
             VALUES ($1, $2)
             ON CONFLICT (id_person, id_interest) 
-            DO UPDATE SET updated_at = now()
+            DO UPDATE SET updated_at = now(), state = '1'
             RETURNING *
         ),
         persons AS (
@@ -70,7 +70,7 @@ InterestGroup.assignInterest = async (id_person, id_interest) => {
 InterestGroup.removeInterest = async (id_person, id_interest) => {
     const response = await pg_1.default.query(`WITH updated_interest_group_person AS (
                 UPDATE app.interestgroup
-                SET deleted_at = NOW(), updated_at = NOW()
+                SET state = '2', updated_at = NOW()
                 WHERE id_person = $1 AND id_interest = $2
                 RETURNING *
             ),
