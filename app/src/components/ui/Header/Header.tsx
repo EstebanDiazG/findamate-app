@@ -25,8 +25,8 @@ const Header = () => {
       >
         <ButtonIcon iconName="menu" onClick={uiTogleOpenMenu} />
         <ContentHeader gap="18px">
-          {/* <SearchBox width="300px" height="40px" value="" onChange={() => {}} /> */}
-          <Avatar width="43px" height="43px" />
+          <Avatar width="43px" height="43px"/>
+
         </ContentHeader>
       </ContentHeader>
     </div>

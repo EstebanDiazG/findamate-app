@@ -75,7 +75,12 @@ const Interest = () => {
       alert("No se ha seleccionado ningún interés.");
       return;
     }
-  
+
+    if (userInterests.length + selectedInterests.length > 5) {
+      alert("No se pueden asignar más de 5 intereses.");
+      return;
+    }
+
     if (user?.personId) {
       try {
         for (const interestId of selectedInterests) {
@@ -83,7 +88,7 @@ const Interest = () => {
         }
         const updatedInterests = await persongGetInterestsByPersonId(user.personId);
         setUserInterests(updatedInterests);
-        
+
         // Resetear los intereses seleccionados después de asignarlos
         setSelectedInterests([]);
       } catch (error) {
@@ -110,7 +115,7 @@ const Interest = () => {
 
   return (
     <div className={styles.container}>
-      <ContentCol width="100%" height="100%" gap="15px" >
+      <ContentCol width="100%" height="100%" gap="15px">
         <Title
           text="Mis intereses"
           level="h2"
@@ -149,10 +154,6 @@ const Interest = () => {
           onClick={handleAssignInterests}
         />
       </ContentCol>
-
-      
-
-
     </div>
   );
 };
