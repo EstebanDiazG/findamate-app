@@ -10,6 +10,7 @@ import Input from "@/components/ui/Input";
 import Button from "@/components/ui/Button";
 import LogoLarge from "@/components/ui/LogoLarge";
 import { useRouter } from "next/router";
+import TextButton from "@/components/ui/TextButton";
 
 const Login = () => {
   const { userValidate } = useUser();
@@ -71,7 +72,7 @@ const Login = () => {
                 width="400px"
                 height="50px"
               />
-              <ContentCol gap="60px">
+              <ContentCol gap="40px">
                 <Input
                   type="password"
                   value={formLogin.password || ""}
@@ -97,6 +98,13 @@ const Login = () => {
                     onClick={handleRegister}
                   />
                 </ContentRow>
+                <TextButton
+                    text="¿Tienes problemas? Haz Click."
+                    textSize="16px"
+                    textColor="#FFFF"
+                    justifyContent="flex-end"
+                    onClick={() => "" }
+                  />
               </ContentCol>
             </ContentCol>
           </ContentCol>
