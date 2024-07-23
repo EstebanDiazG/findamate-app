@@ -124,3 +124,31 @@
 {"level":"info","message":{"body":"","method":"GET","params":{"id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee"},"query":{},"url":"/profile/id_person/1c2d67b4-d013-4cc1-8d04-4b74394460ee"},"timestamp":"2024-07-04 22:28:52"}
 {"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile/id_person/1c2d67b4-d013-4cc1-8d04-4b74394460ee"},"timestamp":"2024-07-04 22:28:52"}
 {"level":"info","message":{"body":"","method":"GET","params":{"id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee"},"query":{},"url":"/profile/id_person/1c2d67b4-d013-4cc1-8d04-4b74394460ee"},"timestamp":"2024-07-04 22:28:52"}
+{"level":"info","message":"🚀API listening port 3000","timestamp":"2024-07-04 22:34:58"}
+{"level":"info","message":"Database connected","timestamp":"2024-07-04 22:34:59","util":"database"}
+{"level":"info","message":{"body":{"email":"camilo@boggle.cl","password":"camilo123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-07-04 22:35:11"}
+{"level":"info","message":{"body":{"email":"camilo@boggle.cl","password":"camilo123"},"method":"POST","params":"","query":"","url":"/user/validate"},"timestamp":"2024-07-04 22:35:13"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-07-04 22:35:18"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-07-04 22:35:18"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-07-04 22:35:18"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-07-04 22:35:18"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-07-04 22:35:18"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-07-04 22:35:18"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-07-04 22:35:19"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-07-04 22:35:19"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-07-04 22:35:19"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-07-04 22:35:19"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/interest"},"timestamp":"2024-07-04 22:35:19"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-07-04 22:35:19"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-07-04 22:35:19"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-07-04 22:35:19"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-07-04 22:35:19"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/topic"},"timestamp":"2024-07-04 22:35:19"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile/id_person/1c2d67b4-d013-4cc1-8d04-4b74394460ee"},"timestamp":"2024-07-04 22:35:22"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/person/personId/getPerson/1c2d67b4-d013-4cc1-8d04-4b74394460ee"},"timestamp":"2024-07-04 22:35:22"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee"},"query":{},"url":"/person/personId/getPerson/1c2d67b4-d013-4cc1-8d04-4b74394460ee"},"timestamp":"2024-07-04 22:35:22"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/person/personId/getPerson/1c2d67b4-d013-4cc1-8d04-4b74394460ee"},"timestamp":"2024-07-04 22:35:22"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee"},"query":{},"url":"/profile/id_person/1c2d67b4-d013-4cc1-8d04-4b74394460ee"},"timestamp":"2024-07-04 22:35:22"}
+{"level":"info","message":{"body":"","method":"GET","params":{},"query":{},"url":"/profile/id_person/1c2d67b4-d013-4cc1-8d04-4b74394460ee"},"timestamp":"2024-07-04 22:35:22"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee"},"query":{},"url":"/person/personId/getPerson/1c2d67b4-d013-4cc1-8d04-4b74394460ee"},"timestamp":"2024-07-04 22:35:22"}
+{"level":"info","message":{"body":"","method":"GET","params":{"id_person":"1c2d67b4-d013-4cc1-8d04-4b74394460ee"},"query":{},"url":"/profile/id_person/1c2d67b4-d013-4cc1-8d04-4b74394460ee"},"timestamp":"2024-07-04 22:35:22"}
